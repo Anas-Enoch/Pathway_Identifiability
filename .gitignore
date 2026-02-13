@@ -1,3 +1,8 @@
 .DS_Store
 .venv/
 scripts/venv/
+__pycache__/
+*.pyc
+scripts/*.pdf
+scripts/multi_pathway_results.csv
+pathways.git
