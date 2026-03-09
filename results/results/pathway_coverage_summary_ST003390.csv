@@ -1,0 +1,14 @@
+pathway_id,pathway_name,n_mapped,n_detected,dataset,is_usable_ge_3,is_strong_ge_4
+hsa00330,Arginine and Proline Metabolism,8,6,ST003390,True,True
+hsa00250,Alanine Aspartate Glutamate Metabolism,6,5,ST003390,True,True
+hsa00240,Pyrimidine Metabolism,6,4,ST003390,True,True
+hsa00260,Glycine Serine Threonine Metabolism,6,4,ST003390,True,True
+hsa00280,Valine Leucine Isoleucine Degradation,8,3,ST003390,True,False
+hsa00230,Purine Metabolism,5,2,ST003390,False,False
+hsa00380,Tryptophan Metabolism,5,2,ST003390,False,False
+hsa00564,Glycerophospholipid Metabolism,5,2,ST003390,False,False
+hsa00340,Histidine Metabolism,3,2,ST003390,False,False
+hsa00480,Glutathione Metabolism,4,1,ST003390,False,False
+hsa00430,Taurine and Hypotaurine Metabolism,3,1,ST003390,False,False
+hsa00010,Glycolysis / Gluconeogenesis,4,0,ST003390,False,False
+hsa00020,TCA Cycle,4,0,ST003390,False,False

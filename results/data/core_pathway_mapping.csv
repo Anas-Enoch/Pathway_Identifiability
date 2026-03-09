@@ -1,0 +1,68 @@
+metabolite_name,kegg_id,pathway_id,pathway_name
+Arginine,,hsa00330,Arginine and Proline Metabolism
+Ornithine,,hsa00330,Arginine and Proline Metabolism
+Proline,,hsa00330,Arginine and Proline Metabolism
+Creatinine,,hsa00330,Arginine and Proline Metabolism
+Creatine,,hsa00330,Arginine and Proline Metabolism
+Urea,,hsa00330,Arginine and Proline Metabolism
+Citrulline,,hsa00330,Arginine and Proline Metabolism
+4-hydroxy-proline,,hsa00330,Arginine and Proline Metabolism
+Valine,,hsa00280,Valine Leucine Isoleucine Degradation
+Leucine,,hsa00280,Valine Leucine Isoleucine Degradation
+Isoleucine,,hsa00280,Valine Leucine Isoleucine Degradation
+3-Methyl-2-oxovaleric acid,,hsa00280,Valine Leucine Isoleucine Degradation
+Ketoleucine,,hsa00280,Valine Leucine Isoleucine Degradation
+Ketoisovaleric acid,,hsa00280,Valine Leucine Isoleucine Degradation
+3-Hydroxyisobutyric acid,,hsa00280,Valine Leucine Isoleucine Degradation
+Isobutyric acid,,hsa00280,Valine Leucine Isoleucine Degradation
+Glycine,,hsa00260,Glycine Serine Threonine Metabolism
+Betaine,,hsa00260,Glycine Serine Threonine Metabolism
+Serine,,hsa00260,Glycine Serine Threonine Metabolism
+Threonine,,hsa00260,Glycine Serine Threonine Metabolism
+Dimethylglycine,,hsa00260,Glycine Serine Threonine Metabolism
+2-Aminobutyric acid,,hsa00260,Glycine Serine Threonine Metabolism
+Alanine,,hsa00250,Alanine Aspartate Glutamate Metabolism
+Aspartic acid,,hsa00250,Alanine Aspartate Glutamate Metabolism
+Glutamine,,hsa00250,Alanine Aspartate Glutamate Metabolism
+Asparagine,,hsa00250,Alanine Aspartate Glutamate Metabolism
+α-Ketoglutaric acid,,hsa00250,Alanine Aspartate Glutamate Metabolism
+Pyroglutamic acid,,hsa00250,Alanine Aspartate Glutamate Metabolism
+Hypoxanthine,,hsa00230,Purine Metabolism
+Inosine,,hsa00230,Purine Metabolism
+Uric acid,,hsa00230,Purine Metabolism
+1-Methylxanthine,,hsa00230,Purine Metabolism
+Succinyladenosine,,hsa00230,Purine Metabolism
+Cytidine,,hsa00240,Pyrimidine Metabolism
+Uracil,,hsa00240,Pyrimidine Metabolism
+Pseudouridine,,hsa00240,Pyrimidine Metabolism
+Dihydrouracil,,hsa00240,Pyrimidine Metabolism
+Dihydrothymine,,hsa00240,Pyrimidine Metabolism
+5-Methyldeoxycytidine,,hsa00240,Pyrimidine Metabolism
+Tryptophan,,hsa00380,Tryptophan Metabolism
+Kynurenine,,hsa00380,Tryptophan Metabolism
+Indole,,hsa00380,Tryptophan Metabolism
+Indoleacrylic acid,,hsa00380,Tryptophan Metabolism
+3-Indolebutyric acid,,hsa00380,Tryptophan Metabolism
+Choline,,hsa00564,Glycerophospholipid Metabolism
+sn-Glycero-3-phosphocholine,,hsa00564,Glycerophospholipid Metabolism
+Phosphocholine,,hsa00564,Glycerophospholipid Metabolism
+Glycerol,,hsa00564,Glycerophospholipid Metabolism
+Betaine,,hsa00564,Glycerophospholipid Metabolism
+Citric acid,,hsa00020,TCA Cycle
+α-Ketoglutaric acid,,hsa00020,TCA Cycle
+Succinic acid semialdehyde,,hsa00020,TCA Cycle
+Methylmalonic acid,,hsa00020,TCA Cycle
+Glucose,,hsa00010,Glycolysis / Gluconeogenesis
+Lactic acid,,hsa00010,Glycolysis / Gluconeogenesis
+Pyruvic acid,,hsa00010,Glycolysis / Gluconeogenesis
+Mannose,,hsa00010,Glycolysis / Gluconeogenesis
+Histidine,,hsa00340,Histidine Metabolism
+Histidylproline diketopiperazine,,hsa00340,Histidine Metabolism
+1-Methylhistidine,,hsa00340,Histidine Metabolism
+Glutathione,,hsa00480,Glutathione Metabolism
+Cysteinylglycine,,hsa00480,Glutathione Metabolism
+Glycine,,hsa00480,Glutathione Metabolism
+Pyroglutamic acid,,hsa00480,Glutathione Metabolism
+Taurine,,hsa00430,Taurine and Hypotaurine Metabolism
+2-Hydroxyethanesulfonate,,hsa00430,Taurine and Hypotaurine Metabolism
+Hypotaurine,,hsa00430,Taurine and Hypotaurine Metabolism

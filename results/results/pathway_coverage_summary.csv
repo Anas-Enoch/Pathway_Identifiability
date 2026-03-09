@@ -1,0 +1,25 @@
+dataset,pathway_id,pathway_name,n_metabolites
+ST003506,hsa00010,Glycolysis / Gluconeogenesis,4
+ST003506,hsa00020,TCA Cycle,1
+ST003506,hsa00230,Purine Metabolism,1
+ST003506,hsa00250,Alanine Aspartate Glutamate Metabolism,4
+ST003506,hsa00260,Glycine Serine Threonine Metabolism,5
+ST003506,hsa00280,Valine Leucine Isoleucine Degradation,8
+ST003506,hsa00330,Arginine and Proline Metabolism,4
+ST003506,hsa00340,Histidine Metabolism,1
+ST003506,hsa00380,Tryptophan Metabolism,1
+ST003506,hsa00480,Glutathione Metabolism,2
+ST003506,hsa00564,Glycerophospholipid Metabolism,4
+ST000356,hsa00010,Glycolysis / Gluconeogenesis,2
+ST000356,hsa00020,TCA Cycle,2
+ST000356,hsa00230,Purine Metabolism,3
+ST000356,hsa00240,Pyrimidine Metabolism,5
+ST000356,hsa00250,Alanine Aspartate Glutamate Metabolism,2
+ST000356,hsa00260,Glycine Serine Threonine Metabolism,3
+ST000356,hsa00280,Valine Leucine Isoleucine Degradation,2
+ST000356,hsa00330,Arginine and Proline Metabolism,6
+ST000356,hsa00340,Histidine Metabolism,2
+ST000356,hsa00380,Tryptophan Metabolism,5
+ST000356,hsa00430,Taurine and Hypotaurine Metabolism,2
+ST000356,hsa00480,Glutathione Metabolism,3
+ST000356,hsa00564,Glycerophospholipid Metabolism,1
