@@ -1,92 +1,238 @@
 # Pathway Identifiability under Partial Metabolomics
 
-## Quantifying Structural Ambiguity for Measurement Prioritization
+This repository contains code, processed data tables, pathway mappings, and benchmark outputs for a framework that studies **pathway identifiability under incomplete metabolite observation**.
 
-This repository contains the code and processed data supporting the
-manuscript:
+The core idea is simple:
 
-**"Quantifying Pathway Identifiability under Partial Metabolomics for
-Measurement Prioritization."**
+> when metabolomics coverage is partial, pathway interpretation can become structurally ambiguous; this repository provides a benchmark framework to quantify that ambiguity and prioritize additional metabolite measurements that reduce it.
 
-The study introduces a structural instability framework for pathway
-ranking under partial metabolite observability and proposes the **Uk
-score** as a structural ambiguity metric for measurement prioritization.
+---
 
-------------------------------------------------------------------------
+## What this repository currently contains
 
-# Biological Dataset
+The repository includes:
 
-Metabolomics data analyzed in this study are publicly available at:
+- processed metabolomics matrices for public cohorts
+- an expanded pathway mapping file
+- cross-dataset pathway coverage summaries
+- retained-pathway benchmark tables
+- figures used in the manuscript
+- scripts for preprocessing, overlap screening, benchmark generation, and plotting
 
-Metabolomics Workbench (NIH Common Fund NMDR)\
-Project ID: PR002152\
-Study ID: ST003506\
-DOI: https://doi.org/10.21228/M8FR6S
+---
 
-Title:\
-*Comparison of serum and interstitial fluid from patients with breast
-cancer-related lymphedema and healthy control subjects with NMR-based
-metabolomics.*
+## Current benchmark scope
 
-This repository contains processed serum metabolomics matrices derived
-from the above dataset.
+The current benchmark is dataset-conditioned and includes three public metabolomics cohorts:
 
-------------------------------------------------------------------------
+- **ST000356**
+- **ST003390**
+- **ST003506**
 
-# Repository Structure
+The benchmark currently focuses on pathway coverage, retained-pathway analysis, and measurement-oriented identifiability benchmarking under partial observation.
 
-    github.pathway/
-    │
-    ├── codes/                  # Figure generation scripts
-    ├── figures/                # Manuscript and supplementary figures (PDF)
-    ├── results/
-    │   ├── data/               # Processed biological data and derived metrics
-    │   ├── results/            # Synthetic benchmarking outputs
-    │   └── scripts/            # Instability analysis and benchmarking scripts
-    └── requirements.txt
+A key result already visible in the current outputs is that pathway observability is **not fixed across datasets**. Some pathways are reproducibly covered across cohorts, whereas others are strongly cohort-dependent.
 
-------------------------------------------------------------------------
+---
 
-# Data Description
+## Repository structure
 
-### processed_metabolite_matrix.csv
+```text
+results/
+├── data/
+│   ├── core_pathway_mapping.csv
+│   ├── processed_metabolite_matrix_ST000356.csv
+│   ├── ST003390_processed.csv
+│   ├── ST003506_serum_processed.csv
+│   └── raw/
+│
+├── results/
+│   ├── core_benchmark_results.csv
+│   ├── pathway_scores_summary.csv
+│   ├── pathway_coverage_summary.csv
+│   ├── pathway_coverage_summary_ST003390.csv
+│   ├── retained_pathways_by_dataset.csv
+│   ├── fig_pathway_coverage_clean.png
+│   └── fig_retained_pathways_heatmap.png
+│
+└── scripts/
+    ├── run_core_benchmark.py
+    ├── plot_pathway_coverage.py
+    ├── screen_st003390_overlap.py
+    ├── build_retained_pathways_by_dataset.py
+    ├── plot_retained_pathways_heatmap.py
+    ├── parse_st003390.py
+    └── clean_st003390.py
 
-Cleaned quantitative metabolite matrix derived from NMR serum data.
+Main data files
 
-### pathway_mapping.csv
+results/data/core_pathway_mapping.csv
 
-Mapping between measured metabolites and curated metabolic pathway sets.
+Expanded pathway mapping used for cross-dataset coverage and identifiability screening.
 
-### Uk_scores.csv
+results/data/processed_metabolite_matrix_ST000356.csv
 
-Structural ambiguity score (Uk) computed for each pathway.
+Processed metabolite matrix for cohort ST000356.
 
-### ranking_stability_by_method.csv
+results/data/ST003390_processed.csv
 
-Replicate-level Kendall τ ranking stability values.
+Processed metabolite matrix for cohort ST003390.
 
-### pathway_instability_vs_Uk.csv
+results/data/ST003506_serum_processed.csv
 
-Per-pathway instability index and corresponding Uk score values.
+Processed metabolite matrix for cohort ST003506.
 
-### multi_pathway_results.csv
+⸻
 
-Synthetic multi-pathway benchmarking results evaluating regret under
-masking regimes.
+Main result files
 
-------------------------------------------------------------------------
+results/results/pathway_coverage_summary.csv
 
-# Reproducing Main Figures
+Pathway coverage summary for the original benchmark cohorts.
 
-Install dependencies:
+results/results/pathway_coverage_summary_ST003390.csv
 
-    pip install -r requirements.txt
+Coverage summary for ST003390 against the current pathway mapping.
 
-Example figure generation:
+results/results/retained_pathways_by_dataset.csv
 
-    python codes/make_fig_pathway_ranking_instability.py
+Cross-dataset summary of retained pathways, detected metabolite counts, and benchmark inclusion flags.
 
-------------------------------------------------------------------------
+results/results/core_benchmark_results.csv
+
+Core benchmark outputs for ambiguity-reduction / regret-style evaluation.
+
+results/results/pathway_scores_summary.csv
+
+Pathway-level summary outputs from the current benchmark pipeline.
+
+⸻
+
+Main figures
+
+results/results/fig_pathway_coverage_clean.png
+
+Pathway coverage plot for the benchmark cohorts.
+
+results/results/fig_retained_pathways_heatmap.png
+
+Cross-dataset heatmap showing pathway coverage heterogeneity across ST000356, ST003390, and ST003506.
+
+⸻
+
+Scripts
+
+results/scripts/run_core_benchmark.py
+
+Runs the core pathway identifiability benchmark.
+
+results/scripts/plot_pathway_coverage.py
+
+Generates the pathway coverage figure.
+
+results/scripts/screen_st003390_overlap.py
+
+Screens metabolite overlap between ST003390 and the current pathway mapping.
+
+results/scripts/build_retained_pathways_by_dataset.py
+
+Builds the cross-dataset retained-pathway summary table.
+
+results/scripts/plot_retained_pathways_heatmap.py
+
+Generates the cross-dataset pathway coverage heatmap.
+
+results/scripts/parse_st003390.py
+
+Extracts the ST003390 metabolite block from the raw source file.
+
+results/scripts/clean_st003390.py
+
+Converts ST003390 into the benchmark-ready processed matrix.
+
+⸻
+How to run the current workflow
+
+1. Run the core benchmark
+python3 results/scripts/run_core_benchmark.py
+
+2. Generate the pathway coverage figure
+python3 results/scripts/plot_pathway_coverage.py
+
+3. Screen overlap for ST003390
+python3 results/scripts/screen_st003390_overlap.py
+
+4. Build the retained-pathway summary
+python3 results/scripts/build_retained_pathways_by_dataset.py
+
+5. Generate the cross-dataset heatmap
+python3 results/scripts/plot_retained_pathways_heatmap.py
+
+Current biological interpretation
+
+The current benchmark already shows:
+	•	Arginine and Proline Metabolism is reproducibly retained across all three cohorts
+	•	Glycine Serine Threonine Metabolism also remains recurrent across datasets
+	•	Alanine Aspartate Glutamate Metabolism and Valine Leucine Isoleucine Degradation are usable in multiple cohorts
+	•	Pyrimidine Metabolism is strong in some datasets and absent in others
+	•	Glycolysis / Gluconeogenesis and TCA Cycle remain highly dataset-dependent
+
+This is exactly why the framework is formulated as a dataset-conditioned identifiability benchmark, not a one-size-fits-all pathway scoring method.
+
+⸻
+
+Manuscript-facing interpretation
+
+This repository supports a manuscript that makes the following narrower but stronger claim:
+
+the method is designed for measurement prioritization and pathway disambiguation under partial metabolomics, rather than as a generic replacement for all enrichment-based pathway analysis methods.
+
+The benchmark therefore emphasizes:
+	•	pathway coverage under incomplete observation
+	•	retained-pathway analysis
+	•	ambiguity reduction
+	•	dataset-conditioned identifiability
+
+⸻
+
+Public data provenance
+
+This repository uses secondary analysis of public metabolomics datasets from Metabolomics Workbench.
+
+The current benchmark includes:
+	•	ST000356
+	•	ST003390
+	•	ST003506
+
+Processed benchmark tables in this repository are derived from those public datasets.
+
+⸻
+
+Status
+
+Current status of the repository:
+	•	pathway mapping expanded
+	•	three-cohort benchmark assembled
+	•	cross-dataset retained-pathway summary generated
+	•	manuscript figures updated
+	•	preprocessing and plotting scripts tracked in the repository
+
+Still planned:
+	•	broader comparator benchmark against stronger baseline families
+	•	addition of at least one more cohort with stronger central-carbon coverage
+	•	expanded cross-dataset evaluation
+
+⸻
+Requirements
+
+Install dependencies with:
+pip install -r requirements.txt
+
+If needed, create a virtual environment first:
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
 
 # Author
 
