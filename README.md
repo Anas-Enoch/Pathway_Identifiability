@@ -2,36 +2,23 @@
 
 This repository contains code, processed data tables, pathway mappings, and benchmark outputs for a framework that studies **pathway identifiability under incomplete metabolite observation**.
 
-The core idea is simple:
+The central question is:
 
-> when metabolomics coverage is partial, pathway interpretation can become structurally ambiguous; this repository provides a benchmark framework to quantify that ambiguity and prioritize additional metabolite measurements that reduce it.
+> under partial metabolomics, which additional metabolite measurements are expected to reduce pathway-level ambiguity most effectively?
 
----
-
-## What this repository currently contains
-
-The repository includes:
-
-- processed metabolomics matrices for public cohorts
-- an expanded pathway mapping file
-- cross-dataset pathway coverage summaries
-- retained-pathway benchmark tables
-- figures used in the manuscript
-- scripts for preprocessing, overlap screening, benchmark generation, and plotting
+The repository therefore focuses on **measurement prioritization**, **retained-pathway analysis**, and **dataset-conditioned identifiability benchmarking**, rather than on generic pathway enrichment alone.
 
 ---
 
 ## Current benchmark scope
 
-The current benchmark is dataset-conditioned and includes three public metabolomics cohorts:
+The current benchmark includes three public metabolomics cohorts:
 
 - **ST000356**
 - **ST003390**
 - **ST003506**
 
-The benchmark currently focuses on pathway coverage, retained-pathway analysis, and measurement-oriented identifiability benchmarking under partial observation.
-
-A key result already visible in the current outputs is that pathway observability is **not fixed across datasets**. Some pathways are reproducibly covered across cohorts, whereas others are strongly cohort-dependent.
+A key result already visible in the current outputs is that pathway observability is **not fixed across datasets**. Some pathways are reproducibly retained across cohorts, whereas others are strongly cohort-dependent.
 
 ---
 
@@ -52,11 +39,15 @@ results/
 │   ├── pathway_coverage_summary.csv
 │   ├── pathway_coverage_summary_ST003390.csv
 │   ├── retained_pathways_by_dataset.csv
+│   ├── baseline_trial_results.csv
+│   ├── baseline_regret_summary.csv
+│   ├── baseline_topk_summary.csv
 │   ├── fig_pathway_coverage_clean.png
 │   └── fig_retained_pathways_heatmap.png
 │
 └── scripts/
     ├── run_core_benchmark.py
+    ├── run_baseline_benchmark.py
     ├── plot_pathway_coverage.py
     ├── screen_st003390_overlap.py
     ├── build_retained_pathways_by_dataset.py
@@ -84,7 +75,7 @@ Processed metabolite matrix for cohort ST003506.
 
 ⸻
 
-Main result files
+Main benchmark summary files
 
 results/results/pathway_coverage_summary.csv
 
@@ -106,6 +97,18 @@ results/results/pathway_scores_summary.csv
 
 Pathway-level summary outputs from the current benchmark pipeline.
 
+results/results/baseline_trial_results.csv
+
+Trial-level benchmark output for baseline comparison across the three cohorts.
+
+results/results/baseline_regret_summary.csv
+
+Aggregated regret summary across pathways, datasets, masking rates, and methods.
+
+results/results/baseline_topk_summary.csv
+
+Aggregated top-k success summary across pathways, datasets, masking rates, and methods.
+
 ⸻
 
 Main figures
@@ -120,35 +123,39 @@ Cross-dataset heatmap showing pathway coverage heterogeneity across ST000356, ST
 
 ⸻
 
-Scripts
+Current biological interpretation
 
-results/scripts/run_core_benchmark.py
+The current benchmark shows that:
+	•	Arginine and Proline Metabolism is reproducibly retained across all three cohorts
+	•	Glycine Serine Threonine Metabolism also remains recurrent across datasets
+	•	Alanine Aspartate Glutamate Metabolism and Valine Leucine Isoleucine Degradation are usable in multiple cohorts
+	•	Pyrimidine Metabolism is strong in some datasets and absent in others
+	•	Glycolysis / Gluconeogenesis and TCA Cycle remain highly dataset-dependent
 
-Runs the core pathway identifiability benchmark.
+This is why the framework is formulated as a dataset-conditioned identifiability benchmark, not a one-size-fits-all pathway scoring method.
 
-results/scripts/plot_pathway_coverage.py
+⸻
 
-Generates the pathway coverage figure.
+Baseline benchmark
 
-results/scripts/screen_st003390_overlap.py
+The repository includes a reproducible cross-dataset benchmark comparing the proposed prioritization rule against several baseline strategies.
 
-Screens metabolite overlap between ST003390 and the current pathway mapping.
+Methods currently compared
+	•	proposed
+	•	imputation
+	•	degree
+	•	random
 
-results/scripts/build_retained_pathways_by_dataset.py
+Benchmark design
+	•	three public metabolomics cohorts
+	•	retained pathways only
+	•	repeated masking experiments
+	•	regret-based evaluation
+	•	top-k recovery evaluation
 
-Builds the cross-dataset retained-pathway summary table.
+Current benchmark interpretation
 
-results/scripts/plot_retained_pathways_heatmap.py
-
-Generates the cross-dataset pathway coverage heatmap.
-
-results/scripts/parse_st003390.py
-
-Extracts the ST003390 metabolite block from the raw source file.
-
-results/scripts/clean_st003390.py
-
-Converts ST003390 into the benchmark-ready processed matrix.
+In the current three-cohort benchmark, the proposed structural prioritization rule clearly outperforms random and degree-based baselines and improves upon the imputation-based comparator. The proposed and imputation methods still agree in many trials, but the structural rule diverges in a non-trivial subset of cases and yields lower regret overall.
 
 ⸻
 How to run the current workflow
@@ -167,6 +174,13 @@ python3 results/scripts/build_retained_pathways_by_dataset.py
 
 5. Generate the cross-dataset heatmap
 python3 results/scripts/plot_retained_pathways_heatmap.py
+
+6. Run the baseline benchmark
+python3 results/scripts/run_baseline_benchmark.py
+This script generates:
+	•	results/results/baseline_trial_results.csv
+	•	results/results/baseline_regret_summary.csv
+	•	results/results/baseline_topk_summary.csv
 
 Current biological interpretation
 
@@ -192,6 +206,7 @@ The benchmark therefore emphasizes:
 	•	retained-pathway analysis
 	•	ambiguity reduction
 	•	dataset-conditioned identifiability
+	•	benchmark comparison against explicit baseline strategies
 
 ⸻
 
@@ -214,11 +229,13 @@ Current status of the repository:
 	•	pathway mapping expanded
 	•	three-cohort benchmark assembled
 	•	cross-dataset retained-pathway summary generated
+	•	baseline benchmark pipeline added
+	•	benchmark outputs committed
 	•	manuscript figures updated
 	•	preprocessing and plotting scripts tracked in the repository
 
 Still planned:
-	•	broader comparator benchmark against stronger baseline families
+	•	broader comparator benchmark against stronger pathway-analysis families
 	•	addition of at least one more cohort with stronger central-carbon coverage
 	•	expanded cross-dataset evaluation
 
