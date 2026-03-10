@@ -1,0 +1,52 @@
+dataset,pathway_id,pathway_name,mask_rate,method,n_trials,mean_regret,median_regret,std_regret,mean_normalized_regret
+ST000356,hsa00230,Purine Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00230,Purine Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00230,Purine Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00240,Pyrimidine Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00240,Pyrimidine Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00240,Pyrimidine Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00260,Glycine Serine Threonine Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00260,Glycine Serine Threonine Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00260,Glycine Serine Threonine Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00330,Arginine and Proline Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00330,Arginine and Proline Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00330,Arginine and Proline Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00380,Tryptophan Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00380,Tryptophan Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00380,Tryptophan Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00480,Glutathione Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00480,Glutathione Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST000356,hsa00480,Glutathione Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00240,Pyrimidine Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00240,Pyrimidine Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00240,Pyrimidine Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00250,Alanine Aspartate Glutamate Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00250,Alanine Aspartate Glutamate Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00250,Alanine Aspartate Glutamate Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00260,Glycine Serine Threonine Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00260,Glycine Serine Threonine Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00260,Glycine Serine Threonine Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00280,Valine Leucine Isoleucine Degradation,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00280,Valine Leucine Isoleucine Degradation,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00280,Valine Leucine Isoleucine Degradation,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00330,Arginine and Proline Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00330,Arginine and Proline Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003390,hsa00330,Arginine and Proline Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00010,Glycolysis / Gluconeogenesis,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00010,Glycolysis / Gluconeogenesis,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00010,Glycolysis / Gluconeogenesis,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00250,Alanine Aspartate Glutamate Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00250,Alanine Aspartate Glutamate Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00250,Alanine Aspartate Glutamate Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00260,Glycine Serine Threonine Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00260,Glycine Serine Threonine Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00260,Glycine Serine Threonine Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00280,Valine Leucine Isoleucine Degradation,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00280,Valine Leucine Isoleucine Degradation,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00280,Valine Leucine Isoleucine Degradation,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00330,Arginine and Proline Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00330,Arginine and Proline Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00330,Arginine and Proline Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00564,Glycerophospholipid Metabolism,0.2,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00564,Glycerophospholipid Metabolism,0.3,imputation,100,0.0,0.0,0.0,0.0
+ST003506,hsa00564,Glycerophospholipid Metabolism,0.4,imputation,100,0.0,0.0,0.0,0.0
