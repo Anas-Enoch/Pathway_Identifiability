@@ -1,0 +1,68 @@
+metabolite_name,kegg_id,pathway_id,pathway_name,norm_name,cohort_metabolite,is_detected
+Arginine,,hsa00330,Arginine and Proline Metabolism,arginine,Arginine,True
+Ornithine,,hsa00330,Arginine and Proline Metabolism,ornithine,Ornithine,True
+Proline,,hsa00330,Arginine and Proline Metabolism,proline,L-Proline,True
+Creatinine,,hsa00330,Arginine and Proline Metabolism,creatinine,Creatinine,True
+Creatine,,hsa00330,Arginine and Proline Metabolism,creatine,Creatine,True
+Urea,,hsa00330,Arginine and Proline Metabolism,urea,,False
+Citrulline,,hsa00330,Arginine and Proline Metabolism,citrulline,Citrulline,True
+4-hydroxy-proline,,hsa00330,Arginine and Proline Metabolism,4 hydroxy proline,,False
+Valine,,hsa00280,Valine Leucine Isoleucine Degradation,valine,Valine,True
+Leucine,,hsa00280,Valine Leucine Isoleucine Degradation,leucine,Leucine,True
+Isoleucine,,hsa00280,Valine Leucine Isoleucine Degradation,isoleucine,Isoleucine,True
+3-Methyl-2-oxovaleric acid,,hsa00280,Valine Leucine Isoleucine Degradation,3 methyl 2 oxovaleric acid,,False
+Ketoleucine,,hsa00280,Valine Leucine Isoleucine Degradation,ketoleucine,,False
+Ketoisovaleric acid,,hsa00280,Valine Leucine Isoleucine Degradation,ketoisovaleric acid,,False
+3-Hydroxyisobutyric acid,,hsa00280,Valine Leucine Isoleucine Degradation,3 hydroxyisobutyric acid,,False
+Isobutyric acid,,hsa00280,Valine Leucine Isoleucine Degradation,isobutyric acid,,False
+Glycine,,hsa00260,Glycine Serine Threonine Metabolism,glycine,,False
+Betaine,,hsa00260,Glycine Serine Threonine Metabolism,betaine,Betaine,True
+Serine,,hsa00260,Glycine Serine Threonine Metabolism,serine,Serine,True
+Threonine,,hsa00260,Glycine Serine Threonine Metabolism,threonine,Threonine,True
+Dimethylglycine,,hsa00260,Glycine Serine Threonine Metabolism,dimethylglycine,N_N-Dimethylglycine,True
+2-Aminobutyric acid,,hsa00260,Glycine Serine Threonine Metabolism,2 aminobutyric acid,,False
+Alanine,,hsa00250,Alanine Aspartate Glutamate Metabolism,alanine,Alanine,True
+Aspartic acid,,hsa00250,Alanine Aspartate Glutamate Metabolism,aspartate,Aspartic acid,True
+Glutamine,,hsa00250,Alanine Aspartate Glutamate Metabolism,glutamine,Glutamine,True
+Asparagine,,hsa00250,Alanine Aspartate Glutamate Metabolism,asparagine,Asparagine,True
+α-Ketoglutaric acid,,hsa00250,Alanine Aspartate Glutamate Metabolism,alpha ketoglutarate,,False
+Pyroglutamic acid,,hsa00250,Alanine Aspartate Glutamate Metabolism,pyroglutamate,Pyroglutamic acid,True
+Hypoxanthine,,hsa00230,Purine Metabolism,hypoxanthine,Hypoxanthine,True
+Inosine,,hsa00230,Purine Metabolism,inosine,,False
+Uric acid,,hsa00230,Purine Metabolism,uric acid,Uric acid,True
+1-Methylxanthine,,hsa00230,Purine Metabolism,1 methylxanthine,,False
+Succinyladenosine,,hsa00230,Purine Metabolism,succinyladenosine,,False
+Cytidine,,hsa00240,Pyrimidine Metabolism,cytidine,Cytidine,True
+Uracil,,hsa00240,Pyrimidine Metabolism,uracil,Uracil,True
+Pseudouridine,,hsa00240,Pyrimidine Metabolism,pseudouridine,Pseudouridine,True
+Dihydrouracil,,hsa00240,Pyrimidine Metabolism,dihydrouracil,,False
+Dihydrothymine,,hsa00240,Pyrimidine Metabolism,dihydrothymine,Dihydrothymine,True
+5-Methyldeoxycytidine,,hsa00240,Pyrimidine Metabolism,5 methyldeoxycytidine,,False
+Tryptophan,,hsa00380,Tryptophan Metabolism,tryptophan,Tryptophan,True
+Kynurenine,,hsa00380,Tryptophan Metabolism,kynurenine,Kynurenine,True
+Indole,,hsa00380,Tryptophan Metabolism,indole,,False
+Indoleacrylic acid,,hsa00380,Tryptophan Metabolism,indoleacrylic acid,,False
+3-Indolebutyric acid,,hsa00380,Tryptophan Metabolism,3 indolebutyric acid,,False
+Choline,,hsa00564,Glycerophospholipid Metabolism,choline,Choline,True
+sn-Glycero-3-phosphocholine,,hsa00564,Glycerophospholipid Metabolism,sn glycero 3 phosphocholine,,False
+Phosphocholine,,hsa00564,Glycerophospholipid Metabolism,phosphocholine,,False
+Glycerol,,hsa00564,Glycerophospholipid Metabolism,glycerol,,False
+Betaine,,hsa00564,Glycerophospholipid Metabolism,betaine,Betaine,True
+Citric acid,,hsa00020,TCA Cycle,citric acid,,False
+α-Ketoglutaric acid,,hsa00020,TCA Cycle,alpha ketoglutarate,,False
+Succinic acid semialdehyde,,hsa00020,TCA Cycle,succinic acid semialdehyde,,False
+Methylmalonic acid,,hsa00020,TCA Cycle,methylmalonic acid,,False
+Glucose,,hsa00010,Glycolysis / Gluconeogenesis,glucose,,False
+Lactic acid,,hsa00010,Glycolysis / Gluconeogenesis,lactic acid,,False
+Pyruvic acid,,hsa00010,Glycolysis / Gluconeogenesis,pyruvic acid,,False
+Mannose,,hsa00010,Glycolysis / Gluconeogenesis,mannose,,False
+Histidine,,hsa00340,Histidine Metabolism,histidine,Histidine,True
+Histidylproline diketopiperazine,,hsa00340,Histidine Metabolism,histidylproline diketopiperazine,,False
+1-Methylhistidine,,hsa00340,Histidine Metabolism,1 methylhistidine,1-Methylhistidine,True
+Glutathione,,hsa00480,Glutathione Metabolism,glutathione,,False
+Cysteinylglycine,,hsa00480,Glutathione Metabolism,cysteinylglycine,,False
+Glycine,,hsa00480,Glutathione Metabolism,glycine,,False
+Pyroglutamic acid,,hsa00480,Glutathione Metabolism,pyroglutamate,Pyroglutamic acid,True
+Taurine,,hsa00430,Taurine and Hypotaurine Metabolism,taurine,Taurine,True
+2-Hydroxyethanesulfonate,,hsa00430,Taurine and Hypotaurine Metabolism,2 hydroxyethanesulfonate,,False
+Hypotaurine,,hsa00430,Taurine and Hypotaurine Metabolism,hypotaurine,,False
