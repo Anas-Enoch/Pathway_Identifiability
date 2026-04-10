@@ -1,341 +1,402 @@
 # Pathway Identifiability under Partial Metabolomics
 
-This repository contains code, processed data tables, pathway mappings, and benchmark outputs for a framework that studies **pathway identifiability under incomplete metabolite observation**.
+This repository implements a **dataset-conditioned metabolomic pathway identifiability framework**.
 
 The central question is:
 
 > under partial metabolomics, which additional metabolite measurements are expected to reduce pathway-level ambiguity most effectively?
 
-The repository therefore focuses on **measurement prioritization**, **retained-pathway analysis**, and **dataset-conditioned identifiability benchmarking**, rather than on generic pathway enrichment alone.
+The framework is built around four linked components:
+
+1. **pathway-level feature construction**
+2. **cross-condition pathway alignment with fused Gromov–Wasserstein (FGW)**
+3. **stability benchmarking under structured perturbations**
+4. **non-trivial metabolite prioritization against an exact reveal oracle**
+
+The repository is therefore **not** a generic pathway enrichment pipeline. It is a **stability-gated identifiability benchmark**.
 
 ---
 
-## Current benchmark scope
-
-The current benchmark includes three public metabolomics cohorts:
-
-- **ST000356**
-- **ST003390**
-- **ST003506**
-
-A key result already visible in the current outputs is that pathway observability is **not fixed across datasets**. Some pathways are reproducibly retained across cohorts, whereas others are strongly cohort-dependent.
-
----
-
-## Repository structure
+## Current repository layout
 
 ```text
-results/
-├── data/
-│   ├── core_pathway_mapping.csv
-│   ├── processed_metabolite_matrix_ST000356.csv
-│   ├── ST003390_processed.csv
-│   ├── ST003506_serum_processed.csv
-│   └── raw/
-│
+.
+├── codes/
+├── figures/
 ├── results/
-│   ├── core_benchmark_results.csv
-│   ├── pathway_scores_summary.csv
-│   ├── pathway_coverage_summary.csv
-│   ├── pathway_coverage_summary_ST003390.csv
-│   ├── retained_pathways_by_dataset.csv
-│   ├── baseline_trial_results.csv
-│   ├── baseline_regret_summary.csv
-│   ├── baseline_topk_summary.csv
-│   ├── fig_pathway_coverage_clean.png
-│   └── fig_retained_pathways_heatmap.png
-│
-└── scripts/
-    ├── run_core_benchmark.py
-    ├── run_baseline_benchmark.py
-    ├── plot_pathway_coverage.py
-    ├── screen_st003390_overlap.py
-    ├── build_retained_pathways_by_dataset.py
-    ├── plot_retained_pathways_heatmap.py
-    ├── parse_st003390.py
-    └── clean_st003390.py
+│   ├── data/
+│   ├── results/
+│   └── scripts/
+├── README.md
+├── references.bib
+└── requirements.txt
 
-Main data files
-
-results/data/core_pathway_mapping.csv
-
-Expanded pathway mapping used for cross-dataset coverage and identifiability screening.
-
-results/data/processed_metabolite_matrix_ST000356.csv
-
-Processed metabolite matrix for cohort ST000356.
-
-results/data/ST003390_processed.csv
-
-Processed metabolite matrix for cohort ST003390.
-
-results/data/ST003506_serum_processed.csv
-
-Processed metabolite matrix for cohort ST003506.
+Main directories
+	•	results/data/
+	•	processed cohort-level metabolomics tables
+	•	pathway mapping file used for pathway restriction
+	•	results/scripts/
+	•	executable Python scripts for each pipeline stage
+	•	results/results/
+	•	benchmark outputs and intermediate result tables
+	•	figures/
+	•	manuscript figures
+	•	codes/
+	•	figure-generation assets or exported figure-related files
 
 ⸻
+Cohorts currently used
 
-Main benchmark summary files
-
-results/results/pathway_coverage_summary.csv
-
-Pathway coverage summary for the original benchmark cohorts.
-
-results/results/pathway_coverage_summary_ST003390.csv
-
-Coverage summary for ST003390 against the current pathway mapping.
-
-results/results/retained_pathways_by_dataset.csv
-
-Cross-dataset summary of retained pathways, detected metabolite counts, and benchmark inclusion flags.
-
-results/results/core_benchmark_results.csv
-
-Core benchmark outputs for ambiguity-reduction / regret-style evaluation.
-
-results/results/pathway_scores_summary.csv
-
-Pathway-level summary outputs from the current benchmark pipeline.
-
-results/results/baseline_trial_results.csv
-
-Trial-level benchmark output for baseline comparison across the three cohorts.
-
-results/results/baseline_regret_summary.csv
-
-Aggregated regret summary across pathways, datasets, masking rates, and methods.
-
-results/results/baseline_topk_summary.csv
-
-Aggregated top-k success summary across pathways, datasets, masking rates, and methods.
-
-⸻
-
-Main figures
-
-results/results/fig_pathway_coverage_clean.png
-
-Pathway coverage plot for the benchmark cohorts.
-
-results/results/fig_retained_pathways_heatmap.png
-
-Cross-dataset heatmap showing pathway coverage heterogeneity across ST000356, ST003390, and ST003506.
-
-⸻
-
-Current biological interpretation
-
-The current benchmark shows that:
-	•	Arginine and Proline Metabolism is reproducibly retained across all three cohorts
-	•	Glycine Serine Threonine Metabolism also remains recurrent across datasets
-	•	Alanine Aspartate Glutamate Metabolism and Valine Leucine Isoleucine Degradation are usable in multiple cohorts
-	•	Pyrimidine Metabolism is strong in some datasets and absent in others
-	•	Glycolysis / Gluconeogenesis and TCA Cycle remain highly dataset-dependent
-
-This is why the framework is formulated as a dataset-conditioned identifiability benchmark, not a one-size-fits-all pathway scoring method.
-
-⸻
-
-Baseline benchmark
-
-The repository includes a reproducible cross-dataset benchmark comparing the proposed prioritization rule against several baseline strategies.
-
-Methods currently compared
-	•	proposed
-	•	imputation
-	•	degree
-	•	random
-
-Benchmark design
-	•	three public metabolomics cohorts
-	•	retained pathways only
-	•	repeated masking experiments
-	•	regret-based evaluation
-	•	top-k recovery evaluation
-
-Current benchmark interpretation
-
-In the current three-cohort benchmark, the proposed structural prioritization rule clearly outperforms random and degree-based baselines and improves upon the imputation-based comparator. The proposed and imputation methods still agree in many trials, but the structural rule diverges in a non-trivial subset of cases and yields lower regret overall.
-
-
-## Current Benchmark and Ablation Status
-
-This repository contains both real-data instability analyses and synthetic benchmarking utilities.
-
-### Real-data analyses
-The following outputs are derived from real metabolomics cohorts and are used for pathway-ranking instability analysis under controlled masking:
-
-- `ranking_stability_by_method.csv`
-- `pathway_instability_vs_Uk.csv`
-- processed cohort matrices in `data/` and `results/Data/`
-
-These files support the manuscript’s real-data instability analyses.
-
-### Synthetic benchmarking utilities
-Several scripts in `results/scripts/` generate synthetic or simulated benchmarking outputs for stress testing, regret visualization, and pipeline debugging. In particular:
-
-- `generate_multi_pathway_results.py`
-- `generate_large_synthetic_dataset.py`
-
-These scripts are intended for controlled benchmarking and figure generation, not as independent biological ground-truth validation.
-
-### Important note on component ablations
-The manuscript defines the composite underdetermination score as:
-
-`U_k = α H(T) + β Var(A) + γ SGI`
-
-where:
-- `H(T)` = transport entropy
-- `Var(A)` = alignment instability
-- `SGI` = structural growth index
-
-The current repository includes an ablation pipeline (`run_component_ablation.py`) and summary outputs:
-
-- `ablation_summary.csv`
-- `ablation_scores_by_pathway.csv`
-
-However, unless explicitly regenerated from the full JL-FGW pathway pipeline, the current `Uk_components.csv` file should be interpreted as a provisional component decomposition used to validate the ablation workflow, not as the final biologically grounded export of `H(T)`, `Var(A)`, and `SGI`.
-
-Accordingly, current ablation outputs should be interpreted as diagnostic support for component-correlation analysis rather than definitive evidence of independent biological contribution of each component. A fully grounded ablation requires direct export of the three component terms from the real `compute_Uk(...)` implementation.
-
-⸻
-## How to run the current workflow
-
-### 1. Run the core benchmark
-python3 results/scripts/run_core_benchmark.py
-
-### 2. Generate the pathway coverage figure
-python3 results/scripts/plot_pathway_coverage.py
-
-### 3. Screen overlap for ST003390
-python3 results/scripts/screen_st003390_overlap.py
-
-### 4. Build the retained-pathway summary
-python3 results/scripts/build_retained_pathways_by_dataset.py
-
-### 5. Generate the cross-dataset heatmap
-python3 results/scripts/plot_retained_pathways_heatmap.py
-
-### 6. Run the baseline benchmark
-python3 results/scripts/run_baseline_benchmark.py
-
-### 9. Build pathway-level feature tables for real JL-FGW benchmarking
-python3 results/scripts/compute_pathway_features.py
-
-### 10. Compute real FGW alignments under preprocessing variants
-python3 results/scripts/compute_fgw_alignment.py
-
-### 11. Export real Uk components
-python3 results/scripts/compute_Uk_real.py
-
-### 12. Run the real multi-pathway benchmark
-python3 results/scripts/run_real_multi_pathway_benchmark.py
-
-### 13. Run the JL stability benchmark
-python3 results/scripts/run_jl_stability_benchmark.py
-
-This script generates:
-
-- `results/results/baseline_trial_results.csv`
-- `results/results/baseline_regret_summary.csv`
-- `results/results/baseline_topk_summary.csv`
-
-### 7. Compute pathway ranking instability under controlled masking
-
-This evaluates how pathway rankings change when metabolites are randomly masked.
-
-python3 results/scripts/generate_pathway_instability_csv.py
-
-Outputs:
-
-- `ranking_stability_by_method.csv`
-- `pathway_instability_vs_Uk.csv`
-
-### 8. Run component ablation analysis
-
-This evaluates the relative contribution of the three components of the composite identifiability score:
-
-U_k = α H(T) + β Var(A) + γ SGI
-
-python3 results/scripts/run_component_ablation.py
-
-Outputs:
-
-- `results/Results/ablation_summary.csv`
-- `results/Results/ablation_scores_by_pathway.csv`
-
-## Current biological interpretation
-
-Across the evaluated metabolomics cohorts, several pathways appear recurrently identifiable under the current benchmark configuration:
-
-- **Arginine and Proline Metabolism** is consistently retained across all three cohorts.
-- **Glycine, Serine, and Threonine Metabolism** also appears recurrent across datasets.
-- **Alanine, Aspartate, and Glutamate Metabolism** and **Valine, Leucine, and Isoleucine Degradation** are usable in multiple cohorts.
-- **Pyrimidine Metabolism** shows strong signal in some datasets but not others.
-- **Glycolysis/Gluconeogenesis** and the **TCA cycle** remain strongly dataset-dependent.
-
-This variability is expected: metabolomics coverage differs substantially between cohorts. For this reason the framework is formulated as a **dataset-conditioned identifiability benchmark**, rather than a universal pathway scoring system.
-⸻
-
-Manuscript-facing interpretation
-
-This repository supports a manuscript that makes the following narrower but stronger claim:
-
-the method is designed for measurement prioritization and pathway disambiguation under partial metabolomics, rather than as a generic replacement for all enrichment-based pathway analysis methods.
-
-The benchmark therefore emphasizes:
-	•	pathway coverage under incomplete observation
-	•	retained-pathway analysis
-	•	ambiguity reduction
-	•	dataset-conditioned identifiability
-	•	benchmark comparison against explicit baseline strategies
-
-⸻
-
-Public data provenance
-
-This repository uses secondary analysis of public metabolomics datasets from Metabolomics Workbench.
-
-The current benchmark includes:
+The current benchmark uses three public metabolomics cohorts:
 	•	ST000356
 	•	ST003390
 	•	ST003506
 
-Processed benchmark tables in this repository are derived from those public datasets.
+These datasets are processed into condition-aware metabolite matrices and then restricted to pathway-specific metabolite subsets.
 
 ⸻
 
-Status
+Conceptual pipeline
 
-Current status of the repository:
-	•	pathway mapping expanded
-	•	three-cohort benchmark assembled
-	•	cross-dataset retained-pathway summary generated
-	•	baseline benchmark pipeline added
-	•	benchmark outputs committed
-	•	manuscript figures updated
-	•	preprocessing and plotting scripts tracked in the repository
+The implemented pipeline is:
+Raw metabolomics
+→ condition parsing
+→ pathway restriction
+→ node feature construction
+→ optional preprocessing operator
+→ FGW alignment
+→ pathway identifiability functional U_k
+→ perturbation-based stability benchmark
+→ metabolite prioritization benchmark against exact oracle
 
-Still planned:
-	•	broader comparator benchmark against stronger pathway-analysis families
-	•	addition of at least one more cohort with stronger central-carbon coverage
-	•	expanded cross-dataset evaluation
+What the pipeline does
+
+For each pathway:
+	1.	split the dataset into case and control
+	2.	restrict to metabolites observed in that pathway
+	3.	build condition-specific node feature matrices
+	4.	construct a pathway structure matrix
+	5.	apply a selected operator / preprocessing method
+	6.	align case vs control with FGW
+	7.	compute a pathway identifiability score (U_k)
+	8.	evaluate stability under perturbations
+	9.	run a masking benchmark to determine which hidden metabolite most reduces ambiguity when revealed
+
 
 ⸻
-Requirements
 
-Install dependencies with:
+Main scripts
+
+1. Build pathway-level features
+python3 results/scripts/active/compute_pathway_features.py
+
+This script:
+	•	loads each cohort
+	•	parses the condition labels
+	•	handles the special ST000356 transposed format
+	•	restricts metabolites to each pathway
+	•	writes pathway-specific condition feature files and structure files
+
+2. Compute FGW alignments
+python3 results/scripts/active/compute_fgw_alignment.py
+
+This script:
+	•	reads the pathway feature files
+	•	aligns case and control states for each pathway
+	•	applies one of several preprocessing operators
+	•	writes alignment outputs
+
+3. Compute pathway-level identifiability scores
+
+```bash
+python3 results/scripts/active/compute_Uk_real.py
+
+This script computes the pathway-level identifiability functional (U_k) from the aligned pathway state.
+
+In the current implementation, (U_k) is derived from:
+	•	the FGW transport plan
+	•	transport entropy
+	•	a structural spectral-gap term computed from the pathway structure matrix
+
+This script provides the scoring layer used by downstream benchmarking and analysis.
+
+4. Run the stability benchmark
+python3 results/scripts/active/run_jl_stability_benchmark.py
+
+This script evaluates operator stability under perturbation regimes.
+
+Implemented perturbation families include:
+	•	noise
+	•	dropout
+	•	bootstrap
+
+Implemented operator / preprocessing methods include:
+	•	none
+	•	l2
+	•	jl
+	•	randproj
+	•	pca_fixed
+	•	pca_var95
+
+The benchmark outputs pathway-level metrics such as:
+	•	cv_fgw
+	•	transport_drift
+	•	delta_U
+	•	top3_jaccard
+	•	rank_tau
+
+This stage is used as an operator-selection layer: unstable operators should not be carried forward into the downstream identifiability benchmark.
+
+5. Run the real multi-pathway benchmark
+python3 results/scripts/run_real_multi_pathway_benchmark.py
+This script runs the non-trivial metabolite-prioritization benchmark.
+
+For each pathway and masking replicate, it:
+	1.	masks a subset of metabolites
+	2.	computes the exact oracle by full reveal:
+[
+\Delta U_k(m)=U_k(\text{masked})-U_k(\text{masked}+m)
+]
+	3.	ranks hidden metabolites by exact reveal to define the oracle
+	4.	evaluates non-oracle predictors against that oracle
+
+Oracle benchmark design
+
+The benchmark is only meaningful when the predictor is not identical to the oracle.
+
+The current benchmark includes multiple predictors:
+	•	gnc_commutator
+	•	surrogate
+	•	variance
+	•	diffabundance
+	•	degree
+	•	random
+	•	mb2d_transport (exploratory / transport-inspired)
+
+Core evaluation metrics
+
+For each predictor:
+	•	regret
+	•	nregret
+	•	top1
+	•	top3
+	•	rank_tau
+
+Recommended evaluation subset
+
+The benchmark is most informative on the non-trivial masking subset: n_hidden >= 2
+Single-hidden-metabolite cases are much easier and can inflate apparent performance.
+
+
+⸻
+
+Recommended workflow
+
+Run the pipeline from the repository root.
+
+Step 1 — create environment
+python3 -m venv .env
+source .env/bin/activate
+
+Step 2 — install dependencies
 pip install -r requirements.txt
+If needed, install explicitly: pip install numpy pandas scipy scikit-learn POT tqdm
 
-If needed, create a virtual environment first:
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+Step 3 — build features
+python3 results/scripts/active/compute_pathway_features.py
+
+Step 4 — compute pathway-level U_k
+python3 results/scripts/active/compute_Uk_real.py
+
+Step 5 — compute alignments
+python3 results/scripts/active/compute_fgw_alignment.py
+
+Step 6 — run stability benchmark
+python3 results/scripts/active/run_jl_stability_benchmark.py
 
 
-# Author
+Step 7 — inspect operator stability
+python3 - <<'PY'
+import pandas as pd
+df = pd.read_csv("results/results/jl_stability_benchmark.csv")
+print(
+    df.groupby("method")[["cv_fgw","transport_drift","delta_U","top3_jaccard","rank_tau"]]
+      .mean()
+      .round(4)
+      .sort_values("cv_fgw")
+      .to_string()
+)
+PY
 
-Anas Enoch, MD\
-Mohammed VI University of Health Sciences (UM6SS)\
-Casablanca, Morocco\
-anas_enoch@um5.ac.ma
+Step 8 — run the real multi-pathway benchmark
+python3 results/scripts/active/run_real_multi_pathway_benchmark.py
+
+Step 9 — summarize the hard subset
+python3 - <<'PY'
+import pandas as pd
+df = pd.read_csv("results/results/real_multi_pathway_results.csv")
+hard = df[df["n_hidden"] >= 2].copy()
+
+print("Rows:", len(hard))
+print(
+    hard.groupby("predictor_method")[["regret","nregret","top1","top3","rank_tau"]]
+        .mean()
+        .round(4)
+        .sort_values(["regret","top1"], ascending=[True, False])
+        .to_string()
+)
+PY
+
+Step 10 — inspect per-dataset behavior
+python3 - <<'PY'
+import pandas as pd
+df = pd.read_csv("results/results/real_multi_pathway_results.csv")
+hard = df[df["n_hidden"] >= 2].copy()
+
+print(
+    hard.groupby(["dataset","predictor_method"])[["regret","nregret","top1","top3","rank_tau"]]
+        .mean()
+        .round(4)
+        .to_string()
+)
+PY
+
+Step 11 — inspect pathway heterogeneity
+python3 - <<'PY'
+import pandas as pd
+df = pd.read_csv("results/results/real_multi_pathway_results.csv")
+hard = df[df["n_hidden"] >= 2].copy()
+
+print(
+    hard.groupby(["dataset","pathway","predictor_method"])[["regret","nregret","top1","top3","rank_tau"]]
+        .mean()
+        .round(4)
+        .to_string()
+)
+PY
+
+
+
+⸻
+
+Current interpretation of the pipeline
+
+1. Operator stability comes first
+
+The stability benchmark is not decorative. It is a selection step.
+
+If an operator is unstable under perturbation, it should not be trusted in the downstream benchmark.
+
+In the current low-node pathway regime, non-projection operators are the stable ones, whereas aggressive projection can be unstable.
+
+2. The masking benchmark is now non-trivial
+
+The benchmark is no longer an internal oracle self-check. Predictor scores are evaluated against an exact reveal oracle.
+
+This makes the benchmark a real metabolite-prioritization task.
+
+3. The commutator-based masked-state surrogate is the strongest current predictor
+
+The current best-performing non-oracle prioritization rule is: gnc_commutator
+
+It is built from a masked-state operator-commutator score and is intended to detect which hidden metabolite would most disrupt the current pathway operator when revealed.
+
+4. Performance remains pathway-dependent
+
+Some pathways are structurally easy, some are hard, and predictor performance is not uniform across cohorts. This is a feature of the problem, not a bug.
+
+⸻
+
+Important implementation notes
+
+ST000356 parsing
+
+ST000356 is stored in a non-standard transposed / metadata-row format.
+This is handled explicitly in compute_pathway_features.py and run_real_multi_pathway_benchmark.py.
+
+FGW numerical stability
+
+FGW runs can be numerically sensitive. The scripts use entropic regularization and defensive handling of invalid solves.
+
+Structure matrices
+
+When explicit pathway edges are unavailable, the structure matrix falls back to a correlation-distance construction.
+
+Small pathways
+
+Pathways with very small node counts are harder for:
+	•	projection-based preprocessing
+	•	graded dropout severity
+	•	rank-based evaluation
+
+This should be kept in mind when interpreting results.
+
+⸻
+
+Main output files
+
+Stability benchmark
+results/results/jl_stability_benchmark.csv
+
+
+Contains pathway-level stability summaries for each operator and perturbation regime.
+
+Real multi-pathway benchmark
+results/results/real_multi_pathway_results.csv
+
+Contains trial-level oracle benchmark results across datasets, pathways, mask rates, and predictor methods.
+
+
+
+⸻
+
+Figures
+
+The figures/ directory contains manuscript figures summarizing:
+	•	revised pipeline overview
+	•	operator stability heatmap
+	•	JL vs random projection validation
+	•	global hard-subset benchmark
+	•	per-dataset benchmark comparison
+	•	pathway heterogeneity
+	•	commutator mechanism schematic
+
+These figures reflect the current benchmark state and should be interpreted together with the CSV outputs in results/results/.
+
+⸻
+
+What this repository is and is not
+
+This repository is
+	•	a metabolomic pathway identifiability benchmark
+	•	a stability-gated operator-selection framework
+	•	a non-trivial oracle benchmark for metabolite prioritization
+
+This repository is not
+	•	a generic enrichment toolkit
+	•	a causal pathway inference engine
+	•	a transport phenotyping pipeline
+	•	a universal claim that JL always improves alignment
+
+⸻
+
+Citation
+
+If you use this repository, cite the associated manuscript or preprint once finalized.
+
+A placeholder citation can be added here once the manuscript title and venue are fixed.
+
+⸻
+
+Contact / maintenance
+
+This repository is under active methodological revision.
+If figures, scripts, and outputs disagree, the CSV outputs in results/results/ and the scripts in results/scripts/ should be treated as the source of truth.
+
+Two important notes before you paste this in:
+
+The public repo page I inspected still shows the older README and older repository-structure description, so this replacement is intentionally bringing the README up to the current pipeline rather than preserving the outdated text.  [oai_citation:1‡GitHub](https://github.com/Anas-Enoch/Pathway_Identifiability)
+
+Also, the repo root on GitHub shows `codes/`, `figures/`, and `results/` as the main directories, so the README above is aligned to that top-level structure.  [oai_citation:2‡GitHub](https://github.com/Anas-Enoch/Pathway_Identifiability)
+
+If you want, I can turn this into a **cleaner journal-style README** with a shorter front page and a separate “Reproducibility” section.
