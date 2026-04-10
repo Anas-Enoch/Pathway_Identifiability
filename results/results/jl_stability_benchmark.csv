@@ -1,0 +1,361 @@
+dataset,pathway,regime,method,cv_fgw,transport_drift,delta_U,top3_jaccard,rank_tau,n_nodes,R_effective
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_005,none,0.001547,0.014187,0.002122,0.68,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_010,none,0.003074,0.028233,0.004224,0.6,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_020,none,0.006073,0.05573,0.008331,0.58,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_010,none,0.006295,0.0,0.039492,0.95,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_020,none,0.00841,0.0,0.078983,0.9,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_030,none,0.008714,0.0,0.086882,0.89,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_bootstrap,none,0.026464,0.66643,0.052341,0.57,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_noise_010,none,0.011022,0.094745,0.015083,0.57,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_dropout_020,none,0.025569,,0.444315,0.63,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_bootstrap,none,0.09349,0.693799,0.096793,0.59,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_005,jl,0.331245,0.879665,0.181465,0.57,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_010,jl,0.331183,0.882409,0.180561,0.56,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_020,jl,0.330819,0.887258,0.177975,0.56,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_010,jl,0.309718,0.860898,0.171225,0.59,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_020,jl,0.309828,0.861441,0.18753,0.63,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_030,jl,0.308932,0.878637,0.189458,0.65,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_bootstrap,jl,0.346374,1.006781,0.191571,0.6,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_noise_010,jl,0.326297,0.886198,0.175822,0.59,0.333333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_dropout_020,jl,0.327516,,0.40475,0.6,0.2,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_bootstrap,jl,0.327964,0.966048,0.138387,0.57,0.2,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_005,randproj,0.274549,1.177707,0.343802,0.69,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_010,randproj,0.276142,1.173903,0.34607,0.72,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_020,randproj,0.279166,1.165452,0.337653,0.76,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_010,randproj,0.299542,1.221404,0.326368,0.73,0.6,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_020,randproj,0.313182,1.222943,0.344116,0.7,0.6,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_030,randproj,0.33462,1.224291,0.349135,0.69,0.6,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_bootstrap,randproj,0.319261,1.283956,0.280445,0.71,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_noise_010,randproj,0.282715,1.15934,0.324814,0.73,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_dropout_020,randproj,0.314905,,0.533956,0.58,0.6,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_bootstrap,randproj,0.350186,1.217532,0.321827,0.75,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_005,pca_fixed,0.001614,0.019874,0.003283,0.55,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_010,pca_fixed,0.003232,0.039714,0.006672,0.54,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_020,pca_fixed,0.006479,0.078954,0.013728,0.57,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_010,pca_fixed,0.020867,0.0,0.021103,1.0,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_020,pca_fixed,0.025235,0.0,0.031655,1.0,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_030,pca_fixed,0.046075,0.0,0.072694,0.98,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_bootstrap,pca_fixed,0.037703,0.877451,0.095802,0.63,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_noise_010,pca_fixed,0.012179,0.138581,0.029322,0.6,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_dropout_020,pca_fixed,0.032306,,0.512768,0.64,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_bootstrap,pca_fixed,0.108645,0.893388,0.152453,0.58,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_005,pca_var95,0.001841,0.027944,0.006145,0.59,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_010,pca_var95,0.003672,0.055454,0.012047,0.59,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_020,pca_var95,0.007291,0.108085,0.02262,0.61,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_010,pca_var95,0.027149,0.0,0.026366,0.98,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_020,pca_var95,0.044528,0.0,0.079097,0.94,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_030,pca_var95,0.052214,0.0,0.118645,0.91,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_bootstrap,pca_var95,0.053513,0.952149,0.101465,0.61,0.733333,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_noise_010,pca_var95,0.013273,0.155093,0.035577,0.61,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_dropout_020,pca_var95,0.051056,,0.56915,0.65,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_bootstrap,pca_var95,0.138313,0.942425,0.155233,0.59,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_005,l2,0.000785,0.001182,3.4e-05,0.56,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_010,l2,0.001566,0.002362,6.7e-05,0.55,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_noise_020,l2,0.003109,0.004709,0.000132,0.58,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_010,l2,0.035943,0.0,0.015669,0.99,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_020,l2,0.064953,0.0,0.053198,0.97,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_dropout_030,l2,0.078346,0.0,0.071771,0.97,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,kts_bootstrap,l2,0.017655,0.05992,0.000663,0.59,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_noise_010,l2,0.004969,0.007707,0.00015,0.58,1.0,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_dropout_020,l2,0.031731,,0.420277,0.63,0.866667,4,50
+ST003506,Alanine Aspartate Glutamate Metabolism,raw_bootstrap,l2,0.067322,0.07001,0.00132,0.56,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_005,none,0.000505,0.007309,0.000588,0.62,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_010,none,0.001011,0.014615,0.001176,0.59,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_020,none,0.00202,0.02921,0.002353,0.6,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_010,none,0.003606,0.0,0.011431,0.99,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_020,none,0.003606,0.0,0.011431,0.99,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_030,none,0.003606,0.0,0.011431,0.99,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_bootstrap,none,0.039932,0.718522,0.123009,0.6,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,raw_noise_010,none,0.00857,0.118688,0.0117,0.63,1.0,4,50
+ST003506,Arginine and Proline Metabolism,raw_dropout_020,none,0.055593,,0.469269,0.63,1.0,4,50
+ST003506,Arginine and Proline Metabolism,raw_bootstrap,none,0.07804,0.720466,0.15166,0.61,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_005,jl,0.306052,1.000387,0.193101,0.74,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_010,jl,0.306903,1.000497,0.191914,0.71,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_020,jl,0.308613,1.000621,0.189216,0.75,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_010,jl,0.271311,1.017463,0.199378,0.79,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_020,jl,0.271647,1.018151,0.208229,0.79,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_030,jl,0.271647,1.018151,0.208229,0.79,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,kts_bootstrap,jl,0.288958,1.090229,0.232963,0.74,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,raw_noise_010,jl,0.318775,0.997027,0.169958,0.71,0.333333,4,50
+ST003506,Arginine and Proline Metabolism,raw_dropout_020,jl,0.380269,,0.533469,0.59,0.2,4,50
+ST003506,Arginine and Proline Metabolism,raw_bootstrap,jl,0.399145,0.972433,0.211119,0.76,0.2,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_005,randproj,0.332687,1.146333,0.125028,0.63,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_010,randproj,0.333616,1.147299,0.124396,0.53,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_020,randproj,0.335475,1.150559,0.123061,0.55,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_010,randproj,0.350909,1.088216,0.129801,0.58,0.6,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_020,randproj,0.350909,1.088216,0.129801,0.58,0.6,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_030,randproj,0.350909,1.088216,0.129801,0.58,0.6,4,50
+ST003506,Arginine and Proline Metabolism,kts_bootstrap,randproj,0.334397,1.144358,0.118079,0.56,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,raw_noise_010,randproj,0.348205,1.174457,0.125934,0.54,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,raw_dropout_020,randproj,0.338093,,0.189841,0.65,0.6,4,50
+ST003506,Arginine and Proline Metabolism,raw_bootstrap,randproj,0.383235,1.182758,0.128389,0.51,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_005,pca_fixed,0.000621,0.010218,0.001281,0.61,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_010,pca_fixed,0.001238,0.020441,0.002522,0.64,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_020,pca_fixed,0.00246,0.040883,0.0049,0.61,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_010,pca_fixed,0.016593,0.0,0.009899,0.99,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_020,pca_fixed,0.016593,0.0,0.009899,0.99,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_030,pca_fixed,0.016593,0.0,0.009899,0.99,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_bootstrap,pca_fixed,0.051546,0.909631,0.194484,0.61,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,raw_noise_010,pca_fixed,0.010298,0.168104,0.019691,0.62,1.0,4,50
+ST003506,Arginine and Proline Metabolism,raw_dropout_020,pca_fixed,0.061442,,0.52515,0.6,1.0,4,50
+ST003506,Arginine and Proline Metabolism,raw_bootstrap,pca_fixed,0.105089,0.885947,0.208165,0.6,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_005,pca_var95,0.000654,0.014104,0.001898,0.67,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_010,pca_var95,0.00131,0.028147,0.003813,0.74,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_020,pca_var95,0.00263,0.055979,0.007738,0.7,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_010,pca_var95,0.0,0.0,0.0,1.0,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_020,pca_var95,0.0,0.0,0.0,1.0,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_030,pca_var95,0.0,0.0,0.0,1.0,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_bootstrap,pca_var95,0.056458,0.948096,0.213127,0.72,0.733333,4,50
+ST003506,Arginine and Proline Metabolism,raw_noise_010,pca_var95,0.011122,0.220441,0.03486,0.77,1.0,4,50
+ST003506,Arginine and Proline Metabolism,raw_dropout_020,pca_var95,0.049706,,0.538597,0.64,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,raw_bootstrap,pca_var95,0.131287,1.039121,0.327843,0.8,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_005,l2,0.000288,0.000506,3e-06,0.56,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_010,l2,0.000575,0.001011,6e-06,0.59,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_noise_020,l2,0.00115,0.00202,1.3e-05,0.58,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_010,l2,0.010891,0.0,0.009596,1.0,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_020,l2,0.010891,0.0,0.009596,1.0,1.0,4,50
+ST003506,Arginine and Proline Metabolism,kts_dropout_030,l2,0.010891,0.0,0.009596,1.0,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,kts_bootstrap,l2,0.02476,0.060987,0.001525,0.56,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,raw_noise_010,l2,0.004717,0.00845,6.6e-05,0.55,1.0,4,50
+ST003506,Arginine and Proline Metabolism,raw_dropout_020,l2,0.062764,,0.427709,0.63,0.866667,4,50
+ST003506,Arginine and Proline Metabolism,raw_bootstrap,l2,0.061039,0.067122,0.001919,0.58,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_005,none,0.000914,0.004773,0.001675,0.65,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_010,none,0.001829,0.009534,0.003349,0.62,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_020,none,0.003659,0.019025,0.006692,0.61,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_010,none,0.0,0.0,0.0,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_020,none,0.0,0.0,0.0,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_030,none,0.009047,0.0,0.011597,0.99,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_bootstrap,none,0.095863,0.673182,0.10875,0.6,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_noise_010,none,0.015772,0.078941,0.030232,0.61,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,raw_dropout_020,none,0.059425,,0.440358,0.63,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,raw_bootstrap,none,0.120428,0.741107,0.093755,0.61,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_005,jl,0.278244,0.866688,0.144654,0.58,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_010,jl,0.278128,0.867924,0.144099,0.55,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_020,jl,0.277896,0.870515,0.142915,0.51,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_010,jl,0.327709,0.861767,0.160209,0.54,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_020,jl,0.330649,0.864525,0.167646,0.54,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_030,jl,0.330649,0.864525,0.167646,0.54,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_bootstrap,jl,0.319546,1.037519,0.138924,0.6,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_noise_010,jl,0.275794,0.890205,0.142958,0.54,0.333333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_dropout_020,jl,0.374347,,0.384325,0.6,0.2,4,50
+ST003506,Glycerophospholipid Metabolism,raw_bootstrap,jl,0.359471,0.972248,0.167394,0.58,0.2,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_005,randproj,0.285623,1.144743,0.210451,0.73,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_010,randproj,0.286532,1.144808,0.210152,0.68,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_020,randproj,0.288366,1.148273,0.211448,0.84,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_010,randproj,0.298348,1.107938,0.206786,0.73,0.6,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_020,randproj,0.298348,1.107938,0.206786,0.73,0.6,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_030,randproj,0.298348,1.107938,0.206786,0.73,0.6,4,50
+ST003506,Glycerophospholipid Metabolism,kts_bootstrap,randproj,0.402661,1.079711,0.219197,0.78,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_noise_010,randproj,0.300789,1.182007,0.22102,0.71,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_dropout_020,randproj,0.418821,,0.382507,0.58,0.6,4,50
+ST003506,Glycerophospholipid Metabolism,raw_bootstrap,randproj,0.354077,1.191774,0.244933,0.71,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_005,pca_fixed,0.00092,0.00555,0.001545,0.72,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_010,pca_fixed,0.001841,0.011107,0.003083,0.69,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_020,pca_fixed,0.003682,0.022241,0.006135,0.72,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_010,pca_fixed,0.03704,0.0,0.009832,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_020,pca_fixed,0.03704,0.0,0.009832,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_030,pca_fixed,0.03704,0.0,0.009832,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_bootstrap,pca_fixed,0.077896,0.881854,0.124805,0.79,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_noise_010,pca_fixed,0.015574,0.094917,0.02845,0.71,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,raw_dropout_020,pca_fixed,0.065514,,0.446093,0.63,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,raw_bootstrap,pca_fixed,0.12589,0.886021,0.124363,0.77,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_005,pca_var95,0.000915,0.007396,0.00221,0.66,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_010,pca_var95,0.001833,0.014763,0.00442,0.59,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_020,pca_var95,0.003675,0.029415,0.008834,0.61,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_010,pca_var95,0.0,0.0,0.0,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_020,pca_var95,0.0,0.0,0.0,1.0,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_030,pca_var95,0.0,0.0,0.0,1.0,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_bootstrap,pca_var95,0.114739,0.918921,0.14036,0.57,0.733333,4,50
+ST003506,Glycerophospholipid Metabolism,raw_noise_010,pca_var95,0.016171,0.119124,0.039019,0.58,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,raw_dropout_020,pca_var95,0.105677,,0.493911,0.65,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,raw_bootstrap,pca_var95,0.145464,0.910583,0.159325,0.6,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_005,l2,0.000357,0.000498,1.9e-05,0.55,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_010,l2,0.000714,0.000996,3.9e-05,0.57,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_noise_020,l2,0.001427,0.00199,7.8e-05,0.58,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_010,l2,0.0,0.0,0.0,1.0,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_020,l2,0.029825,0.0,0.036138,0.97,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,kts_dropout_030,l2,0.029825,0.0,0.036138,0.97,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,kts_bootstrap,l2,0.056556,0.06452,0.002211,0.6,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,raw_noise_010,l2,0.005939,0.00842,0.000363,0.51,1.0,4,50
+ST003506,Glycerophospholipid Metabolism,raw_dropout_020,l2,0.024478,,0.416707,0.63,0.866667,4,50
+ST003506,Glycerophospholipid Metabolism,raw_bootstrap,l2,0.05718,0.070717,0.002223,0.55,0.866667,4,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_005,none,0.000703,0.009871,0.00062,0.54,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_010,none,0.001405,0.019742,0.001229,0.52,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_020,none,0.002801,0.039462,0.002415,0.658,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_010,none,0.0,0.0,0.0,1.0,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_020,none,0.0,0.0,0.0,1.0,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_030,none,0.005577,0.0,0.015551,0.98,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_bootstrap,none,0.060435,0.657971,0.061932,0.61,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_noise_010,none,0.009513,0.127264,0.009476,0.662,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_dropout_020,none,0.037102,,0.424291,0.69,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_bootstrap,none,0.12394,0.751093,0.11368,0.616,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_005,jl,0.359209,0.984434,0.125335,0.47,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_010,jl,0.359612,0.985094,0.126732,0.456,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_020,jl,0.360414,0.986535,0.129574,0.432,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_010,jl,0.304695,0.978947,0.151014,0.428,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_020,jl,0.305793,0.987461,0.16112,0.418,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_030,jl,0.30531,0.987951,0.165076,0.43,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_bootstrap,jl,0.358468,1.090964,0.155917,0.452,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_noise_010,jl,0.361428,0.993366,0.140579,0.5,0.333333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_dropout_020,jl,0.315296,,0.471223,0.412,0.2,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_bootstrap,jl,0.329808,1.059195,0.166887,0.456,0.2,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_005,randproj,0.308549,1.247699,0.186439,0.4,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_010,randproj,0.309337,1.247973,0.185033,0.412,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_020,randproj,0.310884,1.247545,0.182779,0.372,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_010,randproj,0.305568,1.246507,0.166165,0.41,0.6,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_020,randproj,0.309595,1.246951,0.164421,0.4,0.6,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_030,randproj,0.309538,1.244901,0.1725,0.394,0.6,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_bootstrap,randproj,0.339001,1.238918,0.141662,0.388,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_noise_010,randproj,0.318277,1.241841,0.167902,0.388,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_dropout_020,randproj,0.324284,,0.325563,0.418,0.6,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_bootstrap,randproj,0.402811,1.24202,0.155257,0.41,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_005,pca_fixed,0.00083,0.014254,0.001067,0.564,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_010,pca_fixed,0.001662,0.028486,0.002149,0.626,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_020,pca_fixed,0.003331,0.056836,0.004467,0.588,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_010,pca_fixed,0.009939,0.0,0.00866,1.0,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_020,pca_fixed,0.011225,0.0,0.019365,0.99,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_030,pca_fixed,0.015477,0.0,0.035596,0.974,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_bootstrap,pca_fixed,0.054938,0.886062,0.150705,0.526,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_noise_010,pca_fixed,0.011718,0.182397,0.02021,0.568,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_dropout_020,pca_fixed,0.040488,,0.42569,0.57,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_bootstrap,pca_fixed,0.101744,0.897652,0.212937,0.59,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_005,pca_var95,0.000937,0.019577,0.002364,0.378,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_010,pca_var95,0.001879,0.039069,0.004857,0.318,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_020,pca_var95,0.003775,0.077685,0.010225,0.336,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_010,pca_var95,0.012912,0.0,0.013002,0.968,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_020,pca_var95,0.012912,0.0,0.013002,0.968,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_030,pca_var95,0.031219,0.0,0.035333,0.936,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_bootstrap,pca_var95,0.081297,0.902181,0.162942,0.342,0.733333,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_noise_010,pca_var95,0.013038,0.238685,0.043185,0.37,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_dropout_020,pca_var95,0.070945,,0.446582,0.356,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_bootstrap,pca_var95,0.135314,0.956621,0.219186,0.37,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_005,l2,0.000377,0.000657,7e-06,0.522,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_010,l2,0.000754,0.001314,1.4e-05,0.492,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_noise_020,l2,0.001506,0.002629,2.7e-05,0.55,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_010,l2,0.022745,0.0,0.031183,0.952,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_020,l2,0.02772,0.0,0.038625,0.936,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_dropout_030,l2,0.02772,0.0,0.038625,0.936,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,kts_bootstrap,l2,0.036442,0.065413,0.000519,0.494,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_noise_010,l2,0.005216,0.00871,9.3e-05,0.54,1.0,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_dropout_020,l2,0.024733,,0.424758,0.424,0.866667,5,50
+ST003506,Glycine Serine Threonine Metabolism,raw_bootstrap,l2,0.066957,0.062465,0.000512,0.5,0.866667,5,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_005,none,0.000963,0.008729,0.001674,0.56,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_010,none,0.001927,0.017475,0.003353,0.55,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_020,none,0.003857,0.035019,0.006715,0.53,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_010,none,0.007908,0.0,0.027777,0.97,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_020,none,0.009976,0.0,0.046296,0.95,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_030,none,0.010799,0.0,0.055555,0.94,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_bootstrap,none,0.051079,0.639286,0.039941,0.56,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_noise_010,none,0.009285,0.090198,0.013651,0.6,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_dropout_020,none,0.026775,,0.512303,0.62,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_bootstrap,none,0.132566,0.663854,0.073447,0.56,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_005,jl,0.433292,0.855447,0.245254,0.63,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_010,jl,0.433617,0.854304,0.246539,0.6,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_020,jl,0.43415,0.852204,0.249258,0.66,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_010,jl,0.321859,0.866719,0.245407,0.62,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_020,jl,0.318972,0.86871,0.24321,0.61,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_030,jl,0.323761,0.868964,0.263627,0.613333,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_bootstrap,jl,0.242478,0.981357,0.257926,0.62,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_noise_010,jl,0.435023,0.850116,0.259776,0.6,0.333333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_dropout_020,jl,0.340438,,0.251875,0.66,0.2,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_bootstrap,jl,0.407346,0.938991,0.312977,0.55,0.2,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_005,randproj,0.326983,1.066485,0.216393,0.53,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_010,randproj,0.327196,1.069296,0.210731,0.55,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_020,randproj,0.327633,1.0717,0.208228,0.6,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_010,randproj,0.354941,1.05867,0.205805,0.54,0.6,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_020,randproj,0.353731,1.046042,0.211398,0.54,0.6,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_030,randproj,0.351114,1.0779,0.22291,0.54,0.6,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_bootstrap,randproj,0.375867,1.181961,0.195905,0.61,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_noise_010,randproj,0.325097,1.093284,0.216094,0.61,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_dropout_020,randproj,0.363415,,0.425232,0.6,0.6,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_bootstrap,randproj,0.450685,1.21355,0.203481,0.57,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_005,pca_fixed,0.001267,0.012496,0.003265,0.74,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_010,pca_fixed,0.002538,0.024948,0.006519,0.66,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_020,pca_fixed,0.005083,0.049745,0.012968,0.7,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_010,pca_fixed,0.030305,0.0,0.024087,0.99,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_020,pca_fixed,0.036284,0.0,0.035951,0.98,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_030,pca_fixed,0.044138,0.0,0.043681,0.97,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_bootstrap,pca_fixed,0.05182,0.827435,0.09353,0.75,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_noise_010,pca_fixed,0.012166,0.133982,0.028642,0.76,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_dropout_020,pca_fixed,0.032707,,0.532981,0.63,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_bootstrap,pca_fixed,0.096508,0.835599,0.113601,0.71,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_005,pca_var95,0.001257,0.012124,0.003923,0.62,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_010,pca_var95,0.002515,0.024173,0.007841,0.62,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_020,pca_var95,0.005028,0.048065,0.015641,0.6,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_010,pca_var95,0.021552,0.0,0.006514,0.99,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_020,pca_var95,0.030073,0.0,0.013028,0.98,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_030,pca_var95,0.042385,0.0,0.034816,0.97,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_bootstrap,pca_var95,0.061502,0.885507,0.148883,0.57,0.733333,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_noise_010,pca_var95,0.011821,0.133604,0.041997,0.62,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_dropout_020,pca_var95,0.030992,,0.645762,0.65,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_bootstrap,pca_var95,0.147195,0.950072,0.168139,0.59,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_005,l2,0.000528,0.000671,8e-06,0.77,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_010,l2,0.001055,0.001342,1.6e-05,0.77,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_noise_020,l2,0.002109,0.002684,3.3e-05,0.73,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_010,l2,0.033072,0.0,0.042073,0.96,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_020,l2,0.033072,0.0,0.042073,0.96,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_dropout_030,l2,0.045546,0.0,0.061189,0.94,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,kts_bootstrap,l2,0.02881,0.052403,0.000486,0.78,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_noise_010,l2,0.005557,0.007027,7.6e-05,0.75,1.0,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_dropout_020,l2,0.031485,,0.487568,0.6,0.866667,4,50
+ST003506,Glycolysis / Gluconeogenesis,raw_bootstrap,l2,0.081084,0.056806,0.000753,0.8,0.866667,4,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_005,none,0.000505,0.012285,0.000632,0.248,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_010,none,0.001011,0.024552,0.001297,0.294,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_020,none,0.002022,0.048999,0.002737,0.318,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_010,none,0.002614,0.0,0.009936,0.974,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_020,none,0.002614,0.0,0.009936,0.974,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_030,none,0.004391,0.0,0.018262,0.942,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_bootstrap,none,0.041061,0.633093,0.063067,0.322,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_noise_010,none,0.005451,0.130103,0.009631,0.298,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_dropout_020,none,0.024786,,0.475607,0.384,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_bootstrap,none,0.099063,0.645873,0.068411,0.318,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_005,jl,0.313973,0.996844,0.105203,0.484,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_010,jl,0.31426,0.99666,0.105289,0.412,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_020,jl,0.314804,0.996856,0.105346,0.444,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_010,jl,0.324277,0.999482,0.116913,0.49,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_020,jl,0.327253,0.995966,0.117933,0.49,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_030,jl,0.32146,0.996406,0.124705,0.478,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_bootstrap,jl,0.326764,1.045851,0.103023,0.482,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_noise_010,jl,0.316158,1.006792,0.107274,0.478,0.333333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_dropout_020,jl,0.402396,,0.463781,0.354,0.2,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_bootstrap,jl,0.40358,1.035382,0.135317,0.444,0.2,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_005,randproj,0.324946,1.295499,0.22874,0.46,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_010,randproj,0.324909,1.297334,0.230958,0.476,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_020,randproj,0.324689,1.30015,0.230032,0.48,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_010,randproj,0.358479,1.235086,0.223341,0.472,0.6,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_020,randproj,0.358581,1.232569,0.233931,0.472,0.6,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_030,randproj,0.357242,1.227277,0.24578,0.466,0.6,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_bootstrap,randproj,0.299557,1.348664,0.197588,0.52,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_noise_010,randproj,0.324486,1.313113,0.215273,0.436,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_dropout_020,randproj,0.376245,,0.524519,0.344,0.6,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_bootstrap,randproj,0.40594,1.297927,0.202226,0.444,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_005,pca_fixed,0.000854,0.022462,0.002826,0.438,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_010,pca_fixed,0.001695,0.046756,0.005706,0.432,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_020,pca_fixed,0.003304,0.089206,0.010095,0.422,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_010,pca_fixed,0.008601,0.0,0.013758,0.954,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_020,pca_fixed,0.008749,0.0,0.02004,0.934,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_030,pca_fixed,0.009155,0.0,0.036069,0.894,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_bootstrap,pca_fixed,0.04164,0.843136,0.137019,0.382,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_noise_010,pca_fixed,0.007999,0.201755,0.023547,0.42,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_dropout_020,pca_fixed,0.026951,,0.466753,0.286,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_bootstrap,pca_fixed,0.102777,0.905791,0.150429,0.372,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_005,pca_var95,0.000823,0.022437,0.002393,0.39,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_010,pca_var95,0.001632,0.045776,0.004785,0.438,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_020,pca_var95,0.003262,0.088377,0.008936,0.414,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_010,pca_var95,0.018505,0.0,0.020796,0.936,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_020,pca_var95,0.02427,0.0,0.026903,0.926,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_030,pca_var95,0.030182,0.0,0.038281,0.89,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_bootstrap,pca_var95,0.063004,0.878008,0.157332,0.346,0.733333,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_noise_010,pca_var95,0.008952,0.206127,0.021579,0.408,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_dropout_020,pca_var95,0.05564,,0.488332,0.328,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_bootstrap,pca_var95,0.116102,0.942148,0.176727,0.41,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_005,l2,0.000375,0.000752,5e-06,0.57,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_010,l2,0.00075,0.001505,1e-05,0.554,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_noise_020,l2,0.001496,0.00301,2e-05,0.562,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_010,l2,0.01441,0.0,0.024632,0.938,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_020,l2,0.014748,0.0,0.035082,0.912,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_dropout_030,l2,0.016432,0.0,0.040281,0.896,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,kts_bootstrap,l2,0.03012,0.049782,0.000406,0.616,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_noise_010,l2,0.004229,0.008233,5.9e-05,0.54,1.0,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_dropout_020,l2,0.05117,,0.485015,0.372,0.866667,8,50
+ST003506,Valine Leucine Isoleucine Degradation,raw_bootstrap,l2,0.086078,0.048553,0.000455,0.572,0.866667,8,50

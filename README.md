@@ -219,6 +219,21 @@ python3 results/scripts/plot_retained_pathways_heatmap.py
 ### 6. Run the baseline benchmark
 python3 results/scripts/run_baseline_benchmark.py
 
+### 9. Build pathway-level feature tables for real JL-FGW benchmarking
+python3 results/scripts/compute_pathway_features.py
+
+### 10. Compute real FGW alignments under preprocessing variants
+python3 results/scripts/compute_fgw_alignment.py
+
+### 11. Export real Uk components
+python3 results/scripts/compute_Uk_real.py
+
+### 12. Run the real multi-pathway benchmark
+python3 results/scripts/run_real_multi_pathway_benchmark.py
+
+### 13. Run the JL stability benchmark
+python3 results/scripts/run_jl_stability_benchmark.py
+
 This script generates:
 
 - `results/results/baseline_trial_results.csv`
