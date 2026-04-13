@@ -400,3 +400,106 @@ The public repo page I inspected still shows the older README and older reposito
 Also, the repo root on GitHub shows `codes/`, `figures/`, and `results/` as the main directories, so the README above is aligned to that top-level structure.  [oai_citation:2‡GitHub](https://github.com/Anas-Enoch/Pathway_Identifiability)
 
 If you want, I can turn this into a **cleaner journal-style README** with a shorter front page and a separate “Reproducibility” section.
+
+
+
+## External validation cohort: ST001849 (COVID-19 severity)
+
+We included a fourth cohort, **ST001849**, as an external validation dataset to test generalizability beyond the original cancer, diabetes, and lymphedema cohorts.
+
+### Files
+- `results/data/ST001849_benchmark_ready.csv`  
+  Benchmark-ready metabolite matrix for ST001849 with:
+  - rows = samples
+  - columns = metabolites
+  - `condition` column
+
+- `results/data/ST001849_pathway_mapping.csv`  
+  Pathway mapping used for ST001849 pathway restriction.
+
+- `results/scripts/active/run_ST001849_benchmark.py`  
+  Cohort-specific benchmark runner for ST001849.
+
+- `results/results/ST001849_benchmark_results.csv`  
+  Output benchmark results for ST001849.
+
+### Cohort definition
+The benchmark uses a balanced severity subset:
+- `severe` = 161 samples
+- `mild` = 161 samples
+
+In the active script, the case/control assignment is explicitly overridden as:
+
+```text
+case = severe
+ctrl = mild
+
+This avoids ambiguity from alphabetical label ordering.
+
+Biological role in the paper
+
+ST001849 serves as a topology-shift validation cohort.
+Unlike the original three cohorts, which are more amino-acid dominated, ST001849 stresses:
+	•	lipid metabolism
+	•	TCA-cycle pathways
+	•	purine / pyrimidine metabolism
+	•	phospholipid and sphingolipid structure
+
+This makes it useful for testing whether the masked-state commutator surrogate remains effective in larger, denser, and more correlated pathway regimes.
+
+Run command
+
+From repository root:
+python3 results/scripts/active/run_ST001849_benchmark.py
+
+
+Output
+
+The script writes:
+results/results/ST001849_benchmark_results.csv
+
+A completed benchmark run contains:
+	•	19 retained pathways
+	•	5 mask rates
+	•	50 trials per mask rate
+	•	7 predictor methods
+	•	33,250 total rows
+
+Interpretation note
+
+The scientifically meaningful subset is: n_hidden >= 2
+
+This excludes trivial masking cases with only one hidden metabolite.
+
+Current benchmark finding
+
+On ST001849, the gnc_commutator predictor is the strongest overall non-oracle predictor on the hard subset (n_hidden >= 2), outperforming variance on:
+	•	regret
+	•	top-1 recovery
+	•	Kendall rank agreement
+
+At the same time, performance is pathway-size dependent: the commutator surrogate is strongest in small-to-medium pathways and attenuates in very large lipid pathways where correlation-derived structure becomes less discriminative.
+
+
+
+
+## External validation cohort: ST002829
+
+The repository includes a fifth cohort, **ST002829**, used as an additional external validation dataset in a Metabolon-style naming regime.
+
+### Files
+- `results/data/ST002829_benchmark_ready.csv`
+- `results/data/ST002829_pathway_mapping.csv`
+- `results/scripts/prep/build_ST002829_pathway_mapping.py`
+- `results/scripts/prep/parse_ST002829.py`
+- `results/scripts/active/run_ST002829_benchmark.py`
+- `results/results/ST002829_benchmark_results.csv`
+
+### Build the pathway mapping
+```bash
+python3 results/scripts/prep/build_ST002829_pathway_mapping.py
+
+Important note
+
+The ST002829 pathway mapping is built from the actual metabolite column names in ST002829_benchmark_ready.csv, rather than reused from ST001849. This is necessary because ST002829 uses Metabolon-style full chemical names, which do not overlap with the lipid shorthand naming used in ST001849.
+
