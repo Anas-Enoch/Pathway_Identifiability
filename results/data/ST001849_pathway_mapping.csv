@@ -1,0 +1,663 @@
+metabolite,pathway
+(2-oxo-2_3-dihydro-1H-indol-3-yl)acetic acid,Tryptophan Metabolism
+(Z)-3-Hydroxyoctadec-7-enoic acid,Fatty Acid Metabolism
+1 5 Anhydro D glucitol,Glycolysis / Gluconeogenesis
+1 Methyladenosine,Purine Metabolism
+1 Methylhistidine,Amino Acid Metabolism
+1 Methyluric acid,Purine Metabolism
+14 Z Eicosenoic acid,Fatty Acid Metabolism
+16 Hydroxyhexadecanoic acid,Fatty Acid Metabolism
+2 Aminoadipic acid,Amino Acid Metabolism
+2 Hydroxy 2 methylbutyric acid,Valine Leucine Isoleucine Degradation
+2 Hydroxycaproic acid,Fatty Acid Metabolism
+2 Hydroxyhippuric acid,Phenylalanine Metabolism
+2 Oxobutyric acid,Amino Acid Metabolism
+2-HYDROXYBUTYRIC ACID,Butanoate Metabolism
+20 Dihydrocortisol,Steroid Hormone Biosynthesis
+3 4 Hydroxyphenyl propionic acid,Phenylalanine Metabolism
+3 5 9 3 6 19 Trihydroxyurs 12 en 28 oic acid,Steroid Hormone Biosynthesis
+3 Hydroxy 2 methylpyridine,Vitamin B6 Metabolism
+3 Hydroxybutyric acid,Butanoate Metabolism
+3 Hydroxypyridine,Nicotinate and Nicotinamide Metabolism
+3 Indoxyl sulphate,Tryptophan Metabolism
+3 Methylxanthine,Purine Metabolism
+3-HYDROXYBUTANOIC ACID,Butanoate Metabolism
+3-Hydroxysebacic acid,Fatty Acid Metabolism
+3-Indoleacetic acid,Tryptophan Metabolism
+4 Acetamidobutanoic acid,Amino Acid Metabolism
+4 Methylphenol,Phenylalanine Metabolism
+4-Hydroxyhippuric acid,Purine Metabolism
+4-Pyridoxic acid,Vitamin B6 Metabolism
+4-methyl-2-oxopentanoic acid,Valine Leucine Isoleucine Degradation
+5-Hydroxy-3-indoleacetic acid,Tryptophan Metabolism
+9 Z 11 E Conjugated linoleic acid,Fatty Acid Metabolism
+ACar 10:1_1.716,Fatty Acid Degradation
+ACar 14:1_2.69,Fatty Acid Degradation
+ACar 18:1_5.513,Fatty Acid Degradation
+ACar 18:2_4.139,Fatty Acid Degradation
+ARGININE,Amino Acid Metabolism
+Acesulfame,Drug Metabolism
+Acetaminophen glucuronide,Drug Metabolism
+Acetoacetanilide,Butanoate Metabolism
+Acetyl L carnitine,Amino Acid Metabolism
+Acetylcholine,Glycerophospholipid Metabolism
+AcylGlcADG 54:1@24.827,Glycerolipid Metabolism
+AcylGlcADG 56:1@24.967,Glycerolipid Metabolism
+Adenosine,Purine Metabolism
+Adrenic acid,Fatty Acid Metabolism
+Alanine,Amino Acid Metabolism
+Allantoin,Purine Metabolism
+Allopurinol,Purine Metabolism
+Arachidic acid,Fatty Acid Metabolism
+Arachidonic acid,Fatty Acid Metabolism
+Atorvastatin,Drug Metabolism
+Azithromycin,Drug Metabolism
+Benzoic acid,Phenylalanine Metabolism
+Betaine,Amino Acid Metabolism
+Bilirubin,Porphyrin and Chlorophyll Metabolism
+CE 16:0_24.802,Steroid Hormone Biosynthesis
+CE 16:1_24.428,Steroid Hormone Biosynthesis
+CE 18:1_24.767,Steroid Hormone Biosynthesis
+CE 18:2_24.45,Steroid Hormone Biosynthesis
+CE 18:3_24.18,Steroid Hormone Biosynthesis
+CE 20:3_24.516,Steroid Hormone Biosynthesis
+CE 20:4_24.252,Steroid Hormone Biosynthesis
+CE 20:5_23.975,Steroid Hormone Biosynthesis
+CE 22:4_24.553,Steroid Hormone Biosynthesis
+CE 22:5_24.335,Steroid Hormone Biosynthesis
+CE 22:6_24.09,Steroid Hormone Biosynthesis
+CITRAMALATE,TCA Cycle
+CMPF,Fatty Acid Metabolism
+CREATININE,Amino Acid Metabolism
+Caprolactam,Fatty Acid Metabolism
+Caprylic acid,Fatty Acid Metabolism
+Cer_NS d17:1_18:0@18.419,Sphingolipid Metabolism
+Cer_NS d18:1_16:0_17.788,Sphingolipid Metabolism
+Cer_NS d18:1_18:0_18.975,Sphingolipid Metabolism
+Cer_NS d18:1_20:0_20.008,Sphingolipid Metabolism
+Cer_NS d18:1_22:0_20.889,Sphingolipid Metabolism
+Cer_NS d18:1_23:0_21.288,Sphingolipid Metabolism
+Cer_NS d18:1_24:0_21.657,Sphingolipid Metabolism
+Cer_NS d18:1_24:1_20.867,Sphingolipid Metabolism
+Cer_NS d18:1_25:0_22.003,Sphingolipid Metabolism
+Cer_NS d18:1_26:1@21.593,Sphingolipid Metabolism
+Cer_NS d18:2_16:0_16.67,Sphingolipid Metabolism
+Cer_NS d18:2_22:0_20.172,Sphingolipid Metabolism
+Cer_NS d18:2_23:0_20.666,Sphingolipid Metabolism
+Cer_NS d18:2_24:1_20.136,Sphingolipid Metabolism
+Cer_NS d18:2_24:2@19.354,Sphingolipid Metabolism
+Cer_NS d19:1_24:0_21.876,Sphingolipid Metabolism
+Cer_NS d19:1_24:1_21.097,Sphingolipid Metabolism
+Cer_NS d20:1_22:0@21.168,Sphingolipid Metabolism
+Cer_NS d26:2_17:0@21.238,Sphingolipid Metabolism
+Cer_NS d32:1@16.469,Sphingolipid Metabolism
+Cer_NS d33:1@17.154,Sphingolipid Metabolism
+Cer_NS d34:1@17.798,Sphingolipid Metabolism
+Cer_NS d34:2@16.699,Sphingolipid Metabolism
+Cer_NS d36:1@18.99,Sphingolipid Metabolism
+Cer_NS d36:2@18.023,Sphingolipid Metabolism
+Cer_NS d37:1@19.53,Sphingolipid Metabolism
+Cer_NS d38:1@20.011,Sphingolipid Metabolism
+Cer_NS d38:2@19.182,Sphingolipid Metabolism
+Cer_NS d39:1@20.504,Sphingolipid Metabolism
+Cer_NS d40:1@20.896,Sphingolipid Metabolism
+Cer_NS d40:2@20.033,Sphingolipid Metabolism
+Cer_NS d40:2@20.183,Sphingolipid Metabolism
+Cer_NS d40:3@19.204,Sphingolipid Metabolism
+Cer_NS d41:1@21.162,Sphingolipid Metabolism
+Cer_NS d41:1@21.3,Sphingolipid Metabolism
+Cer_NS d41:2@20.459,Sphingolipid Metabolism
+Cer_NS d41:2@20.645,Sphingolipid Metabolism
+Cer_NS d42:1@21.664,Sphingolipid Metabolism
+Cer_NS d42:2@20.853,Sphingolipid Metabolism
+Cer_NS d42:2@21.048,Sphingolipid Metabolism
+Cer_NS d42:3@20.143,Sphingolipid Metabolism
+Cer_NS d43:1@21.881,Sphingolipid Metabolism
+Cer_NS d43:1@22.008,Sphingolipid Metabolism
+Cer_NS d43:2@21.102,Sphingolipid Metabolism
+Choline,Glycerophospholipid Metabolism
+Cinnamoylglycine,Phenylalanine Metabolism
+Citric acid (Not validated_ isomer of 227),TCA Cycle
+Citrulline,Amino Acid Metabolism
+Creatine,Amino Acid Metabolism
+Creatinine,Amino Acid Metabolism
+Cyclo-prolylglycine,Amino Acid Metabolism
+Cytarabine,Pyrimidine Metabolism
+Cytosine,Pyrimidine Metabolism
+D Fructose,Glycolysis / Gluconeogenesis
+D Glucopyranuronic acid,Glycolysis / Gluconeogenesis
+D Glutamine,Amino Acid Metabolism
+D Hydroxyglutaric acid,TCA Cycle
+D Mannose,Glycolysis / Gluconeogenesis
+D Proline,Amino Acid Metabolism
+D Tryptophan,Tryptophan Metabolism
+D-PANTOTHENIC ACID,Vitamin B6 Metabolism
+DG 16:0_18:1_19.869,Glycerolipid Metabolism
+DG 16:0_18:2_19.082,Glycerolipid Metabolism
+DG 16:0_20:4_18.845,Glycerolipid Metabolism
+DG 16:1_18:2_18.098,Glycerolipid Metabolism
+DG 18:0_18:0_21.458,Glycerolipid Metabolism
+DG 18:0_18:1_20.74,Glycerolipid Metabolism
+DG 18:0_20:4_19.894,Glycerolipid Metabolism
+DG 18:1_18:1_19.963,Glycerolipid Metabolism
+DG 18:1_18:2_19.189,Glycerolipid Metabolism
+DG 18:1_20:4_18.958,Glycerolipid Metabolism
+DG 18:1_22:6_18.62,Glycerolipid Metabolism
+DG 18:2_18:2_18.336,Glycerolipid Metabolism
+DG 18:2_20:4_18.087,Glycerolipid Metabolism
+DG 18:2_20:5_17.26,Glycerolipid Metabolism
+DG 18:2_22:6_17.744,Glycerolipid Metabolism
+DL 3 Aminoisobutyric acid,Amino Acid Metabolism
+DL 4 Hydroxyphenyllactic acid,Glycolysis / Gluconeogenesis
+DL Glutamine,Amino Acid Metabolism
+DL Lactic Acid,Glycolysis / Gluconeogenesis
+DL Leucineamide,Amino Acid Metabolism
+DL Stachydrine,Amino Acid Metabolism
+DL Tryptophan,Tryptophan Metabolism
+Decanamide,Fatty Acid Metabolism
+Decanoic acid,Fatty Acid Metabolism
+Decanoylcarnitine,Fatty Acid Degradation
+Dehydroascorbic acid,Cofactor Biosynthesis
+Dimetridazole,Drug Metabolism
+Eleostearic acid,Fatty Acid Metabolism
+Erucamide,Fatty Acid Metabolism
+EtherPC 16:1e_18:2@17.894,Ether Lipid Metabolism
+EtherPC 16:1e_20:4@17.502,Ether Lipid Metabolism
+EtherPC 18:1e_20:4@17.939,Ether Lipid Metabolism
+EtherPC 34:1e@19.423,Ether Lipid Metabolism
+EtherPC 44:6e@20.924,Ether Lipid Metabolism
+EtherPE 16:1e_18:1@18.505,Ether Lipid Metabolism
+EtherPE 16:1e_18:2@17.578,Ether Lipid Metabolism
+EtherPE 16:1e_18:3@16.684,Ether Lipid Metabolism
+EtherPE 16:1e_20:4@17.345,Ether Lipid Metabolism
+EtherPE 16:1e_20:5@16.471,Ether Lipid Metabolism
+EtherPE 16:1e_22:4@18.218,Ether Lipid Metabolism
+EtherPE 16:1e_22:6@16.978,Ether Lipid Metabolism
+EtherPE 18:1e_18:1@19.586,Ether Lipid Metabolism
+EtherPE 18:1e_18:2@18.77,Ether Lipid Metabolism
+EtherPE 18:1e_20:3@19.044,Ether Lipid Metabolism
+EtherPE 18:1e_20:4@18.551,Ether Lipid Metabolism
+EtherPE 18:1e_22:4@19.313,Ether Lipid Metabolism
+EtherPE 18:1e_22:4@19.621,Ether Lipid Metabolism
+EtherPE 18:1e_22:5@18.589,Ether Lipid Metabolism
+EtherPE 18:1e_22:6@18.225,Ether Lipid Metabolism
+EtherPE 18:2e_18:2@17.688,Ether Lipid Metabolism
+EtherPE 18:2e_20:4@17.456,Ether Lipid Metabolism
+EtherPE 18:2e_20:4@17.802,Ether Lipid Metabolism
+EtherPE 18:2e_20:5@16.658,Ether Lipid Metabolism
+EtherPE 18:2e_22:6@17.123,Ether Lipid Metabolism
+EtherPE 22:5e_20:4@16.992,Ether Lipid Metabolism
+EtherPE 36:5e@16.701,Ether Lipid Metabolism
+EtherPE 36:6e@16.661,Ether Lipid Metabolism
+Ethyl myristate,Fatty Acid Metabolism
+FA 16:0@10.314,Fatty Acid Metabolism
+FA 18:0@12.791,Fatty Acid Metabolism
+FA 18:1@10.749,Fatty Acid Metabolism
+FAHFA 36:2,Fatty Acid Metabolism
+Furosemide,Drug Metabolism
+GLUTARYLCARNITINE,Fatty Acid Degradation
+GLYCOCHENODEOXYCHOLATE,Primary Bile Acid Biosynthesis
+GLYCOCHOLATE,Primary Bile Acid Biosynthesis
+Gluconic acid,Glycolysis / Gluconeogenesis
+Glycocholic acid,Primary Bile Acid Biosynthesis
+Glycoursodeoxycholic acid,Primary Bile Acid Biosynthesis
+Guanidineacetic acid,Amino Acid Metabolism
+Heptadecanoic acid,Fatty Acid Metabolism
+HexCer_NS d18:1_16:0@16.382,Sphingolipid Metabolism
+HexCer_NS d18:1_16:0_16.362,Sphingolipid Metabolism
+HexCer_NS d36:1@17.679,Sphingolipid Metabolism
+HexCer_NS d40:1@19.797,Sphingolipid Metabolism
+HexCer_NS d42:3@18.977,Sphingolipid Metabolism
+Hexadecanedioic acid,Fatty Acid Metabolism
+Hexanoic acid,Fatty Acid Metabolism
+Hexanoylcarnitine,Fatty Acid Degradation
+Hippuric acid,Purine Metabolism
+Hypoxanthine,Purine Metabolism
+ISOLEUCINE,Amino Acid Metabolism
+Indole 3 lactic acid,Tryptophan Metabolism
+Isoleucine,Amino Acid Metabolism
+KYNURENINE,Tryptophan Metabolism
+Kynurenic acid,Tryptophan Metabolism
+Kynurenine,Tryptophan Metabolism
+L Aspartic acid,Amino Acid Metabolism
+L Carnitine,Amino Acid Metabolism
+L Citrulline,Amino Acid Metabolism
+L Cysteine S sulfate,Amino Acid Metabolism
+L Cystine,Amino Acid Metabolism
+L Ergothioneine,Amino Acid Metabolism
+L Glutamic acid,Amino Acid Metabolism
+L Histidine,Amino Acid Metabolism
+L Iditol,Amino Acid Metabolism
+L Lactic acid,Glycolysis / Gluconeogenesis
+L Malic acid,TCA Cycle
+L Methionine,Amino Acid Metabolism
+L Phenylalanine,Amino Acid Metabolism
+L Serine,Amino Acid Metabolism
+L Tartaric acid,Glycolysis / Gluconeogenesis
+L Threonic acid,Glycolysis / Gluconeogenesis
+L Tyrosine,Amino Acid Metabolism
+L Valine,Amino Acid Metabolism
+L-ASPARAGINE,Amino Acid Metabolism
+L-Isoleucine,Amino Acid Metabolism
+L-Proline,Amino Acid Metabolism
+LAUROYLCARNITINE,Fatty Acid Degradation
+LPC 0:0/14:0_3.126,Glycerophospholipid Metabolism
+LPC 0:0/16:0_4.715,Glycerophospholipid Metabolism
+LPC 0:0/16:1_3.451,Glycerophospholipid Metabolism
+LPC 0:0/18:0_6.997,Glycerophospholipid Metabolism
+LPC 0:0/18:1_5.167,Glycerophospholipid Metabolism
+LPC 0:0/18:2_3.873,Glycerophospholipid Metabolism
+LPC 0:0/20:4_3.763,Glycerophospholipid Metabolism
+LPC 0:0/22:6_3.56,Glycerophospholipid Metabolism
+LPC 0:0/22:6_3.703,Glycerophospholipid Metabolism
+LPC 14:0/0:0_3.387,Glycerophospholipid Metabolism
+LPC 15:0/0:0_4.164,Glycerophospholipid Metabolism
+LPC 16:0/0:0@5.185,Glycerophospholipid Metabolism
+LPC 16:0/0:0_5.147,Glycerophospholipid Metabolism
+LPC 16:1/0:0_3.734,Glycerophospholipid Metabolism
+LPC 17:0/0:0_6.28,Glycerophospholipid Metabolism
+LPC 17:1/0:0_4.568,Glycerophospholipid Metabolism
+LPC 18:0/0:0@7.599,Glycerophospholipid Metabolism
+LPC 18:0/0:0_7.547,Glycerophospholipid Metabolism
+LPC 18:1/0:0@5.631,Glycerophospholipid Metabolism
+LPC 18:1/0:0_5.589,Glycerophospholipid Metabolism
+LPC 18:2/0:0@4.227,Glycerophospholipid Metabolism
+LPC 18:2/0:0_4.195,Glycerophospholipid Metabolism
+LPC 18:3/0:0_3.277,Glycerophospholipid Metabolism
+LPC 20:2/0:0_6.105,Glycerophospholipid Metabolism
+LPC 20:3/0:0_4.813,Glycerophospholipid Metabolism
+LPC 20:4/0:0@4.062,Glycerophospholipid Metabolism
+LPC 20:4/0:0_4.03,Glycerophospholipid Metabolism
+LPC 22:5/0:0_4.34,Glycerophospholipid Metabolism
+LPC 22:6/0:0_3.796,Glycerophospholipid Metabolism
+LPE 16:0@5.262,Glycerophospholipid Metabolism
+LPE 18:0@7.653,Glycerophospholipid Metabolism
+LPE 18:0_7.612,Glycerophospholipid Metabolism
+LPE 18:1_5.683,Glycerophospholipid Metabolism
+LPE 18:2_4.276,Glycerophospholipid Metabolism
+LPI 18:0@5.799,Glycerophospholipid Metabolism
+Lacosamide,Drug Metabolism
+Lauric acid,Purine Metabolism
+Leucine,Amino Acid Metabolism
+Levulinic acid,TCA Cycle
+Linezolid,Drug Metabolism
+Linolenic acid,Fatty Acid Metabolism
+Mefenamic acid,Drug Metabolism
+Myristic acid,Fatty Acid Metabolism
+N Acetyl D galactosamine 4 sulfate,Amino Sugar and Nucleotide Sugar Metabolism
+N Acetyl DL norvaline,Amino Acid Metabolism
+N Acetyl DL tryptophan,Tryptophan Metabolism
+N Acetyl L methionine,Amino Acid Metabolism
+N Acetylalanine,Amino Acid Metabolism
+N Isobutyrylglycine,Fatty Acid Degradation
+N L Acetyl arginine,Amino Acid Metabolism
+N Phenylacetylglutamine,Amino Acid Metabolism
+N-ACETYL-DL-SERINE,Amino Acid Metabolism
+N-ACETYLASPARTATE,Amino Acid Metabolism
+N2_N2-Dimethylguanosine,Amino Acid Metabolism
+N4 Acetylcytidine,Pyrimidine Metabolism
+N_N-DIMETHYLARGININE,Amino Acid Metabolism
+N_N-Dimethylglycine,Amino Acid Metabolism
+Nicotinamide,Nicotinate and Nicotinamide Metabolism
+Nicotinuric acid,Purine Metabolism
+Nicotinyl alcohol,Nicotinate and Nicotinamide Metabolism
+Nonanoic acid,Fatty Acid Metabolism
+Nornicotine,Nicotinate and Nicotinamide Metabolism
+Octanoyl-L-Carnitine,Fatty Acid Degradation
+Oleic acid,Fatty Acid Metabolism
+PC 14:0_16:0_16.644,Glycerophospholipid Metabolism
+PC 14:0_18:2@15.61,Glycerophospholipid Metabolism
+PC 14:0_18:2_15.62,Glycerophospholipid Metabolism
+PC 14:0_20:4_15.259,Glycerophospholipid Metabolism
+PC 15:0_18:2_16.351,Glycerophospholipid Metabolism
+PC 15:0_20:3_16.684,Glycerophospholipid Metabolism
+PC 15:0_20:4_16.108,Glycerophospholipid Metabolism
+PC 15:0_22:6_15.665,Glycerophospholipid Metabolism
+PC 16:0_16:0@18.088,Glycerophospholipid Metabolism
+PC 16:0_16:0_18.138,Glycerophospholipid Metabolism
+PC 16:0_16:1@16.731,Glycerophospholipid Metabolism
+PC 16:0_16:1_16.744,Glycerophospholipid Metabolism
+PC 16:0_18:1@18.188,Glycerophospholipid Metabolism
+PC 16:0_18:1_18.21,Glycerophospholipid Metabolism
+PC 16:0_18:2@17.045,Glycerophospholipid Metabolism
+PC 16:0_18:2_17.084,Glycerophospholipid Metabolism
+PC 16:0_18:2_21.453,Glycerophospholipid Metabolism
+PC 16:0_18:3_16.227,Glycerophospholipid Metabolism
+PC 16:0_18:3_18.089,Glycerophospholipid Metabolism
+PC 16:0_19:1_18.975,Glycerophospholipid Metabolism
+PC 16:0_20:3@17.488,Glycerophospholipid Metabolism
+PC 16:0_20:3_17.457,Glycerophospholipid Metabolism
+PC 16:0_20:4@16.715,Glycerophospholipid Metabolism
+PC 16:0_20:4@18.415,Glycerophospholipid Metabolism
+PC 16:0_20:4_16.718,Glycerophospholipid Metabolism
+PC 16:0_20:4_18.286,Glycerophospholipid Metabolism
+PC 16:0_20:5_15.799,Glycerophospholipid Metabolism
+PC 16:0_20:5_16.646,Glycerophospholipid Metabolism
+PC 16:0_22:5_16.866,Glycerophospholipid Metabolism
+PC 16:0_22:6@16.407,Glycerophospholipid Metabolism
+PC 16:0_22:6_16.377,Glycerophospholipid Metabolism
+PC 16:0_22:6_16.7,Glycerophospholipid Metabolism
+PC 16:0_22:6_17.501,Glycerophospholipid Metabolism
+PC 16:1_18:2_15.798,Glycerophospholipid Metabolism
+PC 17:0_15:1_18.388,Glycerophospholipid Metabolism
+PC 17:0_18:2_17.887,Glycerophospholipid Metabolism
+PC 17:0_20:4@17.54,Glycerophospholipid Metabolism
+PC 17:0_20:4_17.502,Glycerophospholipid Metabolism
+PC 17:0_22:6_16.874,Glycerophospholipid Metabolism
+PC 17:0_22:6_17.115,Glycerophospholipid Metabolism
+PC 18:0_18:1@19.754,Glycerophospholipid Metabolism
+PC 18:0_18:1_19.731,Glycerophospholipid Metabolism
+PC 18:0_18:2@18.551,Glycerophospholipid Metabolism
+PC 18:0_18:2_18.57,Glycerophospholipid Metabolism
+PC 18:0_20:3@18.965,Glycerophospholipid Metabolism
+PC 18:0_20:3_18.949,Glycerophospholipid Metabolism
+PC 18:0_20:4@18.196,Glycerophospholipid Metabolism
+PC 18:0_20:4_18.189,Glycerophospholipid Metabolism
+PC 18:0_20:4_19.68,Glycerophospholipid Metabolism
+PC 18:0_20:5_17.3,Glycerophospholipid Metabolism
+PC 18:0_22:4@19.33,Glycerophospholipid Metabolism
+PC 18:0_22:4_19.313,Glycerophospholipid Metabolism
+PC 18:0_22:5@19.131,Glycerophospholipid Metabolism
+PC 18:0_22:5_18.311,Glycerophospholipid Metabolism
+PC 18:0_22:6@17.828,Glycerophospholipid Metabolism
+PC 18:0_22:6_17.854,Glycerophospholipid Metabolism
+PC 18:0_22:6_18.959,Glycerophospholipid Metabolism
+PC 18:1_18:2@17.221,Glycerophospholipid Metabolism
+PC 18:1_18:2_17.198,Glycerophospholipid Metabolism
+PC 18:1_20:1_19.939,Glycerophospholipid Metabolism
+PC 18:1_22:6@16.55,Glycerophospholipid Metabolism
+PC 18:1_22:6_16.625,Glycerophospholipid Metabolism
+PC 18:2_18:2_16.159,Glycerophospholipid Metabolism
+PC 18:2_20:4@15.83,Glycerophospholipid Metabolism
+PC 18:2_22:6_15.427,Glycerophospholipid Metabolism
+PC 20:4_20:4_15.512,Glycerophospholipid Metabolism
+PC 20:4_22:4_16.621,Glycerophospholipid Metabolism
+PC 34:2_10.88,Glycerophospholipid Metabolism
+PC 34:3@16.078,Glycerophospholipid Metabolism
+PC 34:3_16.123,Glycerophospholipid Metabolism
+PC 36:1_20.57,Glycerophospholipid Metabolism
+PC 36:2_20.673,Glycerophospholipid Metabolism
+PC 36:2_21.45,Glycerophospholipid Metabolism
+PC 36:5_17.995,Glycerophospholipid Metabolism
+PC 38:5@16.868,Glycerophospholipid Metabolism
+PC 38:5@17.326,Glycerophospholipid Metabolism
+PC 38:6_15.829,Glycerophospholipid Metabolism
+PC 38:7_14.794,Glycerophospholipid Metabolism
+PC 40:5@18.324,Glycerophospholipid Metabolism
+PC 40:5_18.706,Glycerophospholipid Metabolism
+PC 40:6_17.171,Glycerophospholipid Metabolism
+PC 42:7_17.895,Glycerophospholipid Metabolism
+PE 16:0_16:1@16.663,Glycerophospholipid Metabolism
+PE 16:0_18:1@17.818,Glycerophospholipid Metabolism
+PE 16:0_18:1_17.806,Glycerophospholipid Metabolism
+PE 16:0_18:2@16.732,Glycerophospholipid Metabolism
+PE 16:0_18:2@16.86,Glycerophospholipid Metabolism
+PE 16:0_18:2_16.83,Glycerophospholipid Metabolism
+PE 16:0_18:3@15.928,Glycerophospholipid Metabolism
+PE 16:0_20:4@16.67,Glycerophospholipid Metabolism
+PE 16:0_20:4_16.641,Glycerophospholipid Metabolism
+PE 16:0_20:5@15.752,Glycerophospholipid Metabolism
+PE 16:0_20:5_15.724,Glycerophospholipid Metabolism
+PE 16:0_22:4@17.559,Glycerophospholipid Metabolism
+PE 16:0_22:6@16.304,Glycerophospholipid Metabolism
+PE 16:0_22:6@16.674,Glycerophospholipid Metabolism
+PE 16:0_22:6_16.282,Glycerophospholipid Metabolism
+PE 17:0_20:4@16.704,Glycerophospholipid Metabolism
+PE 17:0_20:4@17.308,Glycerophospholipid Metabolism
+PE 18:0_18:1@18.965,Glycerophospholipid Metabolism
+PE 18:0_18:1_18.95,Glycerophospholipid Metabolism
+PE 18:0_18:2@18.114,Glycerophospholipid Metabolism
+PE 18:0_20:3@18.404,Glycerophospholipid Metabolism
+PE 18:0_20:4@17.92,Glycerophospholipid Metabolism
+PE 18:0_22:4@18.711,Glycerophospholipid Metabolism
+PE 18:0_22:5@17.988,Glycerophospholipid Metabolism
+PE 18:0_22:5@18.349,Glycerophospholipid Metabolism
+PE 18:0_22:6@17.593,Glycerophospholipid Metabolism
+PE 18:1_18:2@17.006,Glycerophospholipid Metabolism
+PE 18:1_18:2@17.18,Glycerophospholipid Metabolism
+PE 18:1_18:2_16.99,Glycerophospholipid Metabolism
+PE 18:1_22:5@16.723,Glycerophospholipid Metabolism
+PE 18:1_22:6@16.46,Glycerophospholipid Metabolism
+PE 18:1_22:6@16.665,Glycerophospholipid Metabolism
+PE 18:1_22:6_16.438,Glycerophospholipid Metabolism
+PE 18:2_18:2@15.987,Glycerophospholipid Metabolism
+PE 18:2_20:4@15.803,Glycerophospholipid Metabolism
+PE 36:2@17.948,Glycerophospholipid Metabolism
+PE 38:5@16.719,Glycerophospholipid Metabolism
+PE 38:5@17.149,Glycerophospholipid Metabolism
+PE 38:5_17.129,Glycerophospholipid Metabolism
+PE 40:5@16.713,Glycerophospholipid Metabolism
+PI 16:0_18:1@15.961,Glycerophospholipid Metabolism
+PI 16:0_20:4@14.781,Glycerophospholipid Metabolism
+PI 16:0_22:6@14.43,Glycerophospholipid Metabolism
+PI 18:0_18:1@17.183,Glycerophospholipid Metabolism
+PI 18:0_20:3@16.652,Glycerophospholipid Metabolism
+PI 18:0_20:4@16.15,Glycerophospholipid Metabolism
+PI 18:0_22:6@15.823,Glycerophospholipid Metabolism
+PI 22:1_18:2@16.07,Glycerophospholipid Metabolism
+PI 34:2@14.945,Glycerophospholipid Metabolism
+PI 36:2@16.3,Glycerophospholipid Metabolism
+PI 40:5@16.198,Glycerophospholipid Metabolism
+PS 18:0_20:4_16.609,Glycerophospholipid Metabolism
+PS 18:0_20:4_16.621,Glycerophospholipid Metabolism
+Pantothenic acid,Vitamin B6 Metabolism
+Paracetamol,Drug Metabolism
+Pentadecanoic acid,Fatty Acid Metabolism
+Phenylalanine,Amino Acid Metabolism
+Pimelic acid,Fatty Acid Metabolism
+Pipecolic acid,Amino Acid Metabolism
+Piperine,Drug Metabolism
+Prolylleucine,Amino Acid Metabolism
+Propionylcarnitine,Fatty Acid Degradation
+Pseudouridine,Pyrimidine Metabolism
+Pyridoxine,Vitamin B6 Metabolism
+SARCOSINE,Amino Acid Metabolism
+SM d16:1_16:0_14.553,Sphingolipid Metabolism
+SM d18:1_18:0_17.845,Sphingolipid Metabolism
+SM d26:1_16:0@21.916,Sphingolipid Metabolism
+SM d32:1@14.592,Sphingolipid Metabolism
+SM d33:1@15.468,Sphingolipid Metabolism
+SM d33:1_15.445,Sphingolipid Metabolism
+SM d34:0@16.729,Sphingolipid Metabolism
+SM d34:0_16.742,Sphingolipid Metabolism
+SM d34:1@16.243,Sphingolipid Metabolism
+SM d34:1@16.88,Sphingolipid Metabolism
+SM d34:1_16.255,Sphingolipid Metabolism
+SM d34:1_16.642,Sphingolipid Metabolism
+SM d34:2@14.886,Sphingolipid Metabolism
+SM d34:2_14.852,Sphingolipid Metabolism
+SM d35:1_17.036,Sphingolipid Metabolism
+SM d36:1@17.795,Sphingolipid Metabolism
+SM d36:1_18.566,Sphingolipid Metabolism
+SM d36:2@16.546,Sphingolipid Metabolism
+SM d36:2_16.613,Sphingolipid Metabolism
+SM d38:1_19.289,Sphingolipid Metabolism
+SM d38:3_16.676,Sphingolipid Metabolism
+SM d40:1@20.556,Sphingolipid Metabolism
+SM d40:1_20.594,Sphingolipid Metabolism
+SM d40:1_20.651,Sphingolipid Metabolism
+SM d40:2@19.463,Sphingolipid Metabolism
+SM d40:2_19.434,Sphingolipid Metabolism
+SM d40:2_19.512,Sphingolipid Metabolism
+SM d41:1@21.248,Sphingolipid Metabolism
+SM d41:1@21.348,Sphingolipid Metabolism
+SM d41:1@21.468,Sphingolipid Metabolism
+SM d41:1_21.207,Sphingolipid Metabolism
+SM d41:1_21.424,Sphingolipid Metabolism
+SM d41:2_20.071,Sphingolipid Metabolism
+SM d42:2@20.423,Sphingolipid Metabolism
+SM d42:2_20.448,Sphingolipid Metabolism
+SM d42:2_20.646,Sphingolipid Metabolism
+SM d42:2_20.748,Sphingolipid Metabolism
+SM d42:2_21.455,Sphingolipid Metabolism
+SM d42:3@19.426,Sphingolipid Metabolism
+SM d42:3@19.427,Sphingolipid Metabolism
+SM d42:3_19.412,Sphingolipid Metabolism
+Saccharin,Drug Metabolism
+Salicylic acid,Phenylalanine Metabolism
+Skatole,Tryptophan Metabolism
+Sodium Deoxycholate,Primary Bile Acid Biosynthesis
+Sorbose,Glycolysis / Gluconeogenesis
+Sphingosine,Sphingolipid Metabolism
+Sphingosine 1-phosphate,Sphingolipid Metabolism
+Stearic acid,Fatty Acid Metabolism
+Succinic acid,TCA Cycle
+TG 12:0_12:0_16:0_22.401,Glycerolipid Metabolism
+TG 12:0_14:0_16:0_22.905,Glycerolipid Metabolism
+TG 12:0_16:0_16:0_23.315,Glycerolipid Metabolism
+TG 12:0_16:0_18:1_23.333,Glycerolipid Metabolism
+TG 12:0_16:0_18:2_22.981,Glycerolipid Metabolism
+TG 12:0_16:0_18:3_22.617,Glycerolipid Metabolism
+TG 14:0_15:0_16:0_23.503,Glycerolipid Metabolism
+TG 14:0_16:0_16:0_23.673,Glycerolipid Metabolism
+TG 14:0_16:0_18:1_23.682,Glycerolipid Metabolism
+TG 14:0_16:0_18:2_23.371,Glycerolipid Metabolism
+TG 14:0_18:2_18:2_23.087,Glycerolipid Metabolism
+TG 14:0_18:2_18:2_23.151,Glycerolipid Metabolism
+TG 14:0_18:2_18:3_22.749,Glycerolipid Metabolism
+TG 15:0_16:0_16:0_23.843,Glycerolipid Metabolism
+TG 15:0_16:0_16:1_23.524,Glycerolipid Metabolism
+TG 15:0_16:0_18:1_23.851,Glycerolipid Metabolism
+TG 15:0_16:0_18:2_23.554,Glycerolipid Metabolism
+TG 15:0_18:1_18:2_23.574,Glycerolipid Metabolism
+TG 15:0_18:2_18:2_23.265,Glycerolipid Metabolism
+TG 16:0_16:0_16:0_23.992,Glycerolipid Metabolism
+TG 16:0_16:0_17:0_24.128,Glycerolipid Metabolism
+TG 16:0_16:0_18:0_23.741,Glycerolipid Metabolism
+TG 16:0_16:0_18:0_24.284,Glycerolipid Metabolism
+TG 16:0_16:0_18:1_24.001,Glycerolipid Metabolism
+TG 16:0_16:0_18:2_23.712,Glycerolipid Metabolism
+TG 16:0_16:0_20:4_23.631,Glycerolipid Metabolism
+TG 16:0_16:0_22:6_23.454,Glycerolipid Metabolism
+TG 16:0_16:1_18:2_23.395,Glycerolipid Metabolism
+TG 16:0_16:4_18:1_22.917,Glycerolipid Metabolism
+TG 16:0_17:0_18:1_24.138,Glycerolipid Metabolism
+TG 16:0_17:1_18:1_23.865,Glycerolipid Metabolism
+TG 16:0_17:1_20:4_23.476,Glycerolipid Metabolism
+TG 16:0_18:0_18:0_24.54,Glycerolipid Metabolism
+TG 16:0_18:0_18:1_24.285,Glycerolipid Metabolism
+TG 16:0_18:0_18:2_23.97,Glycerolipid Metabolism
+TG 16:0_18:1_18:1_24.01,Glycerolipid Metabolism
+TG 16:0_18:1_18:2_23.74,Glycerolipid Metabolism
+TG 16:0_18:1_18:2_24.592,Glycerolipid Metabolism
+TG 16:0_18:1_20:3_23.805,Glycerolipid Metabolism
+TG 16:0_18:1_20:4_23.643,Glycerolipid Metabolism
+TG 16:0_18:1_22:0_24.773,Glycerolipid Metabolism
+TG 16:0_18:1_22:4_23.865,Glycerolipid Metabolism
+TG 16:0_18:1_22:5_23.646,Glycerolipid Metabolism
+TG 16:0_18:1_22:6_23.545,Glycerolipid Metabolism
+TG 16:0_18:2_18:2_23.443,Glycerolipid Metabolism
+TG 16:0_18:2_18:2_23.446,Glycerolipid Metabolism
+TG 16:0_18:2_20:4_23.347,Glycerolipid Metabolism
+TG 16:0_18:2_22:6_23.182,Glycerolipid Metabolism
+TG 16:0_20:4_22:6_22.884,Glycerolipid Metabolism
+TG 16:0_20:4_22:6_23.06,Glycerolipid Metabolism
+TG 16:1_18:0_18:1_24.025,Glycerolipid Metabolism
+TG 16:1_18:2_18:3_22.774,Glycerolipid Metabolism
+TG 17:0_18:0_18:1_24.389,Glycerolipid Metabolism
+TG 17:0_18:1_18:1_24.147,Glycerolipid Metabolism
+TG 17:0_18:1_18:2_23.89,Glycerolipid Metabolism
+TG 17:0_18:1_22:6_23.616,Glycerolipid Metabolism
+TG 17:0_18:2_18:2_23.609,Glycerolipid Metabolism
+TG 17:1_18:2_18:2_23.292,Glycerolipid Metabolism
+TG 18:0_18:0_18:0_24.763,Glycerolipid Metabolism
+TG 18:0_18:0_18:1_24.536,Glycerolipid Metabolism
+TG 18:0_18:1_18:1_24.301,Glycerolipid Metabolism
+TG 18:0_18:1_20:4_23.959,Glycerolipid Metabolism
+TG 18:0_18:1_22:4_24.148,Glycerolipid Metabolism
+TG 18:0_18:1_22:5_23.963,Glycerolipid Metabolism
+TG 18:1_18:1_18:1_24.04,Glycerolipid Metabolism
+TG 18:1_18:1_18:2_23.768,Glycerolipid Metabolism
+TG 18:1_18:1_19:1_24.14,Glycerolipid Metabolism
+TG 18:1_18:1_22:4_23.929,Glycerolipid Metabolism
+TG 18:1_18:1_22:5_23.631,Glycerolipid Metabolism
+TG 18:1_18:2_18:2_23.469,Glycerolipid Metabolism
+TG 18:1_18:2_19:1_23.902,Glycerolipid Metabolism
+TG 18:1_18:2_20:4_23.35,Glycerolipid Metabolism
+TG 18:1_18:2_22:0_24.553,Glycerolipid Metabolism
+TG 18:1_18:2_22:5_23.338,Glycerolipid Metabolism
+TG 18:1_18:2_22:6_23.218,Glycerolipid Metabolism
+TG 18:1_20:4_22:5_23.223,Glycerolipid Metabolism
+TG 18:1_20:4_22:6_22.913,Glycerolipid Metabolism
+TG 18:1_20:4_22:6_23.069,Glycerolipid Metabolism
+TG 18:1_22:5_22:6_23.055,Glycerolipid Metabolism
+TG 18:2_18:2_18:2_23.149,Glycerolipid Metabolism
+TG 18:2_18:2_18:3_22.876,Glycerolipid Metabolism
+TG 18:2_20:4_20:5_22.56,Glycerolipid Metabolism
+TG 18:2_20:4_22:6_22.72,Glycerolipid Metabolism
+TG 18:2_20:5_20:5_22.158,Glycerolipid Metabolism
+TG 18:2_20:5_22:6_22.354,Glycerolipid Metabolism
+TG 46:2_22.97,Glycerolipid Metabolism
+TG 48:1_23.671,Glycerolipid Metabolism
+TG 48:3_22.999,Glycerolipid Metabolism
+TG 48:3_23.014,Glycerolipid Metabolism
+TG 48:4_22.619,Glycerolipid Metabolism
+TG 49:3_23.227,Glycerolipid Metabolism
+TG 50:1_23.447,Glycerolipid Metabolism
+TG 50:1_23.957,Glycerolipid Metabolism
+TG 50:1_24.001,Glycerolipid Metabolism
+TG 50:2_23.689,Glycerolipid Metabolism
+TG 50:3_23.425,Glycerolipid Metabolism
+TG 50:4_23.061,Glycerolipid Metabolism
+TG 50:5_22.753,Glycerolipid Metabolism
+TG 50:6_22.444,Glycerolipid Metabolism
+TG 51:1_24.147,Glycerolipid Metabolism
+TG 51:2_23.87,Glycerolipid Metabolism
+TG 51:5_22.972,Glycerolipid Metabolism
+TG 51:5_23.042,Glycerolipid Metabolism
+TG 52:1_24.291,Glycerolipid Metabolism
+TG 52:5_23.144,Glycerolipid Metabolism
+TG 52:5_23.146,Glycerolipid Metabolism
+TG 52:6_22.78,Glycerolipid Metabolism
+TG 52:6_22.9,Glycerolipid Metabolism
+TG 52:6_22.918,Glycerolipid Metabolism
+TG 53:2_24.155,Glycerolipid Metabolism
+TG 53:3_23,Glycerolipid Metabolism
+TG 53:4_23.767,Glycerolipid Metabolism
+TG 54:1_24.536,Glycerolipid Metabolism
+TG 54:2_24.3,Glycerolipid Metabolism
+TG 54:3_24.076,Glycerolipid Metabolism
+TG 54:5_23.489,Glycerolipid Metabolism
+TG 54:5_23.633,Glycerolipid Metabolism
+TG 54:6_23.153,Glycerolipid Metabolism
+TG 54:6_23.335,Glycerolipid Metabolism
+TG 54:7_22.815,Glycerolipid Metabolism
+TG 54:7_22.999,Glycerolipid Metabolism
+TG 54:7_23.041,Glycerolipid Metabolism
+TG 54:8_22.623,Glycerolipid Metabolism
+TG 54:8_22.717,Glycerolipid Metabolism
+TG 55:2_24.403,Glycerolipid Metabolism
+TG 55:7_23.298,Glycerolipid Metabolism
+TG 56:2_24.536,Glycerolipid Metabolism
+TG 56:3_24.3,Glycerolipid Metabolism
+TG 56:5_23.908,Glycerolipid Metabolism
+TG 56:6_23.628,Glycerolipid Metabolism
+TG 56:7_23.343,Glycerolipid Metabolism
+TG 56:7_23.502,Glycerolipid Metabolism
+TG 56:7_23.507,Glycerolipid Metabolism
+TG 56:8_23.026,Glycerolipid Metabolism
+TG 56:8_23.036,Glycerolipid Metabolism
+TG 56:8_23.184,Glycerolipid Metabolism
+TG 56:9_22.689,Glycerolipid Metabolism
+TG 56:9_22.713,Glycerolipid Metabolism
+TG 58:10_23.026,Glycerolipid Metabolism
+TG 58:11_22.547,Glycerolipid Metabolism
+TG 58:2_24.762,Glycerolipid Metabolism
+TG 58:4_24.335,Glycerolipid Metabolism
+TG 58:7_23.815,Glycerolipid Metabolism
+TG 58:8_23.529,Glycerolipid Metabolism
+TG 58:9_23.213,Glycerolipid Metabolism
+TG 60:12_22.718,Glycerolipid Metabolism
+TG 62:13_22.9,Glycerolipid Metabolism
+Taurine,Amino Acid Metabolism
+Taurocholic acid,Primary Bile Acid Biosynthesis
+Testosterone sulfate,Steroid Hormone Biosynthesis
+Tetradecanedioic acid,Fatty Acid Metabolism
+Theophylline,Drug Metabolism
+Threonine,Amino Acid Metabolism
+Trehalose,Glycolysis / Gluconeogenesis
+Uracil,Pyrimidine Metabolism
+Xanthine,Purine Metabolism
+cis 2 Decenoic acid,Fatty Acid Metabolism
+cis 4 Hydroxy D proline,Amino Acid Metabolism
+trans 3 Indoleacrylic acid,Tryptophan Metabolism
