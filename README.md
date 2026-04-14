@@ -1,505 +1,332 @@
 # Pathway Identifiability under Partial Metabolomics
 
-This repository implements a **dataset-conditioned metabolomic pathway identifiability framework**.
+**Regime-Aware Operator Selection and Commutator-Based Measurement Prioritization**
 
-The central question is:
-
-> under partial metabolomics, which additional metabolite measurements are expected to reduce pathway-level ambiguity most effectively?
-
-The framework is built around four linked components:
-
-1. **pathway-level feature construction**
-2. **cross-condition pathway alignment with fused Gromov–Wasserstein (FGW)**
-3. **stability benchmarking under structured perturbations**
-4. **non-trivial metabolite prioritization against an exact reveal oracle**
-
-The repository is therefore **not** a generic pathway enrichment pipeline. It is a **stability-gated identifiability benchmark**.
+*Anas Enoch, MD — Mohammed VI University of Health Sciences (UM6SS), Casablanca, Morocco*
 
 ---
 
-## Current repository layout
+## What this repository is
 
-```text
+This repository implements a **dataset-conditioned pathway underdetermination framework** for partial metabolomics.
+
+The central question is:
+
+> Under incomplete metabolite coverage, which additional measurement is expected to reduce pathway-level structural ambiguity most effectively?
+
+The framework is built around four linked components:
+
+1. **Pathway-level feature construction** — condition-specific node feature matrices from metabolomics cohorts
+2. **Cross-condition alignment** — entropic fused Gromov–Wasserstein (FGW) transport between pathway states
+3. **Regime-aware operator selection** — stability benchmarking under transition-constrained perturbations
+4. **Metabolite prioritization** — commutator-based surrogate ranked against an exact reveal oracle
+
+> **Note on terminology.** The term *pathway underdetermination* is used throughout rather than *pathway identifiability* to avoid confusion with the formal dynamical-systems concept (structural/practical identifiability in the sense of Raue et al. 2009). The framework quantifies operator-level alignment ambiguity under partial observability; the relationship to formal identifiability is an open question.
+
+---
+
+## What this repository is not
+
+- A generic pathway enrichment toolkit
+- A causal inference or flux-balance pipeline
+- A claim that JL projection always improves alignment
+- A system with biologically validated measurement recommendations
+
+The primary benchmark measures **surrogate fidelity**: how efficiently the commutator approximates the expensive oracle re-solve. Biological validation of specific recommendations requires prospective experimental follow-up, which is outside the scope of this computational study.
+
+---
+
+## Repository layout
+
+```
 .
-├── codes/
-├── figures/
 ├── results/
-│   ├── data/
-│   ├── results/
-│   └── scripts/
+│   ├── data/                   # processed metabolomics tables + pathway mappings
+│   ├── scripts/
+│   │   ├── active/             # main pipeline scripts
+│   │   └── *.py                # additional benchmark scripts
+│   └── results/                # benchmark output CSVs
+├── figures/                    # manuscript figures (Fig1–Fig9)
+├── codes/                      # figure-generation assets
+├── ST001849/                   # external validation cohort txt files (place here)
+├── ST002829/                   # external validation cohort txt files (place here)
 ├── README.md
 ├── references.bib
 └── requirements.txt
+```
 
-Main directories
-	•	results/data/
-	•	processed cohort-level metabolomics tables
-	•	pathway mapping file used for pathway restriction
-	•	results/scripts/
-	•	executable Python scripts for each pipeline stage
-	•	results/results/
-	•	benchmark outputs and intermediate result tables
-	•	figures/
-	•	manuscript figures
-	•	codes/
-	•	figure-generation assets or exported figure-related files
+---
 
-⸻
-Cohorts currently used
+## Cohorts
 
-The current benchmark uses three public metabolomics cohorts:
-	•	ST000356
-	•	ST003390
-	•	ST003506
+### Primary benchmark cohorts (three datasets)
 
-These datasets are processed into condition-aware metabolite matrices and then restricted to pathway-specific metabolite subsets.
+| Dataset | Disease context | Source |
+|---------|----------------|--------|
+| ST000356 | Breast cancer serum vs control | Metabolomics Workbench PR000284 |
+| ST003390 | Type 2 diabetes mellitus | Metabolomics Workbench PR002101 |
+| ST003506 | Breast cancer-related lymphedema vs control | Metabolomics Workbench PR002152 |
 
-⸻
+### External validation cohorts (two datasets)
 
-Conceptual pipeline
+These cohorts are evaluated as **computational stress tests of generalisability**, not as biological validation. Both use PCA-derived severity labels and correlation-derived pathway structure without curated edges.
 
-The implemented pipeline is:
-Raw metabolomics
-→ condition parsing
-→ pathway restriction
-→ node feature construction
-→ optional preprocessing operator
-→ FGW alignment
-→ pathway identifiability functional U_k
-→ perturbation-based stability benchmark
-→ metabolite prioritization benchmark against exact oracle
+| Dataset | Disease context | Platform | n | Pathways | Source |
+|---------|----------------|----------|---|----------|--------|
+| ST001849 | COVID-19 severity (mild vs severe) | Untargeted LC/MS | 322 | 19 | Sindelar et al. 2021, PR001166 |
+| ST002829 | COVID-19 severity (LEOCC cohort) | Metabolon 1108-metabolite | 609 | 21 | Mathew et al. 2021, PR001818 |
 
-What the pipeline does
+---
 
-For each pathway:
-	1.	split the dataset into case and control
-	2.	restrict to metabolites observed in that pathway
-	3.	build condition-specific node feature matrices
-	4.	construct a pathway structure matrix
-	5.	apply a selected operator / preprocessing method
-	6.	align case vs control with FGW
-	7.	compute a pathway identifiability score (U_k)
-	8.	evaluate stability under perturbations
-	9.	run a masking benchmark to determine which hidden metabolite most reduces ambiguity when revealed
-
-
-⸻
-
-Main scripts
-
-1. Build pathway-level features
-python3 results/scripts/active/compute_pathway_features.py
-
-This script:
-	•	loads each cohort
-	•	parses the condition labels
-	•	handles the special ST000356 transposed format
-	•	restricts metabolites to each pathway
-	•	writes pathway-specific condition feature files and structure files
-
-2. Compute FGW alignments
-python3 results/scripts/active/compute_fgw_alignment.py
-
-This script:
-	•	reads the pathway feature files
-	•	aligns case and control states for each pathway
-	•	applies one of several preprocessing operators
-	•	writes alignment outputs
-
-3. Compute pathway-level identifiability scores
+## Installation
 
 ```bash
-python3 results/scripts/active/compute_Uk_real.py
-
-This script computes the pathway-level identifiability functional (U_k) from the aligned pathway state.
-
-In the current implementation, (U_k) is derived from:
-	•	the FGW transport plan
-	•	transport entropy
-	•	a structural spectral-gap term computed from the pathway structure matrix
-
-This script provides the scoring layer used by downstream benchmarking and analysis.
-
-4. Run the stability benchmark
-python3 results/scripts/active/run_jl_stability_benchmark.py
-
-This script evaluates operator stability under perturbation regimes.
-
-Implemented perturbation families include:
-	•	noise
-	•	dropout
-	•	bootstrap
-
-Implemented operator / preprocessing methods include:
-	•	none
-	•	l2
-	•	jl
-	•	randproj
-	•	pca_fixed
-	•	pca_var95
-
-The benchmark outputs pathway-level metrics such as:
-	•	cv_fgw
-	•	transport_drift
-	•	delta_U
-	•	top3_jaccard
-	•	rank_tau
-
-This stage is used as an operator-selection layer: unstable operators should not be carried forward into the downstream identifiability benchmark.
-
-5. Run the real multi-pathway benchmark
-python3 results/scripts/run_real_multi_pathway_benchmark.py
-This script runs the non-trivial metabolite-prioritization benchmark.
-
-For each pathway and masking replicate, it:
-	1.	masks a subset of metabolites
-	2.	computes the exact oracle by full reveal:
-[
-\Delta U_k(m)=U_k(\text{masked})-U_k(\text{masked}+m)
-]
-	3.	ranks hidden metabolites by exact reveal to define the oracle
-	4.	evaluates non-oracle predictors against that oracle
-
-Oracle benchmark design
-
-The benchmark is only meaningful when the predictor is not identical to the oracle.
-
-The current benchmark includes multiple predictors:
-	•	gnc_commutator
-	•	surrogate
-	•	variance
-	•	diffabundance
-	•	degree
-	•	random
-	•	mb2d_transport (exploratory / transport-inspired)
-
-Core evaluation metrics
-
-For each predictor:
-	•	regret
-	•	nregret
-	•	top1
-	•	top3
-	•	rank_tau
-
-Recommended evaluation subset
-
-The benchmark is most informative on the non-trivial masking subset: n_hidden >= 2
-Single-hidden-metabolite cases are much easier and can inflate apparent performance.
-
-
-⸻
-
-Recommended workflow
-
-Run the pipeline from the repository root.
-
-Step 1 — create environment
+# Create environment
 python3 -m venv .env
 source .env/bin/activate
 
-Step 2 — install dependencies
+# Install dependencies
 pip install -r requirements.txt
-If needed, install explicitly: pip install numpy pandas scipy scikit-learn POT tqdm
+# or explicitly:
+pip install numpy pandas scipy scikit-learn POT tqdm matplotlib reportlab
+```
 
-Step 3 — build features
+---
+
+## Pipeline execution
+
+### Step 1 — Build pathway-level features
+
+```bash
 python3 results/scripts/active/compute_pathway_features.py
+```
 
-Step 4 — compute pathway-level U_k
+Loads each cohort, parses condition labels, handles the ST000356 transposed format, restricts metabolites to each pathway, and writes condition-specific feature and structure files.
+
+### Step 2 — Compute pathway-level U_k scores
+
+```bash
 python3 results/scripts/active/compute_Uk_real.py
+```
 
-Step 5 — compute alignments
+Computes the underdetermination functional from the FGW transport plan (transport entropy + spectral-gap structural term).
+
+### Step 3 — Compute FGW alignments
+
+```bash
 python3 results/scripts/active/compute_fgw_alignment.py
+```
 
-Step 6 — run stability benchmark
+Aligns case vs control states for each pathway under each preprocessing operator.
+
+### Step 4 — Run the stability benchmark
+
+```bash
 python3 results/scripts/active/run_jl_stability_benchmark.py
+```
 
+Evaluates operator stability under three perturbation families: `noise`, `dropout`, `bootstrap`.
 
-Step 7 — inspect operator stability
-python3 - <<'PY'
+Operators compared: `none`, `l2`, `jl`, `randproj`, `pca_fixed`, `pca_var95`
+
+Inspect results:
+
+```python
 import pandas as pd
 df = pd.read_csv("results/results/jl_stability_benchmark.csv")
 print(
     df.groupby("method")[["cv_fgw","transport_drift","delta_U","top3_jaccard","rank_tau"]]
-      .mean()
-      .round(4)
-      .sort_values("cv_fgw")
-      .to_string()
+      .mean().round(4).sort_values("cv_fgw").to_string()
 )
-PY
+```
 
-Step 8 — run the real multi-pathway benchmark
+> **Operator selection rule:** choose the method with lowest `cv_fgw` and highest `rank_tau`. In the low-node pathway regime tested here, non-projection operators (`none`, `l2`) are stable; `jl` and `randproj` are unstable.
+
+### Step 5 — Run the primary multi-pathway benchmark
+
+```bash
 python3 results/scripts/active/run_real_multi_pathway_benchmark.py
+```
 
-Step 9 — summarize the hard subset
-python3 - <<'PY'
+Runs the metabolite-prioritization benchmark across ST000356, ST003390, ST003506.
+
+Inspect hard-subset results (n_hidden ≥ 2):
+
+```python
 import pandas as pd
 df = pd.read_csv("results/results/real_multi_pathway_results.csv")
-hard = df[df["n_hidden"] >= 2].copy()
-
-print("Rows:", len(hard))
+hard = df[df["n_hidden"] >= 2]
 print(
     hard.groupby("predictor_method")[["regret","nregret","top1","top3","rank_tau"]]
-        .mean()
-        .round(4)
-        .sort_values(["regret","top1"], ascending=[True, False])
-        .to_string()
+        .mean().round(4).sort_values(["regret","top1"], ascending=[True,False]).to_string()
 )
-PY
+```
 
-Step 10 — inspect per-dataset behavior
-python3 - <<'PY'
-import pandas as pd
-df = pd.read_csv("results/results/real_multi_pathway_results.csv")
-hard = df[df["n_hidden"] >= 2].copy()
+### Step 6 — Run external validation benchmarks
 
-print(
-    hard.groupby(["dataset","predictor_method"])[["regret","nregret","top1","top3","rank_tau"]]
-        .mean()
-        .round(4)
-        .to_string()
-)
-PY
+**ST001849:**
 
-Step 11 — inspect pathway heterogeneity
-python3 - <<'PY'
-import pandas as pd
-df = pd.read_csv("results/results/real_multi_pathway_results.csv")
-hard = df[df["n_hidden"] >= 2].copy()
-
-print(
-    hard.groupby(["dataset","pathway","predictor_method"])[["regret","nregret","top1","top3","rank_tau"]]
-        .mean()
-        .round(4)
-        .to_string()
-)
-PY
-
-
-
-⸻
-
-Current interpretation of the pipeline
-
-1. Operator stability comes first
-
-The stability benchmark is not decorative. It is a selection step.
-
-If an operator is unstable under perturbation, it should not be trusted in the downstream benchmark.
-
-In the current low-node pathway regime, non-projection operators are the stable ones, whereas aggressive projection can be unstable.
-
-2. The masking benchmark is now non-trivial
-
-The benchmark is no longer an internal oracle self-check. Predictor scores are evaluated against an exact reveal oracle.
-
-This makes the benchmark a real metabolite-prioritization task.
-
-3. The commutator-based masked-state surrogate is the strongest current predictor
-
-The current best-performing non-oracle prioritization rule is: gnc_commutator
-
-It is built from a masked-state operator-commutator score and is intended to detect which hidden metabolite would most disrupt the current pathway operator when revealed.
-
-4. Performance remains pathway-dependent
-
-Some pathways are structurally easy, some are hard, and predictor performance is not uniform across cohorts. This is a feature of the problem, not a bug.
-
-⸻
-
-Important implementation notes
-
-ST000356 parsing
-
-ST000356 is stored in a non-standard transposed / metadata-row format.
-This is handled explicitly in compute_pathway_features.py and run_real_multi_pathway_benchmark.py.
-
-FGW numerical stability
-
-FGW runs can be numerically sensitive. The scripts use entropic regularization and defensive handling of invalid solves.
-
-Structure matrices
-
-When explicit pathway edges are unavailable, the structure matrix falls back to a correlation-distance construction.
-
-Small pathways
-
-Pathways with very small node counts are harder for:
-	•	projection-based preprocessing
-	•	graded dropout severity
-	•	rank-based evaluation
-
-This should be kept in mind when interpreting results.
-
-⸻
-
-Main output files
-
-Stability benchmark
-results/results/jl_stability_benchmark.csv
-
-
-Contains pathway-level stability summaries for each operator and perturbation regime.
-
-Real multi-pathway benchmark
-results/results/real_multi_pathway_results.csv
-
-Contains trial-level oracle benchmark results across datasets, pathways, mask rates, and predictor methods.
-
-
-
-⸻
-
-Figures
-
-The figures/ directory contains manuscript figures summarizing:
-	•	revised pipeline overview
-	•	operator stability heatmap
-	•	JL vs random projection validation
-	•	global hard-subset benchmark
-	•	per-dataset benchmark comparison
-	•	pathway heterogeneity
-	•	commutator mechanism schematic
-
-These figures reflect the current benchmark state and should be interpreted together with the CSV outputs in results/results/.
-
-⸻
-
-What this repository is and is not
-
-This repository is
-	•	a metabolomic pathway identifiability benchmark
-	•	a stability-gated operator-selection framework
-	•	a non-trivial oracle benchmark for metabolite prioritization
-
-This repository is not
-	•	a generic enrichment toolkit
-	•	a causal pathway inference engine
-	•	a transport phenotyping pipeline
-	•	a universal claim that JL always improves alignment
-
-⸻
-
-Citation
-
-If you use this repository, cite the associated manuscript or preprint once finalized.
-
-A placeholder citation can be added here once the manuscript title and venue are fixed.
-
-⸻
-
-Contact / maintenance
-
-This repository is under active methodological revision.
-If figures, scripts, and outputs disagree, the CSV outputs in results/results/ and the scripts in results/scripts/ should be treated as the source of truth.
-
-Two important notes before you paste this in:
-
-The public repo page I inspected still shows the older README and older repository-structure description, so this replacement is intentionally bringing the README up to the current pipeline rather than preserving the outdated text.  [oai_citation:1‡GitHub](https://github.com/Anas-Enoch/Pathway_Identifiability)
-
-Also, the repo root on GitHub shows `codes/`, `figures/`, and `results/` as the main directories, so the README above is aligned to that top-level structure.  [oai_citation:2‡GitHub](https://github.com/Anas-Enoch/Pathway_Identifiability)
-
-If you want, I can turn this into a **cleaner journal-style README** with a shorter front page and a separate “Reproducibility” section.
-
-
-
-## External validation cohort: ST001849 (COVID-19 severity)
-
-We included a fourth cohort, **ST001849**, as an external validation dataset to test generalizability beyond the original cancer, diabetes, and lymphedema cohorts.
-
-### Files
-- `results/data/ST001849_benchmark_ready.csv`  
-  Benchmark-ready metabolite matrix for ST001849 with:
-  - rows = samples
-  - columns = metabolites
-  - `condition` column
-
-- `results/data/ST001849_pathway_mapping.csv`  
-  Pathway mapping used for ST001849 pathway restriction.
-
-- `results/scripts/active/run_ST001849_benchmark.py`  
-  Cohort-specific benchmark runner for ST001849.
-
-- `results/results/ST001849_benchmark_results.csv`  
-  Output benchmark results for ST001849.
-
-### Cohort definition
-The benchmark uses a balanced severity subset:
-- `severe` = 161 samples
-- `mild` = 161 samples
-
-In the active script, the case/control assignment is explicitly overridden as:
-
-```text
-case = severe
-ctrl = mild
-
-This avoids ambiguity from alphabetical label ordering.
-
-Biological role in the paper
-
-ST001849 serves as a topology-shift validation cohort.
-Unlike the original three cohorts, which are more amino-acid dominated, ST001849 stresses:
-	•	lipid metabolism
-	•	TCA-cycle pathways
-	•	purine / pyrimidine metabolism
-	•	phospholipid and sphingolipid structure
-
-This makes it useful for testing whether the masked-state commutator surrogate remains effective in larger, denser, and more correlated pathway regimes.
-
-Run command
-
-From repository root:
-python3 results/scripts/active/run_ST001849_benchmark.py
-
-
-Output
-
-The script writes:
-results/results/ST001849_benchmark_results.csv
-
-A completed benchmark run contains:
-	•	19 retained pathways
-	•	5 mask rates
-	•	50 trials per mask rate
-	•	7 predictor methods
-	•	33,250 total rows
-
-Interpretation note
-
-The scientifically meaningful subset is: n_hidden >= 2
-
-This excludes trivial masking cases with only one hidden metabolite.
-
-Current benchmark finding
-
-On ST001849, the gnc_commutator predictor is the strongest overall non-oracle predictor on the hard subset (n_hidden >= 2), outperforming variance on:
-	•	regret
-	•	top-1 recovery
-	•	Kendall rank agreement
-
-At the same time, performance is pathway-size dependent: the commutator surrogate is strongest in small-to-medium pathways and attenuates in very large lipid pathways where correlation-derived structure becomes less discriminative.
-
-
-
-
-## External validation cohort: ST002829
-
-The repository includes a fifth cohort, **ST002829**, used as an additional external validation dataset in a Metabolon-style naming regime.
-
-### Files
-- `results/data/ST002829_benchmark_ready.csv`
-- `results/data/ST002829_pathway_mapping.csv`
-- `results/scripts/prep/build_ST002829_pathway_mapping.py`
-- `results/scripts/prep/parse_ST002829.py`
-- `results/scripts/active/run_ST002829_benchmark.py`
-- `results/results/ST002829_benchmark_results.csv`
-
-### Build the pathway mapping
 ```bash
-python3 results/scripts/prep/build_ST002829_pathway_mapping.py
+# Place ST001849_AN*.txt files in ST001849/
+python3 results/scripts/parse_ST001849.py          # generates benchmark_ready CSV
+python3 results/scripts/active/run_ST001849_benchmark.py
+```
 
-Important note
+**ST002829:**
 
-The ST002829 pathway mapping is built from the actual metabolite column names in ST002829_benchmark_ready.csv, rather than reused from ST001849. This is necessary because ST002829 uses Metabolon-style full chemical names, which do not overlap with the lipid shorthand naming used in ST001849.
+```bash
+# Place ST002829_AN004619–AN004622.txt files in ST002829/
+python3 results/scripts/parse_ST002829.py          # generates benchmark_ready CSV
+python3 results/scripts/build_ST002829_pathway_mapping.py
+python3 results/scripts/active/run_ST002829_benchmark.py
+```
 
+Results land in `results/results/ST001849_benchmark_results.csv` and `results/results/ST002829_benchmark_results.csv`.
+
+---
+
+## Benchmark design
+
+### What the benchmark measures
+
+The primary benchmark evaluates **surrogate fidelity**: how accurately each candidate prioritization rule recovers the oracle ranking
+
+```
+m* = argmax_m ΔU_k(m)
+```
+
+where `ΔU_k(m)` is computed by the same underdetermination functional. The oracle and the surrogate are both derived from `U_k`. High fidelity means the commutator efficiently approximates the expensive oracle re-solve — it does not mean the recommendations are biologically validated.
+
+### Predictors compared
+
+| Predictor | Description |
+|-----------|-------------|
+| `gnc_commutator` | Masked-state operator-commutator score (**best overall**) |
+| `surrogate` | Gradient-based underdetermination sensitivity |
+| `variance` | Sample-level metabolite variance |
+| `diffabundance` | Differential abundance between conditions |
+| `degree` | Graph degree centrality in masked pathway |
+| `random` | Uniform random selection (null baseline) |
+| `mb2d_transport` | Transport-inspired exploratory predictor |
+
+> **Note on baselines:** No existing method is purpose-built for the measurement-prioritization problem as formulated here. The baselines are adapted proxies (variance, differential abundance, centrality), and comparisons measure improvement over reasonable heuristics rather than over an optimal purpose-built competitor.
+
+### Evaluation metrics
+
+| Metric | Meaning |
+|--------|---------|
+| `regret` | U_k gap between oracle and predictor choice |
+| `nregret` | Normalized regret |
+| `top1` | Predictor matches oracle top-1 |
+| `top3` | Predictor overlaps oracle top-3 |
+| `rank_tau` | Kendall τ between predictor and oracle ranking |
+
+> **Recommended subset:** `n_hidden >= 2`. Single-hidden-metabolite cases are near-trivial and inflate apparent performance.
+
+---
+
+## Key results
+
+### Primary benchmark (3 cohorts, 29,750 hard-subset rows)
+
+| Cohort | Comm top-1 | Var top-1 | Comm τ | Var τ |
+|--------|-----------|-----------|--------|-------|
+| ST000356 (breast cancer) | 0.969 | 0.831 | 0.815 | 0.086 |
+| ST003390 (type 2 diabetes) | 0.954 | 0.898 | 0.710 | 0.365 |
+| ST003506 (lymphedema) | 0.828 | 0.732 | 0.411 | 0.024 |
+
+### External validation (2 COVID cohorts)
+
+| Cohort | Comm top-1 | Var top-1 | Comm τ | Var τ |
+|--------|-----------|-----------|--------|-------|
+| ST001849 (LC/MS, n=322) | 0.382 | 0.292 | 0.243 | 0.116 |
+| ST002829 (Metabolon, n=609) | 0.348 | 0.255 | 0.172 | 0.072 |
+
+**Operating regime boundary:** commutator advantage is preserved in pathways with |M_k| ≤ 40 nodes and degrades to δτ ≈ −0.006 in large lipid pathways (|M_k| > 40). This threshold is reproduced independently in both external cohorts across different platforms, and is predicted to be resolvable with curated edge topology from LIPID MAPS or Reactome.
+
+---
+
+## Output files
+
+| File | Contents |
+|------|----------|
+| `results/results/jl_stability_benchmark.csv` | Operator stability metrics by method and perturbation |
+| `results/results/real_multi_pathway_results.csv` | Trial-level oracle benchmark (3 primary cohorts) |
+| `results/results/ST001849_benchmark_results.csv` | External validation benchmark — ST001849 |
+| `results/results/ST002829_benchmark_results.csv` | External validation benchmark — ST002829 |
+
+---
+
+## Figures
+
+| File | Description |
+|------|-------------|
+| `Fig1_revised_pipeline.png` | Four-layer pipeline overview |
+| `Fig2_Structural_Ambiguity.pdf` | Structural ambiguity under partial observability |
+| `Fig3_operator_stability_heatmap.png` | Operator stability under perturbation regimes |
+| `Fig4_jl_vs_randproj_validation.png` | Fixed-scale normalization validation |
+| `Fig5_global_hard_subset_benchmark.png` | Global oracle-recovery performance |
+| `Fig6_per_dataset_benchmark.png` | Per-dataset commutator vs variance |
+| `Fig7_pathway_heterogeneity.png` | Pathway-level heterogeneity of performance |
+| `Fig8_external_validation.pdf` | COVID-19 external validation (3-panel) |
+| `Fig9_commutator_mechanism.png` | Commutator mechanism schematic |
+
+---
+
+## Important implementation notes
+
+**ST000356 parsing.** This dataset is stored in a non-standard transposed format with metadata rows. Handled explicitly in `compute_pathway_features.py` and `run_real_multi_pathway_benchmark.py`.
+
+**Condition labels.** ST001849 and ST002829 use `severe`/`mild` labels. An explicit override is needed:
+```python
+CASE_CTRL_OVERRIDE = {
+    "ST001849": ("severe", "mild"),
+    "ST002829": ("severe", "mild"),
+}
+```
+
+**FGW regularization.** All results use `ε = 0.5` (Sinkhorn entropic regularization). Results are stable for ε ∈ [0.25, 1.0]; `ε = 0.1` causes convergence failures in ~18% of pathway solves. Do not normalize the cost matrix by its maximum — use fixed-scale normalization (`M /= sqrt(d)`) to preserve differences between preprocessing methods.
+
+**Structure matrices.** When explicit pathway edges are unavailable, structure falls back to a correlation-distance matrix. This reduces commutator discriminability in large lipid pathways.
+
+**Small pathways.** Pathways with |M_k| ≤ 3 are excluded from benchmarking. Pathways with 4–6 nodes should be interpreted cautiously for projection-based and rank-based metrics.
+
+**Path resolution.** Benchmark scripts use walk-up path resolution (searching up to 6 parent directories for `results/data/`) and run correctly from any nesting depth including `results/scripts/active/`.
+
+---
+
+## Reproducibility checklist
+
+- [ ] Environment created and dependencies installed
+- [ ] Raw cohort CSVs placed in `results/data/`
+- [ ] `core_pathway_mapping.csv` in `results/data/`
+- [ ] `ST001849_pathway_mapping.csv` in `results/data/` (for external validation)
+- [ ] `ST002829_pathway_mapping.csv` in `results/data/` (for external validation)
+- [ ] `CASE_CTRL_OVERRIDE` set correctly for each dataset
+- [ ] `ε = 0.5` in all FGW calls
+- [ ] Operator selected by lowest `cv_fgw` from stability benchmark
+- [ ] Hard subset (`n_hidden >= 2`) used for final evaluation
+
+---
+
+## Citation
+
+If you use this repository, please cite:
+
+> Anas Enoch. *Pathway Identifiability under Partial Metabolomics: Regime-Aware Operator Selection and Commutator-Based Measurement Prioritization.* Manuscript in preparation, 2025.
+
+External cohort citations:
+
+> Sindelar et al. *Longitudinal metabolomics of human plasma reveals prognostic markers of COVID-19 disease severity.* Cell Reports Medicine, 2(8):100369, 2021.
+
+> Mathew et al. *Nucleotide, phospholipid, and kynurenine metabolites are robustly associated with COVID-19 severity.* Metabolomics Workbench ST002829, 2021–2022.
+
+---
+
+## Contact
+
+**Anas Enoch, MD**
+Mohammed VI University of Health Sciences (UM6SS), Casablanca, Morocco
+`anas_nour@um5.ac.ma`
+
+This repository is under active development. If scripts, figures, and CSVs disagree, the CSV outputs in `results/results/` and the scripts in `results/scripts/active/` are the source of truth.
