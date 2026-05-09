@@ -1,0 +1,110 @@
+Metabolite_name,RefMet_name,metabolite_final
+1-arachidonoyl-GPC* (20:4)*,LPC 20:4/0:0,LPC 20:4/0:0
+1-arachidoyl-GPC (20:0),LPC 20:0/0:0,LPC 20:0/0:0
+1-docosahexaenoyl-GPC* (22:6)*,,unknown_metabolite
+1-eicosatrienoyl-GPC* (20:3)*,,unknown_metabolite_1
+1-heptadecanoyl-GPC (17:0),LPC 17:0/0:0,LPC 17:0/0:0
+1-linoleoyl-GPC (18:2),LPC 18:2/0:0,LPC 18:2/0:0
+1-methyladenosine,1-Methyladenosine,1-Methyladenosine
+1-methylguanosine,1-Methylguanosine,1-Methylguanosine
+1-myristoyl-GPC (14:0),LPC 14:0,LPC 14:0
+1-oleoyl-GPC (18:1),LPC 18:1/0:0,LPC 18:1/0:0
+1-palmitoleoyl-GPC* (16:1)*,LPC 16:1/0:0,LPC 16:1/0:0
+1-palmitoyl-GPC (16:0),LPC 16:0/0:0,LPC 16:0/0:0
+1-stearoyl-GPC (18:0),LPC 18:0/0:0,LPC 18:0/0:0
+2-aminoadipate,alpha-Aminoadipic acid,alpha-Aminoadipic acid
+2-arachidonoyl-GPC* (20:4)*,,unknown_metabolite_2
+2^-deoxycytidine,Deoxycytidine,Deoxycytidine
+2-docosahexaenoylglycerophosphoethanolamine*,LPE 0:0/22:6,LPE 0:0/22:6
+2-linoleoyl-GPC* (18:2)*,,unknown_metabolite_3
+2-methylbutyroylcarnitine (C5),CAR 4:0;2Me,CAR 4:0;2Me
+2-palmitoyl-GPC* (16:0)*,LPC 0:0/16:0,LPC 0:0/16:0
+2-stearoyl-GPC* (18:0)*,LPC 18:0,LPC 18:0
+3-dehydrocarnitine*,3-Dehydrocarnitine,3-Dehydrocarnitine
+3-methylcrotonylglycine,3-Methylcrotonylglycine,3-Methylcrotonylglycine
+3-methylglutaroylcarnitine (C6),CAR DC5:0;3Me,CAR DC5:0;3Me
+3-ureidopropionate,Ureidopropionic acid,Ureidopropionic acid
+4-acetamidobutanoate,4-Acetamidobutanoic acid,4-Acetamidobutanoic acid
+4-guanidinobutanoate,4-Guanidinobutanoic acid,4-Guanidinobutanoic acid
+5-methylthioadenosine (MTA),5'-Methylthioadenosine,5'-Methylthioadenosine
+5-oxoproline,Pyroglutamic acid,Pyroglutamic acid
+7-methylguanine,7-Methylguanine,7-Methylguanine
+acetylcarnitine (C2),CAR 2:0,CAR 2:0
+adenosine,Adenosine,Adenosine
+alanine,Alanine,Alanine
+AMP,AMP,AMP
+anthranilate,2-Aminobenzoic acid,2-Aminobenzoic acid
+arginine,Arginine,Arginine
+betaine,Betaine,Betaine
+butyrylcarnitine (C4),CAR 4:0,CAR 4:0
+butyrylglycine (C4),N-Butyrylglycine,N-Butyrylglycine
+carnitine,Carnitine,Carnitine
+C-glycosyltryptophan*,C-Glycosyltryptophan,C-Glycosyltryptophan
+choline,Choline,Choline
+citrulline,Citrulline,Citrulline
+corticosterone,Corticosterone,Corticosterone
+creatine,Creatine,Creatine
+creatinine,Creatinine,Creatinine
+cysteine-glutathione disulfide,S-Glutathionyl-cysteine,S-Glutathionyl-cysteine
+cytidine,Cytidine,Cytidine
+deoxycarnitine,3-Dehydroxycarnitine,3-Dehydroxycarnitine
+dimethylarginine (ADMA + SDMA),Dimethylarginine,Dimethylarginine
+ectoine,Ectoine,Ectoine
+ergothioneine,Ergothioneine,Ergothioneine
+gamma-glutamylalanine,gamma-Glutamylalanine,gamma-Glutamylalanine
+gamma-glutamylglutamine,gamma-Glutamylglutamine,gamma-Glutamylglutamine
+gamma-glutamylisoleucine*,gamma-Glutamylisoleucine,gamma-Glutamylisoleucine
+gamma-glutamylleucine,gamma-Glutamylleucine,gamma-Glutamylleucine
+gamma-glutamylmethionine,gamma-Glutamylmethionine,gamma-Glutamylmethionine
+gamma-glutamylphenylalanine,gamma-Glutamylphenylalanine,gamma-Glutamylphenylalanine
+gamma-glutamyltryptophan,gamma-Glutamyltryptophan,gamma-Glutamyltryptophan
+gamma-glutamyltyrosine,gamma-Glutamyltyrosine,gamma-Glutamyltyrosine
+gamma-glutamylvaline,gamma-Glutamylvaline,gamma-Glutamylvaline
+glutamine,Glutamine,Glutamine
+glutathione_ oxidized (GSSG),Oxidized glutathione,Oxidized glutathione
+glycerophosphorylcholine (GPC),sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+glycylvaline,Gly-Val,Gly-Val
+heme,Heme,Heme
+hexanoylcarnitine (C6),CAR 6:0,CAR 6:0
+homocitrulline,Homocitrulline,Homocitrulline
+homostachydrine*,(S)-Homostachydrine,(S)-Homostachydrine
+hydroxyisovaleroylcarnitine (C5),,unknown_metabolite_4
+imidazole propionate,Imidazole propanoate,Imidazole propanoate
+isobutyrylcarnitine (C4),CAR 3:0;2Me,CAR 3:0;2Me
+isoleucine,Isoleucine,Isoleucine
+isovalerylcarnitine (C5),CAR 4:0;3Me,CAR 4:0;3Me
+kynurenine,Kynurenine,Kynurenine
+laurylcarnitine (C12),CAR 12:0,CAR 12:0
+leucine,Leucine,Leucine
+metacryloyl glycine,,unknown_metabolite_5
+methionine,Methionine,Methionine
+N6-carbamoylthreonyladenosine,N6-Carbamoyl-L-threonyladenosine,N6-Carbamoyl-L-threonyladenosine
+N-acetyl-beta-alanine,N-Acetyl-beta-alanine,N-Acetyl-beta-alanine
+N-acetylisoleucine,N-Acetylisoleucine,N-Acetylisoleucine
+N-acetylleucine,N-Acetylleucine,N-Acetylleucine
+N-delta-acetylornithine*,N(5)-Acetyl-ornithine,N(5)-Acetyl-ornithine
+nicotinamide,Niacinamide,Niacinamide
+octanoylcarnitine (C8),CAR 8:0,CAR 8:0
+oleoylcarnitine (C18),CAR 18:1(9Z),CAR 18:1(9Z)
+ophthalmate,Ophthalmic acid,Ophthalmic acid
+palmitoylcarnitine (C16),CAR 16:0,CAR 16:0
+pantothenate (Vitamin B5),Pantothenic acid,Pantothenic acid
+phenylalanine,Phenylalanine,Phenylalanine
+pipecolate,Pipecolic acid,Pipecolic acid
+proline,Proline,Proline
+prolylhydroxyproline,Pro-hydroxyPro,Pro-hydroxyPro
+propionylcarnitine (C3),CAR 3:0,CAR 3:0
+serotonin (5HT),Serotonin,Serotonin
+sphinganine,Sphinganine,Sphinganine
+sphingosine,Sphingosine,Sphingosine
+stachydrine,Stachydrine,Stachydrine
+succinylcarnitine (C4),CAR DC4:0,CAR DC4:0
+TDTEDKGEFLSEGGGV*,,unknown_metabolite_6
+TDTEDKGEFLSEGGGVR*,,unknown_metabolite_7
+tigloylglycine,Tiglylglycine,Tiglylglycine
+trans-urocanate,Urocanic acid,Urocanic acid
+tryptophan,Tryptophan,Tryptophan
+tyrosine,Tyrosine,Tyrosine
+valine,Valine,Valine
+xanthosine,Xanthosine,Xanthosine
+,,unknown_metabolite_8

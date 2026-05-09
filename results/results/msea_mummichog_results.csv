@@ -1,0 +1,1347 @@
+dataset,pathway,rho,operator_method,predictor_method,n_nodes,n_hidden,delta_star,delta_hat,regret,nregret,top1,top3,rank_tau,m_star,m_hat
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.14339744,-0.14339744,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.14339744,-0.14339744,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.00780727,-0.00780727,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.00780727,-0.00780727,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.36262595,-0.36262595,0.0,0.0,1,0.6667,1.0,Ornithine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.36262595,-0.36262595,0.0,0.0,1,0.6667,1.0,Ornithine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.2152939,-0.5849398,0.3696459,1.71693624,0,0.6667,-1.0,Creatinine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.2152939,-0.5849398,0.3696459,1.71693624,0,0.6667,-1.0,Creatinine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.14339744,-0.14339744,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.14339744,-0.14339744,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.50959956,-0.50959956,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.50959956,-0.50959956,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.14339744,-0.14339744,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.14339744,-0.14339744,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.24363452,-0.24363452,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.24363452,-0.24363452,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.24363452,-0.24363452,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.24363452,-0.24363452,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,0.00606653,0.00606653,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,0.00606653,-0.04812061,0.05418714,8.93214506,0,0.6667,-1.0,Citrulline,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.04933672,-0.04933672,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.04933672,-0.04933672,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.22304699,-0.61718184,0.39413485,1.76704851,0,0.6667,-1.0,Urea,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.22304699,-0.22304699,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.3,none,msea_proxy,6,2,0.00606653,0.00606653,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,6,2,0.00606653,-0.04812061,0.05418714,8.93214506,0,0.6667,-1.0,Citrulline,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,0.00606653,0.00606653,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,0.00606653,-0.04812061,0.05418714,8.93214506,0,0.6667,-1.0,Citrulline,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.04933672,-0.04933672,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.04933672,-0.04933672,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.22304699,-0.61718184,0.39413485,1.76704851,0,0.6667,-1.0,Urea,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.22304699,-0.22304699,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.36778099,-0.50168595,0.13390496,0.36408887,0,0.6667,-1.0,Ornithine,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,0.00606653,0.00606653,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,0.00606653,-0.04812061,0.05418714,8.93214506,0,0.6667,-1.0,Citrulline,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.22304699,-0.61718184,0.39413485,1.76704851,0,0.6667,-1.0,Urea,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.22304699,-0.22304699,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.22304699,-0.61718184,0.39413485,1.76704851,0,0.6667,-1.0,Urea,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.22304699,-0.22304699,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.36262595,-0.36262595,0.0,0.0,1,0.6667,1.0,Ornithine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.36262595,-0.36262595,0.0,0.0,1,0.6667,1.0,Ornithine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.16374437,-0.39948531,0.23574094,1.43968878,0,0.6667,-1.0,Creatinine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.16374437,-0.16374437,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.063864,-0.51218598,0.44832199,7.01994885,0,0.6667,-1.0,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.17147811,-0.17147811,0.0,0.0,1,0.6667,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.00780727,-0.00780727,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.00780727,-0.00780727,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.00780727,-0.00780727,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.00780727,-0.00780727,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.4,none,msea_proxy,6,2,-0.17605319,-0.57225524,0.39620205,2.25046787,0,0.6667,-1.0,Creatinine,Proline
+ST000356,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,6,2,-0.17605319,-0.17605319,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.26854038,-0.60666183,0.33812145,1.25910837,0,1.0,-0.333333,Urea,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.26854038,-0.26854038,0.0,0.0,1,1.0,0.333333,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.26854038,-0.60666183,0.33812145,1.25910837,0,1.0,-0.333333,Urea,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.26854038,-0.26854038,0.0,0.0,1,1.0,0.333333,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.27283786,-0.45941062,0.18657276,0.68382283,0,1.0,-0.333333,Creatinine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.27283786,-0.27283786,0.0,0.0,1,1.0,1.0,Creatinine,Creatinine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.27283786,-0.45941062,0.18657276,0.68382283,0,1.0,-0.333333,Creatinine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.27283786,-0.27283786,0.0,0.0,1,1.0,1.0,Creatinine,Creatinine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.07407925,-0.07407925,0.0,0.0,1,1.0,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.07407925,-0.1606523,0.08657304,1.16865439,0,1.0,0.333333,Citrulline,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.27283786,-0.45941062,0.18657276,0.68382283,0,1.0,-0.333333,Creatinine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.27283786,-0.27283786,0.0,0.0,1,1.0,1.0,Creatinine,Creatinine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.19898407,-0.27887422,0.07989015,0.40149016,0,1.0,-0.333333,Creatinine,Citrulline
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.19898407,-0.27887422,0.07989015,0.40149016,0,1.0,0.333333,Creatinine,Citrulline
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.06527202,-0.06527202,0.0,0.0,1,1.0,0.333333,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.06527202,-0.06527202,0.0,0.0,1,1.0,1.0,Citrulline,Citrulline
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,0.02857399,-0.59467438,0.62324837,21.81173732,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,0.02857399,-0.130609,0.15918299,5.57090526,0,1.0,-0.333333,Citrulline,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.20112311,-0.6258176,0.42469449,2.11161462,0,1.0,0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.20112311,-0.6258176,0.42469449,2.11161462,0,1.0,0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.01480713,-0.59193966,0.57713253,38.9766648,0,1.0,-0.333333,Citrulline,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.45105814,-0.99441431,0.54335617,1.20462556,0,1.0,-1.0,Creatinine,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.45105814,-0.45881123,0.00775309,0.01718866,0,1.0,-0.333333,Creatinine,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.45105814,-0.99441431,0.54335617,1.20462556,0,1.0,-1.0,Creatinine,Arginine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.45105814,-0.45881123,0.00775309,0.01718866,0,1.0,-0.333333,Creatinine,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.27855295,-0.27855295,0.0,0.0,1,1.0,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.27855295,-0.27855295,0.0,0.0,1,1.0,1.0,Urea,Urea
+ST000356,Arginine and Proline Metabolism,0.5,none,msea_proxy,6,3,-0.27283786,-0.45941062,0.18657276,0.68382283,0,1.0,-0.333333,Creatinine,Ornithine
+ST000356,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,6,3,-0.27283786,-0.27283786,0.0,0.0,1,1.0,1.0,Creatinine,Creatinine
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.3357043,-0.76400273,0.42829843,1.27582054,0,0.6667,-1.0,Uric acid,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.3357043,-0.3357043,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.3357043,-0.76400273,0.42829843,1.27582054,0,0.6667,-1.0,Uric acid,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.3357043,-0.3357043,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.3357043,-0.76400273,0.42829843,1.27582054,0,0.6667,-1.0,Uric acid,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.3357043,-0.3357043,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.3357043,-0.76400273,0.42829843,1.27582054,0,0.6667,-1.0,Uric acid,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.3357043,-0.3357043,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.4,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.4,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.3357043,-0.76400273,0.42829843,1.27582054,0,0.6667,-1.0,Uric acid,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.3357043,-0.3357043,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,Succinyladenosine,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31712303,-0.31712303,0.0,0.0,1,0.6667,1.0,1-Methylxanthine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.31053051,-0.31053051,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.3357043,-0.76400273,0.42829843,1.27582054,0,0.6667,-1.0,Uric acid,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.3357043,-0.3357043,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.35925494,-0.69573171,0.33647677,0.93659608,0,0.6667,-1.0,Uric acid,Succinyladenosine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.35925494,-0.35925494,0.0,0.0,1,0.6667,1.0,Uric acid,Uric acid
+ST000356,Purine Metabolism,0.5,none,msea_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Purine Metabolism,0.5,none,mummichog_proxy,4,2,-0.72380445,-0.81562612,0.09182167,0.12685977,0,0.6667,-1.0,Succinyladenosine,1-Methylxanthine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.29390607,-0.29390607,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.29390607,-0.29390607,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.42579067,-0.52871137,0.1029207,0.24171666,0,0.6667,-1.0,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.42579067,-0.52871137,0.1029207,0.24171666,0,0.6667,-1.0,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.3528898,-0.3528898,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.3528898,-0.3528898,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.39561531,-0.39561531,0.0,0.0,1,0.6667,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.39561531,-0.39561531,0.0,0.0,1,0.6667,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.29390607,-0.29390607,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.29390607,-0.29390607,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.45099754,-0.522702,0.07170446,0.15899079,0,0.6667,-1.0,Pseudouridine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.45099754,-0.522702,0.07170446,0.15899079,0,0.6667,-1.0,Pseudouridine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.29390607,-0.29390607,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.29390607,-0.29390607,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.34724041,-0.34724041,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.34724041,-0.34724041,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.34724041,-0.34724041,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.34724041,-0.34724041,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.4271183,-0.4271183,0.0,0.0,1,0.6667,1.0,Pseudouridine,Pseudouridine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.4271183,-0.4514474,0.0243291,0.05696104,0,0.6667,-1.0,Pseudouridine,Uracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.4271183,-0.4271183,0.0,0.0,1,0.6667,1.0,Pseudouridine,Pseudouridine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.4271183,-0.4514474,0.0243291,0.05696104,0,0.6667,-1.0,Pseudouridine,Uracil
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.46822758,-0.54489673,0.07666915,0.16374334,0,0.6667,-1.0,Uracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.46822758,-0.54489673,0.07666915,0.16374334,0,0.6667,-1.0,Uracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.3,none,msea_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.3,none,mummichog_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.4271183,-0.4271183,0.0,0.0,1,0.6667,1.0,Pseudouridine,Pseudouridine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.4271183,-0.4514474,0.0243291,0.05696104,0,0.6667,-1.0,Pseudouridine,Uracil
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.4271183,-0.4271183,0.0,0.0,1,0.6667,1.0,Pseudouridine,Pseudouridine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.4271183,-0.4514474,0.0243291,0.05696104,0,0.6667,-1.0,Pseudouridine,Uracil
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.46822758,-0.54489673,0.07666915,0.16374334,0,0.6667,-1.0,Uracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.46822758,-0.54489673,0.07666915,0.16374334,0,0.6667,-1.0,Uracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.31817072,-0.46876936,0.15059865,0.47332654,0,0.6667,-1.0,Dihydrouracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.41825292,-0.41825292,0.0,0.0,1,0.6667,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.47303185,-0.52040721,0.04737535,0.10015257,0,0.6667,-1.0,Uracil,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.3528898,-0.3528898,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.3528898,-0.3528898,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.31048032,-0.31048032,0.0,0.0,1,0.6667,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.31048032,-0.49037276,0.17989244,0.57940045,0,0.6667,-1.0,Dihydrouracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.43414957,-0.50777648,0.07362691,0.1695888,0,0.6667,-1.0,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.4271183,-0.4271183,0.0,0.0,1,0.6667,1.0,Pseudouridine,Pseudouridine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.4271183,-0.4514474,0.0243291,0.05696104,0,0.6667,-1.0,Pseudouridine,Uracil
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.42579067,-0.52871137,0.1029207,0.24171666,0,0.6667,-1.0,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.42579067,-0.52871137,0.1029207,0.24171666,0,0.6667,-1.0,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.42579067,-0.52871137,0.1029207,0.24171666,0,0.6667,-1.0,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.42579067,-0.52871137,0.1029207,0.24171666,0,0.6667,-1.0,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,msea_proxy,6,2,-0.45373268,-0.55473093,0.10099825,0.22259417,0,0.6667,-1.0,Pseudouridine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.4,none,mummichog_proxy,6,2,-0.45373268,-0.55473093,0.10099825,0.22259417,0,0.6667,-1.0,Pseudouridine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.5763699,-0.66965881,0.0932889,0.16185596,0,1.0,-0.333333,Pseudouridine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.5763699,-0.66965881,0.0932889,0.16185596,0,1.0,-1.0,Pseudouridine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.5763699,-0.66965881,0.0932889,0.16185596,0,1.0,-0.333333,Pseudouridine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.5763699,-0.66965881,0.0932889,0.16185596,0,1.0,-1.0,Pseudouridine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.44507602,-0.44507602,0.0,0.0,1,1.0,0.333333,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.44507602,-0.64691715,0.20184113,0.4534981,0,1.0,-0.333333,Dihydrouracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.44507602,-0.44507602,0.0,0.0,1,1.0,0.333333,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.44507602,-0.64691715,0.20184113,0.4534981,0,1.0,-0.333333,Dihydrouracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.40983312,-0.40983312,0.0,0.0,1,1.0,1.0,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.40983312,-0.40983312,0.0,0.0,1,1.0,0.333333,Cytidine,Cytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.44507602,-0.44507602,0.0,0.0,1,1.0,0.333333,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.44507602,-0.64691715,0.20184113,0.4534981,0,1.0,-0.333333,Dihydrouracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.44229904,-0.44229904,0.0,0.0,1,1.0,0.333333,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.44229904,-0.62377,0.18147096,0.41029019,0,1.0,-0.333333,Dihydrouracil,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.40337824,-0.62426706,0.22088882,0.54759727,0,1.0,-0.333333,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.40337824,-0.62426706,0.22088882,0.54759727,0,1.0,-0.333333,Cytidine,Dihydrothymine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.57872379,-0.68087808,0.10215429,0.17651648,0,1.0,-0.333333,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.57872379,-0.68087808,0.10215429,0.17651648,0,1.0,-0.333333,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.44262662,-0.63148651,0.18885989,0.42667992,0,1.0,-0.333333,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.44262662,-0.63148651,0.18885989,0.42667992,0,1.0,-0.333333,Cytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.61140992,-0.61140992,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.69066261,-0.69066261,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.69066261,-0.69066261,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.69066261,-0.69066261,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.69066261,-0.69066261,0.0,0.0,1,1.0,1.0,5-Methyldeoxycytidine,5-Methyldeoxycytidine
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.39837066,-0.39837066,0.0,0.0,1,1.0,0.333333,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.39837066,-0.39837066,0.0,0.0,1,1.0,1.0,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,msea_proxy,6,3,-0.44507602,-0.44507602,0.0,0.0,1,1.0,0.333333,Dihydrouracil,Dihydrouracil
+ST000356,Pyrimidine Metabolism,0.5,none,mummichog_proxy,6,3,-0.44507602,-0.64691715,0.20184113,0.4534981,0,1.0,-0.333333,Dihydrouracil,Dihydrothymine
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.01915057,-0.554902,0.53575142,27.97573578,0,0.6667,-1.0,Tryptophan,Indole
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.01915057,-0.01915057,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.03298366,-0.79444122,0.76145756,23.08589929,0,0.6667,-1.0,Indoleacrylic acid,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.03298366,-0.03298366,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.01915057,-0.554902,0.53575142,27.97573578,0,0.6667,-1.0,Tryptophan,Indole
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.01915057,-0.01915057,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.3,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.3,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.03298366,-0.79444122,0.76145756,23.08589929,0,0.6667,-1.0,Indoleacrylic acid,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.03298366,-0.03298366,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.42822295,-0.42822295,0.0,0.0,1,0.6667,1.0,Kynurenine,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.01915057,-0.554902,0.53575142,27.97573578,0,0.6667,-1.0,Tryptophan,Indole
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.01915057,-0.01915057,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.24775936,-0.50143307,0.25367371,1.02387132,0,0.6667,-1.0,Kynurenine,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.09195766,-0.4158262,0.50778385,5.52193126,0,0.6667,-1.0,Indoleacrylic acid,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.09195766,0.09195766,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.4,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.4,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.09195766,-0.4158262,0.50778385,5.52193126,0,0.6667,-1.0,Indoleacrylic acid,Kynurenine
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.09195766,0.09195766,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.02134149,-0.57819246,0.55685098,26.09241906,0,0.6667,-1.0,Indoleacrylic acid,Indole
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.02134149,-0.02134149,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.22388378,-0.42849036,0.20460658,0.91389641,0,0.6667,-1.0,Indole,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.03354563,0.01244608,0.02109955,0.62898069,0,0.6667,-1.0,Indoleacrylic acid,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.03298366,-0.79444122,0.76145756,23.08589929,0,0.6667,-1.0,Indoleacrylic acid,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.03298366,-0.03298366,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,-0.06357035,-0.80392836,0.74035801,11.64627867,0,0.6667,-1.0,Tryptophan,3-Indolebutyric acid
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,-0.06357035,-0.06357035,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.04224493,-0.44443936,0.4866843,11.52053624,0,0.6667,-1.0,Tryptophan,Kynurenine
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.04224493,0.04224493,0.0,0.0,1,0.6667,1.0,Tryptophan,Tryptophan
+ST000356,Tryptophan Metabolism,0.5,none,msea_proxy,5,2,0.09195766,-0.4158262,0.50778385,5.52193126,0,0.6667,-1.0,Indoleacrylic acid,Kynurenine
+ST000356,Tryptophan Metabolism,0.5,none,mummichog_proxy,5,2,0.09195766,0.09195766,0.0,0.0,1,0.6667,1.0,Indoleacrylic acid,Indoleacrylic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.48173276,-0.48173276,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.48173276,-0.48173276,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.48437232,-0.49640634,0.01203402,0.02484456,0,0.6667,-1.0,Alanine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.48437232,-0.48437232,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.48173276,-0.48173276,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.48173276,-0.48173276,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.3,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.48437232,-0.49640634,0.01203402,0.02484456,0,0.6667,-1.0,Alanine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.48437232,-0.48437232,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.53944369,-0.53944369,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.48173276,-0.48173276,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.48173276,-0.48173276,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-1.45635004,-1.45635004,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.4842502,-0.58138324,0.09713303,0.2005844,0,0.6667,-1.0,Glutamine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.4842502,-0.4842502,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.4842502,-0.58138324,0.09713303,0.2005844,0,0.6667,-1.0,Glutamine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.4842502,-0.4842502,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.53529356,-0.60484743,0.06955387,0.12993593,0,0.6667,-1.0,Asparagine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.58001146,-0.58001146,0.0,0.0,1,0.6667,1.0,Asparagine,Asparagine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.58001146,-0.63753132,0.05751985,0.0991702,0,0.6667,-1.0,Asparagine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.54496965,-0.61557898,0.07060933,0.12956562,0,0.6667,-1.0,Pyroglutamic acid,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.48437232,-0.49640634,0.01203402,0.02484456,0,0.6667,-1.0,Alanine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.48437232,-0.48437232,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.56726315,-0.56726315,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.56726315,-0.62583846,0.05857531,0.1032595,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.48214566,-0.48214566,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,5,2,-0.4842502,-0.58138324,0.09713303,0.2005844,0,0.6667,-1.0,Glutamine,Aspartic acid
+ST003390,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,5,2,-0.4842502,-0.4842502,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.20744925,-0.20744925,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.20744925,-1.57263254,1.36518329,6.58080617,0,0.6667,-1.0,Citrulline,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.53013176,-0.56351478,0.03338302,0.06297117,0,0.6667,-1.0,Creatine,Arginine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.53013176,-0.53013176,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.20744925,-0.20744925,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.20744925,-1.57263254,1.36518329,6.58080617,0,0.6667,-1.0,Citrulline,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.3,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.3,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.53013176,-0.56351478,0.03338302,0.06297117,0,0.6667,-1.0,Creatine,Arginine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.53013176,-0.53013176,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.52979423,-0.5676977,0.03790348,0.07154377,0,0.6667,-1.0,Citrulline,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.20744925,-0.20744925,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.20744925,-1.57263254,1.36518329,6.58080617,0,0.6667,-1.0,Citrulline,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.52376715,-0.52376715,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.54828456,-0.54828456,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.54828456,-0.54828456,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.4,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.54828456,-0.54828456,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.54828456,-0.54828456,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48267931,-0.48267931,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.48499338,-0.61358711,0.12859373,0.26514533,0,0.6667,-1.0,Citrulline,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.48499338,-0.48499338,0.0,0.0,1,0.6667,1.0,Citrulline,Citrulline
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.28482377,-1.55479635,1.26997258,4.45880116,0,0.6667,-1.0,Creatine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.53013176,-0.56351478,0.03338302,0.06297117,0,0.6667,-1.0,Creatine,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.53013176,-0.53013176,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.31648519,-0.31648519,0.0,0.0,1,0.6667,1.0,Arginine,Arginine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.31648519,-1.55307475,1.23658956,3.9072588,0,0.6667,-1.0,Arginine,Ornithine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.18243173,-0.18243173,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,msea_proxy,5,2,-0.54828456,-0.54828456,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,5,2,-0.54828456,-0.54828456,0.0,0.0,1,0.6667,1.0,Creatinine,Creatinine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.78040189,-0.41133354,1.19173543,1.52707912,0,0.6667,-1.0,Dihydrothymine,Cytidine
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.78040189,0.78040189,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.4,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.4,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.78040189,-0.41133354,1.19173543,1.52707912,0,0.6667,-1.0,Dihydrothymine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.78040189,0.78040189,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.2490845,0.2490845,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.78040189,-0.41133354,1.19173543,1.52707912,0,0.6667,-1.0,Dihydrothymine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.78040189,0.78040189,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.78040189,-0.41133354,1.19173543,1.52707912,0,0.6667,-1.0,Dihydrothymine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.78040189,0.78040189,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.76023581,-0.41133354,1.17156935,1.54106047,0,0.6667,-1.0,Dihydrothymine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.76023581,0.76023581,0.0,0.0,1,0.6667,1.0,Dihydrothymine,Dihydrothymine
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.12919622,0.12919622,0.0,0.0,1,0.6667,1.0,Uracil,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.06709121,-0.51279082,0.57988203,8.64318916,0,0.6667,-1.0,Pseudouridine,Uracil
+ST003390,Pyrimidine Metabolism,0.5,none,msea_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003390,Pyrimidine Metabolism,0.5,none,mummichog_proxy,4,2,0.08725492,-0.51279319,0.60004811,6.87695454,0,0.6667,-1.0,Pseudouridine,Cytidine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.4,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Glutamine,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17805282,-0.17805282,0.0,0.0,1,0.6667,1.0,Alanine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.17188687,-0.17188687,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.2017841,-0.34193229,0.14014818,0.69454521,0,0.6667,-1.0,Pyroglutamic acid,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.20622302,-0.20622302,0.0,0.0,1,0.6667,1.0,Pyroglutamic acid,Pyroglutamic acid
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.20622302,-0.34193229,0.13570927,0.65807042,0,0.6667,-1.0,Pyroglutamic acid,Glutamine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,msea_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Alanine Aspartate Glutamate Metabolism,0.5,none,mummichog_proxy,4,2,-0.19176419,-0.1962031,0.00443891,0.02314777,0,0.6667,-1.0,Glutamine,Alanine
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.4,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.4,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19307822,-0.79000438,0.59692616,3.09162869,0,0.6667,-1.0,Ornithine,Creatinine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19307822,-0.19307822,0.0,0.0,1,0.6667,1.0,Creatine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.19298237,-0.19298237,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.20166499,-0.20166499,0.0,0.0,1,0.6667,1.0,Proline,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.092974,-0.19759659,0.10462259,1.12528867,0,0.6667,-1.0,Ornithine,Proline
+ST003506,Arginine and Proline Metabolism,0.5,none,msea_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Arginine and Proline Metabolism,0.5,none,mummichog_proxy,4,2,-0.2138079,-0.79000438,0.57619649,2.69492613,0,0.6667,-1.0,Ornithine,Creatine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.17923251,-0.17923251,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.17923251,-0.27947511,0.10024261,0.55928809,0,0.6667,-1.0,Choline,Betaine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.4,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.17923251,-0.17923251,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.17923251,-0.27947511,0.10024261,0.55928809,0,0.6667,-1.0,Choline,Betaine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.22931474,-0.22931474,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.17923251,-0.17923251,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.17923251,-0.27947511,0.10024261,0.55928809,0,0.6667,-1.0,Choline,Betaine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.17923251,-0.17923251,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.17923251,-0.27947511,0.10024261,0.55928809,0,0.6667,-1.0,Choline,Betaine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21579956,-0.21579956,0.0,0.0,1,0.6667,1.0,Choline,Choline
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21579956,-0.28143913,0.06563957,0.30416917,0,0.6667,-1.0,Choline,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.18119655,-0.18119655,0.0,0.0,1,0.6667,1.0,sn-Glycero-3-phosphocholine,sn-Glycero-3-phosphocholine
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.21273566,-0.21273566,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,msea_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycerophospholipid Metabolism,0.5,none,mummichog_proxy,4,2,-0.18109256,-0.18109256,0.0,0.0,1,0.6667,1.0,Glycerol,Glycerol
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.09492752,-0.2272018,0.13227427,1.39342381,0,0.6667,-1.0,Serine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.09492752,-0.09492752,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.30109197,-0.30109197,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.30109197,-0.30109197,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.09492752,-0.2272018,0.13227427,1.39342381,0,0.6667,-1.0,Serine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.09492752,-0.09492752,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.09492752,-0.2272018,0.13227427,1.39342381,0,0.6667,-1.0,Serine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.09492752,-0.09492752,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.21915208,-0.3061294,0.08697732,0.3968811,0,0.6667,-1.0,Glycine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.21915208,-0.21915208,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.09492752,-0.2272018,0.13227427,1.39342381,0,0.6667,-1.0,Serine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.09492752,-0.09492752,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.30109197,-0.30109197,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.30109197,-0.30109197,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.3,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.21915208,-0.3061294,0.08697732,0.3968811,0,0.6667,-1.0,Glycine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.21915208,-0.21915208,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.09492752,-0.2272018,0.13227427,1.39342381,0,0.6667,-1.0,Serine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.09492752,-0.09492752,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.30109197,-0.30109197,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.30109197,-0.30109197,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.17043326,-0.17043326,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.1604573,-0.1604573,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.1604573,-0.20487286,0.04441555,0.27680605,0,0.6667,-1.0,Serine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.4,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.1604573,-0.1604573,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.1604573,-0.20487286,0.04441555,0.27680605,0,0.6667,-1.0,Serine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.28154302,-0.36940174,0.08785872,0.31206144,0,0.6667,-1.0,Glycine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.28154302,-0.28154302,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.29948329,-0.30036469,0.0008814,0.00294307,0,0.6667,-1.0,Betaine,Dimethylglycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.29948329,-0.29948329,0.0,0.0,1,0.6667,1.0,Betaine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.1704444,-0.23304525,0.06260086,0.36728023,0,0.6667,-1.0,Glycine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.1704444,-0.1704444,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.21915208,-0.3061294,0.08697732,0.3968811,0,0.6667,-1.0,Glycine,Betaine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.21915208,-0.21915208,0.0,0.0,1,0.6667,1.0,Glycine,Glycine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.26070582,-0.26070582,0.0,0.0,1,0.6667,1.0,Threonine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.18232413,-0.28934054,0.10701641,0.58695691,0,0.6667,-1.0,Serine,Threonine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.18232413,-0.18232413,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,msea_proxy,5,2,-0.1604573,-0.1604573,0.0,0.0,1,0.6667,1.0,Serine,Serine
+ST003506,Glycine Serine Threonine Metabolism,0.5,none,mummichog_proxy,5,2,-0.1604573,-0.20487286,0.04441555,0.27680605,0,0.6667,-1.0,Serine,Glycine
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.13722487,0.13722487,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.13722487,0.12462573,0.01259914,0.09181381,0,0.6667,-1.0,Pyruvic acid,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.13722487,0.13722487,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.13722487,0.12462573,0.01259914,0.09181381,0,0.6667,-1.0,Pyruvic acid,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.13722487,0.13722487,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.13722487,0.12462573,0.01259914,0.09181381,0,0.6667,-1.0,Pyruvic acid,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.13722487,0.13722487,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.13722487,0.12462573,0.01259914,0.09181381,0,0.6667,-1.0,Pyruvic acid,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.4,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.13722487,0.13722487,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.13722487,0.12462573,0.01259914,0.09181381,0,0.6667,-1.0,Pyruvic acid,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.46484841,-0.70976098,2.17460939,1.48452862,0,0.6667,-1.0,Mannose,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.87119184,0.87119184,0.0,0.0,1,0.6667,1.0,Glucose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.17729866,0.17729866,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.17729866,0.12462573,0.05267292,0.29708586,0,0.6667,-1.0,Pyruvic acid,Lactic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,0.13722487,0.13722487,0.0,0.0,1,0.6667,1.0,Pyruvic acid,Pyruvic acid
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,0.13722487,0.12462573,0.01259914,0.09181381,0,0.6667,-1.0,Pyruvic acid,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,msea_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Glycolysis / Gluconeogenesis,0.5,none,mummichog_proxy,4,2,1.42477462,-0.70976098,2.1345356,1.49815667,0,0.6667,-1.0,Mannose,Glucose
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.09685377,-0.33743155,0.24057778,2.48392787,0,0.6667,-1.0,Leucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.09685377,-0.09685377,0.0,0.0,1,0.6667,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.11192091,-0.11192091,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.11192091,-0.11192091,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,0.13426559,-0.43735362,0.57161921,4.25737672,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,0.13426559,-0.43735362,0.57161921,4.25737672,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.37782715,-0.37782715,0.0,0.0,1,0.6667,1.0,3-Methyl-2-oxovaleric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.37782715,-0.37782715,0.0,0.0,1,0.6667,1.0,3-Methyl-2-oxovaleric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.08502306,-0.31955733,0.23453426,2.7584782,0,0.6667,-1.0,Valine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.08502306,-0.08502306,0.0,0.0,1,0.6667,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,0.19567568,-0.40229413,0.59796981,3.05592299,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,0.19567568,-0.40229413,0.59796981,3.05592299,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.37782715,-0.37782715,0.0,0.0,1,0.6667,1.0,3-Methyl-2-oxovaleric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.37782715,-0.37782715,0.0,0.0,1,0.6667,1.0,3-Methyl-2-oxovaleric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.08376666,-0.31272682,0.22896016,2.733309,0,0.6667,-1.0,Valine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.08376666,-0.08376666,0.0,0.0,1,0.6667,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.10601797,-0.34318377,0.2371658,2.23703399,0,0.6667,-1.0,Isoleucine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.10601797,-0.10601797,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,0.23019203,-0.43055332,0.66074535,2.87040936,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Isobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,0.23019203,0.23019203,0.0,0.0,1,0.6667,1.0,3-Hydroxyisobutyric acid,3-Hydroxyisobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.09842932,-0.33002102,0.23159169,2.35287296,0,0.6667,-1.0,Isoleucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.09842932,-0.09842932,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.07463131,-0.28885849,0.21422718,2.87047326,0,0.6667,-1.0,Leucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.07463131,-0.07463131,0.0,0.0,1,0.6667,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.04094197,-0.04992806,0.00898608,0.21948338,0,0.6667,-1.0,Leucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.04094197,-0.04094197,0.0,0.0,1,0.6667,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.38796018,-0.38796018,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.38796018,-0.38796018,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,0.23019203,-0.43055332,0.66074535,2.87040936,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Isobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,0.23019203,0.23019203,0.0,0.0,1,0.6667,1.0,3-Hydroxyisobutyric acid,3-Hydroxyisobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.06009102,-0.06009102,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.06009102,-0.06272256,0.00263154,0.04379249,0,0.6667,-1.0,Isoleucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,0.30619711,-0.05119492,0.35739203,1.16719595,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,0.30619711,-0.05119492,0.35739203,1.16719595,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.06009102,-0.06009102,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.06009102,-0.06272256,0.00263154,0.04379249,0,0.6667,-1.0,Isoleucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.10601797,-0.34318377,0.2371658,2.23703399,0,0.6667,-1.0,Isoleucine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.10601797,-0.10601797,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,msea_proxy,8,2,-0.06009102,-0.06009102,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.2,none,mummichog_proxy,8,2,-0.06009102,-0.06272256,0.00263154,0.04379249,0,0.6667,-1.0,Isoleucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.09842932,-0.33002102,0.23159169,2.35287296,0,0.6667,-1.0,Isoleucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.09842932,-0.09842932,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.07463131,-0.28885849,0.21422718,2.87047326,0,0.6667,-1.0,Leucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.07463131,-0.07463131,0.0,0.0,1,0.6667,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.04094197,-0.04992806,0.00898608,0.21948338,0,0.6667,-1.0,Leucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.04094197,-0.04094197,0.0,0.0,1,0.6667,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.38796018,-0.38796018,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.38796018,-0.38796018,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,0.23019203,-0.43055332,0.66074535,2.87040936,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Isobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,0.23019203,0.23019203,0.0,0.0,1,0.6667,1.0,3-Hydroxyisobutyric acid,3-Hydroxyisobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.06009102,-0.06009102,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.06009102,-0.06272256,0.00263154,0.04379249,0,0.6667,-1.0,Isoleucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,0.30619711,-0.05119492,0.35739203,1.16719595,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,0.30619711,-0.05119492,0.35739203,1.16719595,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.06009102,-0.06009102,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.06009102,-0.06272256,0.00263154,0.04379249,0,0.6667,-1.0,Isoleucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.10601797,-0.34318377,0.2371658,2.23703399,0,0.6667,-1.0,Isoleucine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.10601797,-0.10601797,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.06009102,-0.06009102,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.06009102,-0.06272256,0.00263154,0.04379249,0,0.6667,-1.0,Isoleucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.09842932,-0.33002102,0.23159169,2.35287296,0,0.6667,-1.0,Isoleucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.09842932,-0.09842932,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,0.3121002,-0.05427791,0.36637811,1.1739118,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,0.3121002,-0.05427791,0.36637811,1.1739118,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.072674,-0.27528356,0.20260956,2.78792364,0,0.6667,-1.0,Valine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.072674,-0.072674,0.0,0.0,1,0.6667,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.10601797,-0.34318377,0.2371658,2.23703399,0,0.6667,-1.0,Isoleucine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.10601797,-0.10601797,0.0,0.0,1,0.6667,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.08502306,-0.31955733,0.23453426,2.7584782,0,0.6667,-1.0,Valine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.08502306,-0.08502306,0.0,0.0,1,0.6667,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.01689354,-0.01689354,0.0,0.0,1,0.6667,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.01689354,-0.02851116,0.01161762,0.68769588,0,0.6667,-1.0,Leucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.33710592,-0.33710592,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.33710592,-0.33710592,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,0.30619711,-0.05119492,0.35739203,1.16719595,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,0.30619711,-0.05119492,0.35739203,1.16719595,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.33751522,-0.33751522,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.33751522,-0.33751522,0.0,0.0,1,0.6667,1.0,Ketoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,msea_proxy,8,2,-0.08376666,-0.31272682,0.22896016,2.733309,0,0.6667,-1.0,Valine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.3,none,mummichog_proxy,8,2,-0.08376666,-0.08376666,0.0,0.0,1,0.6667,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.13010907,-0.36919497,0.2390859,1.83758056,0,1.0,-0.333333,Isoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.13010907,-0.36919497,0.2390859,1.83758056,0,1.0,0.333333,Isoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.20920781,-0.13290512,0.34211294,1.63527801,0,1.0,-0.333333,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.20920781,-0.13290512,0.34211294,1.63527801,0,1.0,0.333333,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.07235685,-0.28846543,0.21610859,2.9867054,0,1.0,-1.0,Valine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.07235685,-0.07235685,0.0,0.0,1,1.0,0.333333,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.0805811,-0.36104231,0.28046121,3.48048373,0,1.0,-1.0,Valine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.0805811,-0.0805811,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.09011809,-0.40704187,0.31692378,3.51676091,0,1.0,-1.0,Valine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.09011809,-0.09011809,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.09966415,-0.40858454,0.30892039,3.09961381,0,1.0,-1.0,Valine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.09966415,-0.09966415,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.15557976,-0.38808943,0.23250966,1.49447241,0,1.0,-0.333333,Valine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.15557976,-0.15557976,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.29048789,-0.00015646,0.29064435,1.0005386,0,1.0,-0.333333,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.29048789,-0.04422038,0.33470827,1.15222795,0,1.0,-1.0,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.13010907,-0.36919497,0.2390859,1.83758056,0,1.0,-0.333333,Isoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.13010907,-0.36919497,0.2390859,1.83758056,0,1.0,0.333333,Isoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.14433263,-0.43809472,0.2937621,2.03531317,0,1.0,-0.333333,Valine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.14433263,-0.14433263,0.0,0.0,1,1.0,0.333333,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.19608135,-0.39039628,0.58647763,2.99099135,0,1.0,-1.0,3-Hydroxyisobutyric acid,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.19608135,-0.08336098,0.27944234,1.42513469,0,1.0,-0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.23478033,-0.48853482,0.72331515,3.08081667,0,1.0,-1.0,3-Hydroxyisobutyric acid,Isobutyric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.23478033,-0.10917642,0.34395675,1.46501519,0,1.0,0.333333,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.32205429,-0.03407088,0.35612517,1.10579235,0,1.0,-1.0,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.32205429,-0.03098789,0.35304218,1.09621946,0,1.0,-0.333333,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.13258062,-0.40581151,0.27323089,2.06086594,0,1.0,-0.333333,Valine,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.13258062,-0.13258062,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.02812952,-0.071327,0.04319748,1.53566371,0,1.0,-0.333333,Leucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.02812952,-0.0499101,0.02178058,0.77429634,0,1.0,0.333333,Leucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.1473457,-0.46067348,0.60801917,4.12648074,0,1.0,-0.333333,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.1473457,-0.46067348,0.60801917,4.12648074,0,1.0,0.333333,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.09966415,-0.40858454,0.30892039,3.09961381,0,1.0,-1.0,Valine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.09966415,-0.09966415,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.09325716,-0.36235232,0.26909516,2.88551726,0,1.0,-0.333333,Leucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.09325716,-0.09325716,0.0,0.0,1,1.0,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,0.1473457,-0.46067348,0.60801917,4.12648074,0,1.0,-0.333333,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,0.1473457,-0.46067348,0.60801917,4.12648074,0,1.0,0.333333,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,msea_proxy,8,3,-0.11657883,-0.3875178,0.27093897,2.3240839,0,1.0,0.333333,Isoleucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.4,none,mummichog_proxy,8,3,-0.11657883,-0.11657883,0.0,0.0,1,1.0,1.0,Isoleucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.01747047,-0.57544623,0.55797576,31.93822335,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.01747047,-0.13079552,0.11332505,6.48666279,0,0.6667,-0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.10746936,-0.46909017,0.57655952,5.36487365,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.10746936,-0.11584115,0.22331051,2.07789935,0,1.0,0.333333,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.05345525,-0.24855781,0.30201307,5.64982958,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.05345525,-0.22482911,0.27828436,5.20593114,0,1.0,0.333333,3-Hydroxyisobutyric acid,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.1701483,-0.46126571,0.63141401,3.71096273,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.1701483,-0.10977801,0.27992632,1.64519016,0,1.0,0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.01557709,-0.07223589,0.05665879,3.6373153,0,0.6667,0.0,Leucine,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.01557709,-0.0968175,0.08124041,5.21537726,0,1.0,0.333333,Leucine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.23427193,-0.72955189,0.49527997,2.11412425,0,0.6667,-0.333333,3-Hydroxyisobutyric acid,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.23427193,-0.68279335,0.44852142,1.91453335,0,1.0,0.333333,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.00286533,-0.34199159,0.33912626,118.35514761,0,0.6667,-1.0,Valine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.00286533,-0.00286533,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.04472734,-0.36429469,0.31956734,7.14478684,0,0.6667,0.0,Leucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.04472734,-0.04472734,0.0,0.0,1,1.0,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.1701483,-0.46126571,0.63141401,3.71096273,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.1701483,-0.10977801,0.27992632,1.64519016,0,1.0,0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.04480616,-0.36324741,0.31844125,7.10708673,0,0.6667,-0.333333,Leucine,Ketoisovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.04480616,-0.04480616,0.0,0.0,1,1.0,1.0,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.14057815,-0.46564809,0.60622624,4.31237883,0,0.6667,-0.333333,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.14057815,-0.13787973,0.27845788,1.98080485,0,1.0,0.333333,3-Hydroxyisobutyric acid,Isoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.11157676,-0.39365741,0.28208065,2.52813085,0,0.6667,-0.333333,Leucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.11157676,-0.11157676,0.0,0.0,1,0.6667,0.666667,Leucine,Leucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.09020132,-0.57675824,0.66695956,7.3941221,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.09020132,-0.13906052,0.22926184,2.54166834,0,0.6667,-0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.28339523,-0.41413454,0.69752977,2.46133207,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,3-Methyl-2-oxovaleric acid
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.28339523,-0.08363408,0.36702931,1.29511465,0,0.6667,-0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.23950271,-0.75208472,0.51258201,2.14019294,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.23950271,-0.75208472,0.51258201,2.14019294,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.09020132,-0.57675824,0.66695956,7.3941221,0,0.6667,-1.0,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.09020132,-0.13906052,0.22926184,2.54166834,0,0.6667,-0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.12667922,-0.46491012,0.59158934,4.66997919,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.12667922,-0.1087318,0.23541103,1.85832387,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.15490407,-0.45878786,0.61369193,3.96175471,0,0.6667,-0.666667,3-Hydroxyisobutyric acid,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.15490407,-0.10554821,0.26045228,1.68137788,0,1.0,0.333333,3-Hydroxyisobutyric acid,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,0.01737968,-0.25428062,0.2716603,15.63091276,0,0.6667,-0.666667,Valine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,0.01737968,0.01737968,0.0,0.0,1,1.0,1.0,Valine,Valine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,msea_proxy,8,4,-0.07498281,-0.37122849,0.29624568,3.95084782,0,1.0,0.333333,Isoleucine,Ketoleucine
+ST003506,Valine Leucine Isoleucine Degradation,0.5,none,mummichog_proxy,8,4,-0.07498281,-0.37122849,0.29624568,3.95084782,0,1.0,0.666667,Isoleucine,Ketoleucine
