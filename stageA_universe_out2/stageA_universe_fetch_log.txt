@@ -1,0 +1,5 @@
+https://www.ebi.ac.uk/metabolights/ws/studies	200	44057	ab75239627892cc26cd9018da715b774bfdc9235c3096ce2101a84f6e734436d	elapsed=5.9s
+https://www.ebi.ac.uk/metabolights/ws/studies	200	44057	ab75239627892cc26cd9018da715b774bfdc9235c3096ce2101a84f6e734436d	elapsed=4.9s
+https://www.ebi.ac.uk/metabolights/ws/studies	200	44057	ab75239627892cc26cd9018da715b774bfdc9235c3096ce2101a84f6e734436d	elapsed=4.0s
+https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/	200	721989	4434ad5030e6a753ab631c98f6fe19db41841b4088f0c9d681e1839df3b094f4	elapsed=202.1s
+https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/	200	721989	4434ad5030e6a753ab631c98f6fe19db41841b4088f0c9d681e1839df3b094f4	elapsed=192.7s

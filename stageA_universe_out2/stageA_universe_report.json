@@ -1,0 +1,167 @@
+{
+  "version": "0.1.1",
+  "list_url": "https://www.ebi.ac.uk/metabolights/ws/studies",
+  "root_url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/",
+  "list_repeats": [
+    {
+      "sha256": "ab75239627892cc26cd9018da715b774bfdc9235c3096ce2101a84f6e734436d",
+      "bytes": 44057,
+      "headers": {
+        "Cache-Control": "no-store,no-cache",
+        "Content-Type": "application/json",
+        "Date": "Sun, 25 Oct 2026 21:40:39 GMT",
+        "Content-Length": "44057"
+      },
+      "json_keys": [
+        "content",
+        "studies"
+      ],
+      "pagination_like_keys": [],
+      "n_tokens": 3584,
+      "n_conforming": 3584,
+      "n_unique": 3584,
+      "duplicates": [],
+      "non_conforming": [],
+      "min": 1,
+      "max": 16154
+    },
+    {
+      "sha256": "ab75239627892cc26cd9018da715b774bfdc9235c3096ce2101a84f6e734436d",
+      "bytes": 44057,
+      "headers": {
+        "Cache-Control": "no-store,no-cache",
+        "Content-Type": "application/json",
+        "Date": "Sun, 25 Oct 2026 21:40:43 GMT",
+        "Content-Length": "44057"
+      },
+      "json_keys": [
+        "content",
+        "studies"
+      ],
+      "pagination_like_keys": [],
+      "n_tokens": 3584,
+      "n_conforming": 3584,
+      "n_unique": 3584,
+      "duplicates": [],
+      "non_conforming": [],
+      "min": 1,
+      "max": 16154
+    },
+    {
+      "sha256": "ab75239627892cc26cd9018da715b774bfdc9235c3096ce2101a84f6e734436d",
+      "bytes": 44057,
+      "headers": {
+        "Cache-Control": "no-store,no-cache",
+        "Content-Type": "application/json",
+        "Date": "Sun, 25 Oct 2026 21:40:52 GMT",
+        "Content-Length": "44057"
+      },
+      "json_keys": [
+        "content",
+        "studies"
+      ],
+      "pagination_like_keys": [],
+      "n_tokens": 3584,
+      "n_conforming": 3584,
+      "n_unique": 3584,
+      "duplicates": [],
+      "non_conforming": [],
+      "min": 1,
+      "max": 16154
+    }
+  ],
+  "root_repeats": [
+    {
+      "sha256": "4434ad5030e6a753ab631c98f6fe19db41841b4088f0c9d681e1839df3b094f4",
+      "bytes": 721989,
+      "headers": {
+        "Date": "Sun, 25 Oct 2026 21:40:57 GMT",
+        "Server": "Apache",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "text/html;charset=UTF-8"
+      },
+      "navigation_hrefs_ignored": [
+        "/pub/databases/metabolights/studies/"
+      ],
+      "n_tokens": 3596,
+      "n_conforming": 3596,
+      "n_unique": 3596,
+      "duplicates": [],
+      "non_conforming": [],
+      "min": 1,
+      "max": 16154
+    },
+    {
+      "sha256": "4434ad5030e6a753ab631c98f6fe19db41841b4088f0c9d681e1839df3b094f4",
+      "bytes": 721989,
+      "headers": {
+        "Date": "Sun, 25 Oct 2026 21:44:28 GMT",
+        "Server": "Apache",
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "text/html;charset=UTF-8"
+      },
+      "navigation_hrefs_ignored": [
+        "/pub/databases/metabolights/studies/"
+      ],
+      "n_tokens": 3596,
+      "n_conforming": 3596,
+      "n_unique": 3596,
+      "duplicates": [],
+      "non_conforming": [],
+      "min": 1,
+      "max": 16154
+    }
+  ],
+  "halted": null,
+  "verdict": "BOUNDED",
+  "reasons": [],
+  "comparison": {
+    "n_rest": 3584,
+    "n_mirror": 3596,
+    "n_both": 3584,
+    "n_either": 3596,
+    "rest_only": [],
+    "mirror_only": [
+      "MTBLS9",
+      "MTBLS30",
+      "MTBLS202",
+      "MTBLS224",
+      "MTBLS351",
+      "MTBLS539",
+      "MTBLS557",
+      "MTBLS643",
+      "MTBLS728",
+      "MTBLS926",
+      "MTBLS4938",
+      "MTBLS14881"
+    ],
+    "list_repeats_identical_bytes": true,
+    "list_repeats_identical_sets": true,
+    "root_repeats_identical_sets": true
+  },
+  "census_universe": {
+    "definition": "REST \u2229 mirror (both interfaces list the accession as public)",
+    "n": 3584,
+    "band": [
+      3584,
+      3596
+    ],
+    "unresolved_accessions": [
+      "MTBLS9",
+      "MTBLS30",
+      "MTBLS202",
+      "MTBLS224",
+      "MTBLS351",
+      "MTBLS539",
+      "MTBLS557",
+      "MTBLS643",
+      "MTBLS728",
+      "MTBLS926",
+      "MTBLS4938",
+      "MTBLS14881"
+    ]
+  },
+  "manifest_rows": 3596,
+  "manifest_sha256": "3e483c7a2f5a4dd9968d404f78b45ec4d5583c15d75915550b315ee5720c9dc5",
+  "run_utc": "2026-10-25T21:47:33Z"
+}

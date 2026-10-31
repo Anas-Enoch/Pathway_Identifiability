@@ -1,0 +1,38 @@
+{
+  "version": "0.1.1",
+  "protocol": "EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.6.9.md",
+  "requests": {
+    "LIST": "https://www.ebi.ac.uk/metabolights/ws/studies",
+    "LIST_repeats": 3,
+    "FTPROOT": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/",
+    "FTPROOT_repeats": 2,
+    "pause_s": 2.0,
+    "nothing_else": "no study folder, no study file, no value; redirects never followed"
+  },
+  "verdict_rules": [
+    "ESTABLISHED_BY_CONCORDANCE: stable repeats, REST set == mirror set, no pagination-like key/header, no duplicates/non-conforming tokens",
+    "BOUNDED: stable repeats, sets differ; universe = REST \u2229 mirror; band [|\u2229|,|\u222a|]; difference listed, UNRESOLVED, never screened",
+    "UNRESOLVED: anything else; census stays blocked"
+  ],
+  "outputs": [
+    "stageA_universe_manifest.csv",
+    "stageA_universe_report.json",
+    "stageA_universe_fetch_log.txt",
+    "SHA256SUMS.txt"
+  ],
+  "hashes": {
+    "stageA_universe_audit.py": "ce874158b843a3a7eedd318894140c40c015dd5bd8fa90e1c2d83dcadadfda4b",
+    "EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.6.9.md": "6e6b095bad1efe8ee8eb33b1845abc983a6ca2df40314d1e4a7ab8c51c63b2e6",
+    "stageA_universe_authorisation.txt": "73e97e5dce20c26ea34b594cf86b4ec7e4dc97d3c5a0eb33a7b3da227b3843ec"
+  },
+  "authorisation_file": {
+    "present": true,
+    "valid": true,
+    "line": "LIVE UNIVERSE AUDIT AUTHORISED 2026-10-25 protocol=EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.6.9.md owner=Anas",
+    "date": "2026-10-25",
+    "protocol": "EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.6.9.md",
+    "owner": "Anas"
+  },
+  "owner_signoff": "Anas 2026-10-25T21:40:24Z",
+  "created_utc": "2026-10-25T21:40:13Z"
+}
