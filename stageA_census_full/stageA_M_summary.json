@@ -1,0 +1,61 @@
+{
+  "version": "0.1.8",
+  "isa_version": "0.2.2",
+  "n_screened": 3582,
+  "status_counts": {
+    "EXCLUDED": 2449,
+    "FETCH_HTTP_403": 2,
+    "FORMAT_REFUSED": 61,
+    "INDEX_UNRECOGNISED": 2,
+    "TRANSPORT_FAILED": 11,
+    "UNRESOLVED": 1047,
+    "UNRESOLVED_STRUCTURE": 10
+  },
+  "rule_counts": {
+    "EXCLUDED:3.4": 1,
+    "EXCLUDED:M1": 2321,
+    "EXCLUDED:M4": 67,
+    "EXCLUDED:M5/M7": 60,
+    "FETCH_HTTP_403:3.3": 2,
+    "FORMAT_REFUSED:3.3": 61,
+    "INDEX_UNRECOGNISED:3.3": 2,
+    "TRANSPORT_FAILED:3.3": 11,
+    "UNRESOLVED:M1": 3,
+    "UNRESOLVED:M2": 293,
+    "UNRESOLVED:M3": 13,
+    "UNRESOLVED:M4": 1,
+    "UNRESOLVED:M5": 737,
+    "UNRESOLVED_STRUCTURE:A23": 10
+  },
+  "L1_strict": 0,
+  "L1_sensitivity": 0,
+  "L1_unresolved": 1047,
+  "subject_grades_among_screened": {
+    "-": 2785,
+    "EXCLUDED": 60,
+    "SOURCE_DEGENERATE": 121,
+    "SOURCE_UNIQUE": 616
+  },
+  "L2_preliminary": {
+    "confirmed": 0,
+    "unresolved_FEATURE_COUNT_UNKNOWN": 0,
+    "excluded": 0
+  },
+  "L2_confirmed_status": "NOT_ASSESSED",
+  "D3_metadata_units": 0,
+  "D3_metadata_units_strict": 0,
+  "D3_metadata_units_by_stratum": {},
+  "L3_confirmed_status": "NOT_ASSESSED",
+  "artefacts_not_for_publication": [
+    "stageA_census_checkpoint.jsonl"
+  ],
+  "identifier_hashing": "deterministic pseudonymisation (constant prefix); not anonymisation; hashes only in the checkpoint",
+  "transport_failed": 11,
+  "structure_unresolved": 10,
+  "access_refused": 0,
+  "format_refused": 61,
+  "D3_suspected_overlap_flags": 0,
+  "n_requests_this_invocation": 1309,
+  "run_utc": "2026-10-28T18:56:15Z",
+  "n_requests_cumulative": 21050
+}

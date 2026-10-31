@@ -1,0 +1,40 @@
+{
+  "version": "0.1.8",
+  "protocol": "EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.7.8.md",
+  "isa_version": "0.2.2",
+  "requests_per_study": [
+    "FTPDIR names-only index",
+    "FETCH of every listed i_/s_/a_ (guards: name class, host, redirect, size, binary)"
+  ],
+  "never": [
+    "REST",
+    "m_ files",
+    "FILES/",
+    "raw/derived",
+    "any value",
+    "redirect destinations",
+    "retries within a run"
+  ],
+  "rules": "protocol \u00a72 D1\u2013D4, \u00a73.3\u20133.6, \u00a75, \u00a76; stagea_isa frozen recogniser; MIN_N 50; exemplars MTBLS1, MTBLS2 excluded (A7)",
+  "failure_policy": "per-study TRANSPORT_FAILED / FORMAT_REFUSED / INDEX_*; census continues; separate disclosed --retry-pass only",
+  "pause_s": 0.5,
+  "hashes": {
+    "stageA_census.py": "2b9880a64307e4c6c451c09d494fecc846f5ddb9ad43a7598eb5404554729744",
+    "stagea_isa.py": "9cf7b0cde7abe672882b14a26463a06947853cb8f4acd0887a1f8586595ccd8a",
+    "EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.7.8.md": "b7e5aa95392a6c1b3184a7fdf1db82db2eb547d02f1c2643deea316af9f3e8f4",
+    "stageA_census_authorisation.txt": "bf88b81bd98a0230f9332208da020b8308f05c18f1d93405bafada74406730e0",
+    "stageA_universe_manifest.csv": "3e483c7a2f5a4dd9968d404f78b45ec4d5583c15d75915550b315ee5720c9dc5"
+  },
+  "authorisation_file": {
+    "present": true,
+    "valid": true,
+    "line": "LIVE STAGE A CENSUS AUTHORISED 2026-10-28 universe=3e483c7a2f5a4dd9968d404f78b45ec4d5583c15d75915550b315ee5720c9dc5 protocol=EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.7.8.md owner=Anas",
+    "date": "2026-10-28",
+    "universe_sha256": "3e483c7a2f5a4dd9968d404f78b45ec4d5583c15d75915550b315ee5720c9dc5",
+    "protocol": "EXTERNAL_DATA_FEASIBILITY_PROTOCOL_v0.7.8.md",
+    "owner": "Anas",
+    "pilot": null
+  },
+  "owner_signoff": "Anas 2026-10-28T13:17:29Z",
+  "created_utc": "2026-10-28T13:17:29Z"
+}
