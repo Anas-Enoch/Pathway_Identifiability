@@ -1,0 +1,82 @@
+[
+ {
+  "accession": "MTBLS916",
+  "deposit_title": "Fecal Metabolomics and Potential Biomarkers for Systemic Lupus Erythematosus",
+  "chosen_assay_matrix": "feces",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC6509220.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS1122",
+  "deposit_title": "Sex Differences in Colon Cancer Metabolism Reveal A Novel Subphenotype (UPLC-MS HILIC POS assay)",
+  "chosen_assay_matrix": "colon",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC7078199.view.txt",
+   "S2_PMC8875032.view.txt",
+   "S3_PMC9334349.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS2774",
+  "deposit_title": "Altered metabolome and microbiome features provide clues in understanding irritable bowel syndrome and depression comorbidity",
+  "chosen_assay_matrix": "feces",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC8940891.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS8920",
+  "deposit_title": "Use of UHPLC-HRMS to profile the metabolites from the serum of breast cancer patients",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS9586",
+  "deposit_title": "Discovery and validation of potential serum biomarkers for heart failure by untargeted metabolomics",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC11338663.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS10304",
+  "deposit_title": "Blood pseudotargeted metabolome of moyamoya disease",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC10689969.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12058",
+  "deposit_title": "Untargeted Lipidomics Profiling Provides Novel Insights into Pediatric Patients with Sepsis: An Exploratory Study",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12372",
+  "deposit_title": "Metabolomic Profiling of Renal Cyst Fluid in Advanced ADPKD: Insights from Dialysis and Transplantation Cohorts",
+  "chosen_assay_matrix": "kidney",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC12202516.view.txt"
+  ]
+ }
+]

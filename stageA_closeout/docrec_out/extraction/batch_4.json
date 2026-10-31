@@ -1,0 +1,82 @@
+[
+ {
+  "accession": "MTBLS89",
+  "deposit_title": "The HuMet Repository: Watching human metabolism at work",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2M_MTBLS89_S2.view.txt",
+   "S3_PMC13568824.view.txt",
+   "S3_PMC9540193.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS1584",
+  "deposit_title": "Plasma Lipid Profile Reveals Plasmalogens as Potential Biomarkers for Colon Cancer Screening",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC7345851.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS2291",
+  "deposit_title": "Metabolome and exposome profiling of the biospecimens from COVID-19 patients in India (Blood plasma assay)",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC13372841.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS10634",
+  "deposit_title": "Targeted metabolomic profiling of myocardial remodeling after STEMI",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC12754600.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS10972",
+  "deposit_title": "Acute response to a high-saturated, high-refined carbohydrate meal in healthy young men shows novel perturbation of multiple metabolic and defense pathways",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12590",
+  "deposit_title": "Characterization of the nasal microbiome and metabolome in children with Henoch-Schonlein purpura and children with Henoch-Schonlein purpura nephritis",
+  "chosen_assay_matrix": "nasal flora",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12655",
+  "deposit_title": "Identification and Validation of Plasma Lipid Biomarkers for Oral Cancer Diagnosis",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC13357813.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS15433",
+  "deposit_title": "Untargeted Plasma Metabolomic Profiling of Parkinson’s Disease",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC13710375.view.txt"
+  ]
+ }
+]

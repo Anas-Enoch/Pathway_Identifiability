@@ -1,0 +1,69 @@
+[
+ {
+  "accession": "MTBLS20",
+  "deposit_title": "Annotation of the human adult urinary metabolome and metabolite identification using ultra high performance liquid chromatography coupled to a LTQ-Orbitrap mass spectrometer",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS20_LC-MS_439020neg_LCMS_metid_urine.txt",
+   "S1_a_MTBLS20_LC-MS_439020pos_LCMS_metid_urine-1.txt",
+   "S1_a_MTBLS20_LC-MS_439033neg_LCMS_metid_urine-2.txt",
+   "S1_a_MTBLS20_LC-MS_439033pos_LCMS_metid_urine-3.txt",
+   "S1_a_MTBLS20_MS_MS2neg_FIAMS2_metid_urine.txt",
+   "S1_a_MTBLS20_MS_MS2pos_FIAMS2_metid_urine-1.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS20.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12824",
+  "deposit_title": "Delayed molecular aging, preservation of energy metabolism and enhanced exercise response in exercise-trained human muscle",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS12824_LC-MS_negative_hilic_metabolite_profiling-1.txt",
+   "S1_a_MTBLS12824_LC-MS_negative_hilic_metabolite_profiling.txt",
+   "S1_a_MTBLS12824_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+   "S1_a_MTBLS12824_LC-MS_positive_hilic_metabolite_profiling.txt",
+   "S1_a_MTBLS12824_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS12824.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS14358",
+  "deposit_title": "Decoding the Human Gut Bacterial Plasmids in Colorectal Cancer",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS14358_LC-MS_negative_reverse-phase.txt",
+   "S1_a_MTBLS14358_LC-MS_positive_hilic.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS14358.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS15004",
+  "deposit_title": "Gut Microbiota Dysbiosis and Hypercholesterolemia Are Associated with Bone Metastasis in Non-Small Cell Lung Cancer",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS15004_LC-MS_negative_hilic.txt",
+   "S1_a_MTBLS15004_LC-MS_positive_hilic.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS15004.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS15165",
+  "deposit_title": "Differential Metabolomic Biomarkers Analysis of Apheresis Platelet Storage Based on Machine Learning Models",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS15165_LC-MS_negative_reverse-phase.txt",
+   "S1_a_MTBLS15165_LC-MS_positive_reverse-phase.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS15165.txt"
+  ]
+ }
+]

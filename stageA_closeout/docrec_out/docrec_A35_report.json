@@ -1,0 +1,15 @@
+{
+ "N_A35_verified": 3,
+ "docrec_version": "0.1.1",
+ "missing_records": [],
+ "n_records": 19,
+ "n_sealed": 19,
+ "stale_adjudication_rows": [],
+ "status_counts": {
+  "FAILED": 8,
+  "INVALID": 0,
+  "UNVERIFIABLE": 8,
+  "VERIFIED": 3
+ },
+ "tranche": "A35"
+}

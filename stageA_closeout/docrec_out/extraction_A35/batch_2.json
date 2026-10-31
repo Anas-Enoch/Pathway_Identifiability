@@ -1,0 +1,61 @@
+[
+ {
+  "accession": "MTBLS13136",
+  "deposit_title": "Targeted metabolomic profiling and machine learning-based prediction models for persistent atrial fibrillation: a multi-center observational study",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS13136_LC-MS_alternating_reverse-phase_metabolite_profiling.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS13136.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS13634",
+  "deposit_title": "Dynamic Changes and Clinical Significance of Gut Microbiota and Serum Metabolites in Breast Cancer Onset, Progression and Chemotherapy Intervention",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS13634_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+   "S1_a_MTBLS13634_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS13634.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS13827",
+  "deposit_title": "Salivary Multi-omics Characterization and Staging Diagnostic Model for Type 2 Diabetes with Different Stages of Periodontitis",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS13827_LC-MS_negative_reverse-phase_metabolite_profiling.txt",
+   "S1_a_MTBLS13827_LC-MS_positive_reverse-phase_metabolite_profiling.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS13827.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS14376",
+  "deposit_title": "Decoding the Human Gut Bacterial Plasmids in Colorectal Cancer",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS14376_LC-MS_negative_hilic.txt",
+   "S1_a_MTBLS14376_LC-MS_positive_hilic.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS14376.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS14865",
+  "deposit_title": "A Clinical Urine Metabolomics Dataset for Urological Malignancies",
+  "chosen_assay_matrix": "",
+  "chosen_assay_platform_class": "",
+  "usable_files": [
+   "S1_a_MTBLS14865_LC-MS_negative_reverse-phase.txt",
+   "S1_a_MTBLS14865_LC-MS_positive_reverse-phase.txt",
+   "S1_i_Investigation.txt",
+   "S1_s_MTBLS14865.txt"
+  ]
+ }
+]

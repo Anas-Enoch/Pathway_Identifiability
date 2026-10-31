@@ -1,0 +1,82 @@
+[
+ {
+  "accession": "MTBLS92",
+  "deposit_title": "Monounsaturated fatty acids in serum triacylglycerols are associated with response to neoadjuvant chemotherapy in breast cancer patients",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2M_MTBLS92_S2.view.txt",
+   "S3_PMC11944042.view.txt",
+   "S3_PMC6856029.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS200",
+  "deposit_title": "Temporal characterization of serum metabolite signatures in lung cancer patients undergoing treatment",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC4819600.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS2205",
+  "deposit_title": "Epistasis-driven identification of SLC25A51 as a regulator of human mitochondrial NAD import",
+  "chosen_assay_matrix": "hap 1",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC7708531.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS6038",
+  "deposit_title": "Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Targeted organic acid assay)",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC9846500.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12636",
+  "deposit_title": "Integrated Multi-Omics Analysis Reveals the Impact of Vaginal Microbiota on the Microenvironment During Cervical Precancerous Progression",
+  "chosen_assay_matrix": "vagina",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12692",
+  "deposit_title": "Cholic Acid as a Potential Mediator in PD Olfactory Dysfunction: Insights from Nasal Microbiome-Metabolite Interactions Research",
+  "chosen_assay_matrix": "nasal",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS13787",
+  "deposit_title": "Microbiome and metabolome patterns centered on cancer cachexia link skeletal muscle and adipose tissue depletion to clinical outcomes in locally advanced rectal cancer",
+  "chosen_assay_matrix": "serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC13455298.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS13960",
+  "deposit_title": "Gut Microbiome and Metabolome Signatures in Calcium Oxalate Stone Recurrence: A Multi-Omics Study",
+  "chosen_assay_matrix": "stool",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC13088856.view.txt"
+  ]
+ }
+]

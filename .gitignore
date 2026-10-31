@@ -2,3 +2,9 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+stageA_census_full/stageA_census_checkpoint.jsonl
+stageA_closeout/docrec_out/store/
+stageA_census_full_run1_snapshot.zip
+
+stageA_closeout/docrec_out/owner_downloads_not_admissible/
+stageA_closeout/correspondence/

@@ -1,0 +1,82 @@
+[
+ {
+  "accession": "MTBLS419",
+  "deposit_title": "Evidence of a DHA signature in the lipidome and metabolome of human hepatocytes",
+  "chosen_assay_matrix": "hepatoma cell",
+  "chosen_assay_platform_class": "NMR",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC5343894.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS524",
+  "deposit_title": "Identification of a discriminative metabolomic fingerprint of potential clinical relevance in saliva of patients with periodontitis using 1H nuclear magnetic resonance (NMR) spectroscopy",
+  "chosen_assay_matrix": "saliva",
+  "chosen_assay_platform_class": "NMR",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC5570357.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS718",
+  "deposit_title": "Antiviral metabolite 3'-Deoxy-3',4'-didehydro-cytidine is detectable in serum and identifies acute viral infections including COVID-19",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2M_MTBLS718_S2.view.txt",
+   "S3_PMC10767962.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS1991",
+  "deposit_title": "A molecular index for biological age identified from the metabolome and senescence-associated secretome in humans.",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC11019119.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS7260",
+  "deposit_title": "Contributions of the Microbiome-Derived Metabolome for Risk Assessment and Prognostication of Pancreatic Cancer",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2M_MTBLS7260_S2.view.txt",
+   "S3_PMC10518621.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12326",
+  "deposit_title": "Gut Microbiome and Serum Metabolic Alterations in Recurrent Gestational Diabetes Mellitus",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12944",
+  "deposit_title": "Distinct Metabolomic and Lipoprotein signatures in Gall Bladder Cancer patients of Black African ancestry",
+  "chosen_assay_matrix": "blood serum",
+  "chosen_assay_platform_class": "NMR",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS13608",
+  "deposit_title": "Untargeted and Targeted Plasma Metabolomics Analysis Identifies Aberrant Amino Acid Metabolism in Early Primary Angle-Closure Glaucoma",
+  "chosen_assay_matrix": "plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC13619409.view.txt"
+  ]
+ }
+]

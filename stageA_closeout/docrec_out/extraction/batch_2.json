@@ -1,0 +1,85 @@
+[
+ {
+  "accession": "MTBLS24",
+  "deposit_title": "Analysis of human urine reveals metabolic changes related to the development of acute kidney injury following cardiac surgery",
+  "chosen_assay_matrix": "urine",
+  "chosen_assay_platform_class": "NMR",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2M_MTBLS24_S2.view.txt",
+   "S3_PMC12315529.view.txt",
+   "S3_PMC13609158.view.txt",
+   "S3_PMC4648992.view.txt",
+   "S3_PMC7014945.view.txt",
+   "S3_PMC9501206.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS3233",
+  "deposit_title": "The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis",
+  "chosen_assay_matrix": "feces",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC8821809.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS3800",
+  "deposit_title": "Metabolomics study of COVID-19 patients in four different clinical stages",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC8803913.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS8390",
+  "deposit_title": "Association between altered tryptophan metabolism, plasma aryl hydrocarbon receptor agonists, and inflammatory Chagas disease",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S2_PMC10811785.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS11406",
+  "deposit_title": "Multi-omic Molecular Characterization and Diagnostic Biomarkers for Occult Hepatitis B Infection and HBsAg-Positive Hepatitis B Infection",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt",
+   "S3_PMC11588476.view.txt",
+   "S3_PMC13393456.view.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12722",
+  "deposit_title": "Pessary Therapy Restores Vaginal Microbiome Homeostasis in Severe Pelvic Organ Prolapse: A Longitudinal Metagenomic and Metabolic Analysis",
+  "chosen_assay_matrix": "vagina",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12861",
+  "deposit_title": "Isotope tracing-based metabolite identification for mass spectrometry metabolomics",
+  "chosen_assay_matrix": "epithelium of mammary gland",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ },
+ {
+  "accession": "MTBLS12968",
+  "deposit_title": "PCOS preterm plasma metabolome",
+  "chosen_assay_matrix": "blood plasma",
+  "chosen_assay_platform_class": "MS",
+  "usable_files": [
+   "S1_i_Investigation.txt"
+  ]
+ }
+]

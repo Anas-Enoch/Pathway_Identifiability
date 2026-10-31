@@ -1,0 +1,387 @@
+utc	url	status	bytes	content_length	elapsed_s	note
+# run 2026-10-31T10:31:41Z docrec 0.1.1 tranche T1 n=40 order_sha256 081f94bf337a5b4cbd9f5f5956b0908f21a20f6689c2b55b20c5104092464485 salt NISTv2:2-2005958:AF7E4A14567E263104EEEA2278B8AF91365B9C8FDB93C434EECA8F442061081AC4906765306D140932FFB09B045E933698937FCCDDCF9F97A7CCA935760CFAA6 owner Anas
+2026-10-31T10:31:45Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12722/	200	3492	3492	4.24	
+2026-10-31T10:31:47Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12722/i_Investigation.txt	200	8809	8809	1.59	
+2026-10-31T10:31:51Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12722%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		3.57	
+2026-10-31T10:31:55Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15433/	200	3420	3420	3.65	
+2026-10-31T10:31:57Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15433/i_Investigation.txt	200	14861	14861	1.49	
+2026-10-31T10:32:00Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS15433%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	14785		2.51	
+2026-10-31T10:32:05Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13710375/fullTextXML	200	205994		4.65	
+2026-10-31T10:32:07Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS916/	200	2898	2898	1.26	
+2026-10-31T10:32:09Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS916/i_Investigation.txt	200	12496	12496	1.39	
+2026-10-31T10:32:11Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31130958%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	7628		0.92	
+2026-10-31T10:32:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffimmu.2019.00976%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	7587		0.75	
+2026-10-31T10:32:13Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS916%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	177		0.94	
+2026-10-31T10:32:19Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6509220/fullTextXML	200	109234		5.43	
+2026-10-31T10:32:22Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS524/	200	2402	2402	2.42	
+2026-10-31T10:32:25Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS524/i_Investigation.txt	200	10955	10955	2.05	
+2026-10-31T10:32:27Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28837579%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9615		1.48	
+2026-10-31T10:32:28Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pone.0182767%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9578		1.20	
+2026-10-31T10:32:31Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS524%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	177		1.72	
+2026-10-31T10:32:34Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5570357/fullTextXML	200	157536		3.40	
+2026-10-31T10:32:36Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS718/	200	4194	4194	0.73	
+2026-10-31T10:32:40Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS718/i_Investigation.txt	200	37609	37609	3.47	
+2026-10-31T10:32:42Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.medj.2022.01.009%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	13103		2.25	
+2026-10-31T10:32:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS718%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	20673		3.32	
+2026-10-31T10:32:51Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801973/fullTextXML	500	0		3.84	HTTP_500
+2026-10-31T10:32:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801973/fullTextXML	500	0		0.88	HTTP_500
+2026-10-31T10:32:57Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10767962/fullTextXML	200	78084		3.17	
+2026-10-31T10:32:58Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10972/	200	2902	2902	0.55	
+2026-10-31T10:33:07Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10972/i_Investigation.txt	200	12626	12626	8.27	
+2026-10-31T10:33:10Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1039%2Fd5fo04456a%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11708		2.74	
+2026-10-31T10:33:29Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS10972%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	None	0		18.05	TRANSPORT_FAILED:RemoteDisconnected:Remote end closed connection without response
+2026-10-31T10:33:36Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS10972%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		5.20	
+2026-10-31T10:33:38Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1584/	200	3572	3572	1.60	
+2026-10-31T10:33:41Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1584/i_Investigation.txt	200	13141	13141	2.67	
+2026-10-31T10:33:43Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32630389%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	8529		1.52	
+2026-10-31T10:33:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Fmetabo10060262%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	8486		1.77	
+2026-10-31T10:33:47Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS1584%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	8471		0.83	
+2026-10-31T10:33:52Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7345851/fullTextXML	200	163637		4.06	
+2026-10-31T10:33:53Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS8920/	200	3476	3476	0.45	
+2026-10-31T10:33:57Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS8920/i_Investigation.txt	200	10191	10191	3.48	
+2026-10-31T10:34:00Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS8920%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	178		2.74	
+2026-10-31T10:34:02Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS200/	200	2968	2968	1.74	
+2026-10-31T10:34:11Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS200/i_Investigation.txt	200	16232	16232	8.80	
+2026-10-31T10:34:17Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27073350%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	7466		4.85	
+2026-10-31T10:34:19Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs11306-016-0961-5%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	7426		1.74	
+2026-10-31T10:34:20Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS200%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	177		0.77	
+2026-10-31T10:34:24Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4819600/fullTextXML	200	68308		3.39	
+2026-10-31T10:34:26Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10304/	200	3556	3556	1.47	
+2026-10-31T10:34:28Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10304/i_Investigation.txt	200	8785	8785	1.55	
+2026-10-31T10:34:37Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38037492%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	6206		8.07	
+2026-10-31T10:34:39Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fctm2.1492%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	6158		1.41	
+2026-10-31T10:34:40Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS10304%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		0.82	
+2026-10-31T10:34:43Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10689969/fullTextXML	200	38839		2.87	
+2026-10-31T10:34:45Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12944/	200	2374	2374	0.79	
+2026-10-31T10:34:52Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12944/i_Investigation.txt	200	12024	12024	6.94	
+2026-10-31T10:34:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.20944%2Fpreprints202507.1687.v1%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	4439		1.38	
+2026-10-31T10:34:56Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12944%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		1.69	
+2026-10-31T10:34:59Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12058/	200	3556	3556	1.88	
+2026-10-31T10:35:06Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12058/i_Investigation.txt	200	14284	14284	6.52	
+2026-10-31T10:35:09Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12058%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		2.79	
+2026-10-31T10:35:17Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS8390/	200	2858	2858	7.76	
+2026-10-31T10:35:18Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS8390/i_Investigation.txt	200	11219	11219	0.58	
+2026-10-31T10:35:20Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffimmu.2023.1267641%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	12936		1.56	
+2026-10-31T10:35:22Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS8390%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	12917		0.76	
+2026-10-31T10:35:26Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10811785/fullTextXML	200	199624		3.75	
+2026-10-31T10:35:28Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS6038/	200	2910	2910	1.83	
+2026-10-31T10:35:30Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS6038/i_Investigation.txt	200	12983	12983	1.04	
+2026-10-31T10:35:32Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36685547%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9353		1.56	
+2026-10-31T10:35:34Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffimmu.2022.998447%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9313		1.95	
+2026-10-31T10:35:37Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS6038%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	9295		1.89	
+2026-10-31T10:35:39Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9846500/fullTextXML	200	70828		1.82	
+2026-10-31T10:35:43Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS419/	200	2434	2434	3.73	
+2026-10-31T10:35:51Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS419/i_Investigation.txt	200	13780	13780	7.40	
+2026-10-31T10:35:55Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28208746%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9308		3.66	
+2026-10-31T10:35:57Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Fijms18020359%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9263		1.18	
+2026-10-31T10:35:59Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS419%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	9249		1.65	
+2026-10-31T10:36:04Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5343894/fullTextXML	200	203901		4.13	
+2026-10-31T10:36:06Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13960/	200	3556	3556	1.86	
+2026-10-31T10:36:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13960/i_Investigation.txt	200	23421	23421	3.31	
+2026-10-31T10:36:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS13960%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	10968		1.47	
+2026-10-31T10:36:15Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13088856/fullTextXML	200	144645		2.19	
+2026-10-31T10:36:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS3800/	200	3540	3540	0.80	
+2026-10-31T10:36:21Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS3800/i_Investigation.txt	200	13614	13614	4.54	
+2026-10-31T10:36:27Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35102215%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	10144		5.45	
+2026-10-31T10:36:30Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41598-022-05667-0%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	10105		2.48	
+2026-10-31T10:36:33Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS3800%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	10086		2.70	
+2026-10-31T10:36:40Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8803913/fullTextXML	200	115635		6.02	
+2026-10-31T10:36:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1122/	200	2878	2878	2.10	
+2026-10-31T10:36:46Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1122/i_Investigation.txt	200	23263	23263	2.65	
+2026-10-31T10:36:52Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32184446%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9072		5.72	
+2026-10-31T10:36:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35208238%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9329		1.70	
+2026-10-31T10:37:00Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41598-020-61851-0%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9033		4.95	
+2026-10-31T10:37:02Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Fmetabo12020164%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9286		2.02	
+2026-10-31T10:37:04Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS1122%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	15608		1.93	
+2026-10-31T10:37:09Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7078199/fullTextXML	200	114045		3.69	
+2026-10-31T10:37:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8875032/fullTextXML	200	167258		2.95	
+2026-10-31T10:37:16Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9334349/fullTextXML	200	138984		3.67	
+2026-10-31T10:37:21Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2291/	200	2910	2910	3.75	
+2026-10-31T10:37:31Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2291/i_Investigation.txt	200	23258	23258	9.41	
+2026-10-31T10:37:35Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.36233%2F0372-9311-161%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	193		3.78	
+2026-10-31T10:37:40Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS2291%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	11103		4.49	
+2026-10-31T10:37:44Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13372841/fullTextXML	200	128581		3.72	
+2026-10-31T10:37:45Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1991/	200	3836	3836	0.70	
+2026-10-31T10:37:47Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1991/i_Investigation.txt	200	19644	19644	0.94	
+2026-10-31T10:37:50Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38454639%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9524		3.03	
+2026-10-31T10:37:52Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Facel.14104%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9477		1.34	
+2026-10-31T10:37:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS1991%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	9466		1.82	
+2026-10-31T10:38:00Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11019119/fullTextXML	200	229834		4.75	
+2026-10-31T10:38:03Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12861/	200	3492	3492	2.49	
+2026-10-31T10:38:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12861/i_Investigation.txt	200	13540	13540	6.48	
+2026-10-31T10:38:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12861%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		1.86	
+2026-10-31T10:38:13Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10634/	200	2930	2930	0.92	
+2026-10-31T10:38:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10634/i_Investigation.txt	200	10413	10413	2.36	
+2026-10-31T10:38:20Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS10634%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	6204		3.01	
+2026-10-31T10:38:22Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12754600/fullTextXML	200	91055		1.83	
+2026-10-31T10:38:25Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS24/	200	2466	2466	1.83	
+2026-10-31T10:38:28Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS24/i_Investigation.txt	200	9201	9201	2.60	
+2026-10-31T10:38:29Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs11306-012-0479-4%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	196		0.76	
+2026-10-31T10:38:36Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS24%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	41370		6.54	
+2026-10-31T10:38:42Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4648992/fullTextXML	200	137654		5.33	
+2026-10-31T10:38:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7014945/fullTextXML	200	108898		3.99	
+2026-10-31T10:38:51Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9501206/fullTextXML	200	184678		4.18	
+2026-10-31T10:38:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12315529/fullTextXML	200	123638		2.53	
+2026-10-31T10:39:04Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13609158/fullTextXML	200	306034		9.68	
+2026-10-31T10:39:08Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13608/	200	3556	3556	3.58	
+2026-10-31T10:39:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13608/i_Investigation.txt	200	11103	11103	1.26	
+2026-10-31T10:39:14Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS13608%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	6130		2.84	
+2026-10-31T10:39:21Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13619409/fullTextXML	200	89931		6.75	
+2026-10-31T10:39:24Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12372/	200	3008	3008	2.54	
+2026-10-31T10:39:26Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12372/i_Investigation.txt	200	15833	15833	1.82	
+2026-10-31T10:39:28Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40569531%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11955		1.19	
+2026-10-31T10:39:36Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs11306-025-02291-7%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11916		7.77	
+2026-10-31T10:39:37Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12372%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	11898		0.71	
+2026-10-31T10:39:41Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12202516/fullTextXML	200	130546		3.52	
+2026-10-31T10:39:46Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS3233/	200	3540	3540	3.99	
+2026-10-31T10:39:50Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS3233/i_Investigation.txt	200	13554	13554	3.27	
+2026-10-31T10:39:52Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffcimb.2021.763507%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	8727		1.36	
+2026-10-31T10:39:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS3233%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	8709		1.45	
+2026-10-31T10:39:57Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8821809/fullTextXML	200	122390		2.53	
+2026-10-31T10:39:59Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2205/	200	2910	2910	1.70	
+2026-10-31T10:40:17Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2205/i_Investigation.txt	200	13840	13840	17.28	
+2026-10-31T10:40:18Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33262325%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11333		1.01	
+2026-10-31T10:40:20Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-020-19871-x%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11294		1.43	
+2026-10-31T10:40:37Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS2205%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	None	0		16.19	TRANSPORT_FAILED:RemoteDisconnected:Remote end closed connection without response
+2026-10-31T10:40:42Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS2205%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	11275		3.50	
+2026-10-31T10:40:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7708531/fullTextXML	200	111176		2.74	
+2026-10-31T10:40:49Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12655/	200	2838	2838	2.93	
+2026-10-31T10:40:50Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12655/i_Investigation.txt	200	10122	10122	0.79	
+2026-10-31T10:40:55Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12655%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	7830		3.88	
+2026-10-31T10:40:59Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13357813/fullTextXML	200	108614		3.73	
+2026-10-31T10:41:00Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS92/	200	2926	2926	0.51	
+2026-10-31T10:41:03Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS92/i_Investigation.txt	200	11811	11811	2.85	
+2026-10-31T10:41:05Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24114462%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	7630		1.68	
+2026-10-31T10:41:08Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fijc.28491%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	7582		2.23	
+2026-10-31T10:41:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS92%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	22130		2.98	
+2026-10-31T10:41:14Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6856029/fullTextXML	200	152076		1.82	
+2026-10-31T10:41:19Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7241243/fullTextXML	200	290212		4.13	
+2026-10-31T10:41:26Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7786380/fullTextXML	200	226099		6.40	
+2026-10-31T10:41:32Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11944042/fullTextXML	200	266540		5.83	
+2026-10-31T10:41:35Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12968/	200	3548	3548	2.14	
+2026-10-31T10:41:39Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12968/i_Investigation.txt	200	11665	11665	3.67	
+2026-10-31T10:41:44Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12968%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		4.53	
+2026-10-31T10:41:46Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12326/	200	3472	3472	1.63	
+2026-10-31T10:41:51Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12326/i_Investigation.txt	200	13576	13576	4.24	
+2026-10-31T10:41:52Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12326%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		1.03	
+2026-10-31T10:41:55Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11406/	200	3556	3556	1.90	
+2026-10-31T10:41:58Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11406/i_Investigation.txt	200	9202	9202	2.27	
+2026-10-31T10:42:04Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS11406%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	15987		6.19	
+2026-10-31T10:42:07Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11588476/fullTextXML	200	101111		2.36	
+2026-10-31T10:42:11Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13393456/fullTextXML	200	228380		3.27	
+2026-10-31T10:42:12Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12636/	200	3492	3492	0.91	
+2026-10-31T10:42:13Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12636/i_Investigation.txt	200	9745	9745	0.45	
+2026-10-31T10:42:17Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12636%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		3.07	
+2026-10-31T10:42:18Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS89/	200	3744	3744	0.78	
+2026-10-31T10:42:22Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS89/i_Investigation.txt	200	15009	15009	3.09	
+2026-10-31T10:42:25Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39033506%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11248		2.58	
+2026-10-31T10:42:26Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.celrep.2024.114416%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11211		0.70	
+2026-10-31T10:42:30Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS89%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	28835		3.78	
+2026-10-31T10:42:32Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11513335/fullTextXML	500	0		1.61	HTTP_500
+2026-10-31T10:42:35Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11513335/fullTextXML	500	0		0.95	HTTP_500
+2026-10-31T10:42:44Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9540193/fullTextXML	200	165686		8.23	
+2026-10-31T10:42:50Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13568824/fullTextXML	200	49908		4.96	
+2026-10-31T10:42:56Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12590/	200	3556	3556	6.08	
+2026-10-31T10:43:02Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12590/i_Investigation.txt	200	10187	10187	5.10	
+2026-10-31T10:43:03Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12590%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		0.73	
+2026-10-31T10:43:05Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS7260/	200	4310	4310	1.37	
+2026-10-31T10:43:07Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS7260/i_Investigation.txt	200	19763	19763	1.94	
+2026-10-31T10:43:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38175578%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9274		3.86	
+2026-10-31T10:43:14Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fclinchem%2Fhvad186%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9233		1.98	
+2026-10-31T10:43:16Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS7260%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	14184		0.87	
+2026-10-31T10:43:19Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11836914/fullTextXML	500	0		3.07	HTTP_500
+2026-10-31T10:43:23Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11836914/fullTextXML	500	0		2.06	HTTP_500
+2026-10-31T10:43:28Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10518621/fullTextXML	200	179326		3.90	
+2026-10-31T10:43:31Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12692/	200	2838	2838	3.18	
+2026-10-31T10:43:33Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12692/i_Investigation.txt	200	12604	12604	1.33	
+2026-10-31T10:43:36Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS12692%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	179		2.01	
+2026-10-31T10:43:38Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2774/	200	4816	4816	2.07	
+2026-10-31T10:43:45Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2774/i_Investigation.txt	200	17095	17095	5.74	
+2026-10-31T10:43:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41396-021-01123-5%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	14973		1.25	
+2026-10-31T10:43:48Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS2774%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	14954		1.55	
+2026-10-31T10:43:52Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8940891/fullTextXML	200	171080		3.50	
+2026-10-31T10:43:54Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9586/	200	3508	3508	0.58	
+2026-10-31T10:43:57Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9586/i_Investigation.txt	200	15065	15065	2.72	
+2026-10-31T10:43:59Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39742011%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	10035		1.73	
+2026-10-31T10:44:02Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1155%2F2024%2F7004371%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9990		2.37	
+2026-10-31T10:44:06Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS9586%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	9977		3.59	
+2026-10-31T10:44:11Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11338663/fullTextXML	200	90794		4.23	
+2026-10-31T10:44:14Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13787/	200	3556	3556	2.59	
+2026-10-31T10:44:17Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13787/i_Investigation.txt	200	9640	9640	3.03	
+2026-10-31T10:44:22Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS13787%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	11264		3.58	
+2026-10-31T10:44:30Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13455298/fullTextXML	200	126405		7.95	
+# run 2026-10-31T10:50:34Z docrec 0.1.1 tranche A35 n=19 order_sha256 081f94bf337a5b4cbd9f5f5956b0908f21a20f6689c2b55b20c5104092464485 salt NISTv2:2-2005958:AF7E4A14567E263104EEEA2278B8AF91365B9C8FDB93C434EECA8F442061081AC4906765306D140932FFB09B045E933698937FCCDDCF9F97A7CCA935760CFAA6 owner Anas
+2026-10-31T10:50:36Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS148/	200	3944	3944	1.76	
+2026-10-31T10:50:40Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS148/i_Investigation.txt	200	19335	19335	3.43	
+2026-10-31T10:50:57Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS148/s_MTBLS148.txt	200	80668	80668	16.41	
+2026-10-31T10:51:18Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS148/a_MTBLS148_LC-MS_NEG_impact_of_collection_conditions_on_the_urine_metabolome_metabolite_profiling_mass_spectrometry.txt	200	127475	127475	21.28	
+2026-10-31T10:51:39Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS148/a_MTBLS148_LC-MS_POS_impact_of_collection_conditions_on_the_urine_metabolome_metabolite_profiling_mass_spectrometry-1.txt	200	125703	125703	20.43	
+2026-10-31T10:51:44Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs11306-014-0764-5%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	5907		3.76	
+2026-10-31T10:51:48Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4559108/fullTextXML	200	89940		4.18	
+2026-10-31T10:51:50Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14865/	200	3388	3388	1.42	
+2026-10-31T10:51:52Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14865/i_Investigation.txt	200	15935	15935	1.39	
+2026-10-31T10:51:56Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14865/s_MTBLS14865.txt	200	71634	71634	3.21	
+2026-10-31T10:52:40Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14865/a_MTBLS14865_LC-MS_positive_reverse-phase.txt	200	246280	246280	44.10	
+2026-10-31T10:53:01Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14865/a_MTBLS14865_LC-MS_negative_reverse-phase.txt	200	246280	246280	19.56	
+2026-10-31T10:53:02Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9021/	200	3088	3088	0.54	
+2026-10-31T10:53:06Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9021/i_Investigation.txt	200	12173	12173	3.69	
+2026-10-31T10:53:20Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9021/s_MTBLS9021.txt	200	48691	48691	13.77	
+2026-10-31T10:53:47Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9021/a_MTBLS9021_LC-MS_positive_reverse-phase_metabolite_profiling.txt	200	54086	54086	26.77	
+2026-10-31T10:53:49Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS9021/a_MTBLS9021_LC-MS_negative_reverse-phase_metabolite_profiling.txt	200	53730	53730	1.45	
+2026-10-31T10:53:51Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13634/	200	3556	3556	0.79	
+2026-10-31T10:53:54Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13634/i_Investigation.txt	200	14512	14512	2.87	
+2026-10-31T10:54:01Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13634/s_MTBLS13634.txt	200	15960	15960	6.48	
+2026-10-31T10:54:08Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13634/a_MTBLS13634_LC-MS_positive_reverse-phase_metabolite_profiling.txt	200	46824	46824	6.04	
+2026-10-31T10:54:09Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13634/a_MTBLS13634_LC-MS_negative_reverse-phase_metabolite_profiling.txt	200	46824	46824	1.35	
+2026-10-31T10:54:25Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15004/	200	3324	3324	15.12	
+2026-10-31T10:54:35Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15004/i_Investigation.txt	200	12128	12128	9.88	
+2026-10-31T10:54:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15004/s_MTBLS15004.txt	200	17224	17224	6.25	
+2026-10-31T10:54:47Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15004/a_MTBLS15004_LC-MS_positive_hilic.txt	200	47144	47144	4.39	
+2026-10-31T10:54:51Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15004/a_MTBLS15004_LC-MS_negative_hilic.txt	200	46719	46719	3.36	
+2026-10-31T10:54:55Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/	200	4800	4800	3.79	
+2026-10-31T10:55:05Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/i_Investigation.txt	200	10864	10864	9.27	
+2026-10-31T10:55:09Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/s_MTBLS12684.txt	200	36354	36354	3.80	
+2026-10-31T10:55:22Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/a_MTBLS12684_LC-MS_positive_reverse-phase_metabolite_profiling.txt	200	104376	104376	12.58	
+2026-10-31T10:55:32Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/a_MTBLS12684_LC-MS_positive_reverse-phase_metabolite_profiling-1.txt	200	103800	103800	8.59	
+2026-10-31T10:55:43Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/a_MTBLS12684_LC-MS_negative_reverse-phase_metabolite_profiling.txt	200	105816	105816	10.98	
+2026-10-31T10:55:53Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12684/a_MTBLS12684_LC-MS_negative_hilic_metabolite_profiling.txt	200	100776	100776	9.28	
+2026-10-31T10:55:55Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41145761%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	12979		1.79	
+2026-10-31T10:55:57Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs44321-025-00325-0%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	12940		1.16	
+2026-10-31T10:56:01Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12686445/fullTextXML	200	265402		3.51	
+2026-10-31T10:56:02Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS6260/	200	2366	2366	0.80	
+2026-10-31T10:56:05Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS6260/i_Investigation.txt	200	14033	14033	2.66	
+2026-10-31T10:56:07Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS6260/s_MTBLS6260.txt	200	19539	19539	1.09	
+2026-10-31T10:56:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS6260/a_MTBLS6260_NMR___metabolite_profiling.txt	200	46589	46589	3.06	
+2026-10-31T10:56:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1152%2Fjapplphysiol.01072.2025%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	10282		1.18	
+2026-10-31T10:56:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/	200	11554		2.88	
+2026-10-31T10:56:22Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/i_Investigation.txt	200	36672	36672	6.05	
+2026-10-31T10:56:59Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/s_MTBLS13382.txt	200	338436	338436	36.00	
+2026-10-31T10:57:11Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling.txt	200	74857	74857	11.55	
+2026-10-31T10:57:20Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-1.txt	200	71752	71752	8.60	
+2026-10-31T10:57:30Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-2.txt	200	71914	71914	10.01	
+2026-10-31T10:57:38Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-3.txt	200	72636	72636	7.46	
+2026-10-31T10:57:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-4.txt	200	31384	31384	3.41	
+2026-10-31T10:57:46Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling.txt	200	26604	26604	2.89	
+2026-10-31T10:57:49Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_positive_hilic_metabolite_profiling.txt	200	23904	23904	3.26	
+2026-10-31T10:58:00Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling.txt	200	26604	26604	9.63	
+2026-10-31T10:58:03Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling-1.txt	200	52751	52751	2.57	
+2026-10-31T10:58:09Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_positive_hilic_metabolite_profiling-1.txt	200	52651	52651	6.17	
+2026-10-31T10:58:22Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling-1.txt	200	51504	51504	12.09	
+2026-10-31T10:58:24Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling-2.txt	200	18512	18512	1.93	
+2026-10-31T10:58:28Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling-2.txt	200	18488	18488	3.60	
+2026-10-31T10:58:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling-3.txt	200	43928	43928	13.47	
+2026-10-31T10:58:49Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13382/a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling-3.txt	200	43928	43928	6.35	
+2026-10-31T10:58:52Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/	200	5370	5370	2.73	
+2026-10-31T10:58:54Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/i_Investigation.txt	200	28139	28139	1.04	
+2026-10-31T10:59:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/s_MTBLS12824.txt	200	35150	35150	20.98	
+2026-10-31T10:59:37Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/a_MTBLS12824_LC-MS_positive_hilic_metabolite_profiling.txt	200	68875	68875	21.12	
+2026-10-31T10:59:46Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/a_MTBLS12824_LC-MS_negative_hilic_metabolite_profiling.txt	200	70645	70645	8.51	
+2026-10-31T10:59:53Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/a_MTBLS12824_LC-MS_positive_reverse-phase_metabolite_profiling.txt	200	61110	61110	6.22	
+2026-10-31T11:00:07Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/a_MTBLS12824_LC-MS_negative_reverse-phase_metabolite_profiling.txt	200	61110	61110	13.92	
+2026-10-31T11:00:19Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12824/a_MTBLS12824_LC-MS_negative_hilic_metabolite_profiling-1.txt	200	61001	61001	10.85	
+2026-10-31T11:00:20Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15165/	200	3106	3106	0.63	
+2026-10-31T11:00:21Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15165/i_Investigation.txt	200	14366	14366	1.11	
+2026-10-31T11:00:28Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15165/s_MTBLS15165.txt	200	12378	12378	6.05	
+2026-10-31T11:00:31Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15165/a_MTBLS15165_LC-MS_negative_reverse-phase.txt	200	27620	27620	2.03	
+2026-10-31T11:00:52Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15165/a_MTBLS15165_LC-MS_positive_reverse-phase.txt	200	27620	27620	20.49	
+2026-10-31T11:00:54Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/	200	4504	4504	2.35	
+2026-10-31T11:00:56Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/i_Investigation.txt	200	15043	15043	1.40	
+2026-10-31T11:00:58Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/s_MTBLS14426.txt	200	11083	11083	1.45	
+2026-10-31T11:01:05Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/a_MTBLS14426_LC-MS_positive_reverse-phase.txt	200	21417	21417	6.36	
+2026-10-31T11:01:07Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/a_MTBLS14426_LC-MS_negative_reverse-phase.txt	200	21417	21417	1.58	
+2026-10-31T11:01:11Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/a_MTBLS14426_LC-MS_negative_reverse-phase-1.txt	200	21446	21446	2.76	
+2026-10-31T11:01:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14426/a_MTBLS14426_LC-MS_positive_reverse-phase-1.txt	200	21446	21446	4.52	
+2026-10-31T11:01:22Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/	200	5536	5536	6.23	
+2026-10-31T11:01:27Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/i_Investigation.txt	200	15421	15421	3.75	
+2026-10-31T11:01:28Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/s_MTBLS20.txt	200	31100	31100	1.19	
+2026-10-31T11:01:39Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/a_MTBLS20_LC-MS_439020neg_LCMS_metid_urine.txt	200	21019	21019	10.64	
+2026-10-31T11:01:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/a_MTBLS20_LC-MS_439020pos_LCMS_metid_urine-1.txt	200	18903	18903	2.17	
+2026-10-31T11:01:47Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/a_MTBLS20_LC-MS_439033neg_LCMS_metid_urine-2.txt	200	6203	6203	4.04	
+2026-10-31T11:01:49Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/a_MTBLS20_LC-MS_439033pos_LCMS_metid_urine-3.txt	200	6203	6203	2.32	
+2026-10-31T11:01:53Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/a_MTBLS20_MS_MS2neg_FIAMS2_metid_urine.txt	200	23755	23755	2.56	
+2026-10-31T11:01:56Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS20/a_MTBLS20_MS_MS2pos_FIAMS2_metid_urine-1.txt	200	23303	23303	3.33	
+2026-10-31T11:02:01Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22770225%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	5119		4.05	
+2026-10-31T11:02:04Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Fac300829f%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	5071		2.08	
+2026-10-31T11:02:06Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14358/	200	3356	3356	2.07	
+2026-10-31T11:02:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14358/i_Investigation.txt	200	14034	14034	3.75	
+2026-10-31T11:02:18Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14358/s_MTBLS14358.txt	200	52160	52160	6.95	
+2026-10-31T11:02:48Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14358/a_MTBLS14358_LC-MS_negative_reverse-phase.txt	200	209377	209377	29.57	
+2026-10-31T11:03:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14358/a_MTBLS14358_LC-MS_positive_hilic.txt	200	206777	206777	21.82	
+2026-10-31T11:03:12Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13827/	200	3556	3556	1.04	
+2026-10-31T11:03:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13827/i_Investigation.txt	200	12385	12385	3.96	
+2026-10-31T11:03:19Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13827/s_MTBLS13827.txt	200	24892	24892	1.88	
+2026-10-31T11:03:24Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13827/a_MTBLS13827_LC-MS_positive_reverse-phase_metabolite_profiling.txt	200	79233	79233	5.21	
+2026-10-31T11:03:36Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13827/a_MTBLS13827_LC-MS_negative_reverse-phase_metabolite_profiling.txt	200	79233	79233	11.14	
+2026-10-31T11:03:40Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14421/	200	3324	3324	3.22	
+2026-10-31T11:03:47Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14421/i_Investigation.txt	200	17084	17084	6.59	
+2026-10-31T11:03:48Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14421/s_MTBLS14421.txt	200	7957	7957	0.47	
+2026-10-31T11:03:52Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14421/a_MTBLS14421_LC-MS_positive_hilic.txt	200	29594	29594	3.49	
+2026-10-31T11:04:02Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14421/a_MTBLS14421_LC-MS_negative_hilic.txt	200	29594	29594	9.85	
+2026-10-31T11:04:04Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11048/	200	2870	2870	1.73	
+2026-10-31T11:04:08Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11048/i_Investigation.txt	200	10010	10010	3.01	
+2026-10-31T11:04:17Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11048/s_MTBLS11048.txt	200	12997	12997	8.75	
+2026-10-31T11:04:34Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11048/a_MTBLS11048_GC-MS_positive__metabolite_profiling.txt	200	32245	32245	16.63	
+2026-10-31T11:04:37Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7554%2Felife.106587.1%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	193		2.33	
+2026-10-31T11:04:45Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13136/	200	2934	2934	6.94	
+2026-10-31T11:04:48Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13136/i_Investigation.txt	200	14285	14285	3.08	
+2026-10-31T11:04:50Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13136/s_MTBLS13136.txt	200	15914	15914	0.83	
+2026-10-31T11:05:14Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13136/a_MTBLS13136_LC-MS_alternating_reverse-phase_metabolite_profiling.txt	200	61586	61586	23.88	
+2026-10-31T11:05:16Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13319/	200	2838	2838	1.46	
+2026-10-31T11:05:18Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13319/i_Investigation.txt	200	19133	19133	1.73	
+2026-10-31T11:05:23Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13319/s_MTBLS13319.txt	200	39774	39774	4.09	
+2026-10-31T11:05:25Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13319/a_MTBLS13319_GC-MS___metabolite_profiling.txt	200	40850	40850	1.61	
+2026-10-31T11:05:26Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14376/	200	3324	3324	0.42	
+2026-10-31T11:05:29Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14376/i_Investigation.txt	200	13605	13605	2.40	
+2026-10-31T11:05:33Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14376/s_MTBLS14376.txt	200	19848	19848	3.29	
+2026-10-31T11:05:48Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14376/a_MTBLS14376_LC-MS_negative_hilic.txt	200	79383	79383	15.18	
+2026-10-31T11:05:55Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14376/a_MTBLS14376_LC-MS_positive_hilic.txt	200	79383	79383	5.97	
+# run 2026-10-31T11:17:33Z docrec 0.1.1 tranche T1 n=40 order_sha256 081f94bf337a5b4cbd9f5f5956b0908f21a20f6689c2b55b20c5104092464485 salt NISTv2:2-2005958:AF7E4A14567E263104EEEA2278B8AF91365B9C8FDB93C434EECA8F442061081AC4906765306D140932FFB09B045E933698937FCCDDCF9F97A7CCA935760CFAA6 owner Anas
+2026-10-31T11:17:34Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS718/	200	4194	4194	1.16	
+2026-10-31T11:17:39Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS718/i_Investigation.txt	200	37609	37609	4.23	
+2026-10-31T11:17:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.medj.2022.01.009%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	13103		6.11	
+2026-10-31T11:17:48Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS718%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	20673		1.56	
+2026-10-31T11:17:51Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801973/fullTextXML	500	0		2.74	HTTP_500
+2026-10-31T11:17:58Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801973/fullTextXML	500	0		4.72	HTTP_500
+2026-10-31T11:18:08Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10767962/fullTextXML	200	78084		9.62	
+2026-10-31T11:18:09Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS89/	200	3744	3744	0.46	
+2026-10-31T11:18:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS89/i_Investigation.txt	200	15009	15009	0.71	
+2026-10-31T11:18:12Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39033506%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11248		1.75	
+2026-10-31T11:18:14Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.celrep.2024.114416%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11211		1.62	
+2026-10-31T11:18:16Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS89%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	28835		1.36	
+2026-10-31T11:18:18Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11513335/fullTextXML	500	0		1.27	HTTP_500
+2026-10-31T11:18:22Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11513335/fullTextXML	500	0		2.31	HTTP_500
+2026-10-31T11:18:35Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9540193/fullTextXML	200	165686		11.77	
+2026-10-31T11:18:40Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13568824/fullTextXML	200	49908		5.34	
+2026-10-31T11:18:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS7260/	200	4310	4310	1.47	
+2026-10-31T11:18:44Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS7260/i_Investigation.txt	200	19763	19763	0.82	
+2026-10-31T11:18:47Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38175578%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9274		3.02	
+2026-10-31T11:18:50Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fclinchem%2Fhvad186%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9233		1.78	
+2026-10-31T11:18:55Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS7260%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	14184		5.35	
+2026-10-31T11:18:58Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11836914/fullTextXML	500	0		1.91	HTTP_500
+2026-10-31T11:19:02Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11836914/fullTextXML	500	0		1.74	HTTP_500
+2026-10-31T11:19:07Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10518621/fullTextXML	200	179326		5.27	
+# run 2026-10-31T11:20:29Z docrec 0.1.1 tranche T1 n=40 order_sha256 081f94bf337a5b4cbd9f5f5956b0908f21a20f6689c2b55b20c5104092464485 salt NISTv2:2-2005958:AF7E4A14567E263104EEEA2278B8AF91365B9C8FDB93C434EECA8F442061081AC4906765306D140932FFB09B045E933698937FCCDDCF9F97A7CCA935760CFAA6 owner Anas
+2026-10-31T11:20:31Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS718/	200	4194	4194	2.20	
+2026-10-31T11:20:41Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS718/i_Investigation.txt	200	37609	37609	8.91	
+2026-10-31T11:20:46Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.medj.2022.01.009%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	13103		5.17	
+2026-10-31T11:20:48Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS718%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	20673		1.43	
+2026-10-31T11:20:51Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801973/fullTextXML	500	0		1.73	HTTP_500
+2026-10-31T11:20:54Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8801973/fullTextXML	500	0		1.34	HTTP_500
+2026-10-31T11:20:58Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10767962/fullTextXML	200	78084		3.66	
+2026-10-31T11:21:08Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS89/	200	3744	3744	9.33	
+2026-10-31T11:21:10Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS89/i_Investigation.txt	200	15009	15009	1.26	
+2026-10-31T11:21:15Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39033506%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11248		4.38	
+2026-10-31T11:21:20Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.celrep.2024.114416%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	11211		4.37	
+2026-10-31T11:21:22Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS89%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	28835		1.54	
+2026-10-31T11:21:27Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11513335/fullTextXML	500	0		4.97	HTTP_500
+2026-10-31T11:21:30Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11513335/fullTextXML	500	0		0.92	HTTP_500
+2026-10-31T11:21:36Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9540193/fullTextXML	200	165686		5.06	
+2026-10-31T11:21:39Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13568824/fullTextXML	200	49908		3.30	
+2026-10-31T11:21:42Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS7260/	200	4310	4310	1.74	
+2026-10-31T11:21:46Z	https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS7260/i_Investigation.txt	200	19763	19763	3.45	
+2026-10-31T11:21:51Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38175578%20AND%20SRC%3AMED&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9274		4.76	
+2026-10-31T11:21:53Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fclinchem%2Fhvad186%22&resultType=core&synonym=FALSE&format=json&pageSize=25&cursorMark=%2A	200	9233		1.16	
+2026-10-31T11:21:56Z	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MTBLS7260%22&resultType=core&synonym=FALSE&format=json&pageSize=1000&cursorMark=%2A	200	14184		2.80	
+2026-10-31T11:21:59Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11836914/fullTextXML	500	0		2.31	HTTP_500
+2026-10-31T11:22:09Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11836914/fullTextXML	500	0		8.21	HTTP_500
+2026-10-31T11:22:13Z	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10518621/fullTextXML	200	179326		3.44	

@@ -1,0 +1,713 @@
+{
+ "docrec_version": "0.1.1",
+ "order_sha256": "081f94bf337a5b4cbd9f5f5956b0908f21a20f6689c2b55b20c5104092464485",
+ "studies": {
+  "MTBLS11048": {
+   "files": {
+    "S1_a_MTBLS11048_GC-MS_positive__metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "64fab1baacead442631701aaaf698062b14c42f272474f1a18ed101e94e89a0b",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "044a2123584bdcb55f95e632a5649c80573efd3c5e152e28d7c90dc1b160eb71",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "4bf4b53f3285b8afd30be5bdd2a31baff79589fe6eacdeace9e8c0220f096d86",
+     "usable": false
+    },
+    "S1_s_MTBLS11048.txt": {
+     "role": "S1",
+     "sha256": "e48c2ba232a63f39d639497584361d739fff250a321b62ada190c5214339fec9",
+     "usable": true
+    },
+    "S2_search_doi_110388faf2.json": {
+     "role": "S2_search",
+     "sha256": "279ceea51b87b12f96f4e2a2d0f07f09d9b0a591aa20316e0001eac84a24dc97",
+     "usable": false
+    }
+   }
+  },
+  "MTBLS12684": {
+   "files": {
+    "S1_a_MTBLS12684_LC-MS_negative_hilic_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "d2f195ef65469e3d625c4cd3ee15c196238c49f56d8d7e09a5faa44900aeda6a",
+     "usable": true
+    },
+    "S1_a_MTBLS12684_LC-MS_negative_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "fa1eb3dcb4f35b02084cece916ff943926176db98cfe8296c4e77bf4ba380ee3",
+     "usable": true
+    },
+    "S1_a_MTBLS12684_LC-MS_positive_reverse-phase_metabolite_profiling-1.txt": {
+     "role": "S1",
+     "sha256": "91507f8c4c6b3e89d4c556566279dc8825317438579550bc74ac6fa9eecdf32e",
+     "usable": true
+    },
+    "S1_a_MTBLS12684_LC-MS_positive_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "676178cefdd0a189504f94ef0bbe3c3ac10ad74ba1d36b1a55a14fada1e61278",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "6a18aa9069eada19d9e53d0746305659222b56c1b9dd04d6cf4d5757a0de18b5",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "96c8b916b5b5b8fdb1a7883408b35066776f6a0c842a211be79d2b5a58e70467",
+     "usable": false
+    },
+    "S1_s_MTBLS12684.txt": {
+     "role": "S1",
+     "sha256": "b2469a130c993e8a911d223fc17b18f737654d020f1c55b70190e46d1230820c",
+     "usable": true
+    },
+    "S2_PMC12686445.view.txt": {
+     "role": "S2_view",
+     "sha256": "fc9df17025c2a046a3cec0bb05ce49730bcc182c7bd64eea5b7589c606e52824",
+     "usable": true
+    },
+    "S2_PMC12686445.xml": {
+     "role": "S2_fulltext",
+     "sha256": "7730fabd85a4038e15888ab67977b20cb5f2683161ebad83143b1b027ec38f79",
+     "usable": false
+    },
+    "S2_search_doi_682e8bfd82.json": {
+     "role": "S2_search",
+     "sha256": "b829ca82729ad37a641ba745ea9f76991a307d674bf292ab9479a6658d0641b2",
+     "usable": false
+    },
+    "S2_search_pmid_18fdad80cc.json": {
+     "role": "S2_search",
+     "sha256": "8c0933f8f3327db17ea91dd605a4a523bbb74d051d5d2a74822d418fb0040a67",
+     "usable": false
+    }
+   }
+  },
+  "MTBLS12824": {
+   "files": {
+    "S1_a_MTBLS12824_LC-MS_negative_hilic_metabolite_profiling-1.txt": {
+     "role": "S1",
+     "sha256": "c425fd5748c773d5a36f8f742b56c3a23a96cb8da8bc91bc070b595e7b88eb23",
+     "usable": true
+    },
+    "S1_a_MTBLS12824_LC-MS_negative_hilic_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "3d658b0ed3fb5145cfd00dbcd5217709864c1544c5e5dfc1739b7897da9e5b0c",
+     "usable": true
+    },
+    "S1_a_MTBLS12824_LC-MS_negative_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "41b06244625c60afabda47e33fdc0b9e5b68078b944a15095264e7d2999a009f",
+     "usable": true
+    },
+    "S1_a_MTBLS12824_LC-MS_positive_hilic_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "08e6f72cb1e03926073d304f806cd0e4cae72ae5c4c0504acb380fc92632071b",
+     "usable": true
+    },
+    "S1_a_MTBLS12824_LC-MS_positive_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "a675403cefc11e3ce566e9765c119d6ace75eade626752987ca4fafbe792e36a",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "7d9b350329d1bc3e74ee689c72e50587f10c2e3f71911f2217a3cb2e5ad8a579",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "8a411bd8fc1111f52d1111dafe3b95e7540e736c922fe0e7512daf5cc38597c4",
+     "usable": false
+    },
+    "S1_s_MTBLS12824.txt": {
+     "role": "S1",
+     "sha256": "4941233e5f086c379e95a1e8e092f70991660762c410bd7666755b8b379c8d06",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS13136": {
+   "files": {
+    "S1_a_MTBLS13136_LC-MS_alternating_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "2cbfbd6f4dc8f5cda3203f56f66620bd3c8550c4e8aca588497b2ed0b9e1679d",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "f231e761f5b80e9da799f869f14d0e13ee216cae2f041086c840bbabc5be60ca",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "1e676b1ad50262a2e6fc3ad13682c4d7a9b33d03cdb57985e3e6f4d3e49c70a3",
+     "usable": false
+    },
+    "S1_s_MTBLS13136.txt": {
+     "role": "S1",
+     "sha256": "b83088343ec9cd5dfaf3d96caf96aa21477bfa55e6ec12648da9d2e99b09df3c",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS13319": {
+   "files": {
+    "S1_a_MTBLS13319_GC-MS___metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "4432a5fddae03692a816051073812c8bf73890502511abec06167966635ac62c",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "c48fb5f86f814c947ade09ccee1eb0c3e6c2f07e1d9f5e2240ffb6785609b0b8",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "3be0be95c0e51a265e01876cecf9be640adc1a39baaf4a2a2ffab146c0cc488c",
+     "usable": false
+    },
+    "S1_s_MTBLS13319.txt": {
+     "role": "S1",
+     "sha256": "00025a30994dbbd8e3ed8a76ecd9248b55d49a196575bfb9840c83676d069829",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS13382": {
+   "files": {
+    "S1_a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-1.txt": {
+     "role": "S1",
+     "sha256": "112454f898a20afa7387f9c87fa464c0213fe415e616d23b65c8d93e8b674d90",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-2.txt": {
+     "role": "S1",
+     "sha256": "440d7bcb787a8c17f1fbaf570da14390ab4ce6d45c77392209680db8d23815cc",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-3.txt": {
+     "role": "S1",
+     "sha256": "827f315ab5f78a17f4ebfa45acd86fb8b17af60085ac9c8ea7d83069843593be",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling-4.txt": {
+     "role": "S1",
+     "sha256": "73ccaf3c61909223d9c241cc8c9a52f0f4e5933da6bae82f3f4961957904ca51",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_alternating_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "9e4fd6990715f4d7811982b6440f7e674e5dc968a343864f52f0f724194895bc",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling-1.txt": {
+     "role": "S1",
+     "sha256": "a6181ea4cf1a4620b593a0db41159a6db3a7782e686a48435f8d239ba4928d20",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling-2.txt": {
+     "role": "S1",
+     "sha256": "725cb4ca074d2395fc222a3ba743bd9fc456f2d6293af49b9443a963f97abe2d",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling-3.txt": {
+     "role": "S1",
+     "sha256": "31f99f7d126571f04ea2aff21105b62032dd09ef4e29ef17cb6c982cf313294c",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_negative_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "508241e5484859d372f751c4d66b520a8e89c759bfc2cdb7e259f2915266574a",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_positive_hilic_metabolite_profiling-1.txt": {
+     "role": "S1",
+     "sha256": "795e8addc9900297a38a3930530ca49ddd56ef2144daa6c8c034a4fbeb0726dd",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_positive_hilic_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "896ad4667590c733d5ee3474e170a428493291f319dffcee2bd36104a364a295",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling-1.txt": {
+     "role": "S1",
+     "sha256": "22de04682c0d6469b2dc44cfb67eb4017f73a84fc9094b1ba80b79204b5f2c44",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling-2.txt": {
+     "role": "S1",
+     "sha256": "03a2a6db36f118042901fd4fe1bd7ac32e42f491b0fb8bfe58858b31f5ee5f2f",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling-3.txt": {
+     "role": "S1",
+     "sha256": "b59ff1418127a017050d0ee727350c94eb7b51b6edc3f43cd689242d3764a513",
+     "usable": true
+    },
+    "S1_a_MTBLS13382_LC-MS_positive_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "a9cca9f7c1f6e64a31543a38df5bed9008f18b7fc003d06d2d902f0475ad6d66",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "9ea0e8399467cc217576fc37b5dd4857b4a97110c4e649b0c29a559c68177fbf",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "07704d78ba1d25c80fd98a414ec8bb673d388993f5b61ed7101f994955489d1f",
+     "usable": false
+    },
+    "S1_s_MTBLS13382.txt": {
+     "role": "S1",
+     "sha256": "3fcac7074586e0c10550e826edf4523bc29ea9584eab0763fd815dcfadbd9c70",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS13634": {
+   "files": {
+    "S1_a_MTBLS13634_LC-MS_negative_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "64e35826076913a8932da20502282dcc6d6e67672a8032cf9591f293262e8fc8",
+     "usable": true
+    },
+    "S1_a_MTBLS13634_LC-MS_positive_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "469e3c22a38d38dcc3be1fa34c42f420f2d84efc6c9e2f075e5adc7268b1c66c",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "b45cb6e5c93589a9a54143d7d2086d58041e6e615767671d32e15aeadf5a6011",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "6cd7ac45af75cf5e849f36f5149a2f06b1e39e8b84de65a5a612cd0872bd7901",
+     "usable": false
+    },
+    "S1_s_MTBLS13634.txt": {
+     "role": "S1",
+     "sha256": "a071b0019b85729e3666eb0cde58c61c172c66a30d2310c63ee420cfe71aea9f",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS13827": {
+   "files": {
+    "S1_a_MTBLS13827_LC-MS_negative_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "8cbe2c13aa53be9f93e5313cc9e65186298f0578ee904e6493f2ef7e02b73b66",
+     "usable": true
+    },
+    "S1_a_MTBLS13827_LC-MS_positive_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "aa6c8a62182c5d0af3c5f47ff07ffd4d0fea561cdbb52ef2a6e5c520a085b98a",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "2fe4cf6464bde18c84080b2217f77f8967af87eee654495ef1adaa4d84d18781",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "30d615208ca65c91f3375ace2f8eb4b25d418dd3594186988ee5574098e037bd",
+     "usable": false
+    },
+    "S1_s_MTBLS13827.txt": {
+     "role": "S1",
+     "sha256": "7f5cc27f9bc4ca53be7873bb012d80ccb14abd30bdb523e13b3b2466fbc4f2c7",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS14358": {
+   "files": {
+    "S1_a_MTBLS14358_LC-MS_negative_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "b6b175929128874b279735932a65c54c900075628c0df161b704689860b0e191",
+     "usable": true
+    },
+    "S1_a_MTBLS14358_LC-MS_positive_hilic.txt": {
+     "role": "S1",
+     "sha256": "2ead49d609e9229ef984d0c12dae6f671037097c547faff6b90c414ff48973ae",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "647cc173a5ca935bc4885f2a58a4932bbba1444afc180bbdbe00a2bba659c99f",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "05679bc6c6a411244583fdb59c079b5aff68ccf7d6b4250bb1088357cf088087",
+     "usable": false
+    },
+    "S1_s_MTBLS14358.txt": {
+     "role": "S1",
+     "sha256": "47e0f68631da73b8d510f1f6e6f4673a7f8b8f8f1885abf0fa9c05247e5cab37",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS14376": {
+   "files": {
+    "S1_a_MTBLS14376_LC-MS_negative_hilic.txt": {
+     "role": "S1",
+     "sha256": "20efea487f31b695ec0c4dea5ff2b833fe155dfccc66864ac248bfbbf05058f5",
+     "usable": true
+    },
+    "S1_a_MTBLS14376_LC-MS_positive_hilic.txt": {
+     "role": "S1",
+     "sha256": "f9efbcd32a2ad48ddeaab328d260e98a364de24736c164efd7789dd7e6029a3d",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "7c92520352a47be68629a3be9046a513122a34efde3481e5774373600af6082a",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "56654c1c4d476f839ecbd34d5be1a3ef1ffae2e96eeabd47cecf5d1206d1aae2",
+     "usable": false
+    },
+    "S1_s_MTBLS14376.txt": {
+     "role": "S1",
+     "sha256": "4d0f215c41444118a6cb28c09d4a3d3918012513431618c17d53a175794ab7ff",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS14421": {
+   "files": {
+    "S1_a_MTBLS14421_LC-MS_negative_hilic.txt": {
+     "role": "S1",
+     "sha256": "258eceeabda70ce96b5a43a57d693f37a641c125b57be70d32ddb578442b5efb",
+     "usable": true
+    },
+    "S1_a_MTBLS14421_LC-MS_positive_hilic.txt": {
+     "role": "S1",
+     "sha256": "0a74c7acb99d6940012508372e4286eb284d640c7888f592e602773d24ebfdf8",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "8632da095912c4148a5c2390abb6cdd5ff687a2c4d7b0926986f46b39a1b32b9",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "cbe4d45286077fa798503f0f541fc232e97a079c30dd869f77690e498492cec8",
+     "usable": false
+    },
+    "S1_s_MTBLS14421.txt": {
+     "role": "S1",
+     "sha256": "1b014238ce80a9871b7ea2361b7d24419ff579b82002b0f26d5cd890ddd0b938",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS14426": {
+   "files": {
+    "S1_a_MTBLS14426_LC-MS_negative_reverse-phase-1.txt": {
+     "role": "S1",
+     "sha256": "48cff659ba6af976bcb4580c61f364a63685250de37ce0b66e85c43a448a6e1f",
+     "usable": true
+    },
+    "S1_a_MTBLS14426_LC-MS_negative_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "89fb07474613268a37883f62516f73dbae5a7b6164c1eb7fb870c69a05d7b991",
+     "usable": true
+    },
+    "S1_a_MTBLS14426_LC-MS_positive_reverse-phase-1.txt": {
+     "role": "S1",
+     "sha256": "f6186d53078b177a0117fa699c5e88920c9e16e8994cf5a6720841504bf0a601",
+     "usable": true
+    },
+    "S1_a_MTBLS14426_LC-MS_positive_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "33898719e575839c1fb9b9ffb3d84fc91c473236027f67aeed4d3112db9e12df",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "ada4300885ef5f814c8ac98ead84a3588d36c462c522b308c1c15bca00eda4d9",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "5a412b39bfc8ba78be21f1704486cff8c1170e711fd7d2280dbbc717c024c3bf",
+     "usable": false
+    },
+    "S1_s_MTBLS14426.txt": {
+     "role": "S1",
+     "sha256": "cabc2a88873be23579f8064e637f8f03c90f77e939e60480f485edf1fe098024",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS148": {
+   "files": {
+    "S1_a_MTBLS148_LC-MS_NEG_impact_of_collection_conditions_on_the_urine_metabolome_metabolite_profiling_mass_spectrometry.txt": {
+     "role": "S1",
+     "sha256": "8174bf2081b2a768c4f93c0af0fef80efdd964c3193326f9a0bcda0bf1f33c56",
+     "usable": true
+    },
+    "S1_a_MTBLS148_LC-MS_POS_impact_of_collection_conditions_on_the_urine_metabolome_metabolite_profiling_mass_spectrometry-1.txt": {
+     "role": "S1",
+     "sha256": "55a2097f277e0464ab13dc070106e88014658dee8561e8b961fc47d49a7b37d0",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "ed6d9df63009723d2709a729717d94833b17bf9d1a1ef521213e767aba702089",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "a2505f44308f92dfd856d51058d9f19a07c3c306bbaa04cea7029a3fdcae269f",
+     "usable": false
+    },
+    "S1_s_MTBLS148.txt": {
+     "role": "S1",
+     "sha256": "5c77bbf32ff886eca7f74e8585b402dcd37676588c20769fca865358fb19d49f",
+     "usable": true
+    },
+    "S2_PMC4559108.view.txt": {
+     "role": "S2_view",
+     "sha256": "cc5d7c90e3ed5f41f332ce85daf73dba9c8587e43205c3b5dce4bf659b64d07e",
+     "usable": true
+    },
+    "S2_PMC4559108.xml": {
+     "role": "S2_fulltext",
+     "sha256": "85f830886d09c007036852256bc9b789c11dfff45174345cbdce387985750828",
+     "usable": false
+    },
+    "S2_search_doi_4b05a3da36.json": {
+     "role": "S2_search",
+     "sha256": "384ab0c1080b13f880cefa48edc0dc7c787aa4f16111d9ab5b711aa6a54a6589",
+     "usable": false
+    }
+   }
+  },
+  "MTBLS14865": {
+   "files": {
+    "S1_a_MTBLS14865_LC-MS_negative_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "ed92e1afb19c5da01326c64d1c271b62f07f0e7997864624889dca5e453a7436",
+     "usable": true
+    },
+    "S1_a_MTBLS14865_LC-MS_positive_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "f6a2287b8ee6d52281b15123f2e791fab6f0dff1638ae2de725cd74c2c3c51e0",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "9cb88da6c2cfdf8847d4d9ceac5468be37d654156118653b4f5585f267b5815b",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "7118959c3dfb5a8c4dab26ef6a85e1a1d259adcbf348d907e22fddd81fb4cd9c",
+     "usable": false
+    },
+    "S1_s_MTBLS14865.txt": {
+     "role": "S1",
+     "sha256": "f8689cc28d2e460303813f7a2977ef145e3b1731c70243cb37837be4c8326a47",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS15004": {
+   "files": {
+    "S1_a_MTBLS15004_LC-MS_negative_hilic.txt": {
+     "role": "S1",
+     "sha256": "eb29c6ebec8e643dd32d3e631e4ba1b4beb4436e18fdee0dcf8813f1716f5e39",
+     "usable": true
+    },
+    "S1_a_MTBLS15004_LC-MS_positive_hilic.txt": {
+     "role": "S1",
+     "sha256": "275ad7da2dbc263b970735b952b0c4301c0a80536cc9828b58515d9f53b82463",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "2fff69c2fea4e497215d2126e4e9bc7a1e15970d188fb2cfa57109fbec7f617d",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "7f9156cb4addc6680a03e2d01f291c66ed5ca822a94fd76c32420ccaacb80f5b",
+     "usable": false
+    },
+    "S1_s_MTBLS15004.txt": {
+     "role": "S1",
+     "sha256": "64af2ac556fac0a2b227ed83eb798a9c1158fd602e6cd8f97b9988e3655c5b6f",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS15165": {
+   "files": {
+    "S1_a_MTBLS15165_LC-MS_negative_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "b76b05f5b5a8d527c814c93c42e09eb6e1a2a3344988e8b4f173f7ab83ad00d0",
+     "usable": true
+    },
+    "S1_a_MTBLS15165_LC-MS_positive_reverse-phase.txt": {
+     "role": "S1",
+     "sha256": "eec8db830f6f0f6fdef22cb5d5c2814082b4c99c779a338c0c2db495c1ec54e1",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "1926c281f67b3f3f82b932b341cfc58320d8ee4610ba07a9415e84db1c28a0cb",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "c925cb011473eb7289ac5dd32a03837775e9452926c70af7f6e877c522e476be",
+     "usable": false
+    },
+    "S1_s_MTBLS15165.txt": {
+     "role": "S1",
+     "sha256": "ce4522c963fc034b0469d31d2c8df0d24f4fd03112e8aa8b768406cdcf34abca",
+     "usable": true
+    }
+   }
+  },
+  "MTBLS20": {
+   "files": {
+    "S1_a_MTBLS20_LC-MS_439020neg_LCMS_metid_urine.txt": {
+     "role": "S1",
+     "sha256": "c26cc0a2d499fe8b71daf33c38d24d619405fe302056c80c07120962e48177d7",
+     "usable": true
+    },
+    "S1_a_MTBLS20_LC-MS_439020pos_LCMS_metid_urine-1.txt": {
+     "role": "S1",
+     "sha256": "74b12941513840e2e5f5814fa9e50b2b17bc1eb19fae5fcee286569a9b215556",
+     "usable": true
+    },
+    "S1_a_MTBLS20_LC-MS_439033neg_LCMS_metid_urine-2.txt": {
+     "role": "S1",
+     "sha256": "8f8cbc9fc22d44f5cc8dc6949b5ce7a781057f52bd00c013f0f523a37c5f8f64",
+     "usable": true
+    },
+    "S1_a_MTBLS20_LC-MS_439033pos_LCMS_metid_urine-3.txt": {
+     "role": "S1",
+     "sha256": "b4a624d1a4cf4175c846b5e118f7dd76179a74491b233b0207a800e5b6b80c14",
+     "usable": true
+    },
+    "S1_a_MTBLS20_MS_MS2neg_FIAMS2_metid_urine.txt": {
+     "role": "S1",
+     "sha256": "ba12b6c6328bd7f06bd2799e44ce1a9dfc6578efe045edd6034f6160caf7f440",
+     "usable": true
+    },
+    "S1_a_MTBLS20_MS_MS2pos_FIAMS2_metid_urine-1.txt": {
+     "role": "S1",
+     "sha256": "cb644d2a085c7bdbc9911225f5b864e46ade9b21a9299d148c409849aaaaae1a",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "bfd2c75b83024111e47213930c3ee62eea072eaf580068d14e6195cd141fe2b1",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "d7a49f1a5745ffce9541dfbb47315af9af6aff5df3c109e4ddea6f3f334c1f74",
+     "usable": false
+    },
+    "S1_s_MTBLS20.txt": {
+     "role": "S1",
+     "sha256": "10e628a84ed6486e52e1933cef1daec2f6baf3f0ceed746885a30b6c847173c5",
+     "usable": true
+    },
+    "S2_search_doi_f1321fd10e.json": {
+     "role": "S2_search",
+     "sha256": "a4b7de1d115ca8c8728cbfdf18f5ea65f525cb9e922d8e0bfe8ffcbd9f3499a3",
+     "usable": false
+    },
+    "S2_search_pmid_60561ad3f8.json": {
+     "role": "S2_search",
+     "sha256": "e620161e735c083869b0ec59b5917742b31910d15bbaf84afd70c00b495e8092",
+     "usable": false
+    }
+   }
+  },
+  "MTBLS6260": {
+   "files": {
+    "S1_a_MTBLS6260_NMR___metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "9eac7280ceca6b1afe702cd99e8b3fd00931ce557c3e7632da9e3953af85ef38",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "f861b9fdbbf398f49af6fa542e78c06e5b891c25d0801ece8df35adffcbeaa02",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "9714f7f7a1035a1a166b0756805bf444a3a9a394377a76485796ba348c01db65",
+     "usable": false
+    },
+    "S1_s_MTBLS6260.txt": {
+     "role": "S1",
+     "sha256": "13f4367b76b7dba61ce2bd467a036a1ffeaa82ab9a43baea7549d51944178c99",
+     "usable": true
+    },
+    "S2_search_doi_95b3e7663e.json": {
+     "role": "S2_search",
+     "sha256": "90cfa663ce8636c67af55e55b971b9842414158fc0b85bd3c6ce5d124b502081",
+     "usable": false
+    }
+   }
+  },
+  "MTBLS9021": {
+   "files": {
+    "S1_a_MTBLS9021_LC-MS_negative_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "2fac7b787f667fda3813292fb4749a76b2465de90a144cf867d1964e5e80b346",
+     "usable": true
+    },
+    "S1_a_MTBLS9021_LC-MS_positive_reverse-phase_metabolite_profiling.txt": {
+     "role": "S1",
+     "sha256": "871bbcdf51512a0dad4fc9238a9b82d37c531b69f2775bd9aee9aa1dd69b204d",
+     "usable": true
+    },
+    "S1_i_Investigation.txt": {
+     "role": "S1",
+     "sha256": "301ac16265576d49b1ee44d8117d78e686c5b83ec5a79aca55dc604d4ce6ed86",
+     "usable": true
+    },
+    "S1_index.html": {
+     "role": "S1_index",
+     "sha256": "5b1d553c62c351d755a734862ca600296328aa6deedd34499f2bdea19b5058e1",
+     "usable": false
+    },
+    "S1_s_MTBLS9021.txt": {
+     "role": "S1",
+     "sha256": "3cf0c0e8e2be8a982915665c89aadfe819deb70b706d37e9520c0c0fd0e71483",
+     "usable": true
+    }
+   }
+  }
+ },
+ "tranche": "A35"
+}

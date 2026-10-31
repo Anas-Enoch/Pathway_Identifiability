@@ -1,0 +1,34 @@
+{
+ "docrec_version": "0.1.1",
+ "futility": {
+  "DR7_futility_reached": true,
+  "N": 371,
+  "bound_used": "hypergeometric (design-based, simple random sample)",
+  "cp_lower_pool": 0.0,
+  "cp_upper_pool": 26.8,
+  "futility_pool": 94,
+  "hypergeometric_lower_K": 0,
+  "hypergeometric_upper_K": 25,
+  "n": 40,
+  "x": 0
+ },
+ "grade_counts": {
+  "DOC_CONTRADICTED (ADJUDICATED)": 12,
+  "DOC_RECOVERED_COUNT (SENSITIVITY_ONLY)": 5,
+  "DOC_UNRESOLVED (ADJUDICATION_REJECTED)": 3,
+  "DOC_UNRESOLVED (COUNT_EXCEEDS_ROWS)": 3,
+  "DOC_UNRESOLVED (NO_ASSAY_SCOPED_COUNT)": 5,
+  "DOC_UNRESOLVED (Q2_NOT_ESTABLISHED)": 6,
+  "DOC_UNRESOLVED (ROWS_EXCEED_COUNT)": 3,
+  "DOC_UNRESOLVED (S1_ONLY_EVIDENCE)": 3
+ },
+ "invalid": [],
+ "missing_records": [],
+ "n_records": 40,
+ "n_sealed": 40,
+ "pending_adjudication": [],
+ "stale_adjudication_rows": [],
+ "strict_overlap_collapsed": 0,
+ "strict_plus_count_overlap_collapsed (sensitivity)": 5,
+ "tranche": "T1"
+}
