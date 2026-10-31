@@ -1,0 +1,391 @@
+accession,origin,census_grade,n_sources,n_rows,platform_class,matrix,census_version,title
+MTBLS19,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,180,MS,blood serum,0.1.6,LC−MS Based Serum Metabolomics for Identification of Hepatocellular Carcinoma Biomarkers in Egyptian Cohort
+MTBLS20,A35_ALLQC_DIAGNOSTIC,,0,148,,,0.1.8,Annotation of the human adult urinary metabolome and metabolite identification using ultra high performance liquid chromatography coupled to a LTQ-Orbitrap mass spectrometer
+MTBLS24,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,106,NMR,urine,0.1.6,Analysis of human urine reveals metabolic changes related to the development of acute kidney injury following cardiac surgery
+MTBLS27,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,96,96,MS,blood serum,0.1.6,"Fatty acid synthesis in colorectal cancer: characterization of lipid metabolism in serum, tumour, and normal host tissues"
+MTBLS28,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,1005,MS,urine,0.1.6,Non-invasive urinary metabolomic profiling identifies diagnostic and prognostic markers in lung cancer
+MTBLS71,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,160,160,MS,urine,0.1.6,A statistical analysis of the effects of urease pre-treatment on the measurement of the urinary metabolome by gas chromatography–mass spectrometry
+MTBLS89,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,833,833,MS,blood plasma,0.1.6,The HuMet Repository: Watching human metabolism at work
+MTBLS90,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,968,968,MS,blood serum,0.1.6,Large-scale non-targeted serum metabolomics in the Prospective Investigation of the Vasculature in Uppsala Seniors
+MTBLS92,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,447,447,MS,blood serum,0.1.6,Monounsaturated fatty acids in serum triacylglycerols are associated with response to neoadjuvant chemotherapy in breast cancer patients
+MTBLS93,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,2139,2139,MS,blood serum,0.1.6,Large-scale non-targeted serum metabolomics in the Swedish Twin Registry
+MTBLS105,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,89,89,MS,blood plasma,0.1.6,GC-MS Based Plasma Metabolomics for Identification of Candidate Biomarkers for Hepatocellular Carcinoma in Egyptian Cohort
+MTBLS124,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,1138,1138,MS,blood plasma,0.1.6,Large-scale non-targeted plasma metabolomics in the Uppsala Longitudinal Study of Adult Men
+MTBLS136,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,1648,MS,blood serum,0.1.6,Serum metabolomic profiles associated with postmenopausal hormone use
+MTBLS146,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,161,161,MS,blood plasma,0.1.6,Pregnancy-Induced Metabolic Phenotype Variations in Maternal Plasma
+MTBLS147,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,978,978,NMR,blood plasma,0.1.6,Probabilistic networks of blood metabolites in healthy subjects as indicators of latent cardiovascular risk
+MTBLS148,A35_ALLQC_DIAGNOSTIC,,0,280,,,0.1.8,Impact of collection conditions on the metabolite content of human urine samples as analyzed by liquid chromatography coupled to mass spectrometry and nuclear magnetic resonance spectroscopy (LC-MS as
+MTBLS150,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,162,MS,ovarian serous adenocarcinoma cell line,0.1.6,Distinct metabolic responses of an ovarian cancer stem cell line
+MTBLS172,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,140,140,NMR,blood plasma,0.1.6,Metabolomics profiling of pre-and post-anesthesia plasma samples obtained via Ficoll separation
+MTBLS178,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,90,MS,blood serum,0.1.6,The correlation of gut microbiota and serum metabolites with Sasang constitution
+MTBLS191,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,56,56,MS,blood plasma,0.1.6,The use of metabolomics to monitor simultaneous changes in metabolic variables following supramaximal low volume high intensity exercise
+MTBLS198,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,504,MS,urine,0.1.7,Urinary metabolomic profiling to identify biomarkers of a flavonoid-rich and flavonoid-poor fruits and vegetables diet in adults: the FLAVURS trial
+MTBLS200,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,66,MS,blood serum,0.1.6,Temporal characterization of serum metabolite signatures in lung cancer patients undergoing treatment
+MTBLS201,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,64,64,MS,feces,0.1.6,An ambient-temperature storage and stabilization device performs comparably to flash-frozen collection for stool metabolomics in infants
+MTBLS204,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,86,86,MS,blood plasma,0.1.6,Metabolomics analysis of human acute graft-versus-host disease reveals changes in host and microbiota-derived metabolites (Cohort 1)
+MTBLS218,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,132,MS,blood serum,0.1.6,An untargeted metabolomics approach to characterize short-term and long-term metabolic changes after bariatric surgery
+MTBLS220,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,68,68,MS,blood plasma,0.1.6,"Operational tolerance after hematopoietic stem cell transplantation is characterized by distinct transcriptional, phenotypic, and metabolic signatures (Cohort 1)."
+MTBLS221,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,96,96,MS,blood plasma,0.1.6,"Operational tolerance after hematopoietic stem cell transplantation is characterized by distinct transcriptional, phenotypic, and metabolic signatures (Cohort 2)."
+MTBLS242,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,465,NMR,blood serum,0.1.7,Metabolomic fingerprint of severe obesity is dynamically affected by bariatric surgery in a procedure-dependent manner
+MTBLS253,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,86,86,MS,blood serum,0.1.6,Metabolic characterization of the natural progression of chronic hepatitis B (Oxylipin assay)
+MTBLS277,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,72,MS,lung,0.1.6,Multi-omics toxicity profiling of engineered nanomaterials
+MTBLS279,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,88,88,MS,blood serum,0.1.6,Metabolic characterization of the natural progression of chronic hepatitis B (Lipid assays)
+MTBLS280,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,88,88,MS,blood serum,0.1.6,Metabolic characterization of the natural progression of chronic hepatitis B (Biogenic amine and Acyl-carnitine assays)
+MTBLS284,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,125,125,MS,urine,0.1.6,Rare genetic variants affecting urine metabolite levels link population variation to inborn errors of metabolism
+MTBLS290,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,73,73,MS,urine,0.1.6,Normalization techniques for PARAFAC modeling of urine metabolomics data
+MTBLS292,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,100,MS,u2 os cell,0.1.6,Clock regulation of metabolites reveals coupling between transcription and metabolism
+MTBLS298,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,60,MS,blood serum,0.1.6,Genome-scale study reveals reduced metabolic adaptability in patients with non-alcoholic fatty liver disease
+MTBLS300,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,483,483,MS,blood serum,0.1.6,Gut Microbiome Composition Is Associated With Future Onset of Crohn's Disease in Healthy First-Degree Relatives.
+MTBLS310,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,blood plasma,0.1.6,A red wine intervention does not modify plasma trimethylamine N-oxide but is associated with broad shifts in the plasma metabolome and gut microbiota composition
+MTBLS315,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,61,61,MS,blood plasma,0.1.6,Towards improving point-of-care diagnosis of non-malaria febrile illness: a metabolomics approach
+MTBLS352,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,718,718,MS,blood plasma,0.1.6,"Lipidomic profiling reveals distinct differences in plasma lipid composition in healthy, prediabetic and type 2 diabetic individuals"
+MTBLS354,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,239,239,MS,blood plasma,0.1.6,Lipid metabolites as potential diagnostic and prognostic biomarkers for acute community acquired pneumonia
+MTBLS356,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,54,54,NMR,blood serum,0.1.6,A serum nuclear magnetic resonance-based metabolomic signature of antiphospholipid syndrome
+MTBLS358,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,155,155,MS,blood serum,0.1.6,Chronic Obstructive Pulmonary Disease (COPD) Biomarker Identification Study: Serum Lipidomics
+MTBLS374,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,124,124,NMR,blood serum,0.1.6,Multiplatform serum metabolic phenotyping combined with pathway mapping to identify biochemical differences in smokers (NMR assay)
+MTBLS401,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,134,MS,mcf 10a cell,0.1.6,"Mass spectrometry based metabolomics for in vitro systems pharmacology: Pitfalls, challenges, and computational solutions"
+MTBLS404,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,184,184,MS,urine,0.1.6,"Analysis of the human adult urinary metabolome variations with age, body mass index and gender by implementing a comprehensive workflow for univariate and OPLS statistical analyses. ('Sacurine' data s"
+MTBLS406,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,234,234,MS,blood plasma,0.1.6,Azithromycin promotes relapse by disrupting immune and metabolic networks after allogeneic stem cell transplantation
+MTBLS407,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,75,75,MS,blood plasma,0.1.6,An online atlas of human plasma metabolite signatures of gut microbiome composition
+MTBLS417,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,blood serum,0.1.6,Customized Consensus Spectral Library Building for Untargeted Quantitative Metabolomics Analysis with Data Independent Acquisition Mass Spectrometry and MetaboDIA Workflow
+MTBLS419,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,117,117,NMR,hepatoma cell,0.1.6,Evidence of a DHA signature in the lipidome and metabolome of human hepatocytes
+MTBLS423,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,70,70,MS,blood plasma,0.1.6,Untargeted metabolomics identifies a plasma sphingolipid-related signature associated with lifestyle intervention in prepubertal children with obesity
+MTBLS424,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,699,699,NMR,blood serum,0.1.6,Serum metabolomic profiles identify ER-positive early breast cancer patients at increased risk of disease recurrence in a multicentre population
+MTBLS427,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,96,96,MS,urine,0.1.6,SPE-IMS-MS: An automated platform for sub-sixty second surveillance of endogenous metabolites and xenobiotics in biofluids
+MTBLS430,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,150,NMR,mcf 7 cell,0.1.6,Biological Effects of Amphiphilic Copolymer Nanoparticle-Encapsulated Multi-target Chemotherapeutic Drugs on MCF-7 Human Breast Cancer Cells
+MTBLS455,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,59,NMR,sh sy5y cell,0.1.6,Using an NMR metabolomics approach to investigate the pathogenicity of amyloid-beta and alpha-synuclein
+MTBLS469,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,160,160,MS,blood plasma,0.1.6,"Two apples a day modulate human:microbiome co-metabolic processing of polyphenols, tyrosine and tryptophan"
+MTBLS524,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,58,NMR,saliva,0.1.6,Identification of a discriminative metabolomic fingerprint of potential clinical relevance in saliva of patients with periodontitis using 1H nuclear magnetic resonance (NMR) spectroscopy
+MTBLS540,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,706,NMR,blood plasma,0.1.6,J-Resolved 1H NMR 1D-Projections for Large-Scale Metabolic Phenotyping Studies: Application to Blood Plasma Analysis
+MTBLS541,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,72,NMR,sk n as cell,0.1.6,Effects of hypoxic preconditioning on neuroblastoma tumour oxygenation and metabolic signature in a chick embryo model
+MTBLS563,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,142,NMR,blood serum,0.1.6,NMR-based metabolic profiling provides diagnostic and prognostic information in critically ill children with suspected infection
+MTBLS591,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,117,117,MS,bronchoalveolar lavage fluid,0.1.6,A Prototypic Small Molecule Database for Bronchoalveolar Lavage-Based Metabolomics
+MTBLS598,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,1551,1551,MS,serum,0.1.6,Metabolic dysregulation in vitamin E and carnitine shuttle energy mechanisms associate with human frailty
+MTBLS656,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,136,MS,saliva,0.1.6,A Pilot Characterization of the Human Chronobiome
+MTBLS658,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,84,NMR,neutrophil,0.1.6,A robust intracellular metabolite extraction protocol for human neutrophil metabolic profiling
+MTBLS700,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,289,289,MS,blood serum,0.1.6,Aberrant gut microbiota alters host metabolome and impacts renal failure in humans and rodents
+MTBLS702,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,125,125,MS,epithelial cell,0.1.6,Preterm birth is associated with xenobiotics and predicted by the vaginal metabolome
+MTBLS711,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,78,NMR,blood plasma,0.1.6,Fecal microbiota transplantation plus anti-PD-1 immunotherapy in advanced melanoma: a phase I trial
+MTBLS717,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,573,573,MS,cervical mucus,0.1.6,Direct on-swab metabolic profiling of vaginal microbiome:host interactions during pregnancy and preterm birth
+MTBLS718,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,325,325,MS,blood serum,0.1.6,"Antiviral metabolite 3'-Deoxy-3',4'-didehydro-cytidine is detectable in serum and identifies acute viral infections including COVID-19"
+MTBLS743,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,351,351,MS,blood plasma,0.1.6,Postprandial Metabolism is Impaired in Overweight Normoglycemic Young Adults without Family History of Diabetes
+MTBLS760,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,92,MS,saliva,0.1.6,Volatilomic insight of head and neck cancer via the effects observed on saliva metabolites
+MTBLS787,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,92,MS,urine,0.1.6,Correlation-based Deconvolution (CorrDec) to generate high quality MS2 spectra from data independent acquisition in multi-sample studies (Chemical standards assay)
+MTBLS798,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,4869,NMR,blood plasma,0.1.6,A Novel Metabolic Signature To Predict the Requirement of Dialysis or Renal Transplantation in Patients with Chronic Kidney Disease
+MTBLS803,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,108,MS,feces,0.1.6,"The unique composition of Indian gut microbiome, gene catalogue and associated faecal metabolome deciphered using multi-omics approaches"
+MTBLS816,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,224,MS,urine,0.1.6,Correlation-based Deconvolution (CorrDec) to generate high-quality MS2 spectra from data-independent acquisition in multi-sample studies (Urine assay)
+MTBLS833,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,63,63,MS,blood plasma,0.1.6,Rare and common genetic determinants of metabolic individuality and their effects on human health (EPIC-Norfolk study assays)
+MTBLS834,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,62,62,MS,blood plasma,0.1.6,Rare and common genetic determinants of metabolic individuality and their effects on human health (INTERVAL study assays)
+MTBLS863,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,116,116,NMR,cerebrospinal fluid,0.1.6,Metabolic Profiling of CSF from People Suffering from Sporadic and LRRK2 Parkinson's Disease: A Pilot Study
+MTBLS869,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,72,72,NMR,oligodendroglioma cell,0.1.6,An integrated genomic and metabolomic approach for defining survival time in adult oligodendrogliomas patients
+MTBLS881,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,591,591,NMR,serum,0.1.6,Metabotyping Patients' Journeys Reveals Early Predisposition to Lung Injury after Cardiac Surgery
+MTBLS899,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,238,MS,foreskin fibroblast,0.1.6,A profile of the joint Toxoplasma-host infection metabolome finds broad changes to metabolism and discovers a novel parasite metabolic capability
+MTBLS916,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,58,58,MS,feces,0.1.6,Fecal Metabolomics and Potential Biomarkers for Systemic Lupus Erythematosus
+MTBLS948,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,169,169,MS,blood plasma,0.1.6,Assessment of plasma metabolomic biomarkers in various pediatric diseases
+MTBLS974,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,3370,NMR,blood plasma,0.1.6,The Leiden Longevity Study: Identification of biomarkers of the rate of ageing
+MTBLS1015,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,137,137,MS,peripheral blood mononuclear cell,0.1.6,Metabolic alterations in immune cells associate with progression to type 1 diabetes
+MTBLS1033,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,104,104,MS,urine,0.1.6,Metabolomics Study of Serum and Urine Samples Reveals Metabolic Pathways and Biomarkers Associated with Pelvic Organ Prolapse
+MTBLS1041,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,204,204,MS,blood plasma,0.1.6,Metabolic Phenotypes of Hypoxic-Ischemic Encephalopathy with Normal vs. Pathologic Magnetic Resonance Imaging Outcomes
+MTBLS1108,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,155,155,MS,blood plasma,0.1.6,DIAMetAlyzer allows automated false-discovery rate-controlled analysis for data-independent acquisition in metabolomics
+MTBLS1122,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,236,236,MS,colon,0.1.6,Sex Differences in Colon Cancer Metabolism Reveal A Novel Subphenotype (UPLC-MS HILIC POS assay)
+MTBLS1124,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,236,236,MS,colon,0.1.6,Sex Differences in Colon Cancer Metabolism Reveal A Novel Subphenotype (UPLC-MS HILIC NEG assay)
+MTBLS1129,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,236,236,MS,colon,0.1.6,Sex Differences in Colon Cancer Metabolism Reveal A Novel Subphenotype (UPLC-MS RP POS assay)
+MTBLS1130,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,236,236,MS,colon,0.1.6,Sex Differences in Colon Cancer Metabolism Reveal A Novel Subphenotype (UPLC-MS RP NEG assay)
+MTBLS1133,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,165,165,MS,blood serum,0.1.6,Troubleshooting in Large-Scale LC-ToF-MS Metabolomics Analysis: Solving Complex Issues in Big Cohorts
+MTBLS1183,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,209,209,MS,blood plasma,0.1.6,UPLC-QTOF-MS-Based Plasma Lipidomic Profiling Reveals Biomarkers for Inflammatory Bowel Disease Diagnosis
+MTBLS1206,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,180,180,MS,urine,0.1.6,A Metabolomic Approach for Predicting Diurnal Changes in Cortisol
+MTBLS1285,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,51,51,MS,erythrocyte,0.1.6,Rhythmic glucose metabolism regulates the redox circadian clockwork in human red blood cells (LC-MS)
+MTBLS1286,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,68,68,MS,erythrocytes,0.1.6,Rhythmic glucose metabolism regulates the redox circadian clockwork in human red blood cells (GC-MS)
+MTBLS1295,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,95,95,MS,feces,0.1.6,Gut Microbiota Dysbiosis is Associated with Altered Bile Acid Metabolism in Infantile Cholestasis
+MTBLS1355,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,100,100,NMR,breast,0.1.6,Historical Biobanks in Breast Cancer Metabolomics - Challenges and Opportunities
+MTBLS1359,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,156,156,MS,blood plasma,0.1.6,Metabolomic Signature of Early Vascular Aging (EVA) in Hypertension
+MTBLS1369,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,75,75,MS,platelet,0.1.6,"LipidCreator workbench to probe the lipidomic landscape - Platelet isolation and stimulation, Targeted Phospho and Glycerolipid Profiling"
+MTBLS1371,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,130,130,MS,exfoliated cervical cell,0.1.6,Laser-assisted rapid evaporative ionisation mass spectrometry (LA-REIMS) as a metabolomics platform in cervical cancer screening
+MTBLS1375,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,88,88,MS,blood plasma,0.1.6,LipidCreator workbench to probe the lipidomic landscape - Targeted lipidomics analysis of Human Plasma samples and comparison with NIST SRM 1950 standard
+MTBLS1381,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,154,154,MS,blood platelet,0.1.6,"LipidCreator workbench to probe the lipidomic landscape - Platelet isolation and stimulation, targeted lipid mediator profiling"
+MTBLS1497,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,498,NMR,blood serum,0.1.6,RA-MAP: mapping the molecular immunological landscape in early rheumatoid arthritis with vaccine controls
+MTBLS1584,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,96,96,MS,blood plasma,0.1.6,Plasma Lipid Profile Reveals Plasmalogens as Potential Biomarkers for Colon Cancer Screening
+MTBLS1684,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,499,499,MS,umbilical cord blood,0.1.6,A multi-omic analysis of birthweight in newborn cord blood reveals new underlying mechanisms related to cholesterol metabolism
+MTBLS1765,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,120,120,MS,urine,0.1.6,Osmolality-based normalization enhances statistical discrimination of untargeted metabolomic urine analysis: results from a comparative study
+MTBLS1839,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,237,MS,blood serum,0.1.6,Coupled Mass-Spectrometry-Based Lipidomics Machine Learning Approach for Early Detection of Clear Cell Renal Cell Carcinoma
+MTBLS1866,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,157,157,MS,blood plasma,0.1.6,Large-Scale Plasma Analysis Revealed New Mechanisms and Molecules Associated with the Host Response to SARS-CoV-2
+MTBLS1876,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,69,69,MS,blood plasma,0.1.6,A combined direct infusion/reversed phase chromatography – high resolution mass spectrometry workflow for accurate absolute lipid quantification with 13C- internal standards
+MTBLS1894,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,92,92,NMR,synovia,0.1.6,1H-NMR-Based Analysis for Exploring Knee Synovial Fluid Metabolite Changes after Local Cryotherapy in Knee Arthritis Patients
+MTBLS1905,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,62,MS,squamous cell cancer of the head and neck,0.1.6,"Regional HNSCC metabolomics reveals widespread changes to one-carbon metabolism and S-adenosylmethionine metabolism across tumour core, tumour edge and adjacent non-tumour tissues"
+MTBLS1935,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,102,102,MS,rcc 786 o cell,0.1.6,Mass Spectrometry-Based Metabolic Fingerprinting Contributes to Unveil the Role of RSUME in Renal Cell Carcinoma Cell Metabolism
+MTBLS1990,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,646,NMR,blood serum,0.1.6,Metabolic profiling of maternal serum of women at high-risk of spontaneous preterm birth using NMR and MGWAS approach
+MTBLS1991,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,196,196,MS,blood serum,0.1.6,A molecular index for biological age identified from the metabolome and senescence-associated secretome in humans.
+MTBLS2040,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,85,NMR,blood serum,0.1.6,Symptomatology and Serum Nuclear Magnetic Resonance Metabolomics; Do They Predict Endometriosis in Fertile Women Undergoing Laparoscopic Sterilisation? A Prospective Cross-sectional Study
+MTBLS2148,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,59,59,NMR,decidua,0.1.6,Low chorionic villous succinate accumulation associates with recurrent spontaneous abortion risk
+MTBLS2150,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,114,114,MS,blood serum,0.1.6,Hyperhomocysteinemia-related serum metabolome alterations not normalized by short-term folic acid treatment
+MTBLS2187,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,472,472,MS,blood plasma,0.1.6,Multiomics and digital monitoring during lifestyle changes reveal independent dimensions of human biology and health
+MTBLS2205,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,58,58,MS,hap 1,0.1.6,Epistasis-driven identification of SLC25A51 as a regulator of human mitochondrial NAD import
+MTBLS2224,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,blood plasma,0.1.6,Sex-specific metabolic shifts in plasma of COVID-19 patients after cure
+MTBLS2245,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,500,500,MS,blood serum,0.1.6,Maternal steroids during pregnancy and their associations with ambient air pollution and temperature during preconception and early gestational periods
+MTBLS2259,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,472,472,MS,blood plasma,0.1.6,Prediction and evaluation of the effect of pre-centrifugation sample management on the measurable untargeted LC-MS plasma metabolome
+MTBLS2262,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,123,123,MS,blood plasma,0.1.6,Global analysis of plasma lipidomics reveals altered lipid signatures in patients with osteonecrosis of the femoral head
+MTBLS2266,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,274,MS,sebum,0.1.6,Metabolomics of sebum reveals lipid dysregulation in Parkinson's disease
+MTBLS2267,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,355,355,MS,blood plasma,0.1.6,Urban living in healthy Tanzanians is associated with an inflammatory status driven by dietary and metabolic changes
+MTBLS2291,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,318,318,MS,blood plasma,0.1.6,Metabolome and exposome profiling of the biospecimens from COVID-19 patients in India (Blood plasma assay)
+MTBLS2295,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,87,87,MS,urine,0.1.6,High-Precision Automated Workflow for Urinary Untargeted Metabolomic Epidemiology
+MTBLS2308,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,582,582,MS,blood plasma,0.1.6,Microbial community-scale metabolic modelling predicts personalized short-chain fatty acid production profiles in the human gut
+MTBLS2319,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,245,245,MS,blood serum,0.1.6,Alterations in fecal metagenomics and serum metabolomics indicate management strategies for patients with Budd-Chiari syndrome
+MTBLS2328,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,132,132,MS,urine,0.1.6,Discovering potential urinary biomarkers of tomato consumption using untargeted metabolomics
+MTBLS2336,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,68,68,NMR,blood plasma,0.1.6,Metabolomic/lipidomic profiling of COVID-19 and individual response to tocilizumab
+MTBLS2349,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,102,102,MS,nasal mucosa,0.1.6,Metabolome and exposome profiling of the biospecimens from COVID-19 patients in India (Nasopharyngeal swab assay)
+MTBLS2376,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,218,218,MS,blood,0.1.6,Early postnatal metabolic profile in neonates with different birth weight status: A pilot study
+MTBLS2394,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,58,58,MS,blood plasma,0.1.6,Impact of acute lymphoblastic leukemia induction therapy: findings from metabolomics on non-fasted plasma samples from a biorepository
+MTBLS2398,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,480,480,MS,feces,0.1.6,Rapid biotransformation of STW 5 constituents by human gut microbiome from IBS- and non-IBS donors
+MTBLS2400,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,163,163,MS,breath,0.1.6,Personalised therapeutic management of epileptic patients guided by pathway-driven breath metabolomics
+MTBLS2402,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,72,72,MS,liver,0.1.6,Improving the Screening Analysis of Pesticide Metabolites in Human Biomonitoring by Combining High-Throughput In Vitro Incubation and Automated LC-HRMS Data Processing
+MTBLS2421,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,blood plasma,0.1.6,Comparison of the Metabolic Profiles in the Plasma and Urine Samples Between Autistic and Typically Developing Boys: A Preliminary Study
+MTBLS2438,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,193,193,MS,feces,0.1.6,Targeting the gut-lung axis by synbiotic feeding to infants in a randomized controlled trial
+MTBLS2472,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,serum,0.1.6,Short-term changes in the serum metabolome after laparoscopic sleeve gastrectomy and Roux-en-Y gastric bypass
+MTBLS2531,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,82,82,MS,feces,0.1.6,Ecological adaptation and succession of human fecal microbial communities in an automated in vitro fermentation system
+MTBLS2573,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,milk,0.1.6,Altered milk tryptophan and tryptophan metabolites and health of children born to women with HIV (Haiti study assays).
+MTBLS2615,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,180,180,MS,serum,0.1.6,Risk assessment with gut microbiome and metabolite markers in NAFLD development
+MTBLS2627,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,109,109,MS,blood plasma,0.1.6,Circulatory metabolomics reveals the association of the metabolites with clinical features in the patients with intrahepatic cholestasis of pregnancy
+MTBLS2633,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,458,458,MS,blood plasma,0.1.6,"Integration of metabolomics, genomics and immune phenotypes reveals the causal roles of metabolites in disease"
+MTBLS2772,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,761,761,MS,sweat,0.1.6,Finger sweat analysis enables short interval metabolic biomonitoring in humans
+MTBLS2774,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,330,330,MS,feces,0.1.6,Altered metabolome and microbiome features provide clues in understanding irritable bowel syndrome and depression comorbidity
+MTBLS2824,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,76,76,NMR,urine,0.1.6,The Clinical Experiences of Urine Metabolomics of Genitourinary Urothelial Cancer in a Tertiary Hospital in Taiwan
+MTBLS2935,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,159,159,MS,blood plasma,0.1.6,Diagnostic Potential of Plasma IgG N-glycans in Discriminating Thyroid Cancer from Benign Thyroid Nodules and Healthy Controls
+MTBLS3233,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,52,52,MS,feces,0.1.6,The gut microbiome and metabolites are altered and interrelated in patients with rheumatoid arthritis
+MTBLS3444,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,551,551,MS,blood serum,0.1.6,Serum lipidomics study looking for specific endometrial polyps biomarkers distinguishing from endometrial cancer or hyperplasia
+MTBLS3476,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,101,101,MS,feces,0.1.6,A Murine Model of Maternal Micronutrient Deficiencies and Gut Inflammatory Host-microbe Interactions in the Offspring.
+MTBLS3505,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,66,66,MS,blood plasma,0.1.6,UPLC-Q-TOF/MS-Based Plasma and Urine Metabolomics Contribute to the Diagnosis of Sepsis
+MTBLS3628,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,238,238,MS,blood plasma,0.1.6,Distinct succinate modifying products are clinically diagnostic and prognostic biomarkers for fumarate hydratase deficient renal cell carcinoma
+MTBLS3800,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,172,172,MS,blood plasma,0.1.6,Metabolomics study of COVID-19 patients in four different clinical stages
+MTBLS3838,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,205,205,MS,blood serum,0.1.6,Postoperative Metabolic Phenoreversion in Clear Cell Renal Cell Carcinoma
+MTBLS3839,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,526,526,MS,blood plasma,0.1.6,Impact of myocardial reperfusion on human plasma lipidome
+MTBLS3852,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,105,105,MS,blood serum,0.1.6,Amino Acid Metabolism is Significantly Altered at the Time of Admission in Hospital for Severe COVID-19 Patients: Findings from Longitudinal Targeted Metabolomics Analysis
+MTBLS3854,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,blood plasma,0.1.6,Long-term low-dose ionizing radiation induced chromosome-aberration-specific metabolic phenotype changes in radiation workers
+MTBLS3873,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,101,101,NMR,glioma,0.1.6,"Tissue metabolites in diffuse glioma and their modulations by IDH1 mutation, histology, and treatment"
+MTBLS3909,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,feces,0.1.6,Intestinal Microbe-Metabolite Network Associated with The Efficacy of Fecal Microbiota Transplantation Therapy in Inflammatory Bowel Disease
+MTBLS3935,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,85,85,MS,brush cell,0.1.6,Multi-omic Profiling of Multi-Biosamples Reveals the Role of Amino Acid and Nucleotide Metabolism in Endometrial Cancer
+MTBLS4017,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,129,129,MS,sputum,0.1.6,Multi-omic Landscape of Airway Microbe-Host Interactions in Chronic Obstructive Pulmonary Disease
+MTBLS4187,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,89,89,MS,blood serum,0.1.6,Novel Potential Diagnostic Serum Biomarkers of Metabolomics in Osteoarticular Tuberculosis Patients: A Preliminary Study
+MTBLS4206,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,92,92,MS,feces,0.1.6,Altered fecal metabolomics and potential biomarkers of psoriatic arthritis differing from rheumatoid arthritis
+MTBLS4219,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,52,52,MS,erythrocyte,0.1.6,Modification of erythrocyte membrane phospholipid composition in preterm newborns with retinopathy of prematurity: The omegaROP study
+MTBLS4294,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,113,MS,blood plasma,0.1.6,Untargeted LC-HRMS Based-Plasma Metabolomics Reveals 3-O-Methyldopa as a New Biomarker of Poor Prognosis in High-Risk Neuroblastoma
+MTBLS4332,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,124,124,MS,serum,0.1.6,Multiomics implicate gut microbiota in altered lipid and energy metabolism in Parkinson’s disease
+MTBLS4437,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,69,69,MS,bone trabeculae,0.1.6,Examination of human osteoarchaeological remains as a feasible source of polar and apolar metabolites to study past conditions
+MTBLS4556,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,84,84,MS,urine,0.1.6,Integrated Exposomics/Metabolomics for Rapid Exposure and Effect Analyses
+MTBLS4569,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,200,200,MS,saliva,0.1.6,Saliva metabolome and microbiome in permanent teeth caries
+MTBLS4684,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,64,64,MS,gingiva,0.1.6,Lipidomic analysis reveals altered lipid profiles of clinically healthy and periodontitis-affected gingival biopsies
+MTBLS4766,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,65,NMR,neutrophil,0.1.6,Metabolic profiling of rheumatoid arthritis neutrophils reveals altered energy metabolism that is not affected by JAK inhibition
+MTBLS4816,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,91,91,MS,esophageal mucosa,0.1.6,Multi-omics association analysis reveals interactions between the oropharyngeal microbiome and the metabolome in pediatric patients with influenza A virus pneumonia.
+MTBLS4861,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,219,219,MS,uterine fluid,0.1.6,Profiling the metabolome of uterine fluid for early detection of ovarian cancer
+MTBLS4967,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,uterine cervix,0.1.6,Interaction between Cervical Microbiota and Host Gene Regulation in Caesarean Section Scar Diverticulum
+MTBLS5130,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,260,260,MS,blood plasma,0.1.6,Plasmodium falciparum adapts its investment into replication versus transmission according to the host environment
+MTBLS5208,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,200,200,MS,blood,0.1.6,Discovery and validation of metabolite markers in bloodstains for bloodstain age estimation
+MTBLS5267,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,158,158,MS,blood plasma,0.1.6,Dynamic change of IDO1 activity predicts survival in patients with unresectable stage III NSCLC and chemoradiotherapy
+MTBLS5289,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,semen,0.1.6,A new perspective on semen quality of aged male: The characteristics of metabolomics and proteomics
+MTBLS5423,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,58,58,MS,sputum,0.1.6,Airway Dysbiosis Accelerates Lung Function Decline in Chronic Obstructive Pulmonary Disease (Human UPLC-MS/MS assays)
+MTBLS5463,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,2668,2668,MS,saliva,0.1.6,Proteomic and metabolomic profiling of acute and chronic stress events associated with military exercises.
+MTBLS5568,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,358,358,MS,blood plasma,0.1.6,The Impact of Ethnicity and Intra-Pancreatic Fat on the Postprandial Metabolome Response to Whey Protein in Overweight Asian Chinese and European Caucasian Women with Prediabetes
+MTBLS5657,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,255,255,MS,breath,0.1.6,An interoperability framework for multicentric breath metabolomic studies
+MTBLS5665,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,52,52,MS,blood plasma,0.1.6,Transcriptomic and metabolomic analysis of liver cirrhosis
+MTBLS5828,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,64,MS,blood,0.1.6,Metabolic disorder and intestinal microflora dysbiosis in chronic inflammatory demyelinating polyradiculoneuropathy
+MTBLS6038,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,179,179,MS,blood serum,0.1.6,"Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Targeted organic acid assay)"
+MTBLS6039,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,blood serum,0.1.6,"Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)"
+MTBLS6051,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,64,NMR,serum,0.1.6,Acute heat stress amplifies exercise-induced metabolomic perturbations and reveals variation in circulating amino acids in endurance-trained males
+MTBLS6055,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,92,NMR,neutrophil,0.1.6,"1H NMR metabolomics and lipidomics analysis of neutrophils reveals biomarkers of ageing, inflammageing and frailty"
+MTBLS6213,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,52,NMR,serum,0.1.6,Serum metabolomics identifies unique inflammatory signatures to distinguish rheumatoid arthritis responders and non-responders to TNF inhibitor therapy
+MTBLS6219,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,316,NMR,blood serum,0.1.6,"Diagnostic utility of clinicodemographic, biochemical and metabolite variables to identify viable pregnancies in a symptomatic cohort during early gestation."
+MTBLS6220,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,101,NMR,neutrophil,0.1.6,An NMR metabolomics analysis pipeline for human neutrophil samples with limited source material
+MTBLS6259,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,52,NMR,neutrophil,0.1.6,Multiomics analysis of neutrophils in SLE: insights from adult and pediatric disease
+MTBLS6260,A35_ALLQC_DIAGNOSTIC,,0,61,,,0.1.8,"Oral ketone monoester ingestion reduces circulating blood glucose, exogenous carbohydrate oxidation and oxidation efficiency in trained male cyclists when fed 120 g of CHO per hour during exercise"
+MTBLS6279,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,78,78,MS,renal proximal tubule,0.1.6,Mesenchymal stromal cells secretome restores bioenergetic and redox homeostasis in human proximal tubule cells after ischemic injury
+MTBLS6334,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,feces,0.1.6,Altered fecal microbial and metabolic profiles reveal potential mechanisms underlying anemia in patients with chronic renal failure
+MTBLS6732,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,87,MS,serum,0.1.6,Gut microbiota ameliorates hepatic fibrosis through modulating intestinal bile acid metabolism and hepatocyte pyroptosis (Hepatic fibrosis serum)
+MTBLS6739,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,200,200,MS,blood plasma,0.1.6,Targeted plasma metabolomics combined with machine learning for the diagnosis of acute SARS-CoV-2
+MTBLS6844,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,53,53,MS,serum,0.1.6,Dysregulation of lipid metabolism and pathological inflammation in patients with COVID-19
+MTBLS6990,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,361,361,MS,blood serum,0.1.6,Serum metabolomic profiles for distinguishing lung cancer from pulmonary tuberculosis: identification of rapid and noninvasive biomarker
+MTBLS7118,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,207,207,MS,wi 38 cell,0.1.6,A homeostatic switch causing glycerol-3-phosphate and phosphoethanolamine accumulation triggers senescence by rewiring lipid metabolism
+MTBLS7260,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,1048,1048,MS,blood serum,0.1.6,Contributions of the Microbiome-Derived Metabolome for Risk Assessment and Prognostication of Pancreatic Cancer
+MTBLS7290,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,100,100,MS,feces,0.1.6,The Effect of Dietary Bioactives on Gut Microbiome DivErsity (DIME) - A pilot study (Targeted metabolomics)
+MTBLS7337,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,262,262,MS,blood plasma,0.1.6,Sequential multi-omics analysis identifies clinical phenotypes and predictive biomarkers for long COVID
+MTBLS7438,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,258,258,MS,serum,0.1.6,Untargeted serum metabolomics of ulcerative colitis patients vs healthy subjects using ultra-high performance liquid chromatography-quadrupole time-of-flight mass spectrometry
+MTBLS7560,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,120,MS,blood plasma,0.1.6,Neuroactive metabolites and bile acids are altered in extremely premature infants with brain injury
+MTBLS7670,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,195,195,MS,feces,0.1.6,Comparative characterization of the infant gut microbiome and their maternal lineage by a multi-omics approach
+MTBLS7753,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,62,62,MS,blood plasma,0.1.6,Untargeted plasma metabolome identifies biomarkers in patients with extracranial arteriovenous malformations
+MTBLS7760,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,173,173,MS,hep g2 cell,0.1.6,Analysis of glucose-independent metabolic pathways associated with anti-proliferative effect of metformin and their reversibility in liver cancer cells
+MTBLS7946,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,56,MS,sebum,0.1.6,Does Storage Post Sampling Influence the Stability of Sebum when used for Mass Spectrometry Metabolomics Analysis?
+MTBLS8012,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,95,95,MS,blood serum,0.1.6,Alterations in the amino acid profile in patients with papillary thyroid carcinoma with and without Hashimoto’s thyroiditis
+MTBLS8062,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,73,73,MS,aorta,0.1.6,Mitochondrial NAD+ Deficiency in Vascular Smooth Muscle Impairs Collagen III Turnover to Trigger Aortic Disease
+MTBLS8090,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,70,70,MS,colon,0.1.6,Metabolomics analyses of cancer tissue from patients with colorectal cancer.
+MTBLS8100,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,100,100,MS,feces,0.1.6,The Effect of Dietary BIoactives on Gut Microbiome DivErsity (DIME) - A pilot study (Untargeted metabolomics)
+MTBLS8183,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,95,95,MS,feces,0.1.6,Landscape of gut microbiota and metabolites and their interaction in comorbid heart failure and depressive symptoms: a random forest analysis study
+MTBLS8390,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,73,73,MS,blood plasma,0.1.6,"Association between altered tryptophan metabolism, plasma aryl hydrocarbon receptor agonists, and inflammatory Chagas disease"
+MTBLS8644,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,blood serum,0.1.6,Metabolomic approaches to dissect dysregulated metabolism in the progression of pre-diabetes to T2DM
+MTBLS8662,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,162,162,MS,urine,0.1.6,Urine metabolomics phenotyping and urinary biomarker exploratory in mild cognitive impairment and Alzheimer's disease.
+MTBLS8713,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,178,178,MS,feces,0.1.6,Microbiome and metabolome features in inflammatory bowel disease via multi-omics integration analyses across cohorts
+MTBLS8764,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,612,612,MS,blood serum,0.1.6,Metabolomics biomarkers of hepatocellular carcinoma in a prospective cohort of patients with cirrhosis
+MTBLS8920,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,57,57,MS,blood serum,0.1.6,Use of UHPLC-HRMS to profile the metabolites from the serum of breast cancer patients
+MTBLS8954,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,117,117,MS,feces,0.1.6,Exploring the Fecal Metabolome in Infants With Cow's Milk Allergy: The Distinct Impacts of Cow's Milk Protein Tolerance Acquisition and of Synbiotic Supplementation.
+MTBLS9021,A35_ALLQC_DIAGNOSTIC,,0,287,,,0.1.8,Multi-omics of the gut microbial ecosystem in the immunotherapy resistance in microsatellite instability-high gastrointestinal cancer patients
+MTBLS9264,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,104,104,MS,feces,0.1.6,Structure of gut microbiota and characteristics of fecal metabolites in people living with HIV
+MTBLS9493,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,213,213,MS,breast cancer cell line,0.1.6,Normalization strategies for lipidome data in cell line panels & Distinct lipidomic profiles in breast cancer cell lines relate to proliferation and EMT phenotypes
+MTBLS9522,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,70,70,MS,feces,0.1.6,A gut Eggerthella lenta–derived metabolite impairs neutrophil function to aggravate bacterial lung infection
+MTBLS9567,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,735,735,MS,hek 293 cell,0.1.6,Systematic analyses of lipid mobilization by human lipid transfer proteins
+MTBLS9586,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,118,118,MS,blood serum,0.1.6,Discovery and validation of potential serum biomarkers for heart failure by untargeted metabolomics
+MTBLS9662,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,90,90,MS,synovial joint,0.1.6,Metabolic Profiling of Synovial Fluid in Human Temporomandibular Joint Osteoarthritis
+MTBLS9665,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,90,90,MS,synovial joint,0.1.6,Metabolic Profiling of Synovial Fluid in Human Temporomandibular Joint Osteoarthritis
+MTBLS9853,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,378,378,NMR,feces,0.1.6,Modulating the developing gut microbiota with 2’-fucosyllactose and pooled human milk oligosaccharides
+MTBLS10066,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,153,MS,plasma,0.1.6,"Alterations in gut microbiota composition, plasma lipids, and brain activity, suggest inter-connected pathways influencing malnutrition-associated cognitive and neurodevelopmental changes."
+MTBLS10098,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,91,91,MS,cervical mucus,0.1.6,Multi-omic analysis of vaginal bacteria:host immune and metabolic interactions in early adverse pregnancy outcomes
+MTBLS10170,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,1393,1393,MS,blood serum,0.1.6,LipidIN: a comprehensive repository for flash platform-independent identification and reverse lipidomics
+MTBLS10232,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,557,557,MS,feces,0.1.6,"Distinct microbes, metabolites, and the host genome define the multi-omics profiles in right-sided and left-sided colon cancer"
+MTBLS10263,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,160,MS,feces,0.1.6,Multiple omics reveal link between the microbiota-gut-brain axis and intracranial aneurysm rupture
+MTBLS10304,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,61,61,MS,blood serum,0.1.6,Blood pseudotargeted metabolome of moyamoya disease
+MTBLS10392,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,serum,0.1.6,Multi-omics analyses of serum metabolome and gut microbiome reveal shifted metabolites associated with gut microbial dysbiosis in Guillain-Barre syndrome
+MTBLS10401,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,168,168,MS,blood plasma,0.1.6,Plasma Metabolome Analysis for Predicting Antiviral Treatment Efficacy in Chronic Hepatitis B: Diagnostic Biomarkers and Therapeutic Insights
+MTBLS10477,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,70,70,MS,cervical tissue,0.1.7,"Insight into the complex interaction between vaginal microbiome, metabolome, and host gene expression in cervical cancer progression"
+MTBLS10634,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,166,166,MS,blood plasma,0.1.7,Targeted metabolomic profiling of myocardial remodeling after STEMI
+MTBLS10742,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,nasal cavity,0.1.7,The nasal microbiome and metabolites are altered in depression patients
+MTBLS10743,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,67,67,MS,blood serum,0.1.7,Metabolomic Changes in Idiopathic and GBA1 Parkinson’s Disease
+MTBLS10841,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,79,79,MS,blood plasma,0.1.7,Metabolic Profiles Under Hypoxic Stress: Adolescent Athletes' Experience
+MTBLS10958,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,93,93,NMR,blood serum,0.1.7,1H-NMR-based metabolomic analysis identifies disrupted glutamate metabolism as distinct serum signature in Parkinson’s disease patients
+MTBLS10965,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,186,186,MS,blood plasma,0.1.7,EFO: In preparation - Early Metabolic Predictors of Type 2 Diabetes Mellitus in Normoglycemic Adults: Insights from Six-Year Prospective Cohort Study
+MTBLS10972,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,85,85,MS,blood plasma,0.1.7,"Acute response to a high-saturated, high-refined carbohydrate meal in healthy young men shows novel perturbation of multiple metabolic and defense pathways"
+MTBLS11009,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,90,90,NMR,saliva,0.1.7,Biomarker Discovery in Oral Cancer (OSMF & OSCC) and its severity
+MTBLS11030,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,126,126,MS,huh 7 cell,0.1.7,Glycerophospholipid remodeling is critical for orthoflavivirus infection
+MTBLS11048,A35_ALLQC_DIAGNOSTIC,,0,67,,,0.1.8,Mitochondrial ETF insufficiency drives neoplastic growth by selectively optimizing cancer bioenergetics
+MTBLS11094,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,166,166,MS,blood plasma,0.1.7,Alterations of fecal microbiota and plasma metabolome in patients with Parkinson's disease with rapid eye movement sleep disorder
+MTBLS11187,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,380,380,NMR,blood serum,0.1.7,Sex and subtype differences shape the blood metabolome profiles in Parkinson's disease.
+MTBLS11188,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,93,93,NMR,blood serum,0.1.7,NMR Metabolomics in Frailty disease
+MTBLS11232,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,166,166,MS,blood serum,0.1.7,Changes in L-phenylalanine concentration reflect and predict response to anti-PD-1 treatment combined with chemotherapy in patients with non-small cell lung cancer
+MTBLS11392,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,198,198,MS,feces,0.1.7,"Prenatal exposure to trace elements impacts mother-infant gut microbiome, metabolome and resistome during the first year of life"
+MTBLS11406,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,blood plasma,0.1.7,Multi-omic Molecular Characterization and Diagnostic Biomarkers for Occult Hepatitis B Infection and HBsAg-Positive Hepatitis B Infection
+MTBLS11656,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,129,129,MS,blood plasma,0.1.7,Metabolomic Analysis Reveals an Important Role of Sphingosine 1-phosphate in the Development of HFMD due to EV-A71 Infection
+MTBLS11685,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,79,79,MS,blood serum,0.1.7,Prevotella copri mediated caffeine metabolism involves ferroptosis of osteoblasts in osteoarthritis
+MTBLS11695,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,96,96,MS,blood plasma,0.1.7,To explore the role of circulating oxidized lipids in the progression and prognosis of SA-AKI by means of histochemistry
+MTBLS11712,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,105,105,MS,sebum,0.1.7,Classification of Parkinson’s Disease and Delineating Progression Markers from the Sebum Volatilome
+MTBLS11849,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,123,MS,colon,0.1.7,Lactate controls cancer stemness and plasticity through epigenetic regulation.
+MTBLS11987,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,67,67,MS,serum,0.1.7,Metabolomic Signatures Associated with Acute Ischemic Stroke
+MTBLS11994,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,103,103,MS,cheek,0.1.7,Decipher aging related skin microbiome and metabolites crosstalk from a chronologically matched cohort
+MTBLS11996,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,242,242,MS,blood plasma,0.1.7,Plasma metabolomic profiling for hepatocellular carcinoma diagnosis and microvascular invasion prediction
+MTBLS12058,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,96,96,MS,blood serum,0.1.7,Untargeted Lipidomics Profiling Provides Novel Insights into Pediatric Patients with Sepsis: An Exploratory Study
+MTBLS12086,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,120,120,MS,t 47d cell,0.1.7,Epigenetic coordination of transcriptional and translational programs in hypoxia
+MTBLS12186,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,81,81,MS,blood plasma,0.1.7,Identification of Biomarkers Using Metabolomics: From Chronic Non-Atrophic Gastritis and Chronic Atrophic Gastritis to Gastric Cancer
+MTBLS12231,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,77,77,MS,blood,0.1.7,Regulatory Role of the VCL/ICAM-1 Pathway in Inflammatory Exudative Damage to the Gas-Blood Barrier in SARS-CoV-2 Infection: New Insights from the Omicron Paradigm
+MTBLS12303,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,72,72,MS,atherosclerotic plaque,0.1.7,Metabolomic determinants of carotid atherosclerosis plaque stability
+MTBLS12310,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,feces,0.1.7,Microbiomics combined metabolomics reveals Akkermansia modulating chicken gut microenvironment to protect from gamma coronavirus infection
+MTBLS12326,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,114,114,MS,blood serum,0.1.7,Gut Microbiome and Serum Metabolic Alterations in Recurrent Gestational Diabetes Mellitus
+MTBLS12332,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,204,MS,hep g2 cell,0.1.7,Comparison of popular enrichment methods for untargeted in vitro metabolomics.
+MTBLS12353,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,123,123,MS,feces,0.1.7,Timing of unsaturated fat intake improves insulin sensitivity through gut microbiota-dependent regulation of bile acid metabolism: a randomized controlled trial
+MTBLS12365,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,182,182,MS,feces,0.1.7,Gut microbiome and metabolome dynamics as predictors of clinical outcomes in hematopoietic stem cell transplantation
+MTBLS12371,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,65,65,MS,follicular fluid,0.1.7,Androgens drive SLC1A5-dependent metabolic reprogramming in polycystic ovary syndrome-GC-MS analysis of follicular fluid
+MTBLS12372,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,58,MS,kidney,0.1.7,Metabolomic Profiling of Renal Cyst Fluid in Advanced ADPKD: Insights from Dialysis and Transplantation Cohorts
+MTBLS12415,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,72,72,MS,amniotic fluid,0.1.7,Metabolomics highlights reduced glutamate and acetylcarnitine in the amniotic fluid of cytomegalovirus-infected pregnant women
+MTBLS12576,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,blood serum,0.1.8,Altered fecal microbial and metabolic profiles reveal potential mechanisms underlying anemia in patients with chronic renal failure
+MTBLS12590,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,nasal flora,0.1.7,Characterization of the nasal microbiome and metabolome in children with Henoch-Schonlein purpura and children with Henoch-Schonlein purpura nephritis
+MTBLS12605,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,88,88,MS,urine,0.1.7,Gut Microbiota and Urine Metabolomics Signature in Autism Spectrum Disorder children from Southern China
+MTBLS12635,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,73,73,MS,bronchoalveolar lavage fluid,0.1.7,Multi-omics analysis of host airway responses in pediatric Mycoplasma pneumoniae pneumonia reveals potential mechanisms of disease exacerbation caused by co-infection
+MTBLS12636,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,90,90,MS,vagina,0.1.7,Integrated Multi-Omics Analysis Reveals the Impact of Vaginal Microbiota on the Microenvironment During Cervical Precancerous Progression
+MTBLS12645,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,240,MS,ipsc derived cell line,0.1.7,Elevated lysophosphatidylcholines during SSRI-induced neural differentiation correlate with early neurodevelopmental symptoms
+MTBLS12655,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,650,650,MS,blood plasma,0.1.7,Identification and Validation of Plasma Lipid Biomarkers for Oral Cancer Diagnosis
+MTBLS12679,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,67,67,MS,tongue coating,0.1.7,Microbiome and Metabolome Integrated Analysis: Exploring Potential Diagnostic Approaches for Parkinson’s Disease Using Tongue Coating Samples
+MTBLS12684,A35_ALLQC_DIAGNOSTIC,,0,144,,,0.1.8,Metabolic biomarkers of gastric cancer
+MTBLS12691,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,296,296,MS,cervicovaginal secretion,0.1.7,Distinct Cervical Microbiome and Metabolite Profiles Before and After Menopause: Implications for Cervical Cancer Progression
+MTBLS12692,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,73,73,MS,nasal,0.1.7,Cholic Acid as a Potential Mediator in PD Olfactory Dysfunction: Insights from Nasal Microbiome-Metabolite Interactions Research
+MTBLS12704,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,101,101,MS,saliva,0.1.7,Exploring Salivary Metabolites as Biomarkers in Chronic Craniofacial and Orofacial Pain: A Metabolomic Analysis.
+MTBLS12713,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,wound exudates,0.1.7,A Randomized Controlled Trial of Shengji Ointment Combined with Bromelain in Promoting Healing of Tendon-Exposed Diabetic Foot Wounds: Metabolomics Profiling Analysis
+MTBLS12722,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,74,74,MS,vagina,0.1.7,Pessary Therapy Restores Vaginal Microbiome Homeostasis in Severe Pelvic Organ Prolapse: A Longitudinal Metagenomic and Metabolic Analysis
+MTBLS12737,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,57,57,MS,urine,0.1.7,Prediction of irritable bowel syndrome by integrating urine metabolites and gut microbiota
+MTBLS12746,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,216,216,NMR,blood serum,0.1.7,Sex differences modulate blood metabolome profiles in Parkinson’s disease patients harbouring rare genetic variants
+MTBLS12753,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,140,140,NMR,blood serum,0.1.7,"Sex differences modulate the serum metabolome profiles in Parkinson’s disease patients harbouring pathogenic mutations in GBA1, LRRK2, TMEM175, PARK2, PINK1, and PARK7 genes"
+MTBLS12771,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,hipsc cell,0.1.7,Neurotoxicity of Propylene Glycol Butyl Ether: Multiomic Evidence from Human BrainSpheres
+MTBLS12772,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,58,58,MS,feces,0.1.7,Fecal metabolomic study in patients with choledocholithiasis concurrent with cholangitis
+MTBLS12775,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,216,216,MS,feces,0.1.7,Fecal metabolome alterations in infants at risk of developing allergy during the first year of life
+MTBLS12785,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,662,662,NMR,urine,0.1.8,A longitudinal ¹H NMR-based urinary metabolomics dataset in a birth cohort for childhood atopic diseases
+MTBLS12814,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,70,70,MS,blood serum,0.1.7,"MTBLS12814: Characterizing Human Oxidative, Anabolic and Glycolytic Metabolism in Athletes with Extreme Physiologies"
+MTBLS12820,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,136,136,MS,serum,0.1.7,Integrated Multi-Omics Analysis of Dampness-Heat Gout Reveals Diagnostic Biomarkers and Therapeutic Targets
+MTBLS12824,A35_ALLQC_DIAGNOSTIC,,0,95,,,0.1.8,"Delayed molecular aging, preservation of energy metabolism and enhanced exercise response in exercise-trained human muscle"
+MTBLS12854,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,129,129,MS,blood,0.1.7,Metabolome profiling by untargeted metabolomics and biomarker panel selection using machine-learning for patients in different stages of peripheral neuropathy induced by oxaliplatin
+MTBLS12861,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,66,MS,epithelium of mammary gland,0.1.7,Isotope tracing-based metabolite identification for mass spectrometry metabolomics
+MTBLS12863,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,248,248,MS,blood plasma,0.1.7,Composite polyphenols mitigate microplastic exposure-related immune disturbances: a two-phase population trial
+MTBLS12886,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,90,90,MS,feces,0.1.7,Lacto-N-tetraose mediates indole-3-lactic acid production by Bifidobacterium longum subsp. infantis to alleviate enterotoxigenic Escherichia coli-induced diarrhea in infants
+MTBLS12921,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,81,81,MS,hipsc cell,0.1.7,Neurotoxicity of Propylene Glycol Butyl Ether: Multiomic Evidence from Human BrainSpheres
+MTBLS12932,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,feces,0.1.7,Gut microbiota dysbiosis and altered fecal metabolome in patients with age-related cataract
+MTBLS12944,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,67,67,NMR,blood serum,0.1.7,Distinct Metabolomic and Lipoprotein signatures in Gall Bladder Cancer patients of Black African ancestry
+MTBLS12968,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,149,149,MS,blood plasma,0.1.7,PCOS preterm plasma metabolome
+MTBLS12985,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,68,68,MS,blood plasma,0.1.7,Non-targeted metabolomics reveals diagnostic biomarker in the plasma of patients with lung cancer
+MTBLS13039,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,84,84,MS,blood serum,0.1.7,"Exploring the molecular intersection for hypertension, hyperlipidemia and their comorbid conditions through multi-omics approaches"
+MTBLS13065,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,257,MS,whole blood,0.1.7,Dried blood spots analysis for targeted and non-targeted exposomics
+MTBLS13094,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,106,106,MS,blood serum,0.1.7,Unraveling the Heterogeneity of Hyperuricemia Using Untargeted Metabolomics and Statistical Modeling
+MTBLS13103,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,85,85,MS,blood serum,0.1.7,Limited vertical transmission but profound immune dysregulation at the maternal-fetal interface after SARS-CoV-2 infection
+MTBLS13105,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,313,313,MS,feces,0.1.7,Metabolomics data from Lactiplantibacillus plantarum Probio87 intervention in adults with functional constipation
+MTBLS13106,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,62,62,MS,serum,0.1.7,OA-HOXB9-ODC1-Polyamine Axis Mediates Metabolic Syndrome Promoting Endometrial Cancer Progression
+MTBLS13112,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,387,387,MS,blood plasma,0.1.7,Microbiome and metabolome profiles of severe versus mild influenza A cases: A case-control study
+MTBLS13135,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,51,51,MS,feces,0.1.7,Gut commensal Odoribacter splanchnicus alleviates hyperlipidemic periodontitis via the β-GPA-TLR4 axis
+MTBLS13136,A35_ALLQC_DIAGNOSTIC,,0,100,,,0.1.8,Targeted metabolomic profiling and machine learning-based prediction models for persistent atrial fibrillation: a multi-center observational study
+MTBLS13147,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,273,273,MS,blood serum,0.1.7,Different Metabolic Pathways Associated With Total Cortisol Exposure and the Cortisol Time Profile: A Randomized Crossover Trial
+MTBLS13155,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,315,315,MS,blood plasma,0.1.7,Human gut microbiota and plasma metabolomics in Mn-glucose metabolism correlation
+MTBLS13213,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,1620,1620,NMR,urine,0.1.7,Birth season shapes the infant metabolome and development in Tanzania: a secondary explorative analysis of The Early Life Interventions for Childhood growth and development in Tanzania (ELICIT) trial
+MTBLS13268,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,293,293,MS,blood serum,0.1.7,Blood metabolic panels for identifying significant fibrosis and inflammation in patients with MASLD
+MTBLS13319,A35_ALLQC_DIAGNOSTIC,,0,61,,,0.1.8,AROMA-GC: Green Automated Plasma Metabolome Profiling
+MTBLS13325,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,338,338,MS,blood plasma,0.1.7,Assessing the Feasibility of In Vitro Assays in Combination with Biological Matrices to Screen for Endogenous CYP450 Phenotype Biomarkers Using an Untargeted Metabolomics Approach—A Proof of Concept S
+MTBLS13364,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,62,62,MS,feces,0.1.7,Gut Microbiota and Metabolomic Changes Across Preterm Stages: Potential Associations with Bronchopulmonary Dysplasia
+MTBLS13376,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,plasma,0.1.7,Adjunctive ibuprofen in pre-extensively drug-resistant and extensively drug-resistant tuberculosis: a Phase IIA open-label pilot clinical trial
+MTBLS13382,A35_ALLQC_DIAGNOSTIC,,0,833,,,0.1.8,Expanding the clinical use of DBS: through a metabolomic and a lipidomic evaluation
+MTBLS13450,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,75,75,MS,bile,0.1.7,Mechanisms of action of bile acids in pediatric gastroesophageal reflux: Exploration through non-targeted and targeted metabolomics methods
+MTBLS13455,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,61,61,MS,blood plasma,0.1.7,Identification and validation of a glutamine metabolism-related gene signature as a diagnostic and therapeutic target in osteoarthritis through integrated multi-omics analysis
+MTBLS13459,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,75,75,MS,gastric juice,0.1.7,Mechanisms of action of bile acids in pediatric gastroesophageal reflux: Exploration through non-targeted and targeted metabolomics methods
+MTBLS13494,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,125,125,MS,urine,0.1.7,Habitual Coffee Intake Shapes the Gut Microbiome and Modifies Host Physiology and Cognition
+MTBLS13501,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,55,55,MS,blood serum,0.1.7,Traditional Chinese medicine Dachaihu decoction alleviates abnormal behavior through regulating gut microbiota and metabolites in children with ASD
+MTBLS13512,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,blood plasma,0.1.7,Multi-omics analysis identifies a microbiota–bile acid–TLR signaling axis driving bladder injury in interstitial cystitis
+MTBLS13513,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,80,80,MS,urine,0.1.7,Multi-omics analysis identifies a microbiota–bile acid–TLR signaling axis driving bladder injury in interstitial cystitis
+MTBLS13528,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,51,51,MS,fecal,0.1.7,A study of the relationship between post-cholecystectomy diarrhea and intestinal microecology
+MTBLS13561,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,60,60,MS,blood,0.1.7,Targeted Metabolomics Study: The Association Between Ovarian Function and Amino Acid Level Changes in Breast Cancer Patients Before and After Chemotherapy.
+MTBLS13565,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,189,189,MS,lung,0.1.7,Distinct metabolic profiles in lung adenocarcinomas presenting as solid or ground-glass opacities
+MTBLS13589,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,62,62,MS,blood serum,0.1.7,Inhibition of stress resilience and adult hippocampal neurogenesis by platelet-derived LPA16:0 in anxiety
+MTBLS13608,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,64,64,MS,plasma,0.1.7,Untargeted and Targeted Plasma Metabolomics Analysis Identifies Aberrant Amino Acid Metabolism in Early Primary Angle-Closure Glaucoma
+MTBLS13630,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,77,77,MS,blood plasma,0.1.7,Exploratory metabolomic profiling in migraine with PFO: dysregulated pathways and potential biomarkers
+MTBLS13634,A35_ALLQC_DIAGNOSTIC,,0,100,,,0.1.8,"Dynamic Changes and Clinical Significance of Gut Microbiota and Serum Metabolites in Breast Cancer Onset, Progression and Chemotherapy Intervention"
+MTBLS13652,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,54,54,MS,serum,0.1.7,Dietary germ oil-derived phytosterols ameliorate hyperlipidemia by suppressing bile salt hydrolase-producing gut microbiota to enrich taurohyodeoxycholic acid_Serum bile acid profile in individuals wi
+MTBLS13654,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,86,86,MS,serum,0.1.7,Dietary germ oil-derived phytosterols ameliorate hyperlipidemia by suppressing bile salt hydrolase-producing gut microbiota to enrich taurohyodeoxycholic acid_Serum bile acids in individuals with dysl
+MTBLS13684,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,97,97,MS,feces,0.1.7,Insulin Resistance-Associated Bifidobacterium longum Ameliorates Prediabetes via the 6-ketoLCA/TGR5/GLP-1 axis
+MTBLS13787,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,133,133,MS,serum,0.1.7,Microbiome and metabolome patterns centered on cancer cachexia link skeletal muscle and adipose tissue depletion to clinical outcomes in locally advanced rectal cancer
+MTBLS13807,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,56,56,MS,feces,0.1.7,Bilophila wadsworthia inhibits lifestyle intervention response in Gestational Diabetes Mellitus via L-glutamine regulation
+MTBLS13821,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,402,402,NMR,blood plasma,0.1.7,Dysregulated high-density lipoprotein and low-density lipoprotein subfractions increase metabolic dysfunction-associated steatotic liver disease risk: A study of patients across body mass index catego
+MTBLS13827,A35_ALLQC_DIAGNOSTIC,,0,170,,,0.1.8,Salivary Multi-omics Characterization and Staging Diagnostic Model for Type 2 Diabetes with Different Stages of Periodontitis
+MTBLS13829,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,200,200,NMR,blood plasma,0.1.7,1H NMR-Based Plasma Metabolomics and Machine Learning Reveal Distinct Metabolic Signatures of Breast Cancer in Nigerian Women
+MTBLS13839,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,71,71,MS,urine,0.1.7,Urinary Extracellular Vesicle Metabolomic Profiling Reveals a Distinct Molecular Signature for the Non-Invasive Diagnosis of Lupus Nephritis
+MTBLS13898,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,70,70,MS,cell culture supernatant,0.1.7,Metabolomic signatures in blastocyst spent culture medium as noninvasive predictors of live birth: a pilot study
+MTBLS13960,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,121,121,MS,stool,0.1.7,Gut Microbiome and Metabolome Signatures in Calcium Oxalate Stone Recurrence: A Multi-Omics Study
+MTBLS13986,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,127,MS,urine,0.1.7,Rapid and targeted HILIC-MS/MS quantification of urinary metabolites reveals metabolic alterations in COVID-19 patients
+MTBLS14073,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,530,530,MS,feces,0.1.7,Multi-kingdom profiling reveals altered gut phage-bacteria-metabolite interactions in MASLD
+MTBLS14084,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,104,MS,blood plasma,0.1.7,Gut Microbiota and Bile Acids Profiles study of Ulcerative Colitis and Crohn's Disease Patients
+MTBLS14087,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,76,76,MS,blood serum,0.1.7,Integrated Multi-omics Analysis Identifies Diagnostic Biomarkers for Acute Coronary Syndrome in Type 2 Diabetes Mellitus Patients
+MTBLS14123,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,207,207,MS,feces,0.1.7,The enhancing therapeutic effect of neonatal jaundice by bifidobacterium through regulating inflammation and gut microbiota in combination with phototherapy—a randomized controlled trial
+MTBLS14198,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,144,144,MS,saliva,0.1.7,Identification of Salivary Lipid Biomarkers for Noninvasive Diagnosis of Reflux Esophagitis via UHPLC-MS-based Lipidomics
+MTBLS14208,M5_SOURCE_DEGENERATE,SOURCE_DEGENERATE,1,60,MS,blood plasma,0.1.7,Relationship Between Vitamin D Levels and Psychological Stress-Induced Asthma Prevalence: An Untargeted Metabolomics Study Combined with the NHANES Database
+MTBLS14227,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,72,72,MS,monocyte,0.1.7,Metabolomic comparison of RA vs healthy monocytes undergoing different ex vivo activation conditions
+MTBLS14238,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,62,62,MS,synovial fluid,0.1.7,Non-targeted metabolomics analysis of synovial fluid from TMD patients
+MTBLS14358,A35_ALLQC_DIAGNOSTIC,,0,325,,,0.1.8,Decoding the Human Gut Bacterial Plasmids in Colorectal Cancer
+MTBLS14374,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,125,125,MS,blood clot,0.1.7,Metabolome of 334 cerebral thrombi (in four batches) retrieved by mechanical thrombectomy after ischemic stroke due to large vessel occlusion (Retro-MATISSE study)
+MTBLS14376,A35_ALLQC_DIAGNOSTIC,,0,126,,,0.1.8,Decoding the Human Gut Bacterial Plasmids in Colorectal Cancer
+MTBLS14421,A35_ALLQC_DIAGNOSTIC,,0,53,,,0.1.8,Multi-omics analysis identifies gut microbiota-glutamine axis contributing to the pathogenesis of reflux esophagitis
+MTBLS14426,A35_ALLQC_DIAGNOSTIC,,0,64,,,0.1.8,Urinary Ubiquitin-Specific Protease 2 (USP2) as a Diagnostic Biomarker for Chronic Kidney Disease: An Integrated Multi-Omics and Network Analysis
+MTBLS14459,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,88,88,MS,blood plasma,0.1.7,Metabolic Database of Sepsis
+MTBLS14505,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,116,116,MS,feces,0.1.7,Multiomic analysis reveals a role of Fusobacterium periodonticum in colorectal tumorigenesis by decanoic acid promoting neutrophil chemotaxis
+MTBLS14865,A35_ALLQC_DIAGNOSTIC,,0,368,,,0.1.8,A Clinical Urine Metabolomics Dataset for Urological Malignancies
+MTBLS15004,A35_ALLQC_DIAGNOSTIC,,0,85,,,0.1.8,Gut Microbiota Dysbiosis and Hypercholesterolemia Are Associated with Bone Metastasis in Non-Small Cell Lung Cancer
+MTBLS15127,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,179,179,MS,tissue,0.1.7,Phenomic and multiomic characterisation of microsatellite-stable colorectal cancer reveals novel biology and targets of vulnerability
+MTBLS15165,A35_ALLQC_DIAGNOSTIC,,0,70,,,0.1.8,Differential Metabolomic Biomarkers Analysis of Apheresis Platelet Storage Based on Machine Learning Models
+MTBLS15210,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,59,59,MS,blood plasma,0.1.7,Plasma metabolomic profiling reveals altered metabolic pathways associated with idiopathic hyperaldosteronism
+MTBLS15306,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,50,50,MS,huvec cell,0.1.7,Endothelial SLC25A13 links glutamine metabolism to angiogenesis
+MTBLS15406,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,3974,3974,MS,blood serum,0.1.7,A blood-based metabolic signature for earlier detection of lung cancer
+MTBLS15425,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,105,105,MS,blood plasma,0.1.7,Oral-gut microbiome and plasma metabolome reveal incremental restratification of coronary artery disease from the clinical gray zone
+MTBLS15433,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,100,100,MS,blood plasma,0.1.7,Untargeted Plasma Metabolomic Profiling of Parkinson’s Disease
+MTBLS15442,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,212,212,MS,blood plasma,0.1.7,Plasma metabolomics data in the Wenzhou Parkinson's disease cohort
+MTBLS15503,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,83,83,MS,u 87mg cell,0.1.7,Targeted lipidomics in Alexander's disease cellular models
+MTBLS15516,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,106,106,MS,feces,0.1.7,13(S)-HODE Generated by Rhizopus microsporus var. rhizopodiformis Aggravates MASLD via the Elane-PAR2-SREBP-1c Axis
+MTBLS15572,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,74,74,MS,serum,0.1.7,Enterotoxigenic Bacteroides fragilis exacerbates alcoholic liver disease progression through kynurenine mediated AMPK signaling inhibition and retinoic acid depletion
+MTBLS15660,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,100,100,MS,blood plasma,0.1.7,Metabolic signatures and diagnostic models of ischemic stroke and its hypertensive subtype:a non-targeted metabolomics and machine learning
+MTBLS15678,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,189,189,MS,milk,0.1.7,Human milk as infantile Super Food - the effect of dietary choices and supplementation on the shift of lipidomic profile during different stages of lactation
+MTBLS15689,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,152,152,MS,blood serum,0.1.7,Nutritional Approaches in Multiple Sclerosis
+MTBLS15871,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,63,63,MS,feces,0.1.7,Spirulina Alleviates Functional Constipation by Remodeling Gut Microbiota and Fecal Metabolites: A Metagenomic and Metabolomic Study
+MTBLS15948,M5_SOURCE_UNIQUE,SOURCE_UNIQUE,107,107,MS,bile,0.1.7,Metabolome profiling on resectable pancreatic ductal adenocarcinoma patients with early liver metastasis

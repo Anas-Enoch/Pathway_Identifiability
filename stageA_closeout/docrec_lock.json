@@ -1,0 +1,16 @@
+{
+ "abstract_in_view": true,
+ "beacon_not_before": "2026-10-30T15:00:00Z",
+ "beacon_url": "https://beacon.nist.gov/beacon/2.0/pulse/time/1793372400000",
+ "candidates": "stageA_documentary_candidates_v1.0.csv",
+ "candidates_sha256": "c1b5a4893356c517b64ed51c8777c372c52dfbc4210bc86998e7b63be18ab0d7",
+ "docrec_sha256": "419776ec8c378d5c275e1fcc7d046b179224d8d084362695541607079d520eb2",
+ "docrec_version": "0.1.1",
+ "manual_texts": true,
+ "owner_signoff": "Anas 2026-10-28T22:43:50Z",
+ "protocol": "DOC_RECOVERY_PROTOCOL_v0.2.md",
+ "protocol_sha256": "664d222f7f0a90b1a79ecf471e1f3ea647a10f70ace563ca8b639d92be03ba4c",
+ "s3_max": 5,
+ "salt_option": "b",
+ "t1_size": 40
+}
