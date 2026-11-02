@@ -1,9 +1,10 @@
 %% Audit manuscript, Springer Nature LaTeX template (sn-jnl), copied unmodified from torus_paper/.
-%% v0.5.1 of 2026-11-02: data-availability commit list completed after verification against the public remote.
-%% Reference style: sn-mathphys-num (numbered). Check the Metabolomics author instructions before submission.
+%% v0.6 of 2026-11-02: journal formatting (author-year, abstract <250 words, 6 keywords, main text <4,000 words with Supplementary Information).
+%% Reference style: author-year (Metabolomics requirement). sn-basic.bst in this folder is Springer Nature's sn-basic.bst (docstrip-generated spbasic.bst, author-year, natbib),
+%% taken from the Springer Nature LaTeX template as redistributed in the CRAN package rticles (SHA-256 1e881d92...c6b4); identical sn-mathphys-num.bst to the template copy already in this folder.
 
 \RequirePackage{amsthm}
-\documentclass[sn-mathphys-num]{sn-jnl}
+\documentclass[sn-basic]{sn-jnl}
 
 \usepackage{graphicx}%
 \usepackage{multirow}%
@@ -27,28 +28,24 @@ sampling units in publicly deposited metabolomics data: a repository-level audit
 \author*[1]{\fnm{Anas} \sur{Enoch}}\email{anas\_nour@um5.ac.ma}
 \affil*[1]{\orgname{Mohammed VI University of Sciences and Health (UM6SS)}, \orgaddress{\city{Casablanca}, \country{Morocco}}}
 
-\abstract{\textbf{Introduction.} Public metabolomics repositories enable secondary analysis and external validation, but
-valid inference requires that independent sampling units be identifiable. Unique sample labels do not identify
-distinct participants. \textbf{Objectives.} To assess whether repository metadata and linked documentation establish
-participant-level sampling structure under prespecified, affirmative evidence rules. \textbf{Methods.} A metadata-only
-census of 3,582 public MetaboLights accessions; a secondary audit of the factor metadata of 104 previously selected
-Metabolomics Workbench studies; a randomised documentary assessment of 40 of 371 unresolved MetaboLights candidates,
-reading deposit metadata together with linked publications; and a pre-verification of 19 human deposits whose rows an
-automated quality-control rule had removed. Source inventories were frozen and signed before reading, grading was
-deterministic, extraction was AI-assisted, and the author reviewed a prespecified subset. \textbf{Results.} Of 797
-human single-matrix MS or NMR studies reaching the census independence test, none met the prespecified criteria. No
-study in the randomised assessment met the strict one-sample-per-participant standard (0 of 40; one-sided 95\%
-hypergeometric upper bound 25 of 371 candidates). Documentation described repeated sampling of the same participants
-in 9 of 40 studies (8 on the author's re-review) and cultured cell lines in 3. In 17 of the 19 quality-control-excluded
-deposits, other fields identified study samples rather than blanks, 16 of them participant specimens. The author's
-review of a prespecified subset disagreed with the AI extraction only in assigning stated counts to the selected
-assay, never on the strict result. \textbf{Conclusion.} Under prespecified documentary criteria, participant-level
-sampling independence was not established for any study examined. The findings concern what documentation
-establishes, not the true independence of deposited samples. Deposition standards should require explicit
-participant-to-sample linkage so that dependence can be modelled in reuse and external validation.}
+\abstract{\textbf{Introduction.} Reuse of public metabolomics data requires that independent sampling units be
+identifiable; unique sample labels do not identify distinct participants. \textbf{Objectives.} To assess whether
+repository metadata and linked documentation establish participant-level sampling structure under prespecified,
+affirmative evidence rules. \textbf{Methods.} A metadata-only census of 3,582 public MetaboLights accessions; a
+secondary audit of factor metadata in 104 previously selected Metabolomics Workbench studies; a randomised documentary
+assessment of 40 of 371 unresolved MetaboLights candidates, reading deposit metadata with linked publications; and a
+pre-verification of 19 human deposits removed by an automated quality-control rule. Source inventories were frozen and
+signed before reading, grading was deterministic, extraction was AI-assisted, and the author reviewed a prespecified
+subset. \textbf{Results.} Of 797 human single-matrix MS or NMR studies reaching the census independence test, none met
+the criteria. No randomly selected study met the strict one-sample-per-participant standard (0 of 40; one-sided 95\%
+upper bound 25 of 371 candidates). Documentation described repeated sampling in 9 of 40 studies (8 on re-review) and
+cell lines in 3. In 17 of 19 quality-control-excluded deposits, other fields identified study samples rather than
+blanks. The author's review disagreed with the AI extraction only on assigning counts to the selected assay, never on
+the strict result. \textbf{Conclusion.} Under prespecified documentary criteria, participant-level sampling
+independence was not established in the census or the randomised assessment. The findings concern what documentation
+establishes, not true sample independence. Deposition standards should require explicit participant-to-sample linkage.}
 
-\keywords{metabolomics, data reuse, external validation, metadata, MetaboLights, Metabolomics Workbench,
-pseudoreplication, reporting standards}
+\keywords{metabolomics, data reuse, external validation, metadata, repositories, pseudoreplication}
 
 \maketitle
 
@@ -67,7 +64,9 @@ pseudoreplication, reporting standards}
 \begin{itemize}
 \item Funding: This research received no specific funding from any funding agency in the public, commercial or not-for-profit sectors.
 \item Competing interests: The author declares no competing interests.
+\item Ethics: the study analysed publicly deposited metadata and published documents only; no participants were recruited, no biological samples were handled, and no participant-level data were accessed or recorded. Ethical approval was not required.
 \item Use of AI tools: see Section~\ref{sec:ai}.
+\item Supplementary Information: Supplementary Methods S1--S5 and Supplementary Tables S1--S3 (file \texttt{audit\_supplement.pdf}).
 \item Data and code availability: protocols, code, locks, sealed evidence inventories, evidence records, grades and
       result records are public in the repository \url{https://github.com/Anas-Enoch/Pathway_Identifiability}
       (commits \texttt{b5cd507}, \texttt{3d376d0}, \texttt{195a60d}, \texttt{566af9d}; author-review records and this manuscript's

@@ -1,13 +1,13 @@
 \section{Discussion}\label{sec:discussion}
 
-The question this study asks is not whether the original investigators sampled their participants acceptably, but
-whether a secondary analyst, working from the public deposit and its linked documentation, can reconstruct the
-sampling structure well enough to identify independent units and account for dependence. Four analyses with different denominators and different targets bear on it: the census and the documentary
-assessment tested a one-sample-per-participant criterion; the Workbench audit examined one metadata endpoint of 104
-selected studies; the pre-verification examined sample classification, not participant linkage. None establishes a
-repository-wide prevalence of irreconstructible sampling structures. Together they give convergent evidence that the
+The question is not whether the original investigators sampled acceptably, but whether a secondary analyst, working
+from the deposit and its linked documentation, can reconstruct the sampling structure well enough to identify
+independent units and account for dependence. The four analyses have different targets: the census and the
+documentary assessment tested a one-sample-per-participant criterion, the Workbench audit one metadata endpoint of 104
+selected studies, the pre-verification sample classification rather than participant linkage. None establishes a
+repository-wide prevalence. Together they give convergent evidence that, under an affirmative-evidence standard, the
 information needed to identify independent sampling units is frequently absent from deposited metadata and often
-absent from linked publications under an affirmative-evidence standard. We draw three implications.
+absent from linked publications. We draw three implications.
 
 \paragraph{Missing subject-level linkage prevents correct dependence modelling.} A repeated-measures design is not a
 defect; it becomes one for reuse only when the deposit does not say which samples share a participant. In the
@@ -16,32 +16,31 @@ no factor key named a subject. The documentary tranche showed what this costs: 9
 sampling of the same participants in the deposited assay (serial sampling, pre/post samples, several specimens per
 patient), and a further 3 (7.5\%) consisted of cell lines rather than participants. For the nine, no qualifying
 participant-to-sample mapping was identified under the prespecified metadata and documentary procedures. An analyst treating these
-rows as independent would be pseudoreplicating~\cite{hurlbert1984pseudoreplication,waldron2016doppelganger}; an
-analyst wanting to model the dependence correctly could not. The same gap applies at the study level, where
-separately deposited assays of one sample set (MTBLS1122 and its three ionisation-mode siblings; the two deposits
-sharing a cohort description in the pre-verification set) would be counted as independent validation units by any
-procedure that counts accessions.
+rows as independent would be pseudoreplicating~\citep{hurlbert1984pseudoreplication,waldron2016doppelganger}; an
+analyst wanting to model the dependence correctly could not. The same gap applies at the study level: four
+separately deposited ionisation-mode assays of one sample set (MTBLS1122, MTBLS1124, MTBLS1129, MTBLS1130) would be
+counted as four independent validation units by any procedure that counts accessions, and two pre-verification
+deposits sharing a title and cohort description (MTBLS14358, MTBLS14376) could not be told apart from independent
+cohorts, because nothing in either deposit states whether their sample sets overlap.
 
 \paragraph{Automated metadata labels can conceal valid biological specimens.} The census removed every sample row of
 220 studies as quality-control material because a sample-type field read \texttt{blank}. For the 19 human deposits we
 examined, other fields on the same rows (disease-group factors, collection protocols, a named publication) identified
-study samples rather than blanks in 17, and participant specimens in 16 of those. The label appears to be a template default rather than a description. The practical
-consequence runs in both directions: a screen that trusts the label discards usable studies, and a screen that
-ignores it cannot distinguish blanks from specimens. Only the depositor can resolve this, and the finding argues for
-vocabulary defaults that are empty rather than pre-filled. The linkage inconsistency in MTBLS14421, where assay rows
+study samples rather than blanks in 17, and participant specimens in 16 of those. The label appears to be a template default rather than a description. A screen that trusts the label discards usable
+studies; one that ignores it cannot distinguish blanks from specimens. Only the depositor can resolve this, which
+argues for vocabulary defaults that are empty rather than pre-filled. The linkage inconsistency in MTBLS14421, where assay rows
 carry the labels of other samples across study groups, is a different kind of defect: it is detectable from the
 deposit, but not resolvable from it.
 
 \paragraph{Reproducible repository screening needs explicit evidence standards.} A screen that accepts unique sample
 names as evidence of independent participants would have passed hundreds of census studies; ours passed none, and the
 documentary tranche showed why that stricter standard was warranted, since 22.5\% of the uniquely labelled candidates documented
-repeated sampling and 7.5\% were not participant samples at all. Whatever standard a reuse study adopts, it should be stated before screening, applied by code
-that refuses other inputs, and reported with its failure categories, so that the gap between ``documentation
-establishes independence'' and ``samples are independent'' is visible rather than silently closed. Our results also
-show the limits of such screening: 11 of 40 randomly selected studies had no retrievable publication text, and the
-STRICT criterion of the documentary assessment, designed for an analysis needing one sample per participant, is
-stricter than the reconstructibility question of this paper. The zero STRICT count should not be read as zero
-reconstructible studies.
+repeated sampling and 7.5\% were not participant samples at all. Whatever standard a reuse study adopts should be stated before screening, applied by code that
+refuses other inputs, and reported with its failure categories, so that the gap between ``documentation establishes
+independence'' and ``samples are independent'' stays visible. The limits of such screening are also visible here: 11
+of 40 randomly selected studies had no retrievable publication text, and the STRICT criterion, designed for an
+analysis needing one sample per participant, is stricter than the reconstructibility question; a zero STRICT count is
+not zero reconstructible studies.
 
 \paragraph{Limitations.} The randomised documentary assessment covers one repository, and its 40 studies were drawn from the 371
 unresolved candidates that the census had already filtered (human, single-matrix, at least 50 labelled sources), not
@@ -60,9 +59,9 @@ participants.
 
 \paragraph{Recommendations.} Repositories should require, at deposition, a participant identifier or a
 subject-to-sample mapping on every biological sample, as controlled-access genomic archives already
-do~\cite{dbgap_submission}, and should flag deposits that share a sample set. Sample-type vocabularies should have no
+do~\citep{dbgap_submission}, and should flag deposits that share a sample set. Sample-type vocabularies should have no
 pre-filled default. Our recommendation concerns deposition metadata rather than manuscript reporting. The STROBE-MetEpi reporting
-guideline for metabolomic epidemiology, currently under review~\cite{kelly2026strobe}, already asks authors to report
+guideline for metabolomic epidemiology, currently under review~\citep{kelly2026strobe}, already asks authors to report
 participant eligibility and sampling (item 5a), the biological sample collection protocol including timing and whether
 conditions were the same for every sample (6a), any independent validation population (17), the final number of
 individuals in the primary analyses (19a), the time points at which profiles were measured in cohort studies (21c),

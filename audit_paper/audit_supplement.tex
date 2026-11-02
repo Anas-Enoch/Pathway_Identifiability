@@ -1,0 +1,163 @@
+%% Supplementary Information for: Identifiability of independent sampling units in publicly deposited metabolomics data
+\RequirePackage{amsthm}
+\documentclass[sn-basic]{sn-jnl}
+\usepackage{graphicx,multirow,amsmath,amssymb,amsfonts,xcolor,textcomp,manyfoot,booktabs,url,placeins}
+\raggedbottom
+\begin{document}
+\title[Supplementary Information]{Supplementary Information: Identifiability of independent sampling units in publicly deposited metabolomics data}
+\author*[1]{\fnm{Anas} \sur{Enoch}}\email{anas\_nour@um5.ac.ma}
+\affil*[1]{\orgname{Mohammed VI University of Sciences and Health (UM6SS)}, \orgaddress{\city{Casablanca}, \country{Morocco}}}
+\abstract{Supplementary Methods S1--S5 and Supplementary Tables S1--S3 referred to in the main text. All file names, hashes and commit identifiers refer to the public repository cited in the main text's Data Availability statement.}
+\maketitle
+\renewcommand{\thetable}{S\arabic{table}}
+
+\section*{Supplementary Methods S1: MetaboLights census, universe, access boundary and rules}
+\paragraph{Universe.} A separately locked enumeration audit compared the MetaboLights REST study list with the public
+FTP mirror on 25 October 2026. The REST list (3,584 accessions) was a subset of the mirror (3,596 folders); the 12
+mirror-only accessions were recorded as unresolved and not screened. Two accessions used as development exemplars
+were excluded, leaving a screening universe of 3,582 accessions.
+
+\paragraph{Access boundary.} For each accession the census requested the directory index and every investigation,
+sample and assay file it listed (\texttt{i\_}, \texttt{s\_}, \texttt{a\_}). Metabolite assignment files, data folders,
+raw and derived data and redirect destinations were refused by an allow-list guard. Requests were journalled with
+their HTTP status, size and declared length.
+
+\paragraph{Rules.} Studies were screened in a fixed order: organism (M1: human samples only), sample-sheet integrity
+and quality-control rows (M2: rows classified as blanks, pooled or reference material, or quality control were
+removed; a study with no biological rows left was unresolved), duplicate sample names (M3), a single sample matrix
+(M4), and the independence test (M5). An independent subject was defined as a human individual contributing exactly
+one biological sample to the chosen assay, and M5 had two affirmative routes. R1 required a person-identifier column
+on the source node (for example \texttt{Characteristics[Subject ID]}, \texttt{[Participant]}, \texttt{[Donor]} or
+\texttt{[Patient]}, by a pattern frozen in code), present on every biological row, with exactly one sample per
+identifier. R2 required two layers. Layer 1 classified the design from the study design descriptors and description:
+at least one cross-sectional or case-control term and no longitudinal, repeated-measures, crossover, follow-up or
+pre/post term. Layer 2 required a sentence in the study description matching one of four frozen templates and
+containing no negation or plural-sampling token. Templates T1 and T2 state one sample per participant explicitly
+(``one sample was collected from each participant''). Templates T3 and T4 state a number of distinct participants,
+accepted only if the integer equalled the number of biological sources exactly. Both routes also required one sample
+per source and at least 50 sources. The strict criterion (L1) counted R1 and T1/T2 evidence; a sensitivity count
+added T3/T4 evidence, because equal cardinalities do not prove a one-to-one mapping. Studies that failed M5 but had
+at least 50 distinct source labels with one sample each (``source-unique'') or at least 50 samples with a degenerate
+source column were recorded as unresolved candidates for documentary assessment.
+
+\paragraph{Execution.} The census ran in three locked invocations: a full run (code v0.1.6) and two disclosed retry
+passes for transport failures and a rescreen of studies whose sample rows had all been classified as quality control
+(v0.1.7 and v0.1.8). The final record for each accession is the latest one.
+
+\section*{Supplementary Methods S2: Metabolomics Workbench secondary audit, provenance of the 104 studies}
+Table~\ref{tab:S1} reproduces the selection steps, as recorded in the closure record of the earlier screen, that produced the 104 studies whose \texttt{factors} endpoint was audited. The counts are those of that record and were not recomputed here.
+\begin{table}[!ht]
+\caption{Provenance of the 104 Metabolomics Workbench studies (from the closure record of the earlier screen; counts as recorded there)}\label{tab:S1}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}p{0.62\textwidth}r}
+\toprule
+Step & $n$ \\
+\midrule
+Public studies in the Workbench species and source lists, 17 October 2026 & 4,635 \\
+\quad of which human & 1,906 \\
+E1: not human, or no species record (excluded) & 2,716 / 13 \\
+E2: studies previously opened by the authors' earlier work (excluded) & 216 \\
+PRE / PRE-N: fewer than 60 reported metabolites / fewer than 50 samples (excluded) & 966 / 501 \\
+Pass PRE and PRE-N & 223 \\
+E4: analysis attribution unresolved (excluded) & 20 \\
+E5: repeated measures / multiple matrices / $n<50$ after attribution (excluded) & 48 / 41 / 10 \\
+Retained for this audit: eligible 72, E6 (metabolite-class rule, not applied here) 28, ambiguous naming 4 & \textbf{104} \\
+\botrule
+\end{tabular*}
+\end{table}
+
+\section*{Supplementary Methods S3: Documentary assessment, sources, reading views, document freeze and grading rules}
+\paragraph{Sources.} Four sources were admissible: the deposit's investigation file (S1); publications named in the
+deposit by PubMed identifier or DOI, retrieved as full text from Europe PMC (S2); the first five publications, by
+first publication date, returned by a frozen Europe PMC full-text search for the exact accession string, usable only
+if their text contained the accession (S3); and author-supplied copies of S2 publications that were not open access,
+registered and hashed before the document freeze. No author was contacted.
+
+\paragraph{Value-blind reading views.} Extractors read only a deterministic reading view of each publication: the
+title; the abstract with any Results, Findings, Conclusions or Discussion parts removed; methods-type sections; and
+participant-characteristics tables. Results and Discussion sections, figures and supplementary files were excluded.
+For PDF copies a heuristic view (front matter and the methods block) was used, and records citing it carry a flag.
+
+\paragraph{Document freeze.} After retrieval, every document and view was listed with its hash in an evidence
+inventory, which the author signed before any evidence was read. No document could be added after the signature.
+
+\begin{table}[!ht]
+\caption{Grading rules for the documentary assessment, applied in order (protocol v0.2, \S9)}\label{tab:S2}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lp{0.55\textwidth}l}
+\toprule
+Order & Condition & Grade \\
+\midrule
+0 & failed quotation check or schema error & invalid (returned) \\
+1 & assay membership (Q2) not established & UNRESOLVED \\
+2 & Q4 states repeated sampling, or Q7 shows repeated samples & CONTRADICTED \\
+3 & Q1: samples not from human participants & CONTRADICTED \\
+4 & Q1 not stated & UNRESOLVED \\
+5 & no participant count scoped to the analysed set & UNRESOLVED \\
+6--7 & stated count $\neq$ deposited biological rows & UNRESOLVED \\
+8 & count or assay link supported only by the deposit itself & UNRESOLVED \\
+8b & assay link only from S3 papers without the accession in the quote & UNRESOLVED \\
+9 & one sample per participant stated in a publication (Q4 or Q7) & STRICT \\
+10 & otherwise & COUNT (sensitivity) \\
+\botrule
+\end{tabular*}
+\end{table}
+
+\FloatBarrier
+\section*{Supplementary Methods S4: Integrity, access and data handling}
+
+
+The census, the Workbench audit and the documentary assessment were each executed under a signed lock that fixed the
+code, protocol and inputs by hash; code refused to run against any other version. Deviations and implementation
+limitations are recorded in the result records and summarised in the Results. Participant-level information was
+not recorded beyond counts. Pseudonymous source labels collected by the census are held in a checkpoint file that is
+not published. Full texts of publications are not redistributed.
+
+
+
+\section*{Supplementary Methods S5: Author review protocol and deviations}
+\textbf{Protocol.} \texttt{T1\_HUMAN\_REVIEW\_PROTOCOL\_v1.0.md} (SHA-256 799865e8\ldots f509) was hashed on 31 October 2026 before the selection was computed. Component A: sampling frame = the 17 tranche studies with at least one publication reading view that the author had not adjudicated; selection = the first 10 by SHA-256 of \texttt{docrec-T1-human-review-v1|<accession>}; questions Q3 (scope, count, quotation) and Q4 (category, quotation) with the frozen categories; agreement rules: exact category match for Q3 scope and Q4, integer equality for Q3 count where both chose \texttt{selected\_assay}. Component B: all 12 final CONTRADICTED records; verdict confirmed / disputed / unresolved with a verbatim quotation.
+
+\textbf{Deviations.} (1) The intended independent reviewer could not be recruited; the author performed both components. (2) Before Component A the author had seen a second AI model's answers for the same ten studies, produced in an earlier attempt that was withdrawn and relabelled as an AI extraction (\texttt{T1\_SECOND\_MODEL\_A\_sheet.csv}, provenance note in the repository); the author had not seen the original extractor's answers or quotations. (3) The author's sheets were assembled by script after review; their timestamps are assembly artefacts. (4) Component B was performed by the author who had adjudicated the same records on 31 October 2026. The author's attestations are recorded verbatim in the result notes \texttt{T1\_HUMAN\_REVIEW\_A\_RESULT\_v1.0.md} and \texttt{T1\_HUMAN\_REVIEW\_B\_RESULT\_v1.0.md}.
+
+\section*{Supplementary Note: implementation limitations of the frozen code}
+
+
+The frozen implementation had three limitations, each disclosed in the result records. One reading view included a
+differential-metabolite table whose caption used an abbreviation that escaped the exclusion pattern; nothing was cited
+from it. The PDF view heuristic did not recognise ``STAR+METHODS'' headings; no graded record depended on such a
+block. The count check accepted an integer from a deposit quotation when the participant-count question also cited a
+publication; in the one affected record the publication stated the disjoint group sizes that sum to the count.
+
+\clearpage
+\section*{Supplementary Table S3: Fields supporting V2 in the 19 quality-control-excluded deposits}
+Table~\ref{tab:S3} lists, for each of the 19 deposits, whether the V2 check passed and which deposited fields supported it.
+\begin{table}[!ht]
+\caption{Deposits whose every sample row is labelled \texttt{experimental blank}, and the other deposited fields that identify the rows as study samples rather than blanks (V2). For MTBLS15165 the fields establish study material, not identifiable donors (V1 not established). Quotations are in the public evidence records.}\label{tab:S3}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}llp{0.52\textwidth}}
+\toprule
+Accession & V2 & Fields supporting V2 \\
+\midrule
+MTBLS20 & pass & investigation text (urine processing protocol); sample-file organism column \\
+MTBLS148 & pass & investigation text (urine collection from donors); sample-file factor values \\
+MTBLS6260 & pass & investigation text (plasma collection); sample-file time factors \\
+MTBLS9021 & pass & investigation text (baseline blood from patients); sample-file factor values \\
+MTBLS11048 & not established & none (cell-line rows) \\
+MTBLS12684 & pass & named publication; sample-file disease characteristic; investigation text \\
+MTBLS12824 & pass & investigation text; sample-file age-group and exercise factors \\
+MTBLS13136 & pass & investigation text; sample-file disease factor \\
+MTBLS13319 & not established & none (pooled plasma, method study) \\
+MTBLS13382 & pass & investigation text (DBS and serum collection); sample-file sample-type factor \\
+MTBLS13634 & pass & investigation text; sample-file treatment factor and group characteristic \\
+MTBLS13827 & pass & investigation text; sample-file treatment factor and group characteristic \\
+MTBLS14358 & pass & investigation text; sample-file organism column and group factor \\
+MTBLS14376 & pass & investigation text; sample-file group factor \\
+MTBLS14421 & pass & investigation text (serum from patients and volunteers); sample-file factor \\
+MTBLS14426 & pass & investigation text (urine and fasting serum collection); sample-file factor \\
+MTBLS14865 & pass & investigation text (urine before surgery or at examination); sample-file treatment factor \\
+MTBLS15004 & pass & investigation text (faecal samples from patients in two groups) \\
+MTBLS15165 & pass$^{\dagger}$ & investigation text (stored platelet units); sample-file replicate factor \\
+\botrule
+\end{tabular*}
+\footnotetext{$^{\dagger}$Study material established; donors not described.}
+\end{table}
+
+\end{document}
