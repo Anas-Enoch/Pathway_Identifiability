@@ -1,0 +1,218 @@
+\section{Methods}\label{sec:methods}
+
+All four analyses were metadata- and documentation-only. No measured metabolite value, data matrix, raw or derived
+data file was opened at any stage. Each analysis was specified in a written protocol, implemented in code with an
+offline test suite, and bound by SHA-256 hashes in a lock file signed by the author before execution. The locks were
+not registered with an external registry. Protocols, code, locks and outputs are public
+(Declarations).
+
+\subsection{Target property and evidence standard}\label{sec:target}
+
+The unit of interest is a deposited assay: the set of biological samples measured on one analytical platform for one
+sample matrix. We ask whether the deposited metadata, or the documentation linked to the deposit, identify the
+independent sampling units of that assay. Three pieces of information are needed: whether the samples come from human
+participants; how many distinct participants contributed to the assay; and whether any participant contributed more
+than one sample (several time points or visits, pre- and post-intervention samples, several specimens or technical
+replicates entered as separate biological samples), or, failing that, a sample-to-participant mapping that would let
+an analyst model the dependence.
+
+Evidence had to be affirmative. Unique sample or source labels were treated as bookkeeping, not as evidence of
+distinct participants. Counts had to be stated as integers, or as sums of stated integers for groups the source
+described as disjoint; counts derived from percentages or by subtraction were not accepted. An enrolment or
+recruitment figure was not accepted as the number of participants in an assay unless the text tied it to the
+analysed samples. We call independence established in this sense ``documented''. It is distinct from true
+independence: a study whose documentation is silent may still consist of independent participants.
+
+\subsection{MetaboLights census}\label{sec:census}
+
+\paragraph{Universe.} A separately locked enumeration audit compared the MetaboLights REST study list with the public
+FTP mirror on 25 October 2026. The REST list (3,584 accessions) was a subset of the mirror (3,596 folders); the 12
+mirror-only accessions were recorded as unresolved and not screened. Two accessions used as development exemplars
+were excluded, leaving a screening universe of 3,582 accessions.
+
+\paragraph{Access boundary.} For each accession the census requested the directory index and every investigation,
+sample and assay file it listed (\texttt{i\_}, \texttt{s\_}, \texttt{a\_}). Metabolite assignment files, data folders,
+raw and derived data and redirect destinations were refused by an allow-list guard. Requests were journalled with
+their HTTP status, size and declared length.
+
+\paragraph{Rules.} Studies were screened in a fixed order: organism (M1: human samples only), sample-sheet integrity
+and quality-control rows (M2: rows classified as blanks, pooled or reference material, or quality control were
+removed; a study with no biological rows left was unresolved), duplicate sample names (M3), a single sample matrix
+(M4), and the independence test (M5). An independent subject was defined as a human individual contributing exactly
+one biological sample to the chosen assay, and M5 had two affirmative routes. R1 required a person-identifier column
+on the source node (for example \texttt{Characteristics[Subject ID]}, \texttt{[Participant]}, \texttt{[Donor]} or
+\texttt{[Patient]}, by a pattern frozen in code), present on every biological row, with exactly one sample per
+identifier. R2 required two layers. Layer 1 classified the design from the study design descriptors and description:
+at least one cross-sectional or case-control term and no longitudinal, repeated-measures, crossover, follow-up or
+pre/post term. Layer 2 required a sentence in the study description matching one of four frozen templates and
+containing no negation or plural-sampling token. Templates T1 and T2 state one sample per participant explicitly
+(``one sample was collected from each participant''). Templates T3 and T4 state a number of distinct participants,
+accepted only if the integer equalled the number of biological sources exactly. Both routes also required one sample
+per source and at least 50 sources. The strict criterion (L1) counted R1 and T1/T2 evidence; a sensitivity count
+added T3/T4 evidence, because equal cardinalities do not prove a one-to-one mapping. Studies that failed M5 but had
+at least 50 distinct source labels with one sample each (``source-unique'') or at least 50 samples with a degenerate
+source column were recorded as unresolved candidates for documentary assessment.
+
+\paragraph{Execution.} The census ran in three locked invocations: a full run (code v0.1.6) and two disclosed retry
+passes for transport failures and a rescreen of studies whose sample rows had all been classified as quality control
+(v0.1.7 and v0.1.8). The final record for each accession is the latest one.
+
+\subsection{Secondary audit of Metabolomics Workbench subject fields}\label{sec:workbench}
+
+This analysis is secondary. It reuses 104 human Metabolomics Workbench studies that an earlier value-blind screen,
+built for a different research question (a cross-cohort transfer design that was subsequently closed), had retained
+on 17 October 2026. The screen and its outcome are documented in a hashed closure record; its criteria are
+summarised in Table~\ref{tab:b0}. The 104 studies are those that passed the screen's human-species, untouched-data,
+size and single-structure rules (E1--E5); they are not a random or representative sample of the Workbench, and no
+inference is drawn about the repository as a whole.
+
+For each of the 104 studies we read the \texttt{factors} table returned by the Workbench REST interface (from the
+screen's local cache; no network request was made) and recorded whether any factor key named a subject, patient,
+participant, individual, donor, person, volunteer or proband. The inference is restricted to this endpoint. Workbench
+mwTab files, which may contain an optional subject column, embed measured values and were not opened, so nothing is
+claimed about subject fields elsewhere in the Workbench metadata or in deposited files. A documentary route through
+study descriptions was not available from the endpoints used and was recorded as not assessable.
+
+\begin{table}[h]
+\caption{Provenance of the 104 Metabolomics Workbench studies (from the closure record of the earlier screen; counts as recorded there)}\label{tab:b0}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}p{0.62\textwidth}r}
+\toprule
+Step & $n$ \\
+\midrule
+Public studies in the Workbench species and source lists, 17 October 2026 & 4,635 \\
+\quad of which human & 1,906 \\
+E1: not human, or no species record (excluded) & 2,716 / 13 \\
+E2: studies previously opened by the authors' earlier work (excluded) & 216 \\
+PRE / PRE-N: fewer than 60 reported metabolites / fewer than 50 samples (excluded) & 966 / 501 \\
+Pass PRE and PRE-N & 223 \\
+E4: analysis attribution unresolved (excluded) & 20 \\
+E5: repeated measures / multiple matrices / $n<50$ after attribution (excluded) & 48 / 41 / 10 \\
+Retained for this audit: eligible 72, E6 (metabolite-class rule, not applied here) 28, ambiguous naming 4 & \textbf{104} \\
+\botrule
+\end{tabular*}
+\end{table}
+
+\subsection{Documentary assessment of a random tranche (T1)}\label{sec:t1}
+
+\paragraph{Population and selection.} The census produced 371 unresolved MetaboLights candidates with at least 50
+unique source labels (312) or at least 50 samples with a degenerate source column (59). A tranche of 40 was selected
+as follows. Each candidate was ranked by SHA-256 of a salt concatenated with its accession, and the first 40 were
+taken. The salt was the output value of a NIST Randomness Beacon (version 2) pulse, at a time fixed in the signed lock
+before the pulse existed (pulse 2-2005958, 30 October 2026, 15:00 UTC). No candidate was replaced. The tranche is
+therefore a simple random sample of 40 of the 371 candidates, and finite-population inference applies.
+
+\paragraph{Sources.} Four sources were admissible: the deposit's investigation file (S1); publications named in the
+deposit by PubMed identifier or DOI, retrieved as full text from Europe PMC (S2); the first five publications, by
+first publication date, returned by a frozen Europe PMC full-text search for the exact accession string, usable only
+if their text contained the accession (S3); and author-supplied copies of S2 publications that were not open access,
+registered and hashed before the document freeze. No author was contacted.
+
+\paragraph{Value-blind reading views.} Extractors read only a deterministic reading view of each publication: the
+title; the abstract with any Results, Findings, Conclusions or Discussion parts removed; methods-type sections; and
+participant-characteristics tables. Results and Discussion sections, figures and supplementary files were excluded.
+For PDF copies a heuristic view (front matter and the methods block) was used, and records citing it carry a flag.
+
+\paragraph{Document freeze.} After retrieval, every document and view was listed with its hash in an evidence
+inventory, which the author signed before any evidence was read. No document could be added after the signature.
+
+\paragraph{Questions and grades.} For the census-chosen assay of each study, extractors answered: Q1, whether the
+samples come from human participants; Q2, whether a source identifies the sample set analysed in the deposited assay;
+Q3, the number of distinct participants and whether it is scoped to the analysed set, to enrolment only, or absent;
+Q4, whether the source states one sample per participant, states repeated sampling, or is silent; Q6, overlap flags
+with other deposits; and Q7, whether a sample-to-participant mapping is published. Every answer other than ``not
+stated'' required a verbatim quotation with its location. A deterministic function assigned grades in a fixed order
+(Table~\ref{tab:grades}). The STRICT grade, which requires a documented one-sample-per-participant structure, was
+designed for a downstream analysis that needs one sample per participant. It is more restrictive than the question of this paper: a study whose documentation permits an analyst to reconstruct the
+clustering of repeated samples would not reach STRICT. We therefore also report Q7 (a published sample-to-participant
+mapping) and the Q4 category, and we do not equate a zero STRICT count with the absence of reconstructible clustering.
+
+\begin{table}[h]
+\caption{Grading rules for the documentary assessment, applied in order (protocol v0.2, \S9)}\label{tab:grades}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lp{0.55\textwidth}l}
+\toprule
+Order & Condition & Grade \\
+\midrule
+0 & failed quotation check or schema error & invalid (returned) \\
+1 & assay membership (Q2) not established & UNRESOLVED \\
+2 & Q4 states repeated sampling, or Q7 shows repeated samples & CONTRADICTED \\
+3 & Q1: samples not from human participants & CONTRADICTED \\
+4 & Q1 not stated & UNRESOLVED \\
+5 & no participant count scoped to the analysed set & UNRESOLVED \\
+6--7 & stated count $\neq$ deposited biological rows & UNRESOLVED \\
+8 & count or assay link supported only by the deposit itself & UNRESOLVED \\
+8b & assay link only from S3 papers without the accession in the quote & UNRESOLVED \\
+9 & one sample per participant stated in a publication (Q4 or Q7) & STRICT \\
+10 & otherwise & COUNT (sensitivity) \\
+\botrule
+\end{tabular*}
+\end{table}
+
+\paragraph{Extraction, grading and adjudication.} Extraction was performed by AI sub-agents working under a written
+brief fixed and hashed before any record was produced (Section~\ref{sec:ai}). The extractors were not told the
+deposits' biological row counts; the correspondence between a stated count and the deposited rows (rules 6--7) was
+computed only by the grading function. Every quotation was checked automatically for verbatim presence in the cited
+view. The author adjudicated every CONTRADICTED and STRICT record against the filed evidence; a rejected
+CONTRADICTED record became UNRESOLVED. No record was edited after grading.
+
+\subsection{Pre-verification of deposits removed by quality-control filtering}\label{sec:a35}
+
+A diagnostic after the census identified 19 MetaboLights deposits with human organism values and at least 50 sample
+rows in which every row had been removed by the M2 quality-control rule. Because the census selected no assay for
+them, the four checks were applied to the biological samples listed in each deposit's sample file: V1, human
+participants; V2, the rows are identified as participants' samples by fields other than the sample-type label, or by
+a publication; V3, an integer number of biological samples stated in text (counting rows was not accepted); and V4,
+the sampling structure, failing on explicit repeated sampling. A study was verified if all four checks passed and
+failed if any check failed. Sources were the investigation, sample and assay files and named publications. The
+evidence set was frozen and signed before reading, extraction was blind to row counts, and quotations of sample
+names or individual-level rows were prohibited.
+
+\subsection{Statistical analysis}\label{sec:stats}
+
+For the random tranche, the number of STRICT studies $x$ among $n = 40$ drawn without replacement from $N = 371$ was
+used to bound the number $K$ of documentation-recoverable candidates. The one-sided 95\% upper bound is the largest
+$K$ for which $P(X \le x \mid N, K, n) > 0.05$ under the hypergeometric distribution; the lower bound is defined
+symmetrically. Clopper--Pearson bounds scaled by $N$ are reported for comparison. These are confidence bounds on the
+number of candidates whose documentation meets the standard, not bounds on the number of truly independent cohorts.
+All other results are reported as counts with their denominators.
+
+\subsection{Author review of the AI-assisted extraction}\label{sec:validation}
+
+A two-part review was specified and hashed on 31 October 2026, before the reviewed studies were identified. The
+protocol intended an independent human reviewer; none could be recruited, and both components were performed by the
+author on 1--2 November 2026. The deviations from the protocol are stated here and in Section~\ref{sec:res-validation}.
+
+\paragraph{Component A (re-extraction).} The sampling frame was the 17 tranche studies with publication text that
+the author had not adjudicated. Ten were selected by a prespecified hash ranking of the accession strings. The author
+re-extracted Q3 and Q4 from the sealed sources using the frozen categories, without access to the original
+extractor's answers or quotations, but with prior knowledge of the overall study classifications and, in addition,
+after having seen the answers of a second AI model that had been run on the same ten studies in an earlier, abandoned
+attempt at this component (that sheet is preserved and labelled as an AI extraction). The author's sheet was assembled
+by script after the review, so per-study completion times were not recorded. Agreement is reported separately for Q3
+scope, Q3 count (where both chose the assay-scoped category) and Q4, with every disagreement listed. The ten are not a
+random sample of the 40, and agreement is not extrapolated to the tranche.
+
+\paragraph{Component B (contradiction review).} The author re-read the source texts of all 12 records finally graded
+CONTRADICTED and recorded, for each, whether an explicit statement supports the classification. Component B is not
+blind: the author had adjudicated the same records on 31 October 2026, so it is a consistency check by the same
+reader, not independent confirmation.
+
+Neither component alters the frozen grades. Every quotation in both sheets was machine-checked for verbatim presence
+in the cited sealed file. The author's attestations, the sheets and the scoring notes are public.
+
+\subsection{Use of AI tools}\label{sec:ai}
+
+Evidence extraction for the tranche and the pre-verification was performed by sub-agents of Claude (Anthropic),
+working under fixed, hashed written briefs. Each sub-agent read only the sealed files of its assigned studies,
+produced structured records with verbatim quotations, and had to pass an automated validator that checked the schema,
+the verbatim presence of every quotation and the form of every count. Grades were assigned by deterministic code, not
+by the sub-agents. The author adjudicated every CONTRADICTED record and carried out the human validation in
+Section~\ref{sec:validation}. The briefs, validators and raw sub-agent outputs are public. Claude also assisted with
+code and drafting under the author's direction; the author is responsible for the content.
+
+\subsection{Integrity, access and data handling}\label{sec:integrity}
+
+The census, the Workbench audit and the documentary assessment were each executed under a signed lock that fixed the
+code, protocol and inputs by hash; code refused to run against any other version. Deviations and implementation
+limitations are recorded in the result records and summarised in the Results. Participant-level information was
+not recorded beyond counts. Pseudonymous source labels collected by the census are held in a checkpoint file that is
+not published. Full texts of publications are not redistributed.

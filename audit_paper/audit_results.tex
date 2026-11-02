@@ -1,0 +1,174 @@
+\section{Results}\label{sec:results}
+
+\subsection{MetaboLights census}\label{sec:res-census}
+
+Of the 3,582 accessions, 3,569 reached a terminal status; 11 failed in transport and 2 returned persistent HTTP 403
+responses (Table~\ref{tab:census}). Most exclusions were non-human studies (2,321). Of the human studies, 797 with a
+single sample matrix and an MS (714) or NMR (83) assay reached the independence test. \textbf{No study met the
+prespecified affirmative criteria under either the strict or the sensitivity count (L1 = 0).}
+
+Neither route found qualifying evidence. Among the inspected records (the 658 studies whose source-node columns were
+tested against the R1 pattern and the 220 studies rescreened after all their rows had been classified as quality
+control), no qualifying person-identifier column was found. The R2 design layer passed in 18 of the 797 studies, and
+none of the 18 contained a qualifying one-sample-per-participant sentence. The census found 312 human studies with at
+least 50 distinct source labels and one sample per source, and 59 with at least 50 samples and a degenerate source
+column; these 371 formed the population for the documentary assessment.
+
+In 220 studies every sample-sheet row was classified as quality control. In 183 of them the trigger was the value
+\texttt{blank} in a sample-type characteristic on every row. The census read the label as written; whether the rows
+are in fact biological samples was examined for the human subset in Section~\ref{sec:res-a35}.
+
+\begin{table}[h]
+\caption{Outcome of the MetaboLights census (3,582 accessions)}\label{tab:census}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}llr}
+\toprule
+Status & Rule or reason & $n$ \\
+\midrule
+Excluded & non-human (M1) & 2,321 \\
+Excluded & more than one matrix (M4) & 67 \\
+Excluded & $>1$ sample per source or identifier (M5) & 60 \\
+Excluded & no MS or NMR assay & 1 \\
+Unresolved & source-unique, failed M5 (312 with $\ge$ 50 sources) & 616 \\
+Unresolved & degenerate source column (59 with $\ge$ 50 samples) & 121 \\
+Unresolved & M2: all rows QC / ambiguous QC label / unidentified rows & 220 / 66 / 7 \\
+Unresolved & duplicate sample names / organism / organism part & 13 / 3 / 1 \\
+Refused & format / structure / index & 61 / 10 / 2 \\
+Not terminal & transport failure / HTTP 403 & 11 / 2 \\
+\textbf{Eligible} & strict and sensitivity L1 & \textbf{0} \\
+\botrule
+\end{tabular*}
+\end{table}
+
+\subsection{Secondary audit of Metabolomics Workbench subject fields}\label{sec:res-workbench}
+
+None of the 104 previously selected human studies had a factor key naming a subject, patient, participant, individual, donor, person,
+volunteer or proband in the \texttt{factors} table. The most frequent keys were design factors: sample source (21),
+treatment (16), group (13), sex or gender (13), diagnosis (8). Two limitations bear on this result. The inherited
+repeated-measures detector did not recognise underscore or camel-case time keys (for example
+\texttt{POST\_SURGERY\_TIME}, \texttt{collectionWeek}), so dependence in these studies is undercounted. Factor keys
+such as cell line, cell culture medium and post-mortem interval show that a ``human'' species label did not by itself
+establish human participants. These findings concern the \texttt{factors} endpoint of 104 selected studies only.
+
+\subsection{Documentary assessment of the random tranche}\label{sec:res-t1}
+
+Of the 40 studies, 29 had at least one publication reading view in the frozen evidence set and 11 had none. Under
+the prespecified procedure, no qualifying statement that each participant contributed one sample to the analysed set
+was identified in any reading view, and no view contained a sample-to-participant table; Q7 was ``none'' for all 40
+studies. \textbf{No study reached the STRICT grade ($x = 0$).} Because STRICT requires a stated one-sample-per-participant
+structure, this count does not measure how many studies' clustering could be reconstructed from other documentation;
+that question is addressed by Q7 and the Q4 categories reported below. The one-sided 95\% hypergeometric upper bound on the
+number of the 371 candidates whose documentation meets the standard is 25 (Clopper--Pearson: 26.8).
+
+\begin{table}[h]
+\caption{Final grades of the 40 tranche studies after adjudication}\label{tab:t1}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lr}
+\toprule
+Grade (reason) & $n$ \\
+\midrule
+STRICT & 0 \\
+COUNT (sensitivity only) & 5 \\
+CONTRADICTED: repeated sampling in the chosen assay & 9 \\
+CONTRADICTED: samples not from human participants (cell lines) & 3 \\
+UNRESOLVED: adjudication rejected & 3 \\
+UNRESOLVED: assay membership not established & 6 \\
+UNRESOLVED: no assay-scoped participant count & 5 \\
+UNRESOLVED: stated count below / above deposited rows & 3 / 3 \\
+UNRESOLVED: count supported only by the deposit & 3 \\
+\botrule
+\end{tabular*}
+\end{table}
+
+Where documentation addressed sampling, it often described dependence. Nine studies (22.5\%) documented repeated
+sampling of the same participants within the chosen assay (serial time points, pre/post-treatment samples, follow-up
+visits, several cysts per patient, up to 56 time points per participant), and three (7.5\%) consisted of cultured cell
+lines rather than participant samples. Together these account for the 12 CONTRADICTED classifications after
+adjudication. All twelve had entered the candidate pool through unique or degenerate source
+labels. Under the author's re-review (Section~\ref{sec:res-validation}) one of the nine repeated-sampling classifications is not explicitly supported, giving 8 of 40 (20\%) as a sensitivity figure.
+
+Stated counts frequently failed to reconcile with the deposits. Among the 13 studies not finally graded
+CONTRADICTED that reported an assay-scoped participant count with a publication source, 7 matched the number of
+deposited biological rows and 6 did not (3 lower, 3 higher). None of the 7 had one-sample-per-participant evidence.
+The candidate pool also contained four separately deposited ionisation-mode assays of one sample set
+(MTBLS1122, MTBLS1124, MTBLS1129, MTBLS1130), so the number of candidates overstates the number of distinct studies.
+
+The result does not depend on unread documents or on adjudication. Three named publications could not be obtained;
+if all three had supplied STRICT evidence, $x$ would be 3 and the upper bound 65. Adjudication can only confirm or
+reject CONTRADICTED and STRICT grades, and a rejection yields UNRESOLVED.
+
+\subsection{Author review of the AI-assisted extraction}\label{sec:res-validation}
+
+\paragraph{Component A.} Q3 scope agreed in 6 of 10 studies; Q3 count agreed in 4 of 4 studies in which both the
+author and the extractor chose the assay-scoped category; Q4 agreed in 10 of 10 (both answered ``not stated'' for
+every study, a shared null that does not test sensitivity for detecting repeated sampling). The four Q3 disagreements
+(MTBLS718, 11406, 2774, 13787) all ran in one direction: the author declined to assign a stated count to the selected
+assay where the extractor had done so, because the documents did not say which cohort or sample set the deposit held,
+or gave a sample count rather than a participant count. In no case did the author find a count or a sampling
+statement the extractor had missed. Three of the four records were already UNRESOLVED; under the author's reading the
+fourth (MTBLS11406) would move from COUNT to UNRESOLVED, reducing the sensitivity-only STRICT + COUNT figure from 5
+to 4. No disagreement bears on the STRICT count.
+
+\paragraph{Component B.} Of the 12 CONTRADICTED records, 11 were confirmed by an explicit statement in the cited
+source (the same sentence the extractor had cited), none was disputed, and one (MTBLS10972, deposit text only) was
+judged unresolved: the deposit describes a post-meal time course but does not state that multiple specimens from the
+same individuals entered the deposited assay. The author had confirmed this record at adjudication while noting the
+evidence as weak. As a sensitivity figure, documented repeated sampling is 8 of 40 (20\%) rather than 9 of 40, and
+the CONTRADICTED total 11 rather than 12; the three cell-line classifications are unchanged. The primary figures in
+Table~\ref{tab:t1} are the frozen ones.
+
+\subsection{Deposits removed by quality-control filtering}\label{sec:res-a35}
+
+In 18 of the 19 human deposits whose rows had all been removed by the quality-control rule, every sample row carried
+\texttt{Characteristics[Sample type] = experimental blank}; in the remaining deposit, 94 of 95 rows did. In 17 of the
+19, other deposited fields identified the rows as the study's biological samples rather than blanks (V2 passed):
+disease-group or treatment factor values on the same rows, sample-collection protocols, or the study description. In 16
+of these 17 the same fields describe participant specimens; in MTBLS15165 they describe stored platelet units whose
+donors are not mentioned, so the human origin of the material is not established (V1 not established). Table~\ref{tab:v2} lists the supporting fields per deposit. In these 17 the sample-type annotation
+conflicts with the other fields. Three deposits were verified (all four checks passed, with stated sample counts of
+368, 144 and 85), eight failed (cell lines or non-human rows in two, pooled material in two, repeated sampling in
+four) and eight were unverifiable, mostly because no sample count was stated.
+
+Two further inconsistencies were found. In both assay files of MTBLS14421, the extract, assay and normalisation names
+of 50 of 53 rows carry the label of a different sample, and in 30 rows that label belongs to the other study group
+(15 control rows carry patient labels and 15 patient rows carry control labels). This is a linkage inconsistency
+between the sample sheet and the assay table; the deposit does not show which label is correct, and we make no claim
+about the published analysis. MTBLS14358 and MTBLS14376 share a title and a cohort description; whether their sample
+sets overlap is not established from the deposits.
+
+
+\begin{table}[h]
+\caption{Deposits whose every sample row is labelled \texttt{experimental blank}, and the other deposited fields that identify the rows as study samples rather than blanks (V2). For MTBLS15165 the fields establish study material, not identifiable donors (V1 not established). Quotations are in the public evidence records.}\label{tab:v2}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}llp{0.52\textwidth}}
+\toprule
+Accession & V2 & Fields supporting V2 \\
+\midrule
+MTBLS20 & pass & investigation text (urine processing protocol); sample-file organism column \\
+MTBLS148 & pass & investigation text (urine collection from donors); sample-file factor values \\
+MTBLS6260 & pass & investigation text (plasma collection); sample-file time factors \\
+MTBLS9021 & pass & investigation text (baseline blood from patients); sample-file factor values \\
+MTBLS11048 & not established & none (cell-line rows) \\
+MTBLS12684 & pass & named publication; sample-file disease characteristic; investigation text \\
+MTBLS12824 & pass & investigation text; sample-file age-group and exercise factors \\
+MTBLS13136 & pass & investigation text; sample-file disease factor \\
+MTBLS13319 & not established & none (pooled plasma, method study) \\
+MTBLS13382 & pass & investigation text (DBS and serum collection); sample-file sample-type factor \\
+MTBLS13634 & pass & investigation text; sample-file treatment factor and group characteristic \\
+MTBLS13827 & pass & investigation text; sample-file treatment factor and group characteristic \\
+MTBLS14358 & pass & investigation text; sample-file organism column and group factor \\
+MTBLS14376 & pass & investigation text; sample-file group factor \\
+MTBLS14421 & pass & investigation text (serum from patients and volunteers); sample-file factor \\
+MTBLS14426 & pass & investigation text (urine and fasting serum collection); sample-file factor \\
+MTBLS14865 & pass & investigation text (urine before surgery or at examination); sample-file treatment factor \\
+MTBLS15004 & pass & investigation text (faecal samples from patients in two groups) \\
+MTBLS15165 & pass$^{\dagger}$ & investigation text (stored platelet units); sample-file replicate factor \\
+\botrule
+\end{tabular*}
+\footnotetext{$^{\dagger}$Study material established; donors not described.}
+\end{table}
+
+\subsection{Implementation limitations}\label{sec:res-limits}
+
+The frozen implementation had three limitations, each disclosed in the result records. One reading view included a
+differential-metabolite table whose caption used an abbreviation that escaped the exclusion pattern; nothing was cited
+from it. The PDF view heuristic did not recognise ``STAR+METHODS'' headings; no graded record depended on such a
+block. The count check accepted an integer from a deposit quotation when the participant-count question also cited a
+publication; in the one affected record the publication stated the disjoint group sizes that sum to the count.

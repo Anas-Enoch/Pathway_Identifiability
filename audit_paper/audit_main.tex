@@ -1,0 +1,80 @@
+%% Audit manuscript, Springer Nature LaTeX template (sn-jnl), copied unmodified from torus_paper/.
+%% v0.5 of 2026-11-02: declarations complete; ready for the author's final read.
+%% Reference style: sn-mathphys-num (numbered). Check the Metabolomics author instructions before submission.
+
+\RequirePackage{amsthm}
+\documentclass[sn-mathphys-num]{sn-jnl}
+
+\usepackage{graphicx}%
+\usepackage{multirow}%
+\usepackage{amsmath,amssymb,amsfonts}%
+\usepackage[title]{appendix}%
+\usepackage{xcolor}%
+\usepackage{textcomp}%
+\usepackage{manyfoot}%
+\usepackage{booktabs}%
+\usepackage{url}%
+
+\newcommand{\pending}[1]{\textcolor{red}{[PENDING: #1]}}
+
+\raggedbottom
+
+\begin{document}
+
+\title[Identifiability of independent sampling units in public metabolomics data]{Identifiability of independent
+sampling units in publicly deposited metabolomics data: a repository-level audit and documentary assessment}
+
+\author*[1]{\fnm{Anas} \sur{Enoch}}\email{anas\_nour@um5.ac.ma}
+\affil*[1]{\orgname{Mohammed VI University of Sciences and Health (UM6SS)}, \orgaddress{\city{Casablanca}, \country{Morocco}}}
+
+\abstract{\textbf{Introduction.} Public metabolomics repositories enable secondary analysis and external validation, but
+valid inference requires that independent sampling units be identifiable. Unique sample labels do not identify
+distinct participants. \textbf{Objectives.} To assess whether repository metadata and linked documentation establish
+participant-level sampling structure under prespecified, affirmative evidence rules. \textbf{Methods.} A metadata-only
+census of 3,582 public MetaboLights accessions; a secondary audit of the factor metadata of 104 previously selected
+Metabolomics Workbench studies; a randomised documentary assessment of 40 of 371 unresolved MetaboLights candidates,
+reading deposit metadata together with linked publications; and a pre-verification of 19 human deposits whose rows an
+automated quality-control rule had removed. Source inventories were frozen and signed before reading, grading was
+deterministic, extraction was AI-assisted, and the author reviewed a prespecified subset. \textbf{Results.} Of 797
+human single-matrix MS or NMR studies reaching the census independence test, none met the prespecified criteria. No
+study in the randomised assessment met the strict one-sample-per-participant standard (0 of 40; one-sided 95\%
+hypergeometric upper bound 25 of 371 candidates). Documentation described repeated sampling of the same participants
+in 9 of 40 studies (8 on the author's re-review) and cultured cell lines in 3. In 17 of the 19 quality-control-excluded
+deposits, other fields identified study samples rather than blanks, 16 of them participant specimens. The author's
+review of a prespecified subset disagreed with the AI extraction only in assigning stated counts to the selected
+assay, never on the strict result. \textbf{Conclusion.} Under prespecified documentary criteria, participant-level
+sampling independence was not established for any study examined. The findings concern what documentation
+establishes, not the true independence of deposited samples. Deposition standards should require explicit
+participant-to-sample linkage so that dependence can be modelled in reuse and external validation.}
+
+\keywords{metabolomics, data reuse, external validation, metadata, MetaboLights, Metabolomics Workbench,
+pseudoreplication, reporting standards}
+
+\maketitle
+
+\input{audit_intro}
+
+\input{audit_methods}
+
+\input{audit_results}
+
+\input{audit_discussion}
+
+\backmatter
+
+\section*{Declarations}
+
+\begin{itemize}
+\item Funding: This research received no specific funding from any funding agency in the public, commercial or not-for-profit sectors.
+\item Competing interests: The author declares no competing interests.
+\item Use of AI tools: see Section~\ref{sec:ai}.
+\item Data and code availability: protocols, code, locks, sealed evidence inventories, evidence records, grades and
+      result records are public in the repository \url{https://github.com/Anas-Enoch/Pathway_Identifiability}
+      (commits \texttt{b5cd507}, \texttt{3d376d0}, \texttt{195a60d}, \texttt{566af9d}). Full texts of publications
+      are not redistributed; their SHA-256 values and retrieval URLs are recorded.
+\item Author contribution: A.E. designed the study, executed the protocols, adjudicated and reviewed the records, and wrote the manuscript.
+\end{itemize}
+
+\bibliography{audit_references}
+
+\end{document}

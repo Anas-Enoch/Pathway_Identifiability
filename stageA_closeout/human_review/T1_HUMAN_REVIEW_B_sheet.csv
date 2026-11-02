@@ -1,0 +1,13 @@
+accession,frozen_grade_reason,files_to_read,verdict,source_file,evidence_quote,reason_if_disputed_or_unresolved,reviewed_utc
+MTBLS89,REPEATED_SAMPLING,S1_i_Investigation.txt ; S2M_MTBLS89_S2.view.txt ; S3_PMC13568824.view.txt ; S3_PMC9540193.view.txt,,,,,
+MTBLS92,REPEATED_SAMPLING,S1_i_Investigation.txt ; S2M_MTBLS92_S2.view.txt ; S3_PMC11944042.view.txt ; S3_PMC6856029.view.txt,,,,,
+MTBLS200,REPEATED_SAMPLING,S1_i_Investigation.txt ; S2_PMC4819600.view.txt,,,,,
+MTBLS419,NOT_PARTICIPANT_SAMPLES,S1_i_Investigation.txt ; S2_PMC5343894.view.txt,,,,,
+MTBLS2205,NOT_PARTICIPANT_SAMPLES,S1_i_Investigation.txt ; S2_PMC7708531.view.txt,,,,,
+MTBLS2291,REPEATED_SAMPLING,S1_i_Investigation.txt ; S3_PMC13372841.view.txt,,,,,
+MTBLS3800,REPEATED_SAMPLING,S1_i_Investigation.txt ; S2_PMC8803913.view.txt,,,,,
+MTBLS10634,REPEATED_SAMPLING,S1_i_Investigation.txt ; S3_PMC12754600.view.txt,,,,,
+MTBLS10972,REPEATED_SAMPLING,S1_i_Investigation.txt,,,,,
+MTBLS12326,REPEATED_SAMPLING,S1_i_Investigation.txt,,,,,
+MTBLS12372,REPEATED_SAMPLING,S1_i_Investigation.txt ; S2_PMC12202516.view.txt,,,,,
+MTBLS12861,NOT_PARTICIPANT_SAMPLES,S1_i_Investigation.txt,,,,,
