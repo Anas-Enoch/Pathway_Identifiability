@@ -34,7 +34,7 @@ import ot
 # Configuration
 # ---------------------------------------------------------------------
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[3]
 DATA_DIR = ROOT / "results" / "data"
 OUT_DIR = ROOT / "results" / "results"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -43,6 +43,7 @@ DATASETS = {
     "ST000356": DATA_DIR / "processed_metabolite_matrix_ST000356.csv",
     "ST003390": DATA_DIR / "ST003390_processed.csv",
     "ST003506": DATA_DIR / "ST003506_serum_processed.csv",
+    "ST001849": DATA_DIR / "ST001849_benchmark_ready.csv",
 }
 
 PATHWAY_MAP = DATA_DIR / "core_pathway_mapping.csv"
