@@ -1,0 +1,4 @@
+# v0.1.0 9719dd52b1166d780ad3fe8fd3261c57684c34fe4d1034d8e688711bc5b6ccc8 crashed in A2 (LinAlgError) on the real run before any output, 3 Nov 2026
+# v0.1.1: finite-value mask, solve-based WLS, records CSV written before analysis; estimator unchanged
+0d36d518917149e27891780de8b4ed0e6c6b5623b63d0fb530e2ac82609a7726  N2_REGIME_DIAGNOSTIC_SPEC_v0.3.md
+f3e11962aeb764a9b336432cf3ae7bbf1dbfb772d08ff55261e1140ab0e3915d  n2_regime.py

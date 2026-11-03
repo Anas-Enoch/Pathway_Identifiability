@@ -1,0 +1,110 @@
+records table written (179 records); N2 primary reproduced: 0.0011179
+non-finite records per column (excluded from A2/A3): {'log_n': 0, 'panel_class': 0, 'skew_O': 0, 'edge_O': 0, 'g1_stability': 0, 'D': 0, 'tbar': 2}
+{
+  "n_records": 179,
+  "n_clusters": 179,
+  "n2_primary_reproduced": 0.0011179190510240858,
+  "reading": [
+    "log_n: passes A2 but subgroup criterion not met (records 87, delta 0.0008348442980259219, lower99 -0.00018714012924291024)",
+    "panel_class: no association",
+    "skew_O: no association",
+    "edge_O: no association",
+    "g1_stability: no association"
+  ]
+}
+A2: {
+ "intercept": {
+  "coef": -0.01219272493225327,
+  "ci99": [
+   -0.01783572127719753,
+   -0.006924925474097378
+  ],
+  "excludes_zero": true
+ },
+ "tbar": {
+  "coef": 0.009650144936197515,
+  "ci99": [
+   0.005108100643955859,
+   0.014788051616263082
+  ],
+  "excludes_zero": true
+ },
+ "log_n": {
+  "coef": 0.001795827482827375,
+  "ci99": [
+   0.00010034555685556404,
+   0.0045329775428466
+  ],
+  "excludes_zero": true
+ },
+ "panel_class": {
+  "coef": 7.794703457564921e-06,
+  "ci99": [
+   -0.001780177115840908,
+   0.001521086369867203
+  ],
+  "excludes_zero": false
+ },
+ "skew_O": {
+  "coef": -0.0002283021885816434,
+  "ci99": [
+   -0.0015686280637787924,
+   0.0017032386845627183
+  ],
+  "excludes_zero": false
+ },
+ "edge_O": {
+  "coef": -0.0005039529439107165,
+  "ci99": [
+   -0.0021244662077024947,
+   0.0018199807823414385
+  ],
+  "excludes_zero": false
+ },
+ "g1_stability": {
+  "coef": -0.002316819252253079,
+  "ci99": [
+   -0.005815542494479393,
+   0.0007199845672475239
+  ],
+  "excludes_zero": false
+ }
+}
+A4: {
+ "inside_G1set": {
+  "block_folds": 726,
+  "departures": 134,
+  "records": 134,
+  "clusters": 134,
+  "D_all_differing": 0.00683065941356325,
+  "D_all_99": [
+   0.004541921435964757,
+   0.00960950490625695
+  ],
+  "D_departures": 0.010109929121177138,
+  "D_departures_99": [
+   0.0057953978262638645,
+   0.01567664091174685
+  ]
+ },
+ "outside_G1set": {
+  "block_folds": 2339,
+  "departures": 368,
+  "records": 173,
+  "clusters": 173,
+  "D_all_differing": -0.00041610533511653847,
+  "D_all_99": [
+   -0.004270955946073077,
+   0.003743388200432467
+  ],
+  "D_departures": 0.008773488195130914,
+  "D_departures_99": [
+   -0.002619976083965461,
+   0.02332154761399569
+  ]
+ },
+ "primary_contribution_inside_only": 0.0005013094637359553,
+ "primary_contribution_outside_only": 0.0006166095872881205,
+ "primary_full": 0.0011179190510240762
+}
+summary sha256 5b9c42b509b8ba6f8790b53208017ff2ded860ad4d5583eaa7d31504f2b268da
