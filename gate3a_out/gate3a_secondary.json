@@ -1,0 +1,25 @@
+{
+ "note": "secondary only; evaluation half previously opened by Paper III, Paper IV and the 9 Oct benchmark",
+ "families": {
+  "P0": {
+   "delta_acq": -0.003244962550331715,
+   "lower_98.33": -0.013852333378633244,
+   "records": 186
+  },
+  "P1": {
+   "delta_acq": -0.0012611853077828426,
+   "lower_98.33": -0.007314059254143801,
+   "records": 186
+  },
+  "P2": {
+   "delta_acq": -0.0008730580723066673,
+   "lower_98.33": -0.015460468694969764,
+   "records": 186
+  },
+  "P3": {
+   "delta_acq": 0.00623160421882026,
+   "lower_98.33": -5.149388319310016e-05,
+   "records": 186
+  }
+ }
+}

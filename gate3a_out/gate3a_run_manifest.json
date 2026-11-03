@@ -1,0 +1,26 @@
+{
+ "script": "p5_gate3a.py v0.1.0",
+ "script_sha256": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
+ "protocol_sha256": "ed56e78c70b764f44ce14e6788c78243d8676c9b20bce90eaf090013d61b7024",
+ "audit_sha256": "2d0128a599720293a852be4c0766fab8268db5aa31fd5ffb65fc3a8eb95642bd",
+ "predictor_sha256": "9a591bf7be15733cf7801de1a548aab5544cfa72d0af20ef26066cbc0447dfe2",
+ "archive_root": "/Users/nour/Desktop/Springer/Pathway_Identifiability/github.pathway/uapa_run/benchmark_input",
+ "records": 186,
+ "seed": 20261019,
+ "outer_k": 5,
+ "inner_k": 5,
+ "lambdas": [
+  0.01,
+  0.1,
+  1.0,
+  10.0
+ ],
+ "bandwidths": [
+  0.5,
+  1.0,
+  2.0
+ ],
+ "cap": 25.0,
+ "evaluation_rows_read": false,
+ "started_utc": "2026-10-19T19:50:30Z"
+}
