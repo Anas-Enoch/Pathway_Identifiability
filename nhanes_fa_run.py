@@ -18,8 +18,10 @@ import argparse, hashlib, importlib.util, json, math, os, sys, time
 from pathlib import Path
 import numpy as np
 
-VERSION = "0.1.1"   # v0.1.1: default protocol path v0.3; no other change
-PROTOCOL = "NHANES_FA_PROTOCOL_v0.3.md"
+VERSION = "0.2.0"   # v0.2.0 (protocol v0.4): K prespecified blocks pooled at participant level; nondegenerate gate; selection code unchanged
+PROTOCOL = "NHANES_FA_PROTOCOL_v0.4.md"
+SALT_V04 = "NHANES-FA-v0.4|"
+K_BLOCKS = 5
 SALT = "NHANES-FA-v0.2|"
 FROZEN_DIR = Path(__file__).resolve().parent / "nhanes_fa" / "frozen"
 P6_SHA = "681ce852609e6ab4fcaf0f0ff603477c64e2351e10bd119811d45f008d4bbe8e"
@@ -59,7 +61,7 @@ def frozen():
 
 
 # ---------------------------------------------------------------- s3 allocator
-def allocate(analytes):
+def allocate(analytes, salt=SALT):
     """analytes: list of {"var": LBX..., "class": SFA|MUFA|PUFA, "label": ...}. Returns block dict (protocol s3)."""
     by = {c: [] for c in CLASS_ORDER}
     for a in analytes:
@@ -68,7 +70,7 @@ def allocate(analytes):
         by[a["class"]].append(a["var"])
     seq = []
     for c in CLASS_ORDER:
-        seq += [(c, v) for v in sorted(by[c], key=lambda v: (hashlib.sha256((SALT + v).encode()).hexdigest(), v))]
+        seq += [(c, v) for v in sorted(by[c], key=lambda v: (hashlib.sha256((salt + v).encode()).hexdigest(), v))]
     roles = {r: [] for r in ROLE_ORDER}
     for k, (c, v) in enumerate(seq):
         roles[ROLE_ORDER[k % 3]].append(v)
@@ -77,7 +79,7 @@ def allocate(analytes):
     sizes["T"] = math.ceil((m - sizes["O"]) / 2); sizes["P"] = m - sizes["O"] - sizes["T"]
     assert {r: len(v) for r, v in roles.items()} == sizes, "allocator size invariant violated"
     cls = {v: c for c, v in seq}
-    return {"salt": SALT, "m": m, "sizes": sizes, "O": roles["O"], "P": roles["P"], "T": roles["T"],
+    return {"salt": salt, "m": m, "sizes": sizes, "O": roles["O"], "P": roles["P"], "T": roles["T"],
             "class_of": cls, "sequence": [v for _, v in seq]}
 
 
@@ -263,41 +265,83 @@ def cmd_alloc(a):
     print(json.dumps({k: blk[k] for k in ("m", "sizes", "O", "T", "P")}, indent=1)); print("sha256", sha_file(a.out))
 
 
+def cmd_alloc5(a):
+    """Protocol v0.4 s3: block 1 = the frozen v0.3 block (read from file, hash recorded); blocks 2..K from salts
+    'NHANES-FA-v0.4|<k>|' with the same allocator. All K are written together and frozen together."""
+    analytes = json.loads(Path(a.analytes).read_text())
+    b1 = json.loads(Path(a.block1).read_text())
+    if b1 != allocate(analytes, SALT):
+        raise SystemExit("REFUSED: block 1 file does not equal the v0.3 allocation of this analyte list")
+    blocks = [dict(b1, k=1, source="v0.3 block, sha256 " + sha_file(a.block1))]
+    for k in range(2, K_BLOCKS + 1):
+        blocks.append(dict(allocate(analytes, f"{SALT_V04}{k}|"), k=k))
+    out = {"protocol": "v0.4", "K": K_BLOCKS, "blocks": blocks}
+    Path(a.out).write_text(json.dumps(out, indent=2) + "\n")
+    for b in blocks:
+        print(f"block {b['k']}: O={b['O']}\n         T={b['T']}\n         P={b['P']}")
+    print("sha256", sha_file(a.out))
+
+
 def _run_cycle(a, which):
     out = Path(a.out); out.mkdir(parents=True, exist_ok=True)
     tag = {"dev": "FAS_G_development", "ext": "FAS_H_evaluation"}[which]
-    done = out / f"{tag}_result.json"
+    done = out / f"{tag}_v04_result.json"
     if done.exists():
         raise SystemExit(f"REFUSED: {done} exists; the protocol allows one run per cycle (a crashed run leaves no result file)")
     if which == "ext":
-        feas = out / "FAS_G_development_result.json"
+        feas = out / "FAS_G_development_v04_result.json"
         if not feas.exists() or json.loads(feas.read_text())["feasibility"]["decision"] != "GO":
-            raise SystemExit("REFUSED: evaluation cycle requires a recorded GO in FAS_G_development_result.json")
-    blk = json.loads(Path(a.block).read_text())
-    hashes = {"fas": sha_file(a.fas), "demo": sha_file(a.demo), "block": sha_file(a.block), "script": sha_file(__file__),
+            raise SystemExit("REFUSED: evaluation cycle requires a recorded GO in FAS_G_development_v04_result.json")
+    bl = json.loads(Path(a.blocks).read_text())
+    blocks = bl["blocks"] if "blocks" in bl else [dict(bl, k=1)]
+    blk = blocks[0]
+    hashes = {"fas": sha_file(a.fas), "demo": sha_file(a.demo), "blocks": sha_file(a.blocks), "script": sha_file(__file__),
               "p6_n2": P6_SHA, "p5_gate3a": P5_SHA, "protocol": sha_file(a.protocol) if Path(a.protocol).exists() else None}
-    d = load_cycle(Path(a.fas), Path(a.demo), blk)
-    O, X, Y, ids, std = arrays(d, blk)
-    n_el = len(ids)
+    # eligibility uses the union of all analytes over all blocks (every block uses the same 29 analytes)
+    allvars = sorted({v for b in blocks for r in ("O", "P", "T") for v in b[r]})
+    d = load_cycle(Path(a.fas), Path(a.demo), {"O": allvars, "P": [], "T": []})
+    n_el = int(d["eligible"].sum())
+    ids = d[d["eligible"]]["SEQN"].to_numpy().astype(np.int64).astype(str).tolist()
     print(f"{tag}: file rows {len(d)}, eligible {n_el}")
     if which == "ext":
-        dev_ids = set(json.loads((out / "FAS_G_development_result.json").read_text())["seqn_sha256_list"])
+        dev_ids = set(json.loads((out / "FAS_G_development_v04_result.json").read_text())["seqn_sha256_list"])
         if any(hashlib.sha256(s.encode()).hexdigest() in dev_ids for s in ids):
             raise SystemExit("REFUSED: SEQN overlap between cycles")
     t0 = time.time()
-    res = mirror_block(O, X, Y, ids, SEED_DEV if which == "dev" else SEED_EXT)
-    inf = inference(d, res)
-    rec = {"script": "nhanes_fa_run.py", "version": VERSION, "cycle": tag, "inputs": hashes, "block": blk["sizes"],
-           "standardisation": std, "seed": SEED_DEV if which == "dev" else SEED_EXT, "runtime_s": time.time() - t0,
+    seed = SEED_DEV if which == "dev" else SEED_EXT
+    per_block, stds, pooled = [], [], None
+    for b in blocks:
+        O, X, Y, ids_b, std = arrays(d, b)
+        assert ids_b == ids
+        r = mirror_block(O, X, Y, ids, seed)                # same subjects + seed -> identical folds in every block
+        per_block.append({"k": b["k"], "inference": {kk: v for kk, v in inference(d, r).items() if kk != "picks"} | {"picks": r["picks"]}})
+        stds.append(std)
+        if pooled is None:
+            pooled = {l: {a: np.where(np.isnan(r[l][a]), 0.0, r[l][a]) for a in r[l]} for l in ("sq", "bd")}
+            pooled.update(fold=r["fold"], picks=list(r["picks"]), claims=r["claims"], folds=r["folds"], cells=r["cells"].copy())
+        else:
+            for l in ("sq", "bd"):
+                for a_ in r[l]:
+                    pooled[l][a_] = pooled[l][a_] + np.where(np.isnan(r[l][a_]), 0.0, r[l][a_])
+            pooled["picks"] += r["picks"]; pooled["claims"] += r["claims"]; pooled["folds"] += r["folds"]; pooled["cells"] += r["cells"]
+        print(f"  block {b['k']}: claims {r['claims']}/{r['folds']}, picks {[p['NOVA-S'] for p in r['picks']]} vs G1 {[p['G1'] for p in r['picks']]}")
+    inf = inference(d, pooled)                               # pooled participant-level sums over blocks (s1, v0.4)
+    inf["per_block"] = per_block
+    inf["total_departures"] = pooled["claims"]
+    rec = {"script": "nhanes_fa_run.py", "version": VERSION, "cycle": tag, "inputs": hashes, "K": len(blocks),
+           "standardisation": stds, "seed": seed, "runtime_s": time.time() - t0,
            "inference": inf, "created_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
            "seqn_sha256_list": [hashlib.sha256(s.encode()).hexdigest() for s in ids]}
+    res = pooled
     if which == "dev":
         sq = inf["sq"]; df = sq["df"]
         mde = (t_quantile(1 - ALPHA_ONE_SIDED, df) + t_quantile(POWER, df)) * sq["se"]
-        go = (n_el >= MIN_N) and (mde <= MDE_CEILING)
-        rec["feasibility"] = {"n_eligible": n_el, "min_n": MIN_N, "se_dev": sq["se"], "df": df, "mde_dev": mde,
-                              "mde_ceiling": MDE_CEILING, "decision": "GO" if go else "NO-GO",
-                              "note": "Delta_dev plays no part in this decision"}
+        nondegenerate = pooled["claims"] >= 1 and math.isfinite(sq["se"]) and sq["se"] > 0
+        go = (n_el >= MIN_N) and nondegenerate and (mde <= MDE_CEILING)
+        rec["feasibility"] = {"n_eligible": n_el, "min_n": MIN_N, "departures": pooled["claims"], "block_folds": pooled["folds"],
+                              "se_dev": sq["se"], "df": df, "mde_dev": mde, "mde_ceiling": MDE_CEILING,
+                              "nondegenerate": bool(nondegenerate), "decision": "GO" if go else "NO-GO",
+                              "note": "Delta_dev plays no part in this decision; a zero-departure or zero-SE development result is NO-GO (v0.4)"}
         print("FEASIBILITY", json.dumps(rec["feasibility"], indent=1))
     else:
         sq = inf["sq"]
@@ -310,7 +354,7 @@ def _run_cycle(a, which):
         print("SUCCESS", json.dumps(rec["success"], indent=1))
     # per-participant table stays local
     import csv
-    with (out / f"{tag}_participants.csv").open("w", newline="") as fh:
+    with (out / f"{tag}_v04_participants.csv").open("w", newline="") as fh:
         wr = csv.writer(fh); wr.writerow(["seqn_sha256", "fold"] + [f"sq_{a}" for a in res["sq"]] + [f"bd_{a}" for a in res["bd"]])
         for i, s in enumerate(ids):
             wr.writerow([hashlib.sha256(s.encode()).hexdigest(), int(res["fold"][i])] + [res["sq"][a][i] for a in res["sq"]] + [res["bd"][a][i] for a in res["bd"]])
@@ -384,6 +428,22 @@ def cmd_selftest(a):
         load_cycle(None, None, blk, _frames=(fas.drop(columns=[an[0]]), demo)); check(False, "missing variable refused")
     except SystemExit as e:
         check("variables missing" in str(e), "missing variable refused")
+    # v0.4: five salts give five distinct allocations, deterministic, sizes exact
+    an29 = ([{"var": f"S{i}", "class": "SFA"} for i in range(10)] + [{"var": f"M{i}", "class": "MUFA"} for i in range(6)]
+            + [{"var": f"P{i}", "class": "PUFA"} for i in range(13)])
+    b5 = [allocate(an29, SALT)] + [allocate(an29, f"{SALT_V04}{k}|") for k in range(2, K_BLOCKS + 1)]
+    sets = [tuple(sorted(b["O"])) for b in b5]
+    check(len(set(sets)) == K_BLOCKS and all(b["sizes"] == {"O": 10, "T": 10, "P": 9} for b in b5), "v0.4: 5 distinct deterministic allocations, sizes 10/10/9")
+    # pooled inference: two identical blocks give the same Delta as one, with cells doubled
+    rng = np.random.default_rng(11)
+    O, X, Y = n2.synth(rng, 150, "quadratic"); subj = [f"s{i}" for i in range(len(Y))]
+    r1 = mirror_block(O, X, Y, subj, SEED_DEV)
+    pooled = {l: {a_: 2 * np.where(np.isnan(r1[l][a_]), 0.0, r1[l][a_]) for a_ in r1[l]} for l in ("sq", "bd")}
+    pooled.update(fold=r1["fold"], picks=r1["picks"] * 2, claims=2 * r1["claims"], folds=2 * r1["folds"], cells=2 * r1["cells"])
+    import pandas as pd
+    dd = pd.DataFrame({"SEQN": range(150), "WTFAS2YR": 1.0, "SDMVSTRA": np.repeat(np.arange(15), 10), "SDMVPSU": np.tile([1, 2], 75), "eligible": True})
+    i1, i2 = inference(dd, r1), inference(dd, pooled)
+    check(abs(i1["sq"]["delta_ext"] - i2["sq"]["delta_ext"]) < 1e-12 and abs(i1["sq"]["se"] - i2["sq"]["se"]) < 1e-12, "pooling two identical blocks leaves Delta and SE unchanged")
     print("SELFTEST", "PASSED" if ok else "FAILED")
     sys.exit(0 if ok else 1)
 
@@ -393,13 +453,15 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("selftest")
     al = sub.add_parser("alloc"); al.add_argument("--analytes", required=True); al.add_argument("--out", default="nhanes_fa_block.json")
+    a5 = sub.add_parser("alloc5"); a5.add_argument("--analytes", required=True); a5.add_argument("--block1", required=True); a5.add_argument("--out", default="nhanes_fa_blocks_v0.4.json")
     for name in ("dev", "ext"):
         r = sub.add_parser(name)
-        r.add_argument("--fas", required=True); r.add_argument("--demo", required=True); r.add_argument("--block", required=True)
+        r.add_argument("--fas", required=True); r.add_argument("--demo", required=True); r.add_argument("--blocks", required=True)
         r.add_argument("--protocol", default=PROTOCOL); r.add_argument("--out", default="nhanes_fa_out")
     a = ap.parse_args()
     if a.cmd == "selftest": cmd_selftest(a)
     elif a.cmd == "alloc": cmd_alloc(a)
+    elif a.cmd == "alloc5": cmd_alloc5(a)
     else: _run_cycle(a, a.cmd)
 
 

@@ -1,0 +1,20 @@
+FAS_G_development: file rows 5643, eligible 1725
+FEASIBILITY {
+ "n_eligible": 1725,
+ "min_n": 1500,
+ "se_dev": 0.0,
+ "df": 17,
+ "mde_dev": 0.0,
+ "mde_ceiling": 0.003,
+ "decision": "GO",
+ "note": "Delta_dev plays no part in this decision"
+}
+{
+ "delta_ext": 0.0,
+ "se": 0.0,
+ "df": 17,
+ "lower_97.5_onesided": 0.0,
+ "delta_g1_base": 0.1801938533184573,
+ "lower_97.5_g1_base": 0.12084616299182366
+}
+result nhanes_fa_out/FAS_G_development_result.json 43f5fe89807364d08448153f975fd8b4a720bedf1c83b0833f1dae542fdfc178
