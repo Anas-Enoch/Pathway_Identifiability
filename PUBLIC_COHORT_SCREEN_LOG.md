@@ -15,8 +15,22 @@ same pages on 4 Nov 2026 is recorded where it adds a fact.
 | Paper I cohorts | ST000356, ST001849, ST001865, ST002829, ST003390, ST003506 | values opened |
 | P4U / Stage 10K | ST004571, ST002733, ST003368, ST000568, ST004168 | values opened or metadata |
 | Stage 16L (11 Oct 2026) | NHANES 2017–18 PHTHTE_J | values read for status audit |
-| **Stage 16L real screen (11 Oct 2026)** — reported by the owner 4 Nov from `stage16l_real_screen/SCREENING.md`; lines to be appended | EDRN prostate-cancer metabolomics; Emory Cardiovascular Biobank (Dryad 10.5061/dryad.866t1g1mt); BIDMC MASLD; ADNI1 metabolomics | dataset-discovery exercise; extent of contact to be quoted from the file |
+| **Stage 16L real screen (11 Oct 2026)** — `stage16l_real_screen/SCREENING.md`, directly inspected in Terminal on 4 Nov | EDRN prostate-cancer metabolomics; Emory Cardiovascular Biobank (Dryad 10.5061/dryad.866t1g1mt); BIDMC MASLD; ADNI1 metabolomics | Metadata/documentation-only dataset-discovery screen; no outcome values accessed, model trained, or predictive comparison performed (source excerpts below). |
 | NHANES-FA (4 Nov 2026) | NHANES 2011–12 FAS_G/DEMO_G | values opened (development); 2013–14 never opened |
+
+**Source excerpts for Stage 16L real-screen prior contact** (verbatim from the Terminal display of `stage16l_real_screen/SCREENING.md`, dated 2026-10-11):
+
+> **Verdict: no real dataset qualified. No outcome values accessed, no candidate model trained, no predictive comparison performed.** The repositories/articles were reviewed at the metadata/documentation level.
+>
+> ### EDRN prostate cancer metabolomics (NCI / Weill Cornell; Metabolomics Workbench DOI 10.21228/M86H7K) — highest priority for a *data-integrity investigation*, NOT Stage 16L PASS
+>
+> ### Emory Cardiovascular Biobank metabolomics (Dryad 10.5061/dryad.866t1g1mt) — two-cohort raw-data fallback
+>
+> ### BIDMC metabolomic MASLD cohort (PhysioNet version 1.0.0) — smaller public fallback
+>
+> ### ADNI1 targeted metabolomics (Scientific Data 2017) — attractive LOD documentation but controlled access
+
+The source additionally states, regarding Emory: "**Strict Stage 16L FAIL/PENDING**: explicit per-cell detection states and threshold provenance not verified, feature/target comparability to frozen Paper IV unverified, independence from development list unverified, local hashes not recorded." The `stage16l_real_screen/screen_status.json` records `DRYAD_EMORY_866t1g1mt` with DOI `10.5061/dryad.866t1g1mt` and status `PENDING_RAW_AND_LOD_DOCUMENTATION`. These quotes establish prior metadata-only contact for the four named candidates; they do **not** establish contact with either OMIX009009 or Dryad `h44j0zpz0`. The Stage 16L screen and this quotation are distinct from the NHANES urinary-phthalate audit.
 
 Repository grep on 4 Nov 2026 for `OMIX009009|OMIX0090|ngdc|dryad` (md/py/json/csv/txt, excluding .git and
 virtual environments) matched: this protocol; `stage16l_real_screen/screen_status.json` and `SCREENING.md` (the
