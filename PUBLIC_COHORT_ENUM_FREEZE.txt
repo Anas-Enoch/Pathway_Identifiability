@@ -4,3 +4,5 @@ da7f80e4f81401aecf3cdb13ce66dc6b03426f403a33bf6417aab33a29bc5037  PUBLIC_COHORT_
 # v0.1.1 = request mechanics only (Zenodo type= removed, Workbench bulk timeout 1800 s, MetaboLights paced reads); re-run limited to the three families UNSEARCHABLE/incomplete for client reasons in run 1; dryad, figshare, ngdc results of run 1 stand
 5d1a4d592258093fa554162b058e9a6fd4c4a4df6421ade0f67efc944f3ad7c4  public_cohort_enum.py
 # v0.1.2 = Zenodo unauthenticated page size 100 -> 25 (API: 'Page size cannot be greater than 25'), page cap 10 -> 40; expression, filter, salt and ordering unchanged
+02425fbe495ac08e686c1333e5df16c0bdffeb3f9b36af3976a24a0aa869a93c  public_cohort_enum.py
+# v0.1.3 = Zenodo page bodies truncated mid-read (IncompleteRead: 192155 read, 15188 expected, run 3 manifest 36b5a80b); paced retry on the page fetch and page size 25 -> 10, page cap 40 -> 100 (same 1,000-record ceiling); expression, filter, salt, ordering unchanged

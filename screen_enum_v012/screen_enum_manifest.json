@@ -1,0 +1,19 @@
+{
+  "script": "public_cohort_enum.py",
+  "version": "0.1.2",
+  "script_sha256": "5d1a4d592258093fa554162b058e9a6fd4c4a4df6421ade0f67efc944f3ad7c4",
+  "families": [
+    "zenodo"
+  ],
+  "created_utc": "2026-11-05T00:55:31Z",
+  "results": [
+    {
+      "family": "zenodo",
+      "expression": "(metabolomics OR lipidomics) AND (human OR participants OR cohort)",
+      "timestamp_utc": "2026-11-05T00:54:53Z",
+      "version": "0.1.2",
+      "status": "UNSEARCHABLE",
+      "error": "IncompleteRead: IncompleteRead(192155 bytes read, 15188 more expected)"
+    }
+  ]
+}
