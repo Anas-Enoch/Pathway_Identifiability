@@ -133,6 +133,8 @@ MECHS = [("M1", 1, 0.20, [0.0]),
          ("M3", 1, 0.02, [0.0]),
          ("M2", 2, 0.02, [0.05, 0.10, 0.40]),
          ("M4", 7, 0.20, [0.05, 0.10, 0.40])]
+A_GRID = (0.05, 0.15, 0.20)     # approved 5 Nov 2026; 0.40 infeasible (common ceiling 0.242 at psi = 0.25)
+PSI_DEFAULT = 0.25               # prespecified irreducible-noise share of base-panel risk
 
 
 def sweep(A_grid, psi):
@@ -156,7 +158,7 @@ def ceiling(mech, rank, gam, rho, psi, step=0.0005):
 
 
 if __name__ == "__main__":
-    PSI = 0.25     # prespecified minimum irreducible-noise share of base-panel risk
+    PSI = PSI_DEFAULT
     print(f"irreducible-noise share psi = {PSI}\n")
 
     print("=== owner's confirmed A grid {0.05, 0.15, 0.40} ===")
@@ -173,12 +175,13 @@ if __name__ == "__main__":
             c = ceiling(mech, rank, gam, rho, PSI)
             print(f"{mech:6}{rho:>9}{(f'{c:.3f}' if c else 'none'):>16}")
 
-    print("\n=== candidate replacement grid {0.05, 0.15, 0.30} ===")
-    rows2 = sweep([0.05, 0.15, 0.30], PSI)
+    print("\n=== APPROVED grid {0.05, 0.15, 0.20} (owner decision, 5 Nov 2026) ===")
+    rows2 = sweep(A_GRID, PSI)
     nf2 = [r for r in rows2 if not r.feasible]
     print(f"conditions: {len(rows2)}   feasible: {len(rows2)-len(nf2)}   INFEASIBLE: {len(nf2)}")
     for r in nf2:
         print(f"  INFEASIBLE  {r.mech}  rho_pop={r.rho_target:<4}  A={r.A_target}")
+    assert not nf2, "approved grid must be feasible in every combination"
 
     print("\n=== calibrated parameters, primary and control conditions ===")
     for mech, rank, gam, rho, A, lab in [("M2", 2, 0.02, 0.10, 0.15, "PRIMARY"),
@@ -193,5 +196,5 @@ if __name__ == "__main__":
     with open("nova_d_calibration_sweep.json", "w") as fh:
         json.dump({"psi": PSI,
                    "owner_grid": [asdict(r) for r in rows],
-                   "replacement_grid": [asdict(r) for r in rows2]}, fh, indent=1)
+                   "approved_grid_A_0.05_0.15_0.20": [asdict(r) for r in rows2]}, fh, indent=1)
     print("\nwrote nova_d_calibration_sweep.json")

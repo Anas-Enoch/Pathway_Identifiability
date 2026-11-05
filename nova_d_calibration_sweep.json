@@ -362,7 +362,7 @@
    "noise_share": null
   }
  ],
- "replacement_grid": [
+ "approved_grid_A_0.05_0.15_0.20": [
   {
    "mech": "M1",
    "rank": 1,
@@ -397,16 +397,16 @@
    "mech": "M1",
    "rank": 1,
    "gam": 0.2,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.0,
    "psi": 0.25,
    "feasible": true,
-   "r": 0.46666694090768657,
+   "r": 0.7095195366593121,
    "H": 0.0,
-   "sigma2": 0.04166666666666667,
-   "A_oracle": 0.3,
+   "sigma2": 0.0625,
+   "A_oracle": 0.2,
    "rho_oracle": 0.0,
-   "noise_share": 0.25000000000000006
+   "noise_share": 0.25
   },
   {
    "mech": "M3",
@@ -442,16 +442,16 @@
    "mech": "M3",
    "rank": 1,
    "gam": 0.02,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.0,
    "psi": 0.25,
    "feasible": true,
-   "r": 0.34666666785097433,
+   "r": 0.6437189909239793,
    "H": 0.0,
-   "sigma2": 0.04166666666666665,
-   "A_oracle": 0.3,
+   "sigma2": 0.0625,
+   "A_oracle": 0.2,
    "rho_oracle": 0.0,
-   "noise_share": 0.2499999999999999
+   "noise_share": 0.25
   },
   {
    "mech": "M2",
@@ -487,16 +487,16 @@
    "mech": "M2",
    "rank": 2,
    "gam": 0.02,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.05,
    "psi": 0.25,
    "feasible": true,
-   "r": 0.3217993082573426,
-   "H": 0.055000000000000014,
-   "sigma2": 0.04166666666666668,
-   "A_oracle": 0.3,
-   "rho_oracle": 0.04999999999999989,
-   "noise_share": 0.25000000000000006
+   "r": 0.6357544087239642,
+   "H": 0.060000000000000026,
+   "sigma2": 0.06249999999999996,
+   "A_oracle": 0.2,
+   "rho_oracle": 0.050000000000000044,
+   "noise_share": 0.24999999999999983
   },
   {
    "mech": "M2",
@@ -532,16 +532,16 @@
    "mech": "M2",
    "rank": 2,
    "gam": 0.02,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.1,
    "psi": 0.25,
    "feasible": true,
-   "r": 0.30496453911743526,
-   "H": 0.09000000000000001,
-   "sigma2": 0.04166666666666667,
-   "A_oracle": 0.3,
+   "r": 0.6302460476386802,
+   "H": 0.10000000000000003,
+   "sigma2": 0.06250000000000003,
+   "A_oracle": 0.2,
    "rho_oracle": 0.10000000000000009,
-   "noise_share": 0.25000000000000006
+   "noise_share": 0.2500000000000001
   },
   {
    "mech": "M2",
@@ -577,16 +577,16 @@
    "mech": "M2",
    "rank": 2,
    "gam": 0.02,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.4,
    "psi": 0.25,
    "feasible": true,
-   "r": 0.18333333333334184,
-   "H": 0.3,
-   "sigma2": 0.041666666666666664,
-   "A_oracle": 0.30000000000000004,
+   "r": 0.5933810659275227,
+   "H": 0.3400000000000001,
+   "sigma2": 0.062499999999999986,
+   "A_oracle": 0.2,
    "rho_oracle": 0.4000000000000001,
-   "noise_share": 0.25
+   "noise_share": 0.24999999999999994
   },
   {
    "mech": "M4",
@@ -622,16 +622,16 @@
    "mech": "M4",
    "rank": 7,
    "gam": 0.2,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.05,
    "psi": 0.25,
-   "feasible": false,
-   "r": null,
-   "H": null,
-   "sigma2": null,
-   "A_oracle": null,
-   "rho_oracle": null,
-   "noise_share": null
+   "feasible": true,
+   "r": 0.5422043638606717,
+   "H": 1.0025108986493454,
+   "sigma2": 0.062499999999999986,
+   "A_oracle": 0.2,
+   "rho_oracle": 0.050000000000000044,
+   "noise_share": 0.24999999999999994
   },
   {
    "mech": "M4",
@@ -667,16 +667,16 @@
    "mech": "M4",
    "rank": 7,
    "gam": 0.2,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.1,
    "psi": 0.25,
-   "feasible": false,
-   "r": null,
-   "H": null,
-   "sigma2": null,
-   "A_oracle": null,
-   "rho_oracle": null,
-   "noise_share": null
+   "feasible": true,
+   "r": 0.530404391126841,
+   "H": 1.0464165320217704,
+   "sigma2": 0.0625,
+   "A_oracle": 0.2,
+   "rho_oracle": 0.10000000000000009,
+   "noise_share": 0.25
   },
   {
    "mech": "M4",
@@ -712,16 +712,16 @@
    "mech": "M4",
    "rank": 7,
    "gam": 0.2,
-   "A_target": 0.3,
+   "A_target": 0.2,
    "rho_target": 0.4,
    "psi": 0.25,
-   "feasible": false,
-   "r": null,
-   "H": null,
-   "sigma2": null,
-   "A_oracle": null,
-   "rho_oracle": null,
-   "noise_share": null
+   "feasible": true,
+   "r": 0.4460305109708883,
+   "H": 1.305877459578748,
+   "sigma2": 0.062499999999999965,
+   "A_oracle": 0.2,
+   "rho_oracle": 0.4000000000000001,
+   "noise_share": 0.24999999999999986
   }
  ]
 }
