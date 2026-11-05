@@ -299,21 +299,24 @@ change to the selection rule and therefore a matter for a future prospective ame
 Record: https://zenodo.org/records/11565619 (owner-fetched 5 Nov 2026; `zenodo_11565619.json`, hashed in
 `screen_enum_v013/meta/SHA256SUMS.txt`). "Metabolomic and lipidomic alterations in atopic dermatitis patients with
 dupilumab-associated ocular surface disease"; published 11 Jun 2024; CC BY-SA 4.0; resource type dataset.
-Description (verbatim fragment): "In this prospective single-center cohort study, 20 AD patients underwent
-dupilumab therapy, with six developing DAOSD. Plasma and serum samples were co…" (truncated on the record).
+Description (verbatim fragments): "In this prospective single-center cohort study, 20 AD patients underwent
+dupilumab therapy, with six developing DAOSD."; "Plasma and serum samples were collected at baseline, 4- and
+16-weeks post-treatment initiation, and during the conjunctivitis episode."; "Additionally, 10 age- and sex-matched
+healthy controls were sampled solely at baseline."; "Targeted metabolomics and lipidomics identified 138 metabolites
+and lipids, while untargeted analysis revealed 7931 features in plasma or serum."
 
 Files (verbatim): `Lipide_Neg.7z` 13.63 GB; `Lipide_pos.7z` 12.16 GB; `Metabolomics.7z` 12.82 GB.
 
 | Criterion | Verdict | Evidence |
 |---|---|---|
-| E1 participant structure | UNKNOWN | 20 patients named; no sample table or participant key in the record metadata; the description indicates sampling before and during therapy, i.e. repeated sampling per patient. |
-| E2 ≥ 60 metabolites | UNKNOWN (not assessable) | no processed matrix. |
-| E3 participant-disjoint evaluation | FAIL | one single-centre cohort; the 6 DAOSD patients are a subgroup, not a second population. |
-| **E4 accessible quantified matrix** | **FAIL** | the three files are 7z archives of raw acquisitions (≈ 38.6 GB in all). No metabolite table is deposited. |
-| **E5 feasibility** | **FAIL** | 20 patients. |
+| E1 participant structure | UNKNOWN, with documented dependence | 20 AD patients and 10 controls, i.e. 30 participants; AD patients contribute up to four samples each (baseline, 4 weeks, 16 weeks, conjunctivitis episode), controls one. Repeated sampling is therefore documented, but no deposited sample table or participant key establishes which samples belong to which participant. |
+| E2 ≥ 60 metabolites | PASS | "Targeted metabolomics and lipidomics identified 138 metabolites and lipids"; untargeted 7,931 features. |
+| E3 participant-disjoint evaluation | FAIL | one single-centre cohort with a matched control group; the 6 DAOSD patients are a subgroup, not a second population. |
+| **E4 accessible quantified matrix** | **FAIL** | the three files are 7z archives of raw acquisitions (≈ 38.6 GB in all). Neither the 138-metabolite targeted table nor the untargeted feature table is deposited. |
+| **E5 feasibility** | **FAIL** | 30 participants in total, fewer than 30 independent units for any split. |
 | E6 no prior contact | PASS | §0. |
-| E7 shared platform | PASS within the deposit | one metabolomics and two lipidomics modes. |
-| E8 no outcome-driven feature selection | PASS | untargeted. |
+| E7 shared platform | PASS within the deposit | one high-resolution MS platform, targeted and untargeted, two lipidomics modes. |
+| E8 no outcome-driven feature selection | PASS | the targeted panel is an assay panel, not an outcome-selected signature. |
 
 **Identifiable failures: E3, E4, E5. Disposition: FAIL.**
 
@@ -330,7 +333,7 @@ Files (verbatim): `README_file.txt` 6.79 KB; `3_Metabolomics_data.xlsx` 577.12 K
 
 | Criterion | Verdict | Evidence |
 |---|---|---|
-| **E1 participant structure** | **FAIL** | the experimental units are stimulated macrophages under pharmacologic and genetic perturbation, not human participants. No cohort, no participants, no sampling design. |
+| **E1 participant structure** | **FAIL** | the experimental units are "murine bone marrow-derived macrophages (BMDMs)" under pharmacologic and genetic perturbation (verbatim from the record description), not human participants. No cohort, no participants, no sampling design. The description also notes that "cells from SLE patients also exhibit FH suppression", a cell experiment, not a deposited human cohort. |
 | E2 ≥ 60 metabolites | UNKNOWN | a 577 KB metabolomics workbook exists; not opened, and irrelevant once E1 fails. |
 | E3 / E5 | FAIL | a mechanistic cell-biology experiment; no populations. |
 | E4 accessible quantified matrix | PASS (a processed workbook is deposited) | recorded for completeness. |
@@ -394,6 +397,12 @@ exists in these repositories, and the two unenumerable families mean the coverag
 construction. The recurring obstacles were structural rather than incidental: public metabolomics deposits in these
 repositories are predominantly raw acquisitions or article supplements rather than analysis-ready matrices with a
 participant key, and those that are analysis-ready are single studies of tens to a few hundred participants.
+
+**Correction, 5 Nov 2026.** Entry 11 was first recorded from a description truncated at 800 characters, which
+understated the cohort (20 patients, omitting 10 matched controls), omitted the documented repeated-sampling
+schedule, and left E2 as UNKNOWN. The full record text gives 30 participants, four sampling points for AD patients,
+and 138 identified metabolites and lipids, so E2 is PASS. The entry's disposition is unchanged: E3, E4 and E5 fail.
+The error was in the screening read, not in the record.
 
 **Mechanics corrections made during the cycle** (all recorded in `PUBLIC_COHORT_ENUM_FREEZE.txt`, with every failed
 run preserved): v0.1.1 (Zenodo `type=` parameter removed with a client-side resource-type filter; Workbench bulk
