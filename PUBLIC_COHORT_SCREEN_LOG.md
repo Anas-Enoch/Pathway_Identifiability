@@ -294,37 +294,130 @@ G6PD" describing a transgene, not the study organism. The filter does not read t
 time. The slot is **not** refilled and the entry stands with its FAIL; a species check at enumeration would be a
 change to the selection rule and therefore a matter for a future prospective amendment, not this cycle.
 
-## Register
+## Entry 11 — Zenodo 10.5281/zenodo.11565619 (Zenodo discovery slot 1 of 3)
 
-| Entry | Record | Family / slot | Preidentified | Identifiable failures | Disposition |
-|---|---|---|---|---|---|
-| 01 | NGDC OMIX009009 | preidentified | yes | E4 | FAIL |
-| 02 | Dryad 10.5061/dryad.h44j0zpz0 | preidentified | yes | E2, E8 | EXCLUDE |
-| 03 | Dryad 10.5061/dryad.gqnk98srt | dryad 1/3 | no | E5 | FAIL |
-| 04 | Dryad 10.5061/dryad.p2ngf1w1z | dryad 2/3 | no | E4 | FAIL |
-| — | (no further record in the Dryad index) | dryad 3/3 | — | — | NO FURTHER ELIGIBLE RECORD |
-| 05 | figshare 10.6084/m9.figshare.33080369.v1 | figshare 1/3 | no | E4 | FAIL |
-| 06 | figshare 10.3389/fmicb.2026.1801806.s003 | figshare 2/3 | no | E4, E5 | FAIL |
-| 07 | figshare 10.3389/fendo.2026.1878728.s002 | figshare 3/3 | no | E4, E8 | FAIL |
-| 08 | Workbench ST005211 | workbench 1/3 | no | E3, E5 | FAIL |
-| 09 | Workbench ST005210 | workbench 2/3 | no | E3, E5 | FAIL |
-| 10 | Workbench ST005223 | workbench 3/3 | no | E1 (organism), E3, E5 | FAIL |
+Record: https://zenodo.org/records/11565619 (owner-fetched 5 Nov 2026; `zenodo_11565619.json`, hashed in
+`screen_enum_v013/meta/SHA256SUMS.txt`). "Metabolomic and lipidomic alterations in atopic dermatitis patients with
+dupilumab-associated ocular surface disease"; published 11 Jun 2024; CC BY-SA 4.0; resource type dataset.
+Description (verbatim fragment): "In this prospective single-center cohort study, 20 AD patients underwent
+dupilumab therapy, with six developing DAOSD. Plasma and serum samples were co…" (truncated on the record).
 
-**Slot accounting (not a final cycle result).**
+Files (verbatim): `Lipide_Neg.7z` 13.63 GB; `Lipide_pos.7z` 12.16 GB; `Metabolomics.7z` 12.82 GB.
 
-| Family | Slots | State |
+| Criterion | Verdict | Evidence |
 |---|---|---|
-| preidentified | 2 | screened: entries 01–02, both ineligible |
-| Dryad | 3 | 2 screened (03, 04); 1 with no further record in the frozen index |
-| figshare | 3 | screened: entries 05–07 |
-| Metabolomics Workbench | 3 | screened: entries 08–10 |
-| Zenodo | 3 | **pending**: enumeration failed in runs 1 and 2 (HTTP 400; cause identified 5 Nov as the unauthenticated page-size limit of 25, requested 100); script v0.1.2 corrects the request mechanics only |
-| NGDC OMIX | 3 | **UNSEARCHABLE**: list endpoint returned HTTP 404; no public search interface reached |
-| MetaboLights | 3 | **UNSEARCHABLE**: 34 accessions absent from the Stage A universe were identified from the LIST endpoint, but the per-accession `i_Investigation.txt` reads needed to apply the release-date rule were refused (run 1: 28 of 34 failed, `Connection refused`; run 2 with paced retries: `RemoteDisconnected`) |
+| E1 participant structure | UNKNOWN | 20 patients named; no sample table or participant key in the record metadata; the description indicates sampling before and during therapy, i.e. repeated sampling per patient. |
+| E2 ≥ 60 metabolites | UNKNOWN (not assessable) | no processed matrix. |
+| E3 participant-disjoint evaluation | FAIL | one single-centre cohort; the 6 DAOSD patients are a subgroup, not a second population. |
+| **E4 accessible quantified matrix** | **FAIL** | the three files are 7z archives of raw acquisitions (≈ 38.6 GB in all). No metabolite table is deposited. |
+| **E5 feasibility** | **FAIL** | 20 patients. |
+| E6 no prior contact | PASS | §0. |
+| E7 shared platform | PASS within the deposit | one metabolomics and two lipidomics modes. |
+| E8 no outcome-driven feature selection | PASS | untargeted. |
 
-Records screened to date: **10**, of which **0 qualify**. Three Zenodo slots are pending and six slots are
-unsearchable. **No cycle result is recorded yet**; a cycle result requires the Zenodo slots to be run or recorded
-as unsearchable, and it will state the unsearchable coverage explicitly, because a bounded search that could not
-enumerate three of six families is not evidence about those families.
+**Identifiable failures: E3, E4, E5. Disposition: FAIL.**
 
-No quantitative measurement file has been downloaded or opened for any entry in this log.
+## Entry 12 — Zenodo record 7429268, DOI 10.5061/dryad.6wwpzgn28 (Zenodo discovery slot 2 of 3)
+
+Record: https://zenodo.org/records/7429268 (owner-fetched 5 Nov 2026; `zenodo_7429268.json`). "Macrophage fumarate
+hydratase restrains mtRNA-mediated interferon production"; published 12 Dec 2022; CC0; resource type dataset; the
+record carries an external Dryad DOI. Description (verbatim fragments): "Metabolic rewiring underlies macrophage
+effector functions…"; "we show induction of an inflammatory aspartate-argininosuccinate shunt following LPS
+stimulation"; "Pharmacologic inhibition and genetic ablation of the TCA cycle enzyme FH…".
+
+Files (verbatim): `README_file.txt` 6.79 KB; `3_Metabolomics_data.xlsx` 577.12 KB; `1_fpkm_genename.txt` 7.54 MB;
+`2_diann.pg_matrix.tsv.txt` 2.86 MB.
+
+| Criterion | Verdict | Evidence |
+|---|---|---|
+| **E1 participant structure** | **FAIL** | the experimental units are stimulated macrophages under pharmacologic and genetic perturbation, not human participants. No cohort, no participants, no sampling design. |
+| E2 ≥ 60 metabolites | UNKNOWN | a 577 KB metabolomics workbook exists; not opened, and irrelevant once E1 fails. |
+| E3 / E5 | FAIL | a mechanistic cell-biology experiment; no populations. |
+| E4 accessible quantified matrix | PASS (a processed workbook is deposited) | recorded for completeness. |
+| E6 no prior contact | PASS | §0; distinct from the three Dryad DOIs screened as entries 02–04. |
+| E7 / E8 | not reached | — |
+
+**Identifiable failures: E1, E3, E5. Disposition: FAIL.**
+
+## Entry 13 — Zenodo 10.5281/zenodo.13293317 (Zenodo discovery slot 3 of 3)
+
+Record: https://zenodo.org/records/13293317 (owner-fetched 5 Nov 2026; `zenodo_13293317.json`). "Computational
+Metabolomics - database files for raw data processing"; published 11 Aug 2024; CC BY 4.0; resource type dataset.
+Description (verbatim): "These files are used by an R-script that process LCMS data files in a project directory to
+detect peaks, make the aligned peak table and annotate peaks with molecular formulas. The workflow is optimized for
+human blood samples (n > 100)."
+
+Files: 24 files, including `blood_exposome_chemicals_july_2023_ESINEG_adducts.xlsx` 17.65 MB,
+`metabolon_pubchem_data_ESIPOS_adducts.xlsx` 1.49 MB, `ipdb_blood_exposome_pos.Rdata` 11.99 MB,
+`blood_exposome_chemicals_july_2023.csv` 24.67 MB, adduct tables and processing parameters.
+
+| Criterion | Verdict | Evidence |
+|---|---|---|
+| **E1 participant structure** | **FAIL** | the deposit is a set of annotation databases and processing parameters for an R workflow. It contains no participants, no samples and no cohort. |
+| **E4 accessible quantified matrix** | **FAIL** | no measurement matrix of any population is deposited. |
+| E2, E3, E5, E7, E8 | not reached | — |
+| E6 no prior contact | PASS | §0. |
+
+**Identifiable failures: E1, E4. Disposition: FAIL.** The record entered its slot because the frozen topical filter
+matched "metabolomics" and "human" in the phrase "optimized for human blood samples"; see the filter note below.
+
+## Cycle result
+
+**NO ELIGIBLE COHORT. Thirteen records screened under `PUBLIC_COHORT_SCREEN_v0.1.md`; none satisfied the eight
+criteria. Seven of the twenty slots were not filled: one because the frozen Dryad index held no further record, six
+because two families could not be enumerated. No candidate was authorised for any value access, and no quantitative
+measurement file was downloaded or opened at any point in this cycle.**
+
+| Family | Slots | Screened | Outcome |
+|---|---|---|---|
+| preidentified | 2 | 2 | entries 01–02, both ineligible |
+| Dryad | 3 | 2 | entries 03–04; third slot: no further record in the frozen index |
+| Zenodo | 3 | 3 | entries 11–13 (enumerated at the fourth attempt; see the mechanics note) |
+| figshare | 3 | 3 | entries 05–07 |
+| Metabolomics Workbench | 3 | 3 | entries 08–10 |
+| NGDC OMIX | 3 | 0 | **UNSEARCHABLE**: the list endpoint returned HTTP 404; no public search interface was reached |
+| MetaboLights | 3 | 0 | **UNSEARCHABLE**: 34 accessions absent from the Stage A universe were identified, but the per-accession `i_Investigation.txt` reads needed for the release-date rule were refused (run 1: 28 of 34; run 2 with paced retries: `RemoteDisconnected`) |
+
+**Why the thirteen failed** (criteria as first identified; several records failed more than one):
+
+| Reason | Entries | n |
+|---|---|---|
+| E4 — no quantified matrix deposited (raw archives, article supplements, or scripts only) | 01, 04, 05, 06, 07, 11, 13 | 7 |
+| E1 — not human participants (mouse, cultured macrophages, reference databases) | 10, 12, 13 | 3 |
+| E3 / E5 — a single study-sized population: 231, 60, 47 donors, 21 samples, 20 patients | 03, 06, 08, 09, 11 | 5 |
+| E2 / E8 — outcome-selected feature panel | 02, 07 | 2 |
+
+**What this result is.** No dataset satisfying the prespecified structural and accessibility requirements was
+identified through this bounded public-repository screening procedure. It is a statement about the search, not
+about the acquisition hypothesis: it is not evidence that NOVA-S lacks predictive value, nor that no such dataset
+exists in these repositories, and the two unenumerable families mean the coverage of this cycle is incomplete by
+construction. The recurring obstacles were structural rather than incidental: public metabolomics deposits in these
+repositories are predominantly raw acquisitions or article supplements rather than analysis-ready matrices with a
+participant key, and those that are analysis-ready are single studies of tens to a few hundred participants.
+
+**Mechanics corrections made during the cycle** (all recorded in `PUBLIC_COHORT_ENUM_FREEZE.txt`, with every failed
+run preserved): v0.1.1 (Zenodo `type=` parameter removed with a client-side resource-type filter; Workbench bulk
+timeout; paced MetaboLights reads), v0.1.2 (Zenodo page size 25, the unauthenticated limit), v0.1.3 (Zenodo paced
+retry and page size 10, after a body truncated mid-read). Each changed the request path only; the search
+expressions, topical filter, salt and hash ordering of `PUBLIC_COHORT_SCREEN_v0.1.md` were never altered, so the
+selection within each family remains the frozen one. The Zenodo family required three such corrections; had a
+fourth failure of a different kind occurred, the family was to be recorded UNSEARCHABLE rather than repaired again.
+
+**Recorded weaknesses of the v0.1 enumeration, for any future prospective amendment** (none was acted on in this
+cycle; no slot was refilled and no verdict was changed):
+
+1. *Topical filter admits non-participant records.* Three of thirteen (entries 10, 12, 13) are not studies of human
+   participants at all; they matched because the word "human" appears in a transgene name ("human G6PD variants"),
+   in a method description ("optimized for human blood samples"), or in cell-biology text. The filter reads
+   title and description only, and does not consult a species field where one exists.
+2. *Deduplication is within-family.* The Zenodo index contains `10.5061/dryad.gqnk98srt`, already screened as entry
+   03 from the Dryad family. It did not fall in Zenodo's first three positions, so no slot was affected, but a
+   cross-family duplicate could consume two slots for one record.
+3. *An "accessible processed matrix with a participant key" criterion could be applied at enumeration* rather than
+   at screening, since E4 accounted for seven of the thirteen failures; doing so would change which records occupy
+   the slots and therefore requires a prospective amendment, not an in-cycle fix.
+
+**Consequence for the programme.** The external-validation routes that remain are the LIPID and COMETS inquiries,
+with the frozen decision date of 15 December 2026, and any future access strategy written as its own prospective
+amendment. This cycle is closed; under §5 of the protocol, another search requires a new documented amendment, not
+a quiet extension of this one.
