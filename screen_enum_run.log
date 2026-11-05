@@ -1,0 +1,7 @@
+ngdc: UNSEARCHABLE {"total_hits": null, "indexed_records": null, "topical_eligible": null} []
+dryad: ENUMERATED {"total_hits": 2, "indexed_records": 2, "topical_eligible": 2} ['doi:10.5061/dryad.gqnk98srt', 'doi:10.5061/dryad.p2ngf1w1z']
+zenodo: UNSEARCHABLE {"total_hits": null, "indexed_records": null, "topical_eligible": null} []
+figshare: ENUMERATED {"total_hits": 1000, "indexed_records": 1000, "topical_eligible": 92} ['10.6084/m9.figshare.33080369.v1', '10.3389/fmicb.2026.1801806.s003', '10.3389/fendo.2026.1878728.s002']
+metabolights: ENUMERATED {"total_hits": 34, "indexed_records": 2, "topical_eligible": 0} []
+workbench: UNSEARCHABLE {"total_hits": null, "indexed_records": null, "topical_eligible": null} []
+manifest 39d4f96a3b34b26fbeaedec7c19308a25d5343ccb42b0abf89f8693993d1a7be

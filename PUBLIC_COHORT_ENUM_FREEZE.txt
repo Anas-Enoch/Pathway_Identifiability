@@ -1,2 +1,4 @@
 8fb80a0d9b3f54a5535aa6220db3e4e82def282020480934bd7f4af47028e334  public_cohort_enum.py
 da7f80e4f81401aecf3cdb13ce66dc6b03426f403a33bf6417aab33a29bc5037  PUBLIC_COHORT_SCREEN_v0.1.md
+74878780d9c4d086ac7159a9a9446f7949d433ca9f67a46fbc6c305359339db3  public_cohort_enum.py
+# v0.1.1 = request mechanics only (Zenodo type= removed, Workbench bulk timeout 1800 s, MetaboLights paced reads); re-run limited to the three families UNSEARCHABLE/incomplete for client reasons in run 1; dryad, figshare, ngdc results of run 1 stand

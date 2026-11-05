@@ -17,7 +17,8 @@ from __future__ import annotations
 import argparse, csv, hashlib, json, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"   # v0.1.1 (5 Nov 2026): request mechanics only — Zenodo without the legacy type= parameter (client-side resource_type filter),
+#            Workbench bulk timeout 1800 s, MetaboLights investigation reads paced (2 s) with 3 retries. Expressions, filter, salt and selection unchanged.
 SALT = "PUBLIC-COHORT-v0.1|"
 SLOTS = 3
 MTBLS_AFTER = "2026-10-28"      # Stage A census date (protocol s2)
@@ -44,10 +45,26 @@ def key(family, cid):
     return hashlib.sha256((SALT + family + "|" + cid).encode()).hexdigest()
 
 
-def http(url, data=None, headers=None):
+BULK_TIMEOUT = 1800
+PACE_S, RETRIES = 2.0, 3
+
+
+def http(url, data=None, headers=None, timeout=TIMEOUT):
     req = urllib.request.Request(url, data=data, headers={"User-Agent": UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+    with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.status, r.read()
+
+
+def http_paced(fetch, url):
+    """Paced, retried GET for per-accession metadata reads (EBI FTP refuses rapid sequential connections)."""
+    err = None
+    for attempt in range(RETRIES):
+        time.sleep(PACE_S * (attempt + 1))
+        try:
+            return fetch(url)
+        except Exception as e:  # noqa: BLE001
+            err = e
+    raise err
 
 
 def now():
@@ -81,13 +98,16 @@ def enum_zenodo(fetch):
     q = urllib.parse.quote(EXPR["zenodo"])
     page, total = 1, 0
     while True:
-        url = f"https://zenodo.org/api/records?q={q}&type=dataset&size=100&page={page}"
+        url = f"https://zenodo.org/api/records?q={q}&size=100&page={page}"
         st, raw = fetch(url); pages.append({"url": url, "status": st, "sha256": sha_bytes(raw), "bytes": len(raw)})
         js = json.loads(raw)
         hits = js.get("hits", {}).get("hits", [])
         total = js.get("hits", {}).get("total", 0)
         for h in hits:
             md = h.get("metadata", {})
+            rt = md.get("resource_type", {})
+            if (rt.get("type") or rt.get("id") or "").lower().split("-")[0] != "dataset":
+                continue
             doi = h.get("doi") or md.get("doi") or f"zenodo:{h.get('id')}"
             recs.append({"id": doi, "title": md.get("title", ""), "url": h.get("links", {}).get("self_html") or f"https://zenodo.org/records/{h.get('id')}",
                          "text": md.get("title", "") + " " + re.sub("<[^>]+>", " ", md.get("description", "")), "date": md.get("publication_date", "")})
@@ -147,7 +167,7 @@ def enum_metabolights(fetch, known):
     for a in new:
         iurl = f"https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/{a}/i_Investigation.txt"
         try:
-            st2, raw2 = fetch(iurl)
+            st2, raw2 = http_paced(fetch, iurl)
         except Exception as e:  # noqa: BLE001
             pages.append({"url": iurl, "status": "error", "error": str(e)[:120]}); continue
         pages.append({"url": iurl, "status": st2, "sha256": sha_bytes(raw2), "bytes": len(raw2)})
@@ -164,7 +184,7 @@ def enum_metabolights(fetch, known):
 
 def enum_workbench(fetch, known):
     url = "https://www.metabolomicsworkbench.org/rest/study/study_id/ST/species"
-    st, raw = fetch(url); pages = [{"url": url, "status": st, "sha256": sha_bytes(raw), "bytes": len(raw)}]
+    st, raw = fetch(url, timeout=BULK_TIMEOUT); pages = [{"url": url, "status": st, "sha256": sha_bytes(raw), "bytes": len(raw)}]
     js = json.loads(raw)
     rows = list(js.values()) if isinstance(js, dict) else js
     ids = sorted({str(r.get("Study ID") or r.get("study_id") or "") for r in rows if isinstance(r, dict)})
@@ -173,7 +193,7 @@ def enum_workbench(fetch, known):
     for s in new:
         surl = f"https://www.metabolomicsworkbench.org/rest/study/study_id/{s}/summary"
         try:
-            st2, raw2 = fetch(surl)
+            st2, raw2 = http_paced(fetch, surl)
         except Exception as e:  # noqa: BLE001
             pages.append({"url": surl, "status": "error", "error": str(e)[:120]}); continue
         pages.append({"url": surl, "status": st2, "sha256": sha_bytes(raw2), "bytes": len(raw2)})
@@ -237,8 +257,8 @@ def cmd_run(a):
     fams = a.family or list(FAMILIES)
     archive = {}
 
-    def fetch(url, data=None, headers=None):
-        st, raw = http(url, data, headers)
+    def fetch(url, data=None, headers=None, timeout=TIMEOUT):
+        st, raw = http(url, data, headers, timeout)
         archive[sha_bytes(raw)] = raw
         return st, raw
     results = []
@@ -278,13 +298,17 @@ def cmd_selftest(a):
     e3, _ = select("dryad", recs2)
     check(len(e3) == 2, "topical filter keeps only human metabolomics/lipidomics; duplicate id collapsed")
     # mocked endpoints
-    def mock(url, data=None, headers=None):
+    def mock(url, data=None, headers=None, timeout=None):
         if "datadryad" in url:
             return 200, json.dumps({"total": 2, "_embedded": {"stash:datasets": [
                 {"identifier": "doi:10.5061/dryad.a", "title": "Human serum metabolomics", "abstract": "cohort", "publicationDate": "2026-09-01"},
                 {"identifier": "doi:10.5061/dryad.b", "title": "Mouse metabolomics", "abstract": "", "publicationDate": "2026-09-01"}]}}).encode()
         if "ngdc" in url:
             return 200, b"<html>not json</html>"
+        if "zenodo" in url:
+            return 200, json.dumps({"hits": {"total": 2, "hits": [
+                {"id": 1, "doi": "10.5281/zenodo.1", "metadata": {"title": "Human plasma metabolomics cohort", "description": "", "resource_type": {"type": "dataset"}, "publication_date": "2026-01-01"}},
+                {"id": 2, "doi": "10.5281/zenodo.2", "metadata": {"title": "Human metabolomics cohort paper", "description": "", "resource_type": {"type": "publication"}, "publication_date": "2026-01-01"}}]}}).encode()
         if "ws/studies" in url:
             return 200, json.dumps({"content": ["MTBLS1", "MTBLS99999"]}).encode()
         if "i_Investigation" in url:
@@ -298,7 +322,8 @@ def cmd_selftest(a):
     r = run_family("ngdc", mock, set(), set()); check(r["status"] == "UNSEARCHABLE", "ngdc mock: non-JSON index -> UNSEARCHABLE")
     r = run_family("metabolights", mock, {"MTBLS1"}, set()); check(r["status"] == "ENUMERATED" and [s["id"] for s in r["selected"]] == ["mtbls99999"], "metabolights mock: new accession with release date after census selected")
     r = run_family("workbench", mock, set(), {"ST000001"}); check([s["id"] for s in r["selected"]] == ["st009999"], "workbench mock: new study after B0 date selected")
-    def mock_fail(url, data=None, headers=None):
+    r = run_family("zenodo", mock, set(), set()); check([s["id"] for s in r["selected"]] == ["10.5281/zenodo.1"], "zenodo mock: client-side dataset filter keeps the dataset, drops the publication")
+    def mock_fail(url, data=None, headers=None, timeout=None):
         raise RuntimeError("connection refused")
     r = run_family("zenodo", mock_fail, set(), set()); check(r["status"] == "UNSEARCHABLE", "network failure -> UNSEARCHABLE, not substituted")
     print("SELFTEST", "PASSED" if ok else "FAILED"); sys.exit(0 if ok else 1)

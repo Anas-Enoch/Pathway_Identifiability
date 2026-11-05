@@ -1,0 +1,196 @@
+{
+  "family": "metabolights",
+  "expression": "public accessions absent from the Stage A census universe, release date > 2026-10-28",
+  "timestamp_utc": "2026-11-04T22:19:51Z",
+  "version": "0.1.0",
+  "pages": [
+    {
+      "url": "https://www.ebi.ac.uk/metabolights/ws/studies",
+      "status": 200,
+      "sha256": "31daf8ecdf41fe0915d5d3c46e7ea33ca27e72ee161c400cd035e59bcb38f63d",
+      "bytes": 44473
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS1/i_Investigation.txt",
+      "status": 200,
+      "sha256": "2cd04c9ff1f252d15d1638355b958363adec535acf3ba7d8f118f2514bf20d1d",
+      "bytes": 10547
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS10648/i_Investigation.txt",
+      "status": 200,
+      "sha256": "69c19291f745aaae5417c9056b38a64faef9c7eda903114c22ebd04118bbf65d",
+      "bytes": 12274
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS11308/i_Investigation.txt",
+      "status": 200,
+      "sha256": "f9b74597d3870fac7282e33a14feff5c9b351de302fb804c1c613d158aac6015",
+      "bytes": 11658
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS12344/i_Investigation.txt",
+      "status": 200,
+      "sha256": "46c967e06b9b3b15fac87dab366ebaa31257cf7a738936a8f21575c1e9cadcf5",
+      "bytes": 14110
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS13954/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error _ssl.c:1064: The handshake operation timed out>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14251/i_Investigation.txt",
+      "status": 200,
+      "sha256": "d457e0b3ec29e22ef4d8615a547c934225b309186403d3274c8c0eac95eb7cab",
+      "bytes": 15364
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14275/i_Investigation.txt",
+      "status": 200,
+      "sha256": "ffd287d3af29d6d7083a550782bb32f07b85836b7bd6166decaf57398b65aef6",
+      "bytes": 13959
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14742/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14958/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS14964/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15174/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15376/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15773/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15779/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15823/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15840/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15959/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15983/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15985/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS15997/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16107/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16158/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16161/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16168/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16187/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16192/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16215/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16232/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16234/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16239/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16245/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16248/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS16250/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    },
+    {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/metabolights/studies/public/MTBLS2/i_Investigation.txt",
+      "status": "error",
+      "error": "<urlopen error [Errno 61] Connection refused>"
+    }
+  ],
+  "status": "ENUMERATED",
+  "total_hits": 34,
+  "indexed_records": 2,
+  "topical_eligible": 0,
+  "ordered_ids": [],
+  "selected": []
+}

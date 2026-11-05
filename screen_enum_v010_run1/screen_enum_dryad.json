@@ -1,0 +1,44 @@
+{
+  "family": "dryad",
+  "expression": "(metabolomics OR lipidomics) AND (human OR participants OR cohort)",
+  "timestamp_utc": "2026-11-04T22:12:43Z",
+  "version": "0.1.0",
+  "pages": [
+    {
+      "url": "https://datadryad.org/api/v2/search?q=%28metabolomics%20OR%20lipidomics%29%20AND%20%28human%20OR%20participants%20OR%20cohort%29&per_page=100&page=1",
+      "status": 200,
+      "sha256": "888bb83bd300a328a65a80916d6bb58912725eff177964eed28a303919e893b3",
+      "bytes": 31202
+    }
+  ],
+  "status": "ENUMERATED",
+  "total_hits": 2,
+  "indexed_records": 2,
+  "topical_eligible": 2,
+  "ordered_ids": [
+    [
+      "38cb7fb4b996b8ba",
+      "doi:10.5061/dryad.gqnk98srt"
+    ],
+    [
+      "62e9643422c8309d",
+      "doi:10.5061/dryad.p2ngf1w1z"
+    ]
+  ],
+  "selected": [
+    {
+      "id": "doi:10.5061/dryad.gqnk98srt",
+      "title": "The multiomic landscape of epidemiological factors contributing to preterm birth in low- and middle-income countries",
+      "url": "https://datadryad.org/dataset/doi%3A10.5061%2Fdryad.gqnk98srt",
+      "date": "2023-05-19",
+      "sort_key": "38cb7fb4b996b8bac7cac561fc0d6e8e0c79996fd1d2048264c802fbe1c297d9"
+    },
+    {
+      "id": "doi:10.5061/dryad.p2ngf1w1z",
+      "title": "Multiomics characterization of acute child illness and mortality in Africa and South Asia",
+      "url": "https://datadryad.org/dataset/doi%3A10.5061%2Fdryad.p2ngf1w1z",
+      "date": "2026-02-10",
+      "sort_key": "62e9643422c8309d4f29f4ab331c5ae41c9effa28bf222063b1b6c6f34a6a924"
+    }
+  ]
+}

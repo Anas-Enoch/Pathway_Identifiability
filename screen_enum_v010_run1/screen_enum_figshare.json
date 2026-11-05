@@ -1,0 +1,475 @@
+{
+  "family": "figshare",
+  "expression": ":title: metabolomics",
+  "timestamp_utc": "2026-11-04T22:13:01Z",
+  "version": "0.1.0",
+  "pages": [
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 1}",
+      "status": 200,
+      "sha256": "1790a83bf59049382c87d4962747ca45bcb44ca0b3b74672dcfc2872ea0e873f",
+      "bytes": 120846
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 2}",
+      "status": 200,
+      "sha256": "75de5e2aa65f737703696aa78a79d3e087fba9a6f33bbe0797f9cd774f5824d0",
+      "bytes": 120507
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 3}",
+      "status": 200,
+      "sha256": "c3ce545ee4dc2a5cf8e96693d4f28e18de156b1fc2f96acfa6efd8ae4574caac",
+      "bytes": 120520
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 4}",
+      "status": 200,
+      "sha256": "7c586b223e48aeaaea720303c62dd365722f841aa0d4c7b03123dac9bfb30d0b",
+      "bytes": 123866
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 5}",
+      "status": 200,
+      "sha256": "59d35e4f59ca386bd720e5cc43c3eff76dc83ee2ebfe8e8217e71145c667b446",
+      "bytes": 118425
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 6}",
+      "status": 200,
+      "sha256": "3f8ba49e98e162760f085f2bfca498d12a9e8f12229a3497dee71628a156a2a0",
+      "bytes": 125570
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 7}",
+      "status": 200,
+      "sha256": "d1c6db7aa111e75391c9dae437d76280eb93c6ed8aa612386c850d35f7ad5294",
+      "bytes": 123447
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 8}",
+      "status": 200,
+      "sha256": "19d1db7b379539e6eebf6a5071fbca0a9c9c3b4fb7a120461c04b8c405070bf8",
+      "bytes": 120222
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 9}",
+      "status": 200,
+      "sha256": "9ebdb6370958eafe8cc0779f2829a030420b909a25c8f7c9f33f1ae1f60447aa",
+      "bytes": 127368
+    },
+    {
+      "url": "https://api.figshare.com/v2/articles/search [POST]",
+      "body": "{\"search_for\": \":title: metabolomics\", \"item_type\": 3, \"page_size\": 100, \"page\": 10}",
+      "status": 200,
+      "sha256": "61262645eca62779a996f8c0afdfb1f7a2e9c0d8fb92f37b8e4ed74d55442433",
+      "bytes": 126631
+    }
+  ],
+  "status": "ENUMERATED",
+  "total_hits": 1000,
+  "indexed_records": 1000,
+  "topical_eligible": 92,
+  "ordered_ids": [
+    [
+      "00fce27dd78a0d5c",
+      "10.6084/m9.figshare.33080369.v1"
+    ],
+    [
+      "025eb9807991ec0a",
+      "10.3389/fmicb.2026.1801806.s003"
+    ],
+    [
+      "0d85dc3925d99f13",
+      "10.3389/fendo.2026.1878728.s002"
+    ],
+    [
+      "0fdbfb0062ccba77",
+      "10.3389/fcimb.2026.1783221.s001"
+    ],
+    [
+      "1180dd79c97e68f1",
+      "10.3389/fimmu.2026.1837031.s007"
+    ],
+    [
+      "141926cea9afe3f1",
+      "10.3389/fimmu.2026.1837031.s010"
+    ],
+    [
+      "16e75ba43d1aa0c5",
+      "10.6084/m9.figshare.31360441.v3"
+    ],
+    [
+      "183e58a62a47f75d",
+      "10.3389/fimmu.2026.1837031.s014"
+    ],
+    [
+      "212e653ca18552cf",
+      "10.6084/m9.figshare.34808727.v1"
+    ],
+    [
+      "22088af130dd2477",
+      "10.3389/fphys.2026.1727465.s008"
+    ],
+    [
+      "270cce141a339583",
+      "10.3389/fphys.2026.1727465.s005"
+    ],
+    [
+      "27ef3719ed32d71d",
+      "10.1371/journal.pone.0359270.t003"
+    ],
+    [
+      "2f16f814a59bd377",
+      "10.3389/fmed.2025.1664359"
+    ],
+    [
+      "2f5db13a47ee9ee1",
+      "10.3389/fphys.2026.1727465.s003"
+    ],
+    [
+      "378dbb8581bde17e",
+      "10.3389/fmolb.2026.1765747.s001"
+    ],
+    [
+      "393f9785a0edfac3",
+      "10.3389/fphys.2026.1727465.s015"
+    ],
+    [
+      "3a9dbcb85c928097",
+      "10.6084/m9.figshare.32124976.v1"
+    ],
+    [
+      "440e8cc91ff21382",
+      "10.3389/fimmu.2026.1777700.s001"
+    ],
+    [
+      "45670c8d424d12ff",
+      "10.3389/fpsyt.2026.1981601.s001"
+    ],
+    [
+      "482134c64a00b26d",
+      "10.3389/fmicb.2026.1801806.s007"
+    ],
+    [
+      "49e0e228bd9d2b10",
+      "10.3389/fimmu.2026.1837031.s001"
+    ],
+    [
+      "4a86a08f3338d49a",
+      "10.6084/m9.figshare.34478724.v1"
+    ],
+    [
+      "4b61e417d78b2873",
+      "10.6084/m9.figshare.33080276.v1"
+    ],
+    [
+      "4e745b551bd3b499",
+      "10.3389/fneur.2026.1714257.s002"
+    ],
+    [
+      "5032c922ccf42830",
+      "10.3389/fmicb.2026.1801806.s004"
+    ],
+    [
+      "541882ca355481fd",
+      "10.3389/fmed.2026.1960863.s001"
+    ],
+    [
+      "54de9e6576dc0e05",
+      "10.6084/m9.figshare.34807344.v1"
+    ],
+    [
+      "5573bef609d8be0d",
+      "10.1021/jacs.6c02487.s002"
+    ],
+    [
+      "57870c2cbcb9bed8",
+      "10.6084/m9.figshare.32621247.v2"
+    ],
+    [
+      "5b5922fea56fdd0a",
+      "10.3389/fimmu.2026.1839465.s001"
+    ],
+    [
+      "5c5dca48eb14431e",
+      "10.3389/fphar.2026.1846667.s002"
+    ],
+    [
+      "5fe52e2a9ec768e6",
+      "10.3389/fimmu.2026.1855983.s001"
+    ],
+    [
+      "6048cc07cc3ee5ba",
+      "10.3389/fimmu.2026.1837031.s009"
+    ],
+    [
+      "60c5de9d7b513c8e",
+      "10.3389/fmolb.2026.1741802.s001"
+    ],
+    [
+      "691f96e90713bd82",
+      "10.3389/fphys.2026.1727465.s012"
+    ],
+    [
+      "6de91b4f3d3fe894",
+      "10.3389/fneur.2026.1714257.s003"
+    ],
+    [
+      "738e7dc59915a1ea",
+      "10.3389/fphys.2026.1727465.s002"
+    ],
+    [
+      "771d0447afec8d5d",
+      "10.6084/m9.figshare.34778547.v1"
+    ],
+    [
+      "7e05f9d072a24fc0",
+      "10.3389/fendo.2026.1878728.s001"
+    ],
+    [
+      "7ec3f46e6bbaa507",
+      "10.3389/fmicb.2026.1801806.s005"
+    ],
+    [
+      "83c4c5afbeafb3b3",
+      "10.3389/fneur.2026.1795803.s003"
+    ],
+    [
+      "85c5676aad40e2a4",
+      "10.6084/m9.figshare.32835794.v1"
+    ],
+    [
+      "8a119ca2e3cc4560",
+      "10.3389/fphar.2026.1905102.s001"
+    ],
+    [
+      "8a6a575f1897bdbb",
+      "10.3389/fphys.2026.1727465.s013"
+    ],
+    [
+      "8b0faa857425e11e",
+      "10.3389/fmicb.2026.1801806.s001"
+    ],
+    [
+      "939b40248dcc66c6",
+      "10.3389/fimmu.2026.1818068.s002"
+    ],
+    [
+      "97cb9b3de906d78c",
+      "10.3389/fmicb.2026.1801806.s009"
+    ],
+    [
+      "988c428a07a5e332",
+      "10.3389/fimmu.2026.1837031.s003"
+    ],
+    [
+      "9a4f04ff81aca191",
+      "10.3389/fimmu.2026.1837031.s011"
+    ],
+    [
+      "9a9931521a64659a",
+      "10.6084/m9.figshare.32532618.v1"
+    ],
+    [
+      "9aa05f692fd836fb",
+      "10.3389/fphys.2026.1727465.s009"
+    ],
+    [
+      "a0d64798310b8e07",
+      "10.3389/fmicb.2026.1801806.s006"
+    ],
+    [
+      "a6baa07f68df74c1",
+      "10.3389/fmicb.2026.1797695.s001"
+    ],
+    [
+      "a9397417de3c66ff",
+      "10.3389/fmolb.2026.1801734.s002"
+    ],
+    [
+      "aa892fb08806cf6b",
+      "10.3389/fmicb.2026.1801806.s002"
+    ],
+    [
+      "ab93bdf75d7ea4a9",
+      "10.3389/fphys.2026.1727465.s011"
+    ],
+    [
+      "ac7459431a5bb9eb",
+      "10.3389/fphys.2026.1727465.s010"
+    ],
+    [
+      "b0fb8da5951cd5a7",
+      "10.3389/fphys.2026.1727465.s006"
+    ],
+    [
+      "b1d76e3eb69a1aa2",
+      "10.6084/m9.figshare.32853680.v1"
+    ],
+    [
+      "b421cca53876e94b",
+      "10.3389/fphys.2026.1727465.s001"
+    ],
+    [
+      "b467bc32f08a7002",
+      "10.3389/fimmu.2026.1837031.s002"
+    ],
+    [
+      "bb2086407e66da6b",
+      "10.3389/fimmu.2026.1837031.s005"
+    ],
+    [
+      "bd6d811f9c897f62",
+      "10.3389/fneur.2026.1795803.s002"
+    ],
+    [
+      "bf1947f98397b697",
+      "10.1021/acs.analchem.6c01612.s002"
+    ],
+    [
+      "c4a51ad9ac2cd928",
+      "10.3389/fimmu.2026.1837031.s012"
+    ],
+    [
+      "cadb585169b2ee30",
+      "10.3389/fimmu.2026.1818068.s001"
+    ],
+    [
+      "ccfa97300ab1838f",
+      "10.3389/fphys.2026.1727465.s014"
+    ],
+    [
+      "d0aa99495aa96ae7",
+      "10.3389/fmicb.2026.1801806.s011"
+    ],
+    [
+      "d5d9e8a95daf07e5",
+      "10.6084/m9.figshare.32393870.v1"
+    ],
+    [
+      "d98eb60f04787030",
+      "10.3389/fmicb.2026.1801806.s010"
+    ],
+    [
+      "dc3c01fc7ddd3a72",
+      "10.6084/m9.figshare.33180626.v1"
+    ],
+    [
+      "dcea3125093e2d1f",
+      "10.3389/fphys.2026.1727465.s018"
+    ],
+    [
+      "dcf722a8f0f07f16",
+      "10.3389/fphar.2026.1846667.s001"
+    ],
+    [
+      "dd00961cdaafd84b",
+      "10.3389/fphar.2026.1824522.s001"
+    ],
+    [
+      "dd14ad07760eb9e5",
+      "10.3389/fmicb.2026.1801806.s008"
+    ],
+    [
+      "e05268344bbc904d",
+      "10.3389/fcimb.2026.1941674.s001"
+    ],
+    [
+      "e0824a6f37ae1cd0",
+      "10.3389/fimmu.2026.1837031.s015"
+    ],
+    [
+      "e395603a36f98b22",
+      "10.3389/fneur.2026.1740882.s001"
+    ],
+    [
+      "e6b0fda2d6ecaf0c",
+      "10.3389/fimmu.2026.1837031.s006"
+    ],
+    [
+      "e72aafb8a1ef1bab",
+      "10.3389/fimmu.2026.1837031.s013"
+    ],
+    [
+      "e96c2931f80afdea",
+      "10.3389/fmolb.2026.1735166.s001"
+    ],
+    [
+      "eb62d4a10106b8c6",
+      "10.6084/m9.figshare.32308839.v1"
+    ],
+    [
+      "eb83284376010211",
+      "10.6084/m9.figshare.34157687.v1"
+    ],
+    [
+      "eba5e3f18aaa9030",
+      "10.6084/m9.figshare.31941843.v1"
+    ],
+    [
+      "ee8361be373b3c76",
+      "10.3389/fmolb.2026.1801734.s001"
+    ],
+    [
+      "efdbd70b1ead8c19",
+      "10.3389/fphys.2026.1727465.s007"
+    ],
+    [
+      "f00efad96b836bf0",
+      "10.3389/fimmu.2026.1787182.s001"
+    ],
+    [
+      "f0e00954585e0ed3",
+      "10.3389/fphys.2026.1727465.s004"
+    ],
+    [
+      "f10580c7c3a31958",
+      "10.3389/fphys.2026.1727465.s016"
+    ],
+    [
+      "fc574d1b8814e571",
+      "10.3389/fimmu.2026.1837031.s008"
+    ],
+    [
+      "fddfffeb84ca9ebc",
+      "10.3389/fimmu.2026.1837031.s004"
+    ],
+    [
+      "ff14236abd679ff5",
+      "10.1021/jacs.6c02487.s001"
+    ]
+  ],
+  "selected": [
+    {
+      "id": "10.6084/m9.figshare.33080369.v1",
+      "title": "Dataset on the changes in the gut microbiome and serum metabolome in type 2 diabetic patients with cognitive decline",
+      "url": "https://figshare.com/articles/dataset/Dataset_on_the_changes_in_the_gut_microbiome_and_serum_metabolome_in_type_2_diabetic_patients_with_cognitive_decline/33080369",
+      "date": "2026-07-25T03:58:29Z",
+      "sort_key": "00fce27dd78a0d5c6d4622590f56bcd8b715f1dbf6900a1e94ee70c4f6bc843d"
+    },
+    {
+      "id": "10.3389/fmicb.2026.1801806.s003",
+      "title": "Table 1_A comparative study of the gut microbiome and fecal metabolome in hypertensive patients from middle-temperate and tropical cities of China: Daqing and Haikou.xlsx",
+      "url": "https://frontiersin.figshare.com/articles/dataset/Table_1_A_comparative_study_of_the_gut_microbiome_and_fecal_metabolome_in_hypertensive_patients_from_middle-temperate_and_tropical_cities_of_China_Daqing_and_Haikou_xlsx/32357331",
+      "date": "2026-05-22T05:37:10Z",
+      "sort_key": "025eb9807991ec0a437d83945b2b0ce58962a6e2a09ef3900615f888f3aa7497"
+    },
+    {
+      "id": "10.3389/fendo.2026.1878728.s002",
+      "title": "Data Sheet 1_A lifestyle-driven inflammatory load index and its circulating metabolomic signature identify susceptibility to hospital-recorded acute respiratory infections: a population-based cohort study of 295,679 adults.docx",
+      "url": "https://frontiersin.figshare.com/articles/dataset/Data_Sheet_1_A_lifestyle-driven_inflammatory_load_index_and_its_circulating_metabolomic_signature_identify_susceptibility_to_hospital-recorded_acute_respiratory_infections_a_population-based_cohort_study_of_295_679_adults_docx/33194799",
+      "date": "2026-08-10T04:09:26Z",
+      "sort_key": "0d85dc3925d99f135b55b7efe0f6e75269fe7be7e0e50014ba5766e7eb0b3d1c"
+    }
+  ]
+}

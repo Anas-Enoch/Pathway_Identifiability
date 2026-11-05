@@ -1,0 +1,9 @@
+{
+  "family": "workbench",
+  "expression": "study ids absent from the B0 universe, summary release_date > 2026-10-17",
+  "timestamp_utc": "2026-11-04T22:24:25Z",
+  "version": "0.1.0",
+  "status": "UNSEARCHABLE",
+  "error": "TimeoutError: The read operation timed out",
+  "pages": []
+}
