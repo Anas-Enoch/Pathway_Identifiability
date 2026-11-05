@@ -1,0 +1,43 @@
+{
+ "protocol": "NOVA_D_PROTOCOL_v0.3.md",
+ "protocol_sha256": "df13d06496ce59a5319a6c614a815d5a1d316c1e6538fd699eda5d2dbfaf5d20",
+ "nova_d_run.py": "f2359f6b43000fadb68a8728b979731110257c7403b97ce8b3ef0eaee156ec52",
+ "nova_d_calib.py": "4ab49dbc585e5cef4da6d0f2a31ca0d44725ffbaf0364f058fd8b63615b1ce29",
+ "p6_n2.py": "681ce852609e6ab4fcaf0f0ff603477c64e2351e10bd119811d45f008d4bbe8e",
+ "p5_gate3a.py": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
+ "salt": "NOVA-D-SYNTH-V03|",
+ "n_grid": [
+  128,
+  512,
+  1024
+ ],
+ "A_grid": [
+  0.05,
+  0.15,
+  0.2
+ ],
+ "psi": 0.25,
+ "reps": 100,
+ "n_eval": 5000,
+ "gammas": [
+  "0.02",
+  "0.05",
+  "0.1",
+  "0.25",
+  "inf"
+ ],
+ "primary": [
+  "M2",
+  0.1,
+  512,
+  0.15
+ ],
+ "positive_control": [
+  "M2",
+  0.4,
+  1024,
+  0.15
+ ],
+ "n_conditions": 72,
+ "frozen_utc": "2026-11-05T21:11:39Z"
+}
