@@ -1,0 +1,357 @@
+{
+  "family": "workbench",
+  "expression": "study ids absent from the B0 universe, summary release_date > 2026-10-17",
+  "timestamp_utc": "2026-11-05T00:15:40Z",
+  "version": "0.1.1",
+  "pages": [
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST/species",
+      "status": 200,
+      "sha256": "20e03290b9a4ce319c0ff0366faf5c3d5aadd2f956ecb7119a62c2b8deb37bbf",
+      "bytes": 421525
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004328/summary",
+      "status": 200,
+      "sha256": "bbcd46bc04a374876250fd2149af65b960fe4da28c133680d4a4323c7d7bfe0f",
+      "bytes": 599
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004358/summary",
+      "status": 200,
+      "sha256": "94799c0260f02c6c64e14076017fd93359a98f842cdc560b68c3405f4fda4fb2",
+      "bytes": 632
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004435/summary",
+      "status": 200,
+      "sha256": "85e9d0e0fab26a204546ab705b0c9cb4d5585513949437be3592fd35791f40b3",
+      "bytes": 593
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004452/summary",
+      "status": 200,
+      "sha256": "927be9ceb24bf79d85a3361d3d158cd3b37098d8ea920dc09211fe3ee15f27df",
+      "bytes": 575
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004511/summary",
+      "status": 200,
+      "sha256": "a93215a0319c2744a90aba4c77f871d69c068790eef2ddd73ad79de1db520299",
+      "bytes": 640
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004748/summary",
+      "status": 200,
+      "sha256": "37dfb5e1b99d6687979f55ef5745c89feaf7ee1b9c61731210bf8c7c00b932fc",
+      "bytes": 624
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004938/summary",
+      "status": 200,
+      "sha256": "c513c58527001e3deb137a2e20e00caeac294b5e2e10eb32ff47378254c2d642",
+      "bytes": 612
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004951/summary",
+      "status": 200,
+      "sha256": "e28c47c160aaafeb73475581c6a5ad855786bca29348ebb6dac26e63edfee1c3",
+      "bytes": 649
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST004996/summary",
+      "status": 200,
+      "sha256": "5d0b788e64dcace50890fb78adef4ed3af7facc069244384f9a2d094c388c0dd",
+      "bytes": 606
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005088/summary",
+      "status": 200,
+      "sha256": "26feb37f9cc2c36ed11ee9318973280307e2fb25e70f56dd491e3fa1c09b02d7",
+      "bytes": 692
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005103/summary",
+      "status": 200,
+      "sha256": "16c8c694d4eebf6178b18e3dbf6a87f60b03d4c3783c615fb08c1a9eb9ee248c",
+      "bytes": 567
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005200/summary",
+      "status": 200,
+      "sha256": "1c2b222a0bf770585c6c428b4a8f8eb3f18917dcc4beeb9ce07a30cc54422ab3",
+      "bytes": 626
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005208/summary",
+      "status": 200,
+      "sha256": "4e2366af4d20c817917379addd7589c3c14cecd1097d613e683c19583b4edb0f",
+      "bytes": 615
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005210/summary",
+      "status": 200,
+      "sha256": "9bd1adb20236738959c2fd6a5e2bd2b68e8a3f764f44eef829eb3c9d24f55079",
+      "bytes": 633
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005211/summary",
+      "status": 200,
+      "sha256": "8894ecddee8dbd30a001af2f0756d8121a5ac245bf84487f843cc23e1abe460e",
+      "bytes": 607
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005212/summary",
+      "status": 200,
+      "sha256": "17ce8172d9adf89c03d0d260af0b9431ab8d17a0c6cf4736f4ea10531091c185",
+      "bytes": 607
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005217/summary",
+      "status": 200,
+      "sha256": "7f0609e8a2e1bacc33a73b48a57d496ce2529038655634d43f19bb637e061f55",
+      "bytes": 557
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005223/summary",
+      "status": 200,
+      "sha256": "01071255abf6c99ca7e977d03c23226853dd6f126fac9d90a822ed27aae2f4d9",
+      "bytes": 718
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005236/summary",
+      "status": 200,
+      "sha256": "0c5265ffc668d1ed262c610a9d05f44dd71f5690a490aaef47fcebafbd715f4c",
+      "bytes": 639
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005237/summary",
+      "status": 200,
+      "sha256": "06dd14c16df4656ab59b1ff92b3e7b2d7cbe12871c52b92abbe76e58eb056c3b",
+      "bytes": 623
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005238/summary",
+      "status": 200,
+      "sha256": "292c0cd996a2d64e78c5fcad7d4d98e3fa12a9a6130017370e952cbf548f5245",
+      "bytes": 554
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005246/summary",
+      "status": 200,
+      "sha256": "e3ecdc57c3d8c4de60e81f662297d1d5e161050ddf4b1f063ff5b18171b07cd3",
+      "bytes": 595
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005247/summary",
+      "status": 200,
+      "sha256": "c12833799d9625ca0b195a72223089d273a2af4b1e668a71468534ac632e8f2a",
+      "bytes": 595
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005272/summary",
+      "status": 200,
+      "sha256": "00953b7f334ac70a8d58a3532c6721d7fa29ab806fbc8acd0afa3fc172067d24",
+      "bytes": 643
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005274/summary",
+      "status": 200,
+      "sha256": "8a84c7970f669defd4a77ee65df8bed1aa05ba2904d46fac0c32de2bff9dd35d",
+      "bytes": 546
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005275/summary",
+      "status": 200,
+      "sha256": "ff61bce6959a1e573bf03d1366d68d8232fc9932a4290c81ebd3decd8365b442",
+      "bytes": 546
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005276/summary",
+      "status": 200,
+      "sha256": "5b7a773ce6356fde64298d7baee7a551e986719252568d0d224833fce3d93fc1",
+      "bytes": 622
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005279/summary",
+      "status": 200,
+      "sha256": "1586ade705ef5e0069c60c950fe10df650b06aa771c90a9421f44453a4b86a2d",
+      "bytes": 638
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005280/summary",
+      "status": 200,
+      "sha256": "f112e7d07e8e110a65d785ea8d4ba1bca2c0006d896de519e52a2fa298a3fbc2",
+      "bytes": 621
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005281/summary",
+      "status": 200,
+      "sha256": "312fb86667677ea8264cd9c12219e0a7f81ec73c38c06464f2b1c48b0322bc50",
+      "bytes": 617
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005282/summary",
+      "status": 200,
+      "sha256": "3e4b8eb6ec9e88eef768f2721c8050d0816dcdba578f6e4168e83566e3156d33",
+      "bytes": 632
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005283/summary",
+      "status": 200,
+      "sha256": "93866e25b3ad5071f46f254ed8d2735018958123332235e5029018be1745acb8",
+      "bytes": 632
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005284/summary",
+      "status": 200,
+      "sha256": "3b4535da48b7d0f9a2f034c1a4d366242f0aa5d33dd1bdc766377b49c153ea1c",
+      "bytes": 652
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005285/summary",
+      "status": 200,
+      "sha256": "093fd2a00d90034637ea0ef1b9d3ba40d5f17a2e7cfe03909c71edf3dd5d9e21",
+      "bytes": 593
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005286/summary",
+      "status": 200,
+      "sha256": "d18da7c111364aa6f36480b93a7c7d08bd51dcce987d6a5c006082d4514c4ec8",
+      "bytes": 660
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005287/summary",
+      "status": 200,
+      "sha256": "4f1eed19f2ca0f38800002487140028247b4329aa1f54848b4b81e17d2d453f7",
+      "bytes": 598
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005289/summary",
+      "status": 200,
+      "sha256": "374a89cbce6857f97d3451a32a5e78070bcca7f8829bd6efb1796d50c2c024bd",
+      "bytes": 615
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005308/summary",
+      "status": 200,
+      "sha256": "9e336e004ad863ae379d260bb1f68b5160fa0da19833d3860506af3a93575ac6",
+      "bytes": 581
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005313/summary",
+      "status": 200,
+      "sha256": "555aa7380b84a88bb3a0d82bf43eefca3f977033b2113c157926ee89a7fab246",
+      "bytes": 539
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005314/summary",
+      "status": 200,
+      "sha256": "f981518a5688c8e32012d719972e67e67a00a08cc0bb7b575112e8c44edf3f1d",
+      "bytes": 698
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005316/summary",
+      "status": 200,
+      "sha256": "1165ca36acc89a8780916cb1decfe85b6d6959f04c7365c0f3be9dc4d36163b5",
+      "bytes": 549
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005359/summary",
+      "status": 200,
+      "sha256": "5a6e3ccb1f70268a3bfb3c82f4ece4405e48e2f90286d321d4e4b243e71ff5c4",
+      "bytes": 652
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005366/summary",
+      "status": 200,
+      "sha256": "c4835a64598378f433796b3324f78e1d2539c0d18dcdc2dce2b7468fd9128f62",
+      "bytes": 643
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005372/summary",
+      "status": 200,
+      "sha256": "2a65fcfd8c7b6622bd11cc8ff8235d615ea2ddf342e530cb9a011b87ac36536b",
+      "bytes": 640
+    },
+    {
+      "url": "https://www.metabolomicsworkbench.org/rest/study/study_id/ST005375/summary",
+      "status": 200,
+      "sha256": "aedf970aa1a0d3b3410fa2a83578605860151187ad287b60c65e1efbfd6843c2",
+      "bytes": 565
+    }
+  ],
+  "status": "ENUMERATED",
+  "total_hits": 45,
+  "indexed_records": 39,
+  "topical_eligible": 11,
+  "ordered_ids": [
+    [
+      "09fd7b22609b8387",
+      "st005211"
+    ],
+    [
+      "13f55e80c6819907",
+      "st005210"
+    ],
+    [
+      "26f92921ce56d2dd",
+      "st005223"
+    ],
+    [
+      "4b16afca18aeb0e5",
+      "st005247"
+    ],
+    [
+      "9e2656459ed32298",
+      "st005246"
+    ],
+    [
+      "aa40fe93e03c35fd",
+      "st005208"
+    ],
+    [
+      "b02194bf69590eed",
+      "st005088"
+    ],
+    [
+      "cbfeabb7fe4ad25c",
+      "st005359"
+    ],
+    [
+      "e43b9394cf01f954",
+      "st005289"
+    ],
+    [
+      "f782946f4e968ae2",
+      "st005200"
+    ],
+    [
+      "f9736b9cfff293ad",
+      "st004328"
+    ]
+  ],
+  "selected": [
+    {
+      "id": "st005211",
+      "title": "Untargeted Metabolomic Profiling Reveals a Distinct Intestinal Metabolic Signature in Necrotizing Enterocolitis",
+      "url": "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST005211",
+      "date": "2026-10-21",
+      "sort_key": "09fd7b22609b8387c82ffbbbb6c14707571b1bc6aa59cc5f8d66aa0de4725173"
+    },
+    {
+      "id": "st005210",
+      "title": "Targeted and untargeted metabolomics and lipidomics of paired epicardial adipose tissue and left ventricular myocardium from 47 human donor hearts",
+      "url": "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST005210",
+      "date": "2026-10-21",
+      "sort_key": "13f55e80c6819907863677fbbfb6b1bab19ed6a8e58d2622dec54912770e8fab"
+    },
+    {
+      "id": "st005223",
+      "title": "Steady state metabolomics of fresh and 12-day stored red blood cells from mice expression human canonical (human WT) G6PD or human G6PD variants including the S188F Mediterranean (Med-) and V68M/N126D African (A-) variants",
+      "url": "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST005223",
+      "date": "2026-10-21",
+      "sort_key": "26f92921ce56d2dd18020a3b7c39359554a40a65278d142976f768144f1b8c82"
+    }
+  ]
+}

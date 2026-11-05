@@ -17,7 +17,8 @@ from __future__ import annotations
 import argparse, csv, hashlib, json, re, sys, time, urllib.parse, urllib.request
 from pathlib import Path
 
-VERSION = "0.1.1"   # v0.1.1 (5 Nov 2026): request mechanics only — Zenodo without the legacy type= parameter (client-side resource_type filter),
+VERSION = "0.1.2"   # v0.1.2 (5 Nov 2026): Zenodo page size 100 -> 25 (unauthenticated limit; HTTP 400 "Page size cannot be greater than 25"),
+#            page cap 10 -> 40 so the same 1,000-record ceiling is kept. Expression, filter, salt, ordering unchanged.   # v0.1.1 (5 Nov 2026): request mechanics only — Zenodo without the legacy type= parameter (client-side resource_type filter),
 #            Workbench bulk timeout 1800 s, MetaboLights investigation reads paced (2 s) with 3 retries. Expressions, filter, salt and selection unchanged.
 SALT = "PUBLIC-COHORT-v0.1|"
 SLOTS = 3
@@ -98,7 +99,7 @@ def enum_zenodo(fetch):
     q = urllib.parse.quote(EXPR["zenodo"])
     page, total = 1, 0
     while True:
-        url = f"https://zenodo.org/api/records?q={q}&size=100&page={page}"
+        url = f"https://zenodo.org/api/records?q={q}&size=25&page={page}"
         st, raw = fetch(url); pages.append({"url": url, "status": st, "sha256": sha_bytes(raw), "bytes": len(raw)})
         js = json.loads(raw)
         hits = js.get("hits", {}).get("hits", [])
@@ -111,7 +112,7 @@ def enum_zenodo(fetch):
             doi = h.get("doi") or md.get("doi") or f"zenodo:{h.get('id')}"
             recs.append({"id": doi, "title": md.get("title", ""), "url": h.get("links", {}).get("self_html") or f"https://zenodo.org/records/{h.get('id')}",
                          "text": md.get("title", "") + " " + re.sub("<[^>]+>", " ", md.get("description", "")), "date": md.get("publication_date", "")})
-        if page * 100 >= total or not hits or page >= 10:
+        if page * 25 >= total or not hits or page >= 40:
             break
         page += 1
     return recs, pages, total

@@ -1,0 +1,9 @@
+{
+  "family": "metabolights",
+  "expression": "public accessions absent from the Stage A census universe, release date > 2026-10-28",
+  "timestamp_utc": "2026-11-05T00:22:28Z",
+  "version": "0.1.1",
+  "status": "UNSEARCHABLE",
+  "error": "RemoteDisconnected: Remote end closed connection without response",
+  "pages": []
+}

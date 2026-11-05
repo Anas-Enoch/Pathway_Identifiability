@@ -1,0 +1,108 @@
+{
+  "script": "public_cohort_enum.py",
+  "version": "0.1.1",
+  "script_sha256": "74878780d9c4d086ac7159a9a9446f7949d433ca9f67a46fbc6c305359339db3",
+  "families": [
+    "zenodo",
+    "workbench",
+    "metabolights"
+  ],
+  "created_utc": "2026-11-05T00:22:44Z",
+  "results": [
+    {
+      "family": "zenodo",
+      "expression": "(metabolomics OR lipidomics) AND (human OR participants OR cohort)",
+      "timestamp_utc": "2026-11-05T00:15:37Z",
+      "version": "0.1.1",
+      "status": "UNSEARCHABLE",
+      "error": "HTTPError: HTTP Error 400: BAD REQUEST"
+    },
+    {
+      "family": "workbench",
+      "expression": "study ids absent from the B0 universe, summary release_date > 2026-10-17",
+      "timestamp_utc": "2026-11-05T00:15:40Z",
+      "version": "0.1.1",
+      "status": "ENUMERATED",
+      "total_hits": 45,
+      "indexed_records": 39,
+      "topical_eligible": 11,
+      "ordered_ids": [
+        [
+          "09fd7b22609b8387",
+          "st005211"
+        ],
+        [
+          "13f55e80c6819907",
+          "st005210"
+        ],
+        [
+          "26f92921ce56d2dd",
+          "st005223"
+        ],
+        [
+          "4b16afca18aeb0e5",
+          "st005247"
+        ],
+        [
+          "9e2656459ed32298",
+          "st005246"
+        ],
+        [
+          "aa40fe93e03c35fd",
+          "st005208"
+        ],
+        [
+          "b02194bf69590eed",
+          "st005088"
+        ],
+        [
+          "cbfeabb7fe4ad25c",
+          "st005359"
+        ],
+        [
+          "e43b9394cf01f954",
+          "st005289"
+        ],
+        [
+          "f782946f4e968ae2",
+          "st005200"
+        ],
+        [
+          "f9736b9cfff293ad",
+          "st004328"
+        ]
+      ],
+      "selected": [
+        {
+          "id": "st005211",
+          "title": "Untargeted Metabolomic Profiling Reveals a Distinct Intestinal Metabolic Signature in Necrotizing Enterocolitis",
+          "url": "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST005211",
+          "date": "2026-10-21",
+          "sort_key": "09fd7b22609b8387c82ffbbbb6c14707571b1bc6aa59cc5f8d66aa0de4725173"
+        },
+        {
+          "id": "st005210",
+          "title": "Targeted and untargeted metabolomics and lipidomics of paired epicardial adipose tissue and left ventricular myocardium from 47 human donor hearts",
+          "url": "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST005210",
+          "date": "2026-10-21",
+          "sort_key": "13f55e80c6819907863677fbbfb6b1bab19ed6a8e58d2622dec54912770e8fab"
+        },
+        {
+          "id": "st005223",
+          "title": "Steady state metabolomics of fresh and 12-day stored red blood cells from mice expression human canonical (human WT) G6PD or human G6PD variants including the S188F Mediterranean (Med-) and V68M/N126D African (A-) variants",
+          "url": "https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST005223",
+          "date": "2026-10-21",
+          "sort_key": "26f92921ce56d2dd18020a3b7c39359554a40a65278d142976f768144f1b8c82"
+        }
+      ]
+    },
+    {
+      "family": "metabolights",
+      "expression": "public accessions absent from the Stage A census universe, release date > 2026-10-28",
+      "timestamp_utc": "2026-11-05T00:22:28Z",
+      "version": "0.1.1",
+      "status": "UNSEARCHABLE",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    }
+  ]
+}
