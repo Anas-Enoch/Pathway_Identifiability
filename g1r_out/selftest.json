@@ -1,8 +1,8 @@
 {
- "version": "0.1.0",
+ "version": "0.2.0",
  "hashes": {
   "p5_gate3a.py": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
-  "g1r_run.py": "1efd0dc9c0312b46bdc2159ba2b412c7e7a430ab1e568aad46c303751b4c917d",
+  "g1r_run.py": "c31d400d71fb79c1e5bb6189637cb9a77931a8b9b61b9d210ef5a72c9fe94d19",
   "nova_d_calib.py": "4ab49dbc585e5cef4da6d0f2a31ca0d44725ffbaf0364f058fd8b63615b1ce29"
  },
  "n_conditions": 360,
@@ -10,9 +10,18 @@
  "A1_gate": {
   "matrices": 1360,
   "alphas": 7,
-  "max_rel_discrepancy": 2.038568037895943e-15,
+  "max_rel_discrepancy": {
+   "C": 3.1669682915220635e-15,
+   "v": 8.473164156268726e-16,
+   "s": 2.038568037895943e-15
+  },
   "argmax_mismatches": 0,
-  "clip_active_cases": 0
+  "clip_active_cases": 0,
+  "clip_threshold_unscaled_range": [
+   1.588235294117647e-12,
+   1.0526315789473685e-12
+  ],
+  "norm": "max-abs relative to max-abs of the frozen quantity"
  },
  "designation": {
   "D1": [
@@ -4449,17 +4458,94 @@
   }
  },
  "calibration_max_abs_A_err": 2.7755575615628914e-17,
+ "moment_checks": {
+  "110": {
+   "G_abs_err_max_over_G1": 0.003017604330254331,
+   "R0_rel_err": 0.0008999146539359071,
+   "R0_z": 1.4302110874727512,
+   "A_est": 0.14979242564732487,
+   "A_target": 0.15,
+   "A_abs_err": 0.00020757435267512725,
+   "A_z": 0.6126930678201025,
+   "marginal_var_rel_spread": 0.0039724913635244,
+   "argmaxG_sampled_is_jstar": true,
+   "ok": true
+  },
+  "104": {
+   "G_abs_err_max_over_G1": 0.0050432280886179015,
+   "R0_rel_err": 0.00042521586545252177,
+   "R0_z": 0.6034217293735785,
+   "A_est": 0.15003435837470197,
+   "A_target": 0.15,
+   "A_abs_err": 3.4358374701976e-05,
+   "A_z": 0.09047796100529712,
+   "marginal_var_rel_spread": 0.005492108188411171,
+   "argmaxG_sampled_is_jstar": true,
+   "ok": true
+  },
+  "1": {
+   "G_abs_err_max_over_G1": 0.0070723418627494095,
+   "R0_rel_err": 0.0006909452863506083,
+   "R0_z": 0.9521376691594015,
+   "A_est": 0.050223452580374126,
+   "A_target": 0.05,
+   "A_abs_err": 0.00022345258037412274,
+   "A_z": 1.1038071051796665,
+   "marginal_var_rel_spread": 0.004170738263362783,
+   "argmaxG_sampled_is_jstar": true,
+   "ok": true
+  },
+  "359": {
+   "G_abs_err_max_over_G1": 0.003459105965499143,
+   "R0_rel_err": 0.0011457376393591012,
+   "R0_z": 1.3398960881724258,
+   "A_est": 0.20049898829254703,
+   "A_target": 0.2,
+   "A_abs_err": 0.0004989882925470202,
+   "A_z": 1.0134370484074333,
+   "marginal_var_rel_spread": 0.0041219624671482435,
+   "argmaxG_sampled_is_jstar": true,
+   "ok": true
+  },
+  "204": {
+   "G_abs_err_max_over_G1": 0.005829085131397904,
+   "R0_rel_err": 2.9849207045296033e-05,
+   "R0_z": 0.0614101293254243,
+   "A_est": 0.050177820482160705,
+   "A_target": 0.05,
+   "A_abs_err": 0.0001778204821607024,
+   "A_z": 0.9450960827428394,
+   "marginal_var_rel_spread": 0.004521837992633504,
+   "argmaxG_sampled_is_jstar": true,
+   "ok": true
+  },
+  "225": {
+   "G_abs_err_max_over_G1": 0.0028020371145870415,
+   "R0_rel_err": 0.0006614008819509909,
+   "R0_z": 0.9093045706812417,
+   "A_est": 0.150175293045485,
+   "A_target": 0.15,
+   "A_abs_err": 0.0001752930454849977,
+   "A_z": 0.43623300295707035,
+   "marginal_var_rel_spread": 0.0026797749777713875,
+   "argmaxG_sampled_is_jstar": true,
+   "ok": true
+  }
+ },
  "exact_regret_identity_max_abs_err": 3.191891195797325e-16,
- "gcv_penalty_identity_max_abs_err": 9.71445146547012e-17,
- "lw_vs_direct_formula_abs_err": 4.440892098500626e-16,
+ "gcv_objective_direct_vs_svd_max_rel_err": 2.5541955911447594e-15,
+ "gcv_selected_penalty_mismatches_of_20": 0,
+ "gcv_penalty_identity_max_abs_err": 6.938893903907228e-17,
+ "lw_vs_direct_formula_abs_err": 0.0,
  "lw_vs_sklearn_abs_err": "sklearn unavailable here: ModuleNotFoundError (direct-formula check is the gate)",
- "cp_upper_k0_n1000": 0.002991249545095295,
- "cp_upper_k0_n1000_expected": 0.0029912495450953314,
  "residual_identity_max_abs_err": 1.1102230246251565e-16,
  "forms_coincide_at_lambda0_max_abs_err": 1.1102230246251565e-16,
  "forms_differ_at_lambda_pos": true,
- "sec_per_replicate_n102": 0.0019439166000665864,
- "sec_per_replicate_n3280": 0.011812108400044962,
+ "cp_upper_k0_n1000": 0.002991249545095295,
+ "cp_upper_k0_n1000_expected": 0.0029912495450953314,
+ "replicate_gate_smoke": "5 replicates at D1 and D2 passed all assertions",
+ "sec_per_replicate_n102": 0.0011395334000553702,
+ "sec_per_replicate_n3280": 0.006703099999867845,
  "ok": true,
- "elapsed_s": 2.210578680038452
+ "elapsed_s": 6.794459342956543
 }
