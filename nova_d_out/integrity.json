@@ -1,0 +1,14 @@
+{
+ "ok": true,
+ "problems": [],
+ "lines": 7200,
+ "parsed": 7200,
+ "unparsable": [],
+ "duplicate_keys": 0,
+ "distinct_keys": 7200,
+ "missing": 0,
+ "extra": 0,
+ "conditions_incomplete": [],
+ "inconsistent_records": [],
+ "inconsistent_count": 0
+}
