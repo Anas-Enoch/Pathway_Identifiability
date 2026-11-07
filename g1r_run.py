@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""G1-R executable implementation v0.2.0 (protocol G1_REGULARISATION_PROTOCOL_v0.4.md). DRAFT until `freeze`.
+"""G1-R executable implementation v0.3.0 (protocol G1_REGULARISATION_PROTOCOL_v0.5.md). DRAFT until `freeze`.
 
 Gaussian-only study of covariance regularisation and finite-sample acquisition decisions. Comparator A0 is the frozen
 p5_gate3a.g1_pick (sha256 4600e2f3...), hash-verified and called unchanged. Every other arm is defined here in closed
@@ -13,6 +13,11 @@ from exact score ties; secondary contrasts A2-S vs A2 and A2' vs A2 with sparse 
 direct-vs-SVD across the whole search set with the selected penalty verified; sampler moment check on six fixed
 conditions; replicate-level integrity checker (g1r_integrity.py) required before analyze.
 
+v0.3.0 (owner's second review): explicit finiteness and domain gates at runtime (NaN comparisons are false, so every
+quantity is checked with isfinite before any tolerance test); g1r_integrity.py is a frozen dependency and its report is
+bound to the replicate-log, freeze and checker checksums, all re-verified by analyze; analyze defines its result when no
+contrast is assessable.
+
 Commands: selftest | freeze | run [--cond a:b] | analyze.  Salt G1R-V02| fixed (owner decision).
 """
 from __future__ import annotations
@@ -20,13 +25,14 @@ import argparse, hashlib, importlib.util, json, math, sys, time
 from pathlib import Path
 import numpy as np
 
-VERSION = "0.2.0"
-PROTOCOL = "G1_REGULARISATION_PROTOCOL_v0.4.md"
+VERSION = "0.3.0"
+PROTOCOL = "G1_REGULARISATION_PROTOCOL_v0.5.md"
 SALT = "G1R-V02|"
 HERE = Path(__file__).resolve().parent
 FROZEN_DIR = HERE / "nhanes_fa" / "frozen"
 P5_SHA = "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130"
 OUT = HERE / "g1r_out"; FREEZE = OUT / "FREEZE.json"; RUNLOG = OUT / "replicates.jsonl"; SELFTEST = OUT / "selftest.json"
+INTEGRITY = OUT / "integrity.json"; CHECKER = HERE / "g1r_integrity.py"
 
 D_O, D_T, P = 20, 20, 20; D = D_O + D_T + P
 EPS, CLIP, PSI = 1e-6, 1e-12, 0.25
@@ -38,6 +44,7 @@ A_GRID = (0.05, 0.15, 0.20)
 HETERO = (0, 1)
 R_REPS = 1000
 LAMBDA_GRID = np.concatenate([[0.0], np.logspace(-6, 2, 81)])
+LAMBDA_SET = frozenset(float(x) for x in LAMBDA_GRID)   # exact membership test for a selected penalty
 BETAS = (0.0, 0.5, 1.0)
 B_BOOT = 2000
 SPARSE_MIN = 10
@@ -258,34 +265,60 @@ def ledoit_wolf_delta_direct(Zc):
 
 
 # ---------------------------------------------------------------- all arms on one sample (gates are assertions)
+def finite(*arrs):
+    return all(np.all(np.isfinite(np.asarray(a, dtype=float))) for a in arrs)
+
+
+def scored(C, v, **kw):
+    """score() with a finiteness gate on inputs and outputs (NaN > tol is False, so finiteness is checked explicitly)."""
+    if not finite(C, v): raise GateError("non-finite conditional quantities")
+    s, vb = score(C, v, **kw)
+    if not finite(s, vb): raise GateError("non-finite scores")
+    return s
+
+
 def run_arms(O, T, X, n_train):
     g = frozen_gate3a()
-    Z = np.column_stack([O, T, X]); Zc = Z - Z.mean(axis=0); Zs = Zc / Zc.std(axis=0, ddof=1)
-    S = np.cov(Zs, rowvar=False, ddof=1)
+    if not finite(O, T, X): raise GateError("non-finite sample")
+    Z = np.column_stack([O, T, X]); Zc = Z - Z.mean(axis=0); sd = Zc.std(axis=0, ddof=1)
+    if not (finite(sd) and np.all(sd > 0)): raise GateError("zero or non-finite column SD")
+    Zs = Zc / sd; S = np.cov(Zs, rowvar=False, ddof=1)
+    if not finite(S): raise GateError("non-finite covariance")
     a_n, a3 = alpha_frozen(n_train), alpha_nofloor(n_train)
     if not (a_n < 1.0 and a3 < 1.0): raise GateError("alpha >= 1")
     out, info = {}, {}
     out["A0"] = int(g.g1_pick(O, T, X))
     Cm, vm, sm = frozen_algebra(S, a_n)
+    if not finite(Cm, vm, sm): raise GateError("non-finite frozen-mirror quantities")
     if pick(sm) != out["A0"]: raise GateError(f"mirror argmax {pick(sm)} != frozen pick {out['A0']}")
     gt = a1_gate(S, a_n)
-    if gt["C"] > GATE_TOL or gt["v"] > GATE_TOL or gt["s"] > GATE_TOL or not gt["argmax_equal"]: raise GateError(f"A1 gate failed: {gt}")
+    for k in ("C", "v", "s"):
+        if not (math.isfinite(gt[k]) and 0.0 <= gt[k] <= GATE_TOL): raise GateError(f"A1 gate failed on {k}: {gt[k]!r}")
+    if not gt["argmax_equal"]: raise GateError("A1 argmax != frozen argmax")
     if gt["clip_active"]: raise GateError("denominator clip active")
     info.update(A1_C=gt["C"], A1_v=gt["v"], A1_s=gt["s"])
     Os, Ys = Zs[:, io], Zs[:, D_O:]
-    lam_c, ep = gcv_select(gcv_objective_svd(Os, Ys, n_train))
+    vals = gcv_objective_svd(Os, Ys, n_train)
+    if not finite(vals): raise GateError("non-finite GCV objective")
+    lam_c, ep = gcv_select(vals)
+    if lam_c not in LAMBDA_SET: raise GateError(f"lambda_c {lam_c!r} not in the search set")
     CR, vR = residual(S, lam_c); CS, vS = schur(S, lam_c)
-    out["A2"] = pick(score(CR, vR)[0]); out["A2S"] = pick(score(CS, vS)[0])
-    out["A2_b0.5"] = pick(score(CR, vR, beta=0.5)[0]); out["A2_b1"] = pick(score(CR, vR, beta=1.0)[0])
-    C0, v0 = schur(S, 0.0); out["A2p"] = pick(score(C0, v0)[0])
-    out["A3"] = pick(frozen_algebra(S, a3)[2])
+    out["A2"] = pick(scored(CR, vR)); out["A2S"] = pick(scored(CS, vS))
+    out["A2_b0.5"] = pick(scored(CR, vR, beta=0.5)); out["A2_b1"] = pick(scored(CR, vR, beta=1.0))
+    C0, v0 = schur(S, 0.0); out["A2p"] = pick(scored(C0, v0))
+    C3, v3, s3 = frozen_algebra(S, a3)
+    if not finite(C3, v3, s3): raise GateError("non-finite A3 quantities")
+    out["A3"] = pick(s3)
     delta = ledoit_wolf_delta(Zs)
+    if not (math.isfinite(delta) and 0.0 <= delta <= 1.0): raise GateError(f"Ledoit-Wolf intensity out of [0,1]: {delta!r}")
     S_lw = (1 - delta) * S + delta * (np.trace(S) / D) * np.eye(D)
-    C4, v4 = schur(S_lw, EPS); s4, _ = score(C4, v4); out["A4"] = pick(s4)
-    info.update(lambda_c=lam_c, endpoint_hit=ep, delta_lw=delta, complete_shrinkage=bool(delta >= 1.0),
-                A4_exact_top_tie=top_tie_count(s4) > 1, kappa_hat=float(np.linalg.cond(S[io, io])))
+    C4, v4 = schur(S_lw, EPS); s4 = scored(C4, v4); out["A4"] = pick(s4)
+    kappa_hat = float(np.linalg.cond(S[io, io]))
+    if not (math.isfinite(kappa_hat) and kappa_hat >= 1.0): raise GateError(f"invalid condition number {kappa_hat!r}")
+    info.update(lambda_c=float(lam_c), endpoint_hit=bool(ep), delta_lw=float(delta), complete_shrinkage=bool(delta >= 1.0),
+                A4_exact_top_tie=bool(top_tie_count(s4) > 1), kappa_hat=kappa_hat)
     for k, v in out.items():
-        if not (0 <= v < P): raise GateError(f"invalid pick {k}={v}")
+        if not (isinstance(v, int) and 0 <= v < P): raise GateError(f"invalid pick {k}={v!r}")
     return out, info
 
 
@@ -355,8 +388,7 @@ def moment_check(st, seed):
 # ---------------------------------------------------------------- self-test
 def cmd_selftest(a):
     t0 = time.time(); g = frozen_gate3a(); conds = conditions(); rng = np.random.default_rng(11)
-    rep = {"version": VERSION, "hashes": {"p5_gate3a.py": sha_file(FROZEN_DIR / "p5_gate3a.py"), "g1r_run.py": sha_file(__file__),
-                                           "nova_d_calib.py": sha_file(HERE / "nova_d_calib.py")}, "n_conditions": len(conds)}
+    rep = {"version": VERSION, "hashes": current_hashes(), "n_conditions": len(conds)}   # same set the freeze binds to, incl. the checker
     # 1. mirror == frozen pick
     mism = 0
     for _ in range(200):
@@ -438,7 +470,8 @@ def cmd_selftest(a):
 
 # ---------------------------------------------------------------- freeze / run / analyze
 def current_hashes():
-    return {"p5_gate3a.py": sha_file(FROZEN_DIR / "p5_gate3a.py"), "g1r_run.py": sha_file(__file__), "nova_d_calib.py": sha_file(HERE / "nova_d_calib.py")}
+    return {"p5_gate3a.py": sha_file(FROZEN_DIR / "p5_gate3a.py"), "g1r_run.py": sha_file(__file__), "nova_d_calib.py": sha_file(HERE / "nova_d_calib.py"),
+            "g1r_integrity.py": sha_file(CHECKER)}
 
 
 def cmd_freeze(a):
@@ -503,8 +536,12 @@ def clopper_pearson_upper(k, n, conf=0.95):
 
 def cmd_analyze(a):
     f = check_frozen(); conds = conditions()
-    integ = OUT / "integrity.json"
-    if not integ.exists() or not json.loads(integ.read_text()).get("ok"): raise SystemExit("REFUSED: run g1r_integrity.py and obtain INTEGRITY PASS before analyze")
+    if not INTEGRITY.exists(): raise SystemExit("REFUSED: no integrity report; run g1r_integrity.py first")
+    ig = json.loads(INTEGRITY.read_text())
+    if not ig.get("ok"): raise SystemExit("REFUSED: integrity report is not a PASS")
+    if ig.get("replicates_sha256") != sha_file(RUNLOG): raise SystemExit("REFUSED: replicate log changed since the integrity report")
+    if ig.get("freeze_sha256") != sha_file(FREEZE): raise SystemExit("REFUSED: freeze record changed since the integrity report")
+    if ig.get("checker_sha256") != sha_file(CHECKER) or ig.get("checker_sha256") != f["g1r_integrity.py"]: raise SystemExit("REFUSED: integrity checker differs from the frozen one or from the report")
     recs = [json.loads(l) for l in RUNLOG.read_text().splitlines() if l.strip()]; by = {}
     for r in recs: by.setdefault(r["idx"], []).append(r)
     missing = [c["idx"] for c in conds if len(by.get(c["idx"], [])) != R_REPS]
@@ -536,9 +573,11 @@ def cmd_analyze(a):
         out["conditions"].append(row)
     d1, d2 = f["D1"][0], f["D2"][0]; get = lambda i: next(r for r in out["conditions"] if r["idx"] == i)
     c1, c2 = get(d1)["contrasts_vs_A0"]["A2"], get(d2)["contrasts_vs_A0"]["A2"]
+    assessable = [(r["contrasts_vs_A0"]["A2"]["plain"]["mean"], r["idx"]) for r in out["conditions"] if r["contrasts_vs_A0"]["A2"]["assessable"]]
     out["decisions"] = dict(H1_D1=("not assessable" if not c1["assessable"] else bool(c1["Q1"]["lcb95"] > 0)),
                             H2_D2=("not assessable" if not c2["assessable"] else bool(c2["Q2"]["lcb95"] >= 0)),
-                            grid_max_plain_A2_gain_upward_biased=max((r["contrasts_vs_A0"]["A2"]["plain"]["mean"], r["idx"]) for r in out["conditions"] if r["contrasts_vs_A0"]["A2"]["assessable"]))
+                            n_conditions_with_assessable_A2_contrast=len(assessable),
+                            grid_max_plain_A2_gain_upward_biased=(max(assessable) if assessable else {"defined": False, "reason": "no condition has an assessable A2 contrast (all sparse)"}))
     (OUT / "g1r_result.json").write_text(json.dumps(out, indent=1)); print(json.dumps(out["decisions"], indent=1)); return 0
 
 

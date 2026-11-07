@@ -1,9 +1,10 @@
 {
- "version": "0.2.0",
+ "version": "0.3.0",
  "hashes": {
   "p5_gate3a.py": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
-  "g1r_run.py": "c31d400d71fb79c1e5bb6189637cb9a77931a8b9b61b9d210ef5a72c9fe94d19",
-  "nova_d_calib.py": "4ab49dbc585e5cef4da6d0f2a31ca0d44725ffbaf0364f058fd8b63615b1ce29"
+  "g1r_run.py": "93026388861c758799ed572b690789d0a5813b7bc9a20c77daf32fc288af333f",
+  "nova_d_calib.py": "4ab49dbc585e5cef4da6d0f2a31ca0d44725ffbaf0364f058fd8b63615b1ce29",
+  "g1r_integrity.py": "c59c92a41b33864db41b9fe7163652156d7217acc8f1b4d1a4e370a1e3e7bad2"
  },
  "n_conditions": 360,
  "mirror_mismatches_of_200": 0,
@@ -4544,8 +4545,8 @@
  "cp_upper_k0_n1000": 0.002991249545095295,
  "cp_upper_k0_n1000_expected": 0.0029912495450953314,
  "replicate_gate_smoke": "5 replicates at D1 and D2 passed all assertions",
- "sec_per_replicate_n102": 0.0011395334000553702,
- "sec_per_replicate_n3280": 0.006703099999867845,
+ "sec_per_replicate_n102": 0.0013132582000253024,
+ "sec_per_replicate_n3280": 0.006850983399999677,
  "ok": true,
- "elapsed_s": 6.794459342956543
+ "elapsed_s": 6.642563581466675
 }
