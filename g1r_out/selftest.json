@@ -4545,8 +4545,8 @@
  "cp_upper_k0_n1000": 0.002991249545095295,
  "cp_upper_k0_n1000_expected": 0.0029912495450953314,
  "replicate_gate_smoke": "5 replicates at D1 and D2 passed all assertions",
- "sec_per_replicate_n102": 0.0013132582000253024,
- "sec_per_replicate_n3280": 0.006850983399999677,
+ "sec_per_replicate_n102": 0.0012475166004151106,
+ "sec_per_replicate_n3280": 0.006876208399626193,
  "ok": true,
- "elapsed_s": 6.642563581466675
+ "elapsed_s": 6.850411891937256
 }
