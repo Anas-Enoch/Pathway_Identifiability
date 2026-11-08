@@ -1,0 +1,20 @@
+{
+ "ok": true,
+ "checker_version": "0.2.0",
+ "problems": [],
+ "checker_sha256": "c59c92a41b33864db41b9fe7163652156d7217acc8f1b4d1a4e370a1e3e7bad2",
+ "freeze_sha256": "885cd87d9bcaeda6a610d1101ff7cf83109f72691734b5c473801fe65c9f8013",
+ "replicates_sha256": "ea33587ecd641b15b43b01052db6174ee9cd15b680da8845d172ab0f90e33d19",
+ "lines": 360000,
+ "valid_records": 360000,
+ "unparsable_count": 0,
+ "unparsable": [],
+ "invalid_count": 0,
+ "invalid": [],
+ "distinct_keys": 360000,
+ "missing": 0,
+ "extra": 0,
+ "conditions_incomplete": [],
+ "regret_mismatch_count": 0,
+ "regret_mismatches": []
+}
