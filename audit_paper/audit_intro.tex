@@ -1,47 +1,7 @@
 \section{Introduction}\label{sec:intro}
 
-Public repositories have made thousands of metabolomics studies available for reuse. MetaboLights and the
-Metabolomics Workbench together hold several thousand studies, and their deposits are increasingly reused for method
-development, benchmarking and the evaluation of predictive models~\citep{haug2020metabolights,sud2016workbench}. A
-common form of reuse treats each deposited study as an independent data set and each deposited sample as an
-observation. That treatment is valid only if an analyst can tell which samples come from the same participant.
+Public metabolomics deposits support method development, benchmarking and model evaluation~\citep{haug2020metabolights,sud2016workbench}. These uses require an analyst to identify which samples share a participant. Repeated measurements can support validation if dependence is modelled or one prespecified observation is selected per participant. Treating rows as independent without establishing their sampling units risks pseudoreplication~\citep{hurlbert1984pseudoreplication,lazic2010pseudoreplication}. Likewise, deposits that share participants cannot serve as independent validation units~\citep{riley2016external}.
 
-The requirement is not that every study contribute one sample per participant. Longitudinal and repeated-measures
-designs are legitimate and often informative, and they can support external validation when the dependence among a
-participant's samples is modelled, clustered or reduced to one prespecified observation per participant. What any
-valid reuse needs is that the independent observational units be identifiable: the deposit, or the documentation
-linked to it, must allow the analyst to determine how many participants contributed, which samples belong to which
-participant, and whether any participant contributed more than one sample to the analysed set. When this information
-is missing, a repeated-measures study is indistinguishable from a cross-sectional one, and analyses that treat rows
-as independent participants risk pseudoreplication~\citep{hurlbert1984pseudoreplication,lazic2010pseudoreplication}.
-In multi-study external validation~\citep{riley2016external} the same problem arises one level up: studies that share
-participants are not independent validation units.
+Transcriptomic studies have documented hidden duplicates that can inflate cross-study validation and widespread sample misannotation~\citep{waldron2016doppelganger,toker2016whose}. Controlled-access genomic archives address linkage directly: dbGaP requires a subject--sample mapping and permits several samples per subject~\citep{dbgap_submission}. Metabolomics audits have found uneven compliance with reporting standards, variable metadata quality, mismatched sample identifiers and limited controlled-vocabulary coverage~\citep{spicer2017compliance,spicer2017decade,ferreira2017assessing,powell2021mwtab,jarmusch2020redu}. We are unaware of a metabolomics audit that tests whether available documentation identifies independent sampling units under a prespecified evidence rule.
 
-The consequences of undetected dependence are documented in other omics fields. In transcriptomics, hidden duplicate
-samples across public data sets are common, and in simulation they inflate apparent cross-study validation
-performance~\citep{waldron2016doppelganger}. Sample-level misannotation is also widespread in public expression
-data~\citep{toker2016whose}. Controlled-access genomic repositories address this structurally: dbGaP, for example,
-requires a subject--sample mapping file for molecular data and allows one subject to map to several
-samples~\citep{dbgap_submission}.
-
-For metabolomics repositories, metadata quality has been assessed in general terms. Compliance with the minimum
-reporting standards of the Metabolomics Standards Initiative is incomplete and uneven across
-repositories~\citep{spicer2017compliance,spicer2017decade}, automated quality scores for MetaboLights metadata vary
-widely~\citep{ferreira2017assessing}, sample identifiers in Metabolomics Workbench files do not always match across
-sections~\citep{powell2021mwtab}, and only a minority of public mass-spectrometry files meet controlled-vocabulary
-metadata templates~\citep{jarmusch2020redu}. These studies show that metadata are often incomplete. We are not aware of one
-that measures, under a prespecified evidence rule, the specific property that study-level reuse depends on: whether
-the deposited information identifies the independent sampling units.
-
-Here we measure that property directly. We define, before examining any study, what counts as affirmative evidence
-that the participants and samples of a deposited assay can be identified, and we apply the definition in four
-complementary ways, each with its own denominator and selection procedure:
-(i) a census of all 3,582 public MetaboLights accessions available on the census date, using deposited metadata
-only;
-(ii) an audit of subject-level fields in the factor metadata of 104 human Metabolomics Workbench studies;
-(iii) a documentary assessment of a randomly selected tranche of 40 MetaboLights candidates, reading the deposit
-metadata together with the methods sections of the linked publications; and
-(iv) a pre-verification of 19 human MetaboLights deposits whose sample rows an automated quality-control rule had
-removed in full.
-Throughout, we distinguish evidence that independence is established by the available documentation from the true
-independence of the underlying samples: failure to establish the former is not evidence against the latter.
+We apply an affirmative evidence standard in four analyses with distinct denominators: a metadata census of 3,582 public MetaboLights accessions; a factor-metadata audit of 104 selected human Metabolomics Workbench studies; a documentary assessment of 40 randomly selected unresolved MetaboLights candidates; and a pre-verification of 19 human MetaboLights deposits excluded by a quality-control rule. The findings measure what the available documentation establishes about sampling.

@@ -1,73 +1,11 @@
 \section{Discussion}\label{sec:discussion}
 
-The question is not whether the original investigators sampled acceptably, but whether a secondary analyst, working
-from the deposit and its linked documentation, can reconstruct the sampling structure well enough to identify
-independent units and account for dependence. The four analyses have different targets: the census and the
-documentary assessment tested a one-sample-per-participant criterion, the Workbench audit one metadata endpoint of 104
-selected studies, the pre-verification sample classification rather than participant linkage. None establishes a
-repository-wide prevalence. Together they give convergent evidence that, under an affirmative-evidence standard, the
-information needed to identify independent sampling units is frequently absent from deposited metadata and often
-absent from linked publications. We draw three implications.
+The four analyses answer different documentary questions. The census and random assessment tested one-sample-per-participant criteria, the Workbench audit tested one factor-metadata endpoint, and the pre-verification tested sample classification. The results apply to their respective frames and do not estimate repository-wide prevalence.
 
-\paragraph{Missing subject-level linkage prevents correct dependence modelling.} A repeated-measures design is not a
-defect; it becomes one for reuse only when the deposit does not say which samples share a participant. In the
-MetaboLights census no inspected record carried a person-identifier column, and in the 104 Workbench studies examined
-no factor key named a subject. The documentary tranche showed what this costs: 9 of 40 randomly selected studies (22.5\%) documented repeated
-sampling of the same participants in the deposited assay (serial sampling, pre/post samples, several specimens per
-patient), and a further 3 (7.5\%) consisted of cell lines rather than participants. For the nine, no qualifying
-participant-to-sample mapping was identified under the prespecified metadata and documentary procedures. An analyst treating these
-rows as independent would be pseudoreplicating~\citep{hurlbert1984pseudoreplication,waldron2016doppelganger}; an
-analyst wanting to model the dependence correctly could not. The same gap applies at the study level: four
-separately deposited ionisation-mode assays of one sample set (MTBLS1122, MTBLS1124, MTBLS1129, MTBLS1130) would be
-counted as four independent validation units by any procedure that counts accessions, and two pre-verification
-deposits sharing a title and cohort description (MTBLS14358, MTBLS14376) could not be told apart from independent
-cohorts, because nothing in either deposit states whether their sample sets overlap.
+\paragraph{Participant linkage.} The nine tranche studies with documented repeated sampling had no qualifying participant-to-sample mapping. Without it, an analyst cannot account for within-participant dependence. At the study level, counting accessions would count four ionisation-mode assays of one sample set (MTBLS1122, MTBLS1124, MTBLS1129, MTBLS1130) as four validation units. Two pre-verification deposits (MTBLS14358, MTBLS14376) shared a title and cohort description, but their documentation did not establish whether their samples overlapped.
 
-\paragraph{Automated metadata labels can conceal valid biological specimens.} The census classified every sample row of
-220 studies as quality-control material; in 183 of them the trigger was a sample-type field reading \texttt{blank} on
-every row, and the 19 human deposits examined in the pre-verification were drawn from that subset. For those 19, other fields on the same rows (disease-group factors, collection protocols, a named publication) identified
-study samples rather than blanks in 17, and participant specimens in 16 of those. The label appears to be a template default rather than a description. A screen that trusts the label discards usable
-studies; one that ignores it cannot distinguish blanks from specimens. Only the depositor can resolve this, which
-argues for vocabulary defaults that are empty rather than pre-filled. The linkage inconsistency in MTBLS14421, where assay rows
-carry the labels of other samples across study groups, is a different kind of defect: it is detectable from the
-deposit, but not resolvable from it.
+\paragraph{Sample classification.} The census classified every row as quality control in 220 studies, including 183 where every sample-type value was \texttt{blank}. The 19 human pre-verification deposits came from that subset. Other fields identified study samples in 17 and participant specimens in 16. The label appears to be a template default. Omitting pre-filled values would reduce this ambiguity. The inconsistent assay-to-sample linkage in MTBLS14421 was detectable from the deposit but could not be resolved from it.
 
-\paragraph{Reproducible repository screening needs explicit evidence standards.} A screen that accepts unique sample
-names as evidence of independent participants would have passed hundreds of census studies; ours passed none, and the
-documentary tranche showed why that stricter standard was warranted, since 22.5\% of the uniquely labelled candidates documented
-repeated sampling and 7.5\% were not participant samples at all. Whatever standard a reuse study adopts should be stated before screening, applied by code that
-refuses other inputs, and reported with its failure categories, so that the gap between ``documentation establishes
-independence'' and ``samples are independent'' stays visible. The limits of such screening are also visible here: 11
-of 40 randomly selected studies had no retrievable publication text, and the STRICT criterion, designed for an
-analysis needing one sample per participant, is stricter than the reconstructibility question; a zero STRICT count is
-not zero reconstructible studies.
+\paragraph{Evidence standards and limitations.} Unique labels alone would have qualified hundreds of census studies, although the random tranche included 9 studies with repeated sampling and 3 with cell lines. Screening should prespecify affirmative evidence and report failure categories. The documentary bound applies only to the 371 filtered candidates. Publication text was unavailable for 11 of 40 sampled studies. STRICT requires one sample per participant, so zero STRICT does not imply zero reconstructible studies. The Workbench result applies only to the audited endpoint in the selected studies. The author review supports the zero-STRICT finding but is not independent human validation. Component A followed exposure to a second model's answers, and shared negative Q4 assessments do not measure sensitivity for repeated sampling. Component B was a non-blind check by the original adjudicator. The frozen implementation limitations are reported in Section~\ref{sec:res-limits}. Missing documentation does not establish true sample dependence.
 
-\paragraph{Limitations.} The randomised documentary assessment covers one repository, and its 40 studies were drawn from the 371
-unresolved candidates that the census had already filtered (human, single-matrix, at least 50 labelled sources), not
-from all MetaboLights studies; its design-based bound refers to that population, and its point estimate is not the
-result. The Workbench analysis is secondary, restricted to one metadata
-endpoint and to studies selected for another purpose. Evidence extraction was AI-assisted. The author's review (Section~\ref{sec:res-validation}) found no case in which
-the extractor missed a count or a sampling statement, and its disagreements all made the frozen records more, not
-less, conservative; but it was performed by the author, not an independent reviewer, after partial exposure to a
-second model's answers, and its Q4 agreement is agreement on a shared negative, which says nothing about sensitivity
-for detecting repeated sampling. Component B was a consistency check by the reader who had adjudicated the same
-records. The review therefore supports the zero-STRICT finding and the direction of the classifications; it does not
-establish extraction accuracy against an independent human standard. The frozen implementations
-had the limitations listed in Section~\ref{sec:res-limits}. Documentation can be missing for reasons unrelated to the
-study's design, and none of our results estimates how many deposited studies are in fact composed of independent
-participants.
-
-\paragraph{Recommendations.} Repositories should require, at deposition, a participant identifier or a
-subject-to-sample mapping on every biological sample, as controlled-access genomic archives already
-do~\citep{dbgap_submission}, and should flag deposits that share a sample set. Sample-type vocabularies should have no
-pre-filled default. Our recommendation concerns deposition metadata rather than manuscript reporting. The STROBE-MetEpi reporting
-guideline for metabolomic epidemiology, currently under review~\citep{kelly2026strobe}, already asks authors to report
-participant eligibility and sampling (item 5a), the biological sample collection protocol including timing and whether
-conditions were the same for every sample (6a), any independent validation population (17), the final number of
-individuals in the primary analyses (19a), the time points at which profiles were measured in cohort studies (21c),
-and repository access (31a). None of its 31 items asks for a machine-readable mapping from deposited samples to
-participants, and a manuscript statement that 100 participants contributed cannot be joined to deposited rows unless
-the deposit carries that mapping. A deposition-level linkage requirement would complement, not replace, this
-manuscript-level guidance. (The guideline's scope excludes methodological studies, so the present audit is not itself
-assessed against it.) None of this requires
-investigators to abandon repeated measurements; it requires that the deposit say where they are.
+\paragraph{Recommendations.} Repositories should require a participant identifier or subject-to-sample mapping for each biological sample, flag deposits that share sample sets, and avoid pre-filled sample-type values. STROBE-MetEpi, currently under review, asks authors to report sampling, collection, validation populations, counts, timing and repository access, but does not require a machine-readable mapping from deposited samples to participants~\citep{kelly2026strobe}. A deposit-level mapping would complement those manuscript recommendations and support reuse of repeated measurements. Methodological studies such as this audit fall outside the guideline's scope.

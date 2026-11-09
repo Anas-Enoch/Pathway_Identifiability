@@ -50,25 +50,16 @@ taken. The salt was the output value of a NIST Randomness Beacon (version 2) pul
 before the pulse existed (pulse 2-2005958, 30 October 2026, 15:00 UTC). No candidate was replaced. The tranche is
 therefore a simple random sample of 40 of the 371 candidates, and finite-population inference applies.
 
-\paragraph{Sources, reading views and document freeze.} Four sources were admissible: the deposit's investigation
-file; publications named in the deposit, retrieved as full text from Europe PMC; the first five publications returned by
-a frozen full-text search for the exact accession string, usable only if their text contained it; and author-supplied
-copies of named publications that were not open access, registered before the freeze. No author was contacted.
-Extractors read only a deterministic reading view of each publication (title, abstract with results-type parts removed,
-methods-type sections and participant-characteristics tables). After retrieval, every document and view was listed with
-its hash in an evidence inventory that the author signed before any evidence was read; nothing could be added
-afterwards (Supplementary Methods S3).
+\paragraph{Sources and document freeze.} Extractors used deposited investigation files and restricted reading views of
+linked or accession-matched publications. The views excluded results-type material. No author was contacted. The
+author signed an inventory of document and view hashes before extraction, after which no source could be added
+(Supplementary Methods S3).
 
-\paragraph{Questions and grades.} For the census-chosen assay of each study, extractors answered: Q1, whether the
-samples come from human participants; Q2, whether a source identifies the sample set analysed in the deposited assay;
-Q3, the number of distinct participants and whether it is scoped to the analysed set, to enrolment only, or absent;
-Q4, whether the source states one sample per participant, states repeated sampling, or is silent; Q6, overlap flags
-with other deposits; and Q7, whether a sample-to-participant mapping is published. Every answer other than ``not
-stated'' required a verbatim quotation with its location. A deterministic function assigned grades in a fixed order
-(Supplementary Table S2). The STRICT grade, which requires a documented one-sample-per-participant structure, was
-designed for a downstream analysis that needs one sample per participant. It is more restrictive than the question of this paper: a study whose documentation permits an analyst to reconstruct the
-clustering of repeated samples would not reach STRICT. We therefore also report Q7 (a published sample-to-participant
-mapping) and the Q4 category, and we do not equate a zero STRICT count with the absence of reconstructible clustering.
+\paragraph{Questions and grades.} For the selected assay, extractors recorded human origin (Q1), assay membership
+(Q2), participant count and scope (Q3), one-sample or repeated sampling (Q4), overlap flags (Q6), and any published
+sample-to-participant mapping (Q7). Each answer other than \emph{not stated} required a located verbatim quotation. Deterministic
+grading followed Supplementary Table S2. STRICT requires one sample per participant for a downstream analysis;
+Q4 and Q7 separately address sampling structure and reconstructible linkage.
 
 \paragraph{Extraction, grading and adjudication.} Extraction was performed by AI sub-agents working under a written
 brief fixed and hashed before any record was produced (Section~\ref{sec:ai}). The extractors were not told the
@@ -99,18 +90,14 @@ other results are counts with their denominators.
 
 \subsection{Author review of the AI-assisted extraction}\label{sec:validation}
 
-A two-part review was specified and hashed on 31 October 2026, before the reviewed studies were identified. The
-protocol intended an independent human reviewer; none could be recruited, and the author performed both components on
-1--2 November 2026. In component A the author re-extracted Q3 and Q4, using the frozen categories, for ten studies
-selected by a prespecified hash ranking from the 17 tranche studies with publication text that the author had not
-adjudicated. The author had no access to the original extractor's answers or quotations, but had prior knowledge of the
-study classifications and had seen the answers of a second AI model run on the same ten studies in an earlier,
-abandoned attempt at this component (preserved and labelled as an AI extraction); the answer sheet was assembled by
-script, so per-study completion times are unavailable. Agreement is reported separately for Q3 scope, Q3 count and Q4,
-with every disagreement listed, and is not extrapolated to the tranche. In component B the author re-read the sources of
-all 12 CONTRADICTED records and recorded whether an explicit statement supports each classification; it is a
-non-blind consistency check by the reader who had adjudicated them. Neither component alters the frozen grades; all
-quotations were machine-checked. Details are in Supplementary Methods S5.
+The review protocol was hashed on 31 October 2026, before selecting studies. The intended independent reviewer
+could not be recruited, so the author performed both components on 1--2 November 2026. In component A the author
+re-extracted Q3 and Q4 for 10 of the 17 studies with publication text that the author had not adjudicated, selected by
+prespecified hash ranking. The author had not seen the original answers or quotations but knew the classifications
+and had seen a second model's answers for the same studies. Agreement is reported by field and is not extrapolated.
+In component B the original adjudicator checked all 12 CONTRADICTED records for explicit supporting statements.
+The review did not change the frozen grades. Supplementary Methods S5 records the deviations, including the lack of
+per-study completion times.
 
 \subsection{Use of AI tools}\label{sec:ai}
 
