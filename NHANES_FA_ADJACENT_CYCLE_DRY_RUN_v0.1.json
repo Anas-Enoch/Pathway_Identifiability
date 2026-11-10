@@ -1,0 +1,121 @@
+{
+  "scope": "2011\u201312 development and artificial XPT files only. No 2013\u201314 download or evaluation.",
+  "protocol_sha256": "3e388487240f3e8f92a4b6868687e337360e0421d18d41140574f54c7d96c3c5",
+  "runner_sha256": "57dcb3a8ec2e18bd5458bb508a70022c877443b87f152350efc19ac76dba6b34",
+  "pinned_sha256": {
+    "nhanes_fa_run.py": "f85d5235cd2fd609145be9ba2b444cd2c4b394a8b3ed6c761c942e765a730297",
+    "nhanes_fa/frozen/p6_n2.py": "681ce852609e6ab4fcaf0f0ff603477c64e2351e10bd119811d45f008d4bbe8e",
+    "nhanes_fa/frozen/p5_gate3a.py": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
+    "nhanes_fa_blocks_v0.4.json": "e3e1d8ac636afd9690e4b5b00b884e21ccf79dad77993e4a75d8776ef3a14338",
+    "nhanes_fa_stab_out/dev_fit.json": "e9d894aa2e0b549ce4c02712cbbbcb2fd679ffddbac85ce9539420125dc46669",
+    "nhanes_fa_out/FAS_G_development_v04_result.json": "f7f9f5cad1c25edcd9e395ae4198b5997880d80c58552fee4aa77b91121c2101"
+  },
+  "software": {
+    "python": "3.14.7",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1"
+  },
+  "development": {
+    "aggregate_output_sha256": "e2d6a55001c0b4677dcdb4a50ebfeeb4ddb111e4c725071fd8c8deb7f3554d50",
+    "input_sha256": {
+      "FAS_G.xpt": "5a8a907c9797b00d4f9d4dfbf0613e68d14d833d332f2aa3d9dfbedb3525063b",
+      "DEMO_G.xpt": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d"
+    },
+    "design": {
+      "eligible": 1725,
+      "domain_strata": 14,
+      "domain_psus": 31,
+      "df": 17
+    },
+    "E1": {
+      "estimate": 0.157707945082301,
+      "se": 0.012535474690176775,
+      "ci95": [
+        0.13126040530543076,
+        0.18415548485917121
+      ],
+      "benchmark": 0.11828095881172637
+    },
+    "bounded_loss_sensitivity": {
+      "estimate": 0.16735143318776505,
+      "se": 0.01737987480570905,
+      "ci95": [
+        0.1306831025818873,
+        0.20401976379364278
+      ]
+    },
+    "all_25_frozen_G1_picks_reproduced": true,
+    "both_frozen_gains_and_SEs_reproduced": true,
+    "block_spearman": [
+      0.7833333333333333,
+      0.5833333333333334,
+      0.8,
+      0.95,
+      0.9333333333333333
+    ],
+    "mean_within_block_spearman": 0.8100000000000002,
+    "conditional_percentile_range": [
+      0.7133333333333333,
+      0.8366666666666667
+    ],
+    "refit_disagreement": {
+      "blocks": [
+        {
+          "block": 1,
+          "count": 0
+        },
+        {
+          "block": 2,
+          "count": 0
+        },
+        {
+          "block": 3,
+          "count": 0
+        },
+        {
+          "block": 4,
+          "count": 0
+        },
+        {
+          "block": 5,
+          "count": 0
+        }
+      ],
+      "total": 0,
+      "pairs": 50
+    }
+  },
+  "synthetic": {
+    "generator": "NumPy seed 2026111003; independent lognormal factor fixture with 120 rows, 15 strata and two PSUs per stratum. Stratum 104 PSU 2 has one required analyte missing for each of its four rows. SAS transport v5 files written with haven.",
+    "aggregate_output_sha256": "3d95a345e4b63b562894d677689afb3920956d76cc412c3e28eadce20564dca6",
+    "input_sha256": {
+      "FAS_SYNTH.xpt": "9e5c408b175a417467bf1d02afdf71b37d3e36868fd7b0a3d5758a8f4b404d07",
+      "DEMO_SYNTH.xpt": "579504659f09d99fb6a6f9fa48979d403485a9d3fcbc70bb38e51d348b525138"
+    },
+    "design": {
+      "eligible": 116,
+      "full_design_rows": 120,
+      "domain_strata": 15,
+      "domain_psus": 29,
+      "df": 14
+    },
+    "singleton_domain_stratum": {
+      "stratum": 104,
+      "full_psus": 2,
+      "domain_psus": 1
+    },
+    "singleton_domain_contribution_checked_against_analytic_example": true,
+    "closed_output_inventory_verified": true,
+    "full_design_singleton": {
+      "status": "unassessable",
+      "cycle": "synthetic",
+      "reason": "one full-design PSU in a stratum with eligible rows"
+    },
+    "H_without_authorisation": {
+      "status": "unassessable",
+      "cycle": "H",
+      "reason": "separate authorisation required before H file access"
+    }
+  }
+}
