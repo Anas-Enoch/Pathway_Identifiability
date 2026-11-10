@@ -1,0 +1,371 @@
+{
+ "check": "nhanes_fa_stability_margin_check.py v1.1",
+ "inputs_sha256": {
+  "prediction": "dc8f83c845fb1b8be4454f7c83e0723220d0d9bb404d3750bd378e5bd14501fa",
+  "fit": "e9d894aa2e0b549ce4c02712cbbbcb2fd679ffddbac85ce9539420125dc46669"
+ },
+ "a_selection_adjusted_margin": {
+  "label": "post hoc, descriptive; fitted-model Monte Carlo quantities; decides nothing",
+  "model": "binomial GLM, logit link, quadratic in n, 1,201 Gaussian counts of C <= 4, independent seeds per size",
+  "pearson_dispersion": 1.025,
+  "best_single_size": 2273,
+  "largest_standardised_residual": 3.82,
+  "at_sizes": {
+   "1725": {
+    "observed_count": 1904,
+    "trend_count": 1883.1,
+    "trend_P_C_le_4": 0.9415,
+    "binomial_se_cycles": 10.49,
+    "observed_minus_trend_in_se": 1.99,
+    "shortfall_observed": 46,
+    "shortfall_trend": 66.9,
+    "shortfall_trend_in_se": 6.38,
+    "chance_fresh_run_reaches_1950": 1.2e-10
+   },
+   "2000": {
+    "observed_count": 1909,
+    "trend_count": 1905.4,
+    "trend_P_C_le_4": 0.9527,
+    "binomial_se_cycles": 9.5,
+    "observed_minus_trend_in_se": 0.38,
+    "shortfall_observed": 41,
+    "shortfall_trend": 44.6,
+    "shortfall_trend_in_se": 4.7,
+    "chance_fresh_run_reaches_1950": 1.7e-06
+   },
+   "2273": {
+    "observed_count": 1946,
+    "trend_count": 1923.0,
+    "trend_P_C_le_4": 0.9615,
+    "binomial_se_cycles": 8.61,
+    "observed_minus_trend_in_se": 2.67,
+    "shortfall_observed": 4,
+    "shortfall_trend": 27.0,
+    "shortfall_trend_in_se": 3.14,
+    "chance_fresh_run_reaches_1950": 0.001
+   },
+   "2400": {
+    "observed_count": 1940,
+    "trend_count": 1929.9,
+    "trend_P_C_le_4": 0.965,
+    "binomial_se_cycles": 8.22,
+    "observed_minus_trend_in_se": 1.23,
+    "shortfall_observed": 10,
+    "shortfall_trend": 20.1,
+    "shortfall_trend_in_se": 2.44,
+    "chance_fresh_run_reaches_1950": 0.0086
+   }
+  },
+  "expected_sizes_reaching_1950_by_chance": 0.53,
+  "chance_at_least_one_size_reaches_1950": 0.41,
+  "window_mean_count": {
+   "2223-2323": 1922.5,
+   "2350-2400": 1928.8
+  }
+ },
+ "b_reproduction_and_attribution_at_n_dev": {
+  "runner_sha256": "24b5daf3a49b6db9f000cba2ffcd6ffa81a05d05b45146d8a74cc8593cd1bc61",
+  "MG": {
+   "histogram_identical_to_saved": true,
+   "reversal_counts_identical_to_saved": true,
+   "cycles_with_disagreement": 272,
+   "cycles_with_disagreement_in_exactly_one_block_by_block": [
+    0,
+    269,
+    3,
+    0,
+    0
+   ],
+   "cycles_with_disagreement_in_two_or_more_blocks": 0,
+   "patterns_c1_to_c5": [
+    [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     1728
+    ],
+    [
+     [
+      0,
+      4,
+      0,
+      0,
+      0
+     ],
+     174
+    ],
+    [
+     [
+      0,
+      6,
+      0,
+      0,
+      0
+     ],
+     95
+    ],
+    [
+     [
+      0,
+      0,
+      4,
+      0,
+      0
+     ],
+     2
+    ],
+    [
+     [
+      0,
+      0,
+      6,
+      0,
+      0
+     ],
+     1
+    ]
+   ],
+   "cycles_by_folds_picking_development_leader_k0_to_k5_by_block": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2000
+    ],
+    [
+     28,
+     30,
+     36,
+     59,
+     144,
+     1703
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     2,
+     1997
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2000
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2000
+    ]
+   ],
+   "cycles_unanimous_on_a_different_candidate_by_block": [
+    0,
+    28,
+    0,
+    0,
+    0
+   ],
+   "cycles_with_C_eq_0": 1728,
+   "cycles_with_all_25_picks_equal_to_development": 1700
+  },
+  "ME": {
+   "histogram_identical_to_saved": true,
+   "reversal_counts_identical_to_saved": true,
+   "cycles_with_disagreement": 746,
+   "cycles_with_disagreement_in_exactly_one_block_by_block": [
+    0,
+    545,
+    137,
+    0,
+    1
+   ],
+   "cycles_with_disagreement_in_two_or_more_blocks": 63,
+   "patterns_c1_to_c5": [
+    [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     1254
+    ],
+    [
+     [
+      0,
+      4,
+      0,
+      0,
+      0
+     ],
+     291
+    ],
+    [
+     [
+      0,
+      6,
+      0,
+      0,
+      0
+     ],
+     254
+    ],
+    [
+     [
+      0,
+      0,
+      4,
+      0,
+      0
+     ],
+     103
+    ],
+    [
+     [
+      0,
+      0,
+      6,
+      0,
+      0
+     ],
+     34
+    ],
+    [
+     [
+      0,
+      4,
+      4,
+      0,
+      0
+     ],
+     24
+    ],
+    [
+     [
+      0,
+      6,
+      4,
+      0,
+      0
+     ],
+     15
+    ],
+    [
+     [
+      0,
+      6,
+      6,
+      0,
+      0
+     ],
+     12
+    ],
+    [
+     [
+      0,
+      4,
+      6,
+      0,
+      0
+     ],
+     10
+    ],
+    [
+     [
+      0,
+      0,
+      0,
+      0,
+      4
+     ],
+     1
+    ],
+    [
+     [
+      0,
+      4,
+      0,
+      0,
+      6
+     ],
+     1
+    ],
+    [
+     [
+      0,
+      6,
+      0,
+      0,
+      4
+     ],
+     1
+    ]
+   ],
+   "cycles_by_folds_picking_development_leader_k0_to_k5_by_block": [
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2000
+    ],
+    [
+     98,
+     167,
+     156,
+     126,
+     159,
+     1294
+    ],
+    [
+     6,
+     19,
+     19,
+     37,
+     123,
+     1796
+    ],
+    [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2000
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     2,
+     1997
+    ]
+   ],
+   "cycles_unanimous_on_a_different_candidate_by_block": [
+    0,
+    98,
+    6,
+    0,
+    0
+   ],
+   "cycles_with_C_eq_0": 1254,
+   "cycles_with_all_25_picks_equal_to_development": 1162
+  }
+ }
+}
