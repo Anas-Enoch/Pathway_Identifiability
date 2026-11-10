@@ -13,8 +13,7 @@ G1-R's designated 2%-gap condition D1, decoupling regularisation raised
 pick accuracy from **17.8% to 56.8%**, about threefold, while reducing mean
 regret by **0.124 percentage points of no-acquisition risk**. The two
 rules retained 98.3% and 99.1% of the oracle gain, respectively. G1-R's
-designated no-harm criterion remained unestablished. The contrast between
-pick accuracy and risk is the result the paper needs to explain.
+designated no-harm criterion remained unestablished.
 
 ## Abstract plan
 
@@ -141,6 +140,10 @@ Sources Corrected NOVA-D record (`NOVA_D_RESULT_v1.2.md`, line 51) and Exact pop
   bound was −0.000408 and its two-sided interval crossed zero
   [−0.000456, +0.000102]. The joint criterion was unmet. Harm beyond the
   margin was not established.
+- For a pick j, normalised regret is the chosen candidate's relative gain
+  gap times the oracle amplitude, r_j = (G★ − G_j)/R₀ =
+  A★(1 − G_j/G★). Picking the runner-up therefore costs 0.003 at D1 and
+  0.030 at D2. At D1, picks below the runner-up can cost more.
 - Put the gain in context using the charter's analogous matched-loss bar
   as a descriptive scale, separate from G1-R's decision rule. With
   A_G1 = 0.15 − 0.002574, the bar 0.10 A_G1(1 − A_G1) is about 0.01257
@@ -149,11 +152,31 @@ Sources Corrected NOVA-D record (`NOVA_D_RESULT_v1.2.md`, line 51) and Exact pop
   This headroom calculation holds the target, candidates, budget and
   Bayes loss fixed. It does not set an external relevance threshold for D1.
 - Attribute the D1 population reordering to joint shrinkage at the operative
-  setting. The 0.05 floor was inactive there. Report grid summaries and sparse
-  contrasts descriptively. Put the selected grid maximum, if included at all,
-  in a labelled supplement.
+  setting. The 0.05 floor was inactive there.
 
-Source G1-R decision and designated conditions (`G1R_RESULT_v1.1.md`, line 22).
+**Main-text Table 2. Post-hoc G1-R grid summary by design cell.** Each cell
+contains 60 conditions, pooled across training sizes, observed-covariance
+settings and oracle amplitudes. Means weight conditions equally and use
+percentage points of no-acquisition risk.
+
+| Top-two gap | Conditional variances | Mean A0 regret (pp) | Mean A2 recovery (pp) | Oracle headroom reaches bar | A2 point gain reaches bar |
+|---|---|---:|---:|---:|---:|
+| 2% | Equal | 0.241 | 0.054 | 4/60 | 0/60 |
+| 2% | Heterogeneous | 0.266 | 0.083 | 7/60 | 3/60 |
+| 5% | Equal | 0.347 | 0.093 | 7/60 | 1/60 |
+| 5% | Heterogeneous | 0.399 | 0.140 | 11/60 | 1/60 |
+| 20% | Equal | 0.323 | 0.101 | 10/60 | 1/60 |
+| 20% | Heterogeneous | 0.617 | 0.401 | 18/60 | 11/60 |
+
+For each condition, the analogous bar is 0.10 A_G1(1 − A_G1), where
+A_G1 = A★ − r₀ and r₀ is the recorded mean A0 regret. The last two columns
+count conditions with r₀ or r₀ − r₂ at least as large as that bar,
+respectively. The table includes all conditions, including sparse contrasts,
+and describes recorded point estimates. The two designated tests remain
+the basis for the G1-R conclusion.
+
+Sources G1-R decision and designated conditions (`G1R_RESULT_v1.1.md`,
+line 22) and saved condition summaries (`g1r_out/g1r_result.json`).
 
 ## 4. Development evidence and the decision to stop
 
@@ -183,7 +206,7 @@ n = 1,725, 13.6% of Gaussian cycles and 37.3% of resampled cycles showed
 within-cycle disagreement. All 25 picks matched the development picks
 in 85.0% and 58.1% of cycles, respectively.
 
-**Main-text Table 2.** At n = 1,725, reversal means a negative signed
+**Main-text Table 3.** At n = 1,725, reversal means a negative signed
 difference for the pair fixed on the full development fit. Relative gap is
 (leader − runner-up)/leader. Report Monte Carlo proportions per simulated
 fold. Report the cycle-level attribution separately from these marginal
@@ -245,11 +268,9 @@ and the two v0.4 closeout records and independent check listed below.
 
 ## 5. Discussion
 
-- Lead with the two results that could have gone the other way. The
-  reordering was concentrated in the 2%-gap conditions. At D1 a roughly
-  threefold increase in pick accuracy moved risk by only 0.124 percentage
-  points of no-acquisition risk. The designated no-harm criterion remained
-  unresolved at D2.
+- Relate the concentration of reordering in the 2%-gap conditions to the
+  low regret of choosing a near-tied runner-up. Use the design-cell table
+  to show how the recorded regret and recovery vary across the grid.
 - Explain what the mathematics adds. A nonlinear proxy can matter to an
   affine predictor without increasing Bayes value. The equivalence explains
   how shrinkage changes conditional scores. The fixed-pair power calculation
@@ -271,10 +292,11 @@ and the two v0.4 closeout records and independent check listed below.
   endpoint, rule, and denominator for each study. Stratify the post-hoc
   27/72 population reordering count by 2% and 20% gaps. Report D1 pick
   accuracy and risk side by side.
-- **Table 2.** The five-block fixed-pair gap and reversal table in §4.2.
+- **Table 2.** The post-hoc G1-R design-cell summary in §3.2.
+- **Table 3.** The five-block fixed-pair gap and reversal table in §4.2.
 - **Supplement.** The flat Gaussian upper-limit plot with the unchanged cap,
   the n = 1,725 model histograms, proof details and assumptions, frozen
-  study identifiers, descriptive grid summaries, and the five empirical
+  study identifiers and the five empirical
   quantile corrections. Label frozen analyses, development screens, and
   post-hoc summaries separately in captions.
 
@@ -291,9 +313,14 @@ provenance, and the identities of the attached and local margin checks.
 The v1.1 local reproduction for both models is
 `nhanes_fa_stability_margin_check_result_local.json`.
 
-The Paper III REML correction and NHANES v1.1 wording correction are
-archived in commit `52e3e9b`. Any public package of the stability
-materials should be limited to the protocol, code, aggregate records and
-errata. Exclude
+Commit `52e3e9b` introduced 16 files, including the Paper III REML
+correction, the NHANES v1.1 wording correction, and the NHANES-FA v0.4
+stability package. The package includes the protocol drafts, runner,
+aggregate predictions, development fit, screen, closeout, check scripts
+and check results, plus the ignore guard. The commit message names only
+the two reference records. Commit `cc6e816` records this provenance and
+restores the Gaussian-only margin-check result cited by the addendum.
+Any public package of the stability materials should be limited to the
+protocol, code, aggregate records and errata. Exclude
 `dev_rows.npy`, `dev_ids.json`, and participant-level source files. The audit paper's v0.8 commit and tag
 have been published on GitHub. Journal submission is a separate step.
