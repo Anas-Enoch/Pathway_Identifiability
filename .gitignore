@@ -8,3 +8,8 @@ stageA_census_full_run1_snapshot.zip
 
 stageA_closeout/docrec_out/owner_downloads_not_admissible/
 stageA_closeout/correspondence/
+
+nhanes_fa_stab_out/dev_rows.npy
+nhanes_fa_stab_out/dev_ids.json
+nhanes_fa_stab_out/parts/
+nhanes_fa_stab_out/predict-v0.4.*

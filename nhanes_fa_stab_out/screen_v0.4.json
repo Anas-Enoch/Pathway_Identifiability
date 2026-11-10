@@ -1,0 +1,61 @@
+{
+ "created_utc": "2026-11-10T04:50:59Z",
+ "prediction_sha256": "dc8f83c845fb1b8be4454f7c83e0723220d0d9bb404d3750bd378e5bd14501fa",
+ "a_dev_C_in_set": {
+  "L": 0,
+  "U": 6,
+  "dev_C": 0,
+  "pass": true
+ },
+ "b_sharpness": {
+  "U_cap": 5,
+  "assessable_sizes": [],
+  "n_assessable": 0,
+  "all_sizes_pass": false,
+  "any_size_passes": false,
+  "U_by_size_summary": {
+   "min": 6,
+   "max": 6
+  }
+ },
+ "c_modal_picks": {
+  "predicted": [
+   0,
+   6,
+   6,
+   8,
+   5
+  ],
+  "development": [
+   0,
+   6,
+   6,
+   8,
+   5
+  ],
+  "pass": true
+ },
+ "d_full_fit_gap_positive": {
+  "gaps": [
+   0.17013461417359987,
+   0.04022637748752844,
+   0.07937063127150396,
+   0.23784367606593343,
+   0.10583503957576712
+  ],
+  "pass": true
+ },
+ "ME_at_dev": {
+  "L": 0,
+  "U": 8,
+  "P_C0": 0.627,
+  "modal_pick": [
+   0,
+   6,
+   6,
+   8,
+   5
+  ]
+ },
+ "freeze_permitted": false
+}
