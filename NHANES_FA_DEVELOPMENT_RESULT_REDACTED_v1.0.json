@@ -1,0 +1,647 @@
+{
+  "script": "nhanes_fa_run.py",
+  "version": "0.2.0",
+  "cycle": "FAS_G_development",
+  "inputs": {
+    "fas": "5a8a907c9797b00d4f9d4dfbf0613e68d14d833d332f2aa3d9dfbedb3525063b",
+    "demo": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+    "blocks": "e3e1d8ac636afd9690e4b5b00b884e21ccf79dad77993e4a75d8776ef3a14338",
+    "script": "f85d5235cd2fd609145be9ba2b444cd2c4b394a8b3ed6c761c942e765a730297",
+    "p6_n2": "681ce852609e6ab4fcaf0f0ff603477c64e2351e10bd119811d45f008d4bbe8e",
+    "p5_gate3a": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
+    "protocol": "fcc106d80324356411d58a0c25c2411f20a627b432815ee17d167a5a13bcef97"
+  },
+  "K": 5,
+  "standardisation": [
+    {
+      "target_sd": [
+        14.326780651917078,
+        30.85197759047245,
+        16.946882589530908,
+        1065.4856458506783,
+        67.32233616057819,
+        57.91729975753481,
+        5.521498845560866,
+        57.44630354801994,
+        69.06718811040784,
+        11.515244543219405
+      ],
+      "floor": 0.441491405692462
+    },
+    {
+      "target_sd": [
+        110.4000719725449,
+        7.300144142068219,
+        1184.385184973288,
+        213.77771662202437,
+        10.128608109205652,
+        11.515244543219405,
+        268.7169659995423,
+        90.76552774373138,
+        9.211097999210201,
+        5.521498845560866
+      ],
+      "floor": 0.511403861434754
+    },
+    {
+      "target_sd": [
+        14.326780651917078,
+        7.300144142068219,
+        11.182138821616913,
+        10.128608109205652,
+        1065.4856458506783,
+        5.521498845560866,
+        9.192973953578198,
+        9.211097999210201,
+        57.44630354801994,
+        69.06718811040784
+      ],
+      "floor": 0.10655373465411284
+    },
+    {
+      "target_sd": [
+        110.4000719725449,
+        16.946882589530908,
+        6.025194048959497,
+        7.523571225967014,
+        67.32233616057819,
+        11.515244543219405,
+        983.9697510411862,
+        4.0563427568788075,
+        90.76552774373138,
+        9.192973953578198
+      ],
+      "floor": 0.14231063566375154
+    },
+    {
+      "target_sd": [
+        212.56116581543816,
+        14.326780651917078,
+        10.305195542376488,
+        23.067543918541503,
+        7.523571225967014,
+        9.211097999210201,
+        33.17135596655049,
+        5.521498845560866,
+        983.9697510411862,
+        9.192973953578198
+      ],
+      "floor": 0.12315988097146782
+    }
+  ],
+  "seed": 20261103,
+  "runtime_s": 594.0920169353485,
+  "inference": {
+    "sq": {
+      "delta_ext": 0.0,
+      "se": 0.0,
+      "df": 17,
+      "lower_97.5_onesided": 0.0,
+      "delta_g1_base": 0.15770794508230182,
+      "se_g1_base": 0.012535474690176884,
+      "lower_97.5_g1_base": 0.13126040530543137,
+      "unweighted_delta_ext": 0.0,
+      "unweighted_boot_lower_97.5": 0.0,
+      "strata": 14,
+      "psu": 31
+    },
+    "bd": {
+      "delta_ext": 0.0,
+      "se": 0.0,
+      "df": 17,
+      "lower_97.5_onesided": 0.0,
+      "delta_g1_base": 0.16735143318776588,
+      "se_g1_base": 0.01737987480570886,
+      "lower_97.5_g1_base": 0.1306831025818886,
+      "unweighted_delta_ext": 0.0,
+      "unweighted_boot_lower_97.5": 0.0,
+      "strata": 14,
+      "psu": 31
+    },
+    "n_file": 5643,
+    "n_eligible": 1725,
+    "claims": 0,
+    "folds": 25,
+    "picks": [
+      {
+        "G1": 0,
+        "NOVA-V": 0,
+        "NOVA-U": 0,
+        "NOVA-S": 0
+      },
+      {
+        "G1": 0,
+        "NOVA-V": 0,
+        "NOVA-U": 0,
+        "NOVA-S": 0
+      },
+      {
+        "G1": 0,
+        "NOVA-V": 0,
+        "NOVA-U": 0,
+        "NOVA-S": 0
+      },
+      {
+        "G1": 0,
+        "NOVA-V": 0,
+        "NOVA-U": 0,
+        "NOVA-S": 0
+      },
+      {
+        "G1": 0,
+        "NOVA-V": 0,
+        "NOVA-U": 0,
+        "NOVA-S": 0
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 0,
+        "NOVA-U": 0,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 6,
+        "NOVA-V": 6,
+        "NOVA-U": 6,
+        "NOVA-S": 6
+      },
+      {
+        "G1": 8,
+        "NOVA-V": 8,
+        "NOVA-U": 8,
+        "NOVA-S": 8
+      },
+      {
+        "G1": 8,
+        "NOVA-V": 8,
+        "NOVA-U": 8,
+        "NOVA-S": 8
+      },
+      {
+        "G1": 8,
+        "NOVA-V": 8,
+        "NOVA-U": 8,
+        "NOVA-S": 8
+      },
+      {
+        "G1": 8,
+        "NOVA-V": 8,
+        "NOVA-U": 8,
+        "NOVA-S": 8
+      },
+      {
+        "G1": 8,
+        "NOVA-V": 8,
+        "NOVA-U": 8,
+        "NOVA-S": 8
+      },
+      {
+        "G1": 5,
+        "NOVA-V": 5,
+        "NOVA-U": 5,
+        "NOVA-S": 5
+      },
+      {
+        "G1": 5,
+        "NOVA-V": 5,
+        "NOVA-U": 5,
+        "NOVA-S": 5
+      },
+      {
+        "G1": 5,
+        "NOVA-V": 5,
+        "NOVA-U": 5,
+        "NOVA-S": 5
+      },
+      {
+        "G1": 5,
+        "NOVA-V": 5,
+        "NOVA-U": 5,
+        "NOVA-S": 5
+      },
+      {
+        "G1": 5,
+        "NOVA-V": 5,
+        "NOVA-U": 5,
+        "NOVA-S": 5
+      }
+    ],
+    "agreement_NOVA_S_G1": 1.0,
+    "per_block": [
+      {
+        "k": 1,
+        "inference": {
+          "sq": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.1801938533184573,
+            "se_g1_base": 0.028129326065352612,
+            "lower_97.5_g1_base": 0.12084616299182366,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "bd": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.21338142308752342,
+            "se_g1_base": 0.025604234993268783,
+            "lower_97.5_g1_base": 0.15936120924022007,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "n_file": 5643,
+          "n_eligible": 1725,
+          "claims": 0,
+          "folds": 5,
+          "agreement_NOVA_S_G1": 1.0,
+          "picks": [
+            {
+              "G1": 0,
+              "NOVA-V": 0,
+              "NOVA-U": 0,
+              "NOVA-S": 0
+            },
+            {
+              "G1": 0,
+              "NOVA-V": 0,
+              "NOVA-U": 0,
+              "NOVA-S": 0
+            },
+            {
+              "G1": 0,
+              "NOVA-V": 0,
+              "NOVA-U": 0,
+              "NOVA-S": 0
+            },
+            {
+              "G1": 0,
+              "NOVA-V": 0,
+              "NOVA-U": 0,
+              "NOVA-S": 0
+            },
+            {
+              "G1": 0,
+              "NOVA-V": 0,
+              "NOVA-U": 0,
+              "NOVA-S": 0
+            }
+          ]
+        }
+      },
+      {
+        "k": 2,
+        "inference": {
+          "sq": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.15258877812328442,
+            "se_g1_base": 0.03589434440405224,
+            "lower_97.5_g1_base": 0.07685833114350094,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "bd": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.15103988355553466,
+            "se_g1_base": 0.025581171483835704,
+            "lower_97.5_g1_base": 0.09706832945971272,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "n_file": 5643,
+          "n_eligible": 1725,
+          "claims": 0,
+          "folds": 5,
+          "agreement_NOVA_S_G1": 1.0,
+          "picks": [
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            }
+          ]
+        }
+      },
+      {
+        "k": 3,
+        "inference": {
+          "sq": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.16369009354086542,
+            "se_g1_base": 0.02207041714663902,
+            "lower_97.5_g1_base": 0.11712558363560692,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "bd": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.15549568332564873,
+            "se_g1_base": 0.01039274382818949,
+            "lower_97.5_g1_base": 0.1335689105005035,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "n_file": 5643,
+          "n_eligible": 1725,
+          "claims": 0,
+          "folds": 5,
+          "agreement_NOVA_S_G1": 1.0,
+          "picks": [
+            {
+              "G1": 6,
+              "NOVA-V": 0,
+              "NOVA-U": 0,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            },
+            {
+              "G1": 6,
+              "NOVA-V": 6,
+              "NOVA-U": 6,
+              "NOVA-S": 6
+            }
+          ]
+        }
+      },
+      {
+        "k": 4,
+        "inference": {
+          "sq": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.17116327600611253,
+            "se_g1_base": 0.04702455615546438,
+            "lower_97.5_g1_base": 0.07195013488861629,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "bd": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.18046689454494771,
+            "se_g1_base": 0.04360063426180473,
+            "lower_97.5_g1_base": 0.08847759717597915,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "n_file": 5643,
+          "n_eligible": 1725,
+          "claims": 0,
+          "folds": 5,
+          "agreement_NOVA_S_G1": 1.0,
+          "picks": [
+            {
+              "G1": 8,
+              "NOVA-V": 8,
+              "NOVA-U": 8,
+              "NOVA-S": 8
+            },
+            {
+              "G1": 8,
+              "NOVA-V": 8,
+              "NOVA-U": 8,
+              "NOVA-S": 8
+            },
+            {
+              "G1": 8,
+              "NOVA-V": 8,
+              "NOVA-U": 8,
+              "NOVA-S": 8
+            },
+            {
+              "G1": 8,
+              "NOVA-V": 8,
+              "NOVA-U": 8,
+              "NOVA-S": 8
+            },
+            {
+              "G1": 8,
+              "NOVA-V": 8,
+              "NOVA-U": 8,
+              "NOVA-S": 8
+            }
+          ]
+        }
+      },
+      {
+        "k": 5,
+        "inference": {
+          "sq": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.11238188201191009,
+            "se_g1_base": 0.0224819932922993,
+            "lower_97.5_g1_base": 0.06494902234307293,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "bd": {
+            "delta_ext": 0.0,
+            "se": 0.0,
+            "df": 17,
+            "lower_97.5_onesided": 0.0,
+            "delta_g1_base": 0.125671214594425,
+            "se_g1_base": 0.009618163281312273,
+            "lower_97.5_g1_base": 0.10537866387336799,
+            "unweighted_delta_ext": 0.0,
+            "unweighted_boot_lower_97.5": 0.0,
+            "strata": 14,
+            "psu": 31
+          },
+          "n_file": 5643,
+          "n_eligible": 1725,
+          "claims": 0,
+          "folds": 5,
+          "agreement_NOVA_S_G1": 1.0,
+          "picks": [
+            {
+              "G1": 5,
+              "NOVA-V": 5,
+              "NOVA-U": 5,
+              "NOVA-S": 5
+            },
+            {
+              "G1": 5,
+              "NOVA-V": 5,
+              "NOVA-U": 5,
+              "NOVA-S": 5
+            },
+            {
+              "G1": 5,
+              "NOVA-V": 5,
+              "NOVA-U": 5,
+              "NOVA-S": 5
+            },
+            {
+              "G1": 5,
+              "NOVA-V": 5,
+              "NOVA-U": 5,
+              "NOVA-S": 5
+            },
+            {
+              "G1": 5,
+              "NOVA-V": 5,
+              "NOVA-U": 5,
+              "NOVA-S": 5
+            }
+          ]
+        }
+      }
+    ],
+    "total_departures": 0
+  },
+  "created_utc": "2026-11-04T01:34:32Z",
+  "feasibility": {
+    "n_eligible": 1725,
+    "min_n": 1500,
+    "departures": 0,
+    "block_folds": 25,
+    "se_dev": 0.0,
+    "df": 17,
+    "mde_dev": 0.0,
+    "mde_ceiling": 0.003,
+    "nondegenerate": false,
+    "decision": "NO-GO",
+    "note": "Delta_dev plays no part in this decision; a zero-departure or zero-SE development result is NO-GO (v0.4)"
+  },
+  "seqn_sha256_list_sha256": "d9a6d243276aa69f7bd1ee9f444484fdc15d7eae8c4d9a43760a8ecbc5afd0d6",
+  "_redaction": {
+    "label": "REDACTED_DERIVATIVE",
+    "source_commit": "fa8466260f51484b8a36e7dc58e385b84869dff7",
+    "source_path": "nhanes_fa_out/FAS_G_development_v04_result.json",
+    "source_sha256": "f7f9f5cad1c25edcd9e395ae4198b5997880d80c58552fee4aa77b91121c2101",
+    "removed_field": "seqn_sha256_list",
+    "removed_count": 1725,
+    "digest_serialization": "UTF-8 JSON array in original order, ensure_ascii=True, separators=(',',':')",
+    "reason": "The original hashes are derived from public-release SEQN row keys and can be recovered by enumerating the public key range. This copy retains the result fields and a digest of the omitted array."
+  }
+}
