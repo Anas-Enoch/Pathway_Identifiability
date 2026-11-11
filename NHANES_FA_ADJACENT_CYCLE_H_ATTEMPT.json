@@ -1,0 +1,8 @@
+{
+  "started_utc": "2026-11-10T23:46:14+00:00",
+  "authorisation_sha256": "02acbb7549e50e17fc6165a53ebf4f3499e6b1cabcc6ae61e37a11fc27061f52",
+  "protocol_sha256": "3e388487240f3e8f92a4b6868687e337360e0421d18d41140574f54c7d96c3c5",
+  "runner_sha256": "57dcb3a8ec2e18bd5458bb508a70022c877443b87f152350efc19ac76dba6b34",
+  "public_commit": "7c231d7c63a53f11b2cdc30d5adf8958f11cf070",
+  "timestamp_receipt_sha256": "56dd02d125890a77eced974d84e3c4be3f1c524b09b5170746fd61f00ea7b7a6"
+}

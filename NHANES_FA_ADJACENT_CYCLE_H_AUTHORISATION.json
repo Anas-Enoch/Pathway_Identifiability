@@ -1,0 +1,28 @@
+{
+  "cycle": "2013–14",
+  "protocol_sha256": "3e388487240f3e8f92a4b6868687e337360e0421d18d41140574f54c7d96c3c5",
+  "runner_sha256": "57dcb3a8ec2e18bd5458bb508a70022c877443b87f152350efc19ac76dba6b34",
+  "public_commit": "7c231d7c63a53f11b2cdc30d5adf8958f11cf070",
+  "timestamp_receipt_sha256": "56dd02d125890a77eced974d84e3c4be3f1c524b09b5170746fd61f00ea7b7a6",
+  "timestamp_utc": "2026-11-10T22:26:45+00:00",
+  "authorised_utc": "2026-11-10T23:44:57+00:00",
+  "hashes_recorded_utc": "2026-11-10T23:46:13+00:00",
+  "downloads": {
+    "FAS_H.xpt": {
+      "source_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FAS_H.xpt",
+      "effective_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FAS_H.xpt",
+      "download_started_utc": "2026-11-10T23:44:57+00:00",
+      "download_completed_utc": "2026-11-10T23:45:25+00:00",
+      "sha256": "2a1ffa185c4276b4b549ff9949bc07c5bdb38e5cf5b06b36edfac35f0ad54d8f",
+      "bytes": 2619920
+    },
+    "DEMO_H.xpt": {
+      "source_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.xpt",
+      "effective_url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.xpt",
+      "download_started_utc": "2026-11-10T23:45:25+00:00",
+      "download_completed_utc": "2026-11-10T23:46:13+00:00",
+      "sha256": "f8f0cbb3085a323d4cde22349b164878fea1e64dbc404e65b5815c7816b547d7",
+      "bytes": 3833200
+    }
+  }
+}
