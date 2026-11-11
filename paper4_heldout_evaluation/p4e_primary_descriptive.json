@@ -1,0 +1,22 @@
+{
+  "n_studies": 186,
+  "primary": {
+    "estimand": "D_RIG_G1 = RMSE_G1(B=1) - RMSE_RIG(B=1)",
+    "mean": 0.019297341311863038,
+    "median": 0.0,
+    "sd": 0.45371536503818327,
+    "n_positive": 51,
+    "n_zero": 97,
+    "n_negative": 38
+  },
+  "secondary": {
+    "estimand": "D_reshrink_RIG = RMSE_RIG(B=1) - RMSE_RIG_reshrink(B=1)",
+    "mean": 0.0006711421796667823,
+    "median": 0.0,
+    "sd": 0.011064303440167393,
+    "n_positive": 19,
+    "n_zero": 140,
+    "n_negative": 27
+  },
+  "practical_threshold": null
+}

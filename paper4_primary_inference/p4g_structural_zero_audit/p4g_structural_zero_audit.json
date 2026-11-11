@@ -1,0 +1,30 @@
+{
+  "stage": "P4G_structural_zero_degeneracy_audit",
+  "n_studies": 186,
+  "n_zero_bootstrap_variance": 93,
+  "n_nonzero_bootstrap_variance": 93,
+  "all_zero_variance_effects_exactly_zero": true,
+  "n_point_effect_exactly_zero": 97,
+  "n_point_zero_with_nonzero_bootstrap_variance": 4,
+  "overall_equal_study_estimand": {
+    "mean_D_RIG_G1": 0.0192973413118634,
+    "median_D_RIG_G1": 0.0,
+    "sd_across_studies": 0.4537153650381836,
+    "bootstrap_unit": "study",
+    "bootstrap_B": 100000,
+    "bootstrap_seed": 20260929,
+    "bootstrap_mean_se": 0.03310321478600924,
+    "bootstrap_ci95_percentile": [
+      -0.030345430325879465,
+      0.09418249595144042
+    ],
+    "bootstrap_two_sided_p_vs_zero": 0.68534
+  },
+  "conditional_nonzero_sampling_variance_descriptive": {
+    "n": 93,
+    "mean_D_RIG_G1": 0.03859468262372679,
+    "median_D_RIG_G1": 0.0005623880498961,
+    "sd_D_RIG_G1": 0.6428063299033677
+  },
+  "interpretation": "Original inverse-variance REML is singular because many studies have D=0 and sampling variance=0. Equal-study bootstrap retains all studies without assigning infinite precision to structural zeros."
+}
