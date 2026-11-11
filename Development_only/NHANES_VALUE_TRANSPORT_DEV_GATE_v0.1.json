@@ -1,0 +1,2119 @@
+{
+  "scope": "2011\u201312 exploratory same-cycle cross-fit feasibility. Intervals conditional on fits, pointwise. No protocol verdict.",
+  "input_sha256": {
+    "fas": "5a8a907c9797b00d4f9d4dfbf0613e68d14d833d332f2aa3d9dfbedb3525063b",
+    "demo": "eaf0525d1952626885af3e935415a1f66ad62c18698080e7354789c125af252d",
+    "blocks": "e3e1d8ac636afd9690e4b5b00b884e21ccf79dad77993e4a75d8776ef3a14338",
+    "wrapper": "f85d5235cd2fd609145be9ba2b444cd2c4b394a8b3ed6c761c942e765a730297",
+    "gate": "4600e2f3e3bb652affadcc6f6935380d8b9a77a4237e7cb306f056f849478130",
+    "fit": "e9d894aa2e0b549ce4c02712cbbbcb2fd679ffddbac85ce9539420125dc46669"
+  },
+  "method": "Matched shrunk affine predictions, training-fold scaling and means, fixed development-ranked pairs, full design Taylor linearisation. Pooled base risk weights the blocks through the pooled denominator.",
+  "design": {
+    "eligible": 1725,
+    "strata": 14,
+    "psus": 31,
+    "df": 17
+  },
+  "pooled_selected_gain": {
+    "estimate": 0.11464065315274033,
+    "se": 0.032659317975634004,
+    "ci95": [
+      0.045735515326336074,
+      0.18354579097914459
+    ],
+    "half_width": 0.06890513782640426
+  },
+  "pooled_selected_score_prediction": 0.12059469322807174,
+  "pooled_selected_calibration_error": {
+    "estimate": -0.0059540400753314475,
+    "se": 0.03298978413007734,
+    "ci95": [
+      -0.07555640054232692,
+      0.06364832039166403
+    ],
+    "half_width": 0.06960236046699547
+  },
+  "blocks": [
+    {
+      "block": 1,
+      "reference_bar_plugin": 0.014920899514494823,
+      "gains_ranked": [
+        {
+          "analyte": "LBXTSA",
+          "score_over_schur_risk": 0.15754198603355235,
+          "gain": {
+            "estimate": 0.18252400901004848,
+            "se": 0.03447354470729879,
+            "ci95": [
+              0.10979118736345624,
+              0.25525683065664073
+            ],
+            "half_width": 0.07273282164659224
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.02459898551860152,
+            "se": 0.03454155259756234,
+            "ci95": [
+              -0.048277320234284334,
+              0.09747529127148738
+            ],
+            "half_width": 0.07287630575288585
+          }
+        },
+        {
+          "analyte": "LBXAR1",
+          "score_over_schur_risk": 0.12046260462104295,
+          "gain": {
+            "estimate": 0.1396201089189419,
+            "se": 0.027624588633825414,
+            "ci95": [
+              0.08133732148805987,
+              0.1979028963498239
+            ],
+            "half_width": 0.05828278743088201
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.019233924315047626,
+            "se": 0.027714901414371513,
+            "ci95": [
+              -0.039239406427107985,
+              0.07770725505720324
+            ],
+            "half_width": 0.05847333074215561
+          }
+        },
+        {
+          "analyte": "LBXLNA",
+          "score_over_schur_risk": 0.10360152415127127,
+          "gain": {
+            "estimate": 0.12910312845104643,
+            "se": 0.01748143593848627,
+            "ci95": [
+              0.09222052258513293,
+              0.16598573431695995
+            ],
+            "half_width": 0.036882605865913506
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.025316513343220583,
+            "se": 0.01765511902609506,
+            "ci95": [
+              -0.011932531806536133,
+              0.06256555849297729
+            ],
+            "half_width": 0.037249045149756715
+          }
+        },
+        {
+          "analyte": "LBXGLA",
+          "score_over_schur_risk": 0.04297725687621453,
+          "gain": {
+            "estimate": 0.055770340057502504,
+            "se": 0.012361713162621229,
+            "ci95": [
+              0.02968940505829709,
+              0.08185127505670792
+            ],
+            "half_width": 0.026080934999205413
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.012213047277247098,
+            "se": 0.01248822519474516,
+            "ci95": [
+              -0.014134804778116732,
+              0.03856089933261093
+            ],
+            "half_width": 0.02634785205536383
+          }
+        },
+        {
+          "analyte": "LBXPL1",
+          "score_over_schur_risk": 0.038661196320896235,
+          "gain": {
+            "estimate": 0.04523086542793884,
+            "se": 0.010729862469273313,
+            "ci95": [
+              0.02259283444225696,
+              0.06786889641362072
+            ],
+            "half_width": 0.02263803098568188
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.00603679737858205,
+            "se": 0.011321457723418369,
+            "ci95": [
+              -0.01784939049006733,
+              0.029922985247231432
+            ],
+            "half_width": 0.02388618786864938
+          }
+        },
+        {
+          "analyte": "LBXDP3",
+          "score_over_schur_risk": 0.03573177325923647,
+          "gain": {
+            "estimate": 0.04189663669881106,
+            "se": 0.0055251048607952965,
+            "ci95": [
+              0.03023968439434257,
+              0.05355358900327955
+            ],
+            "half_width": 0.011656952304468489
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0053716707079567595,
+            "se": 0.005864136595996513,
+            "ci95": [
+              -0.007000576032819117,
+              0.017743917448732636
+            ],
+            "half_width": 0.012372246740775876
+          }
+        },
+        {
+          "analyte": "LBXNR1",
+          "score_over_schur_risk": 0.03268395726235528,
+          "gain": {
+            "estimate": 0.037928920049909984,
+            "se": 0.013868473290374992,
+            "ci95": [
+              0.008668999061111564,
+              0.0671888410387084
+            ],
+            "half_width": 0.02925992098879842
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.005133333423787982,
+            "se": 0.013740141718905257,
+            "ci95": [
+              -0.023855831616395762,
+              0.03412249846397172
+            ],
+            "half_width": 0.028989165040183743
+          }
+        },
+        {
+          "analyte": "LBXST1",
+          "score_over_schur_risk": 0.02813098484934915,
+          "gain": {
+            "estimate": 0.04381715103593047,
+            "se": 0.008143496105129785,
+            "ci95": [
+              0.02663587609530272,
+              0.060998425976558225
+            ],
+            "half_width": 0.017181274940627753
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.01563668345579405,
+            "se": 0.008164189293720814,
+            "ci95": [
+              -0.0015882502964780984,
+              0.0328616172080662
+            ],
+            "half_width": 0.01722493375227215
+          }
+        },
+        {
+          "analyte": "LBXSD1",
+          "score_over_schur_risk": 0.027105681221914504,
+          "gain": {
+            "estimate": 0.014413168925329007,
+            "se": 0.005631074452600277,
+            "ci95": [
+              0.0025326403252937304,
+              0.026293697525364285
+            ],
+            "half_width": 0.011880528600035276
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.013513386644997589,
+            "se": 0.0057995061196595725,
+            "ci95": [
+              -0.025749274999995,
+              -0.0012774982900001786
+            ],
+            "half_width": 0.01223588835499741
+          }
+        }
+      ],
+      "adjacent": [
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXAR1",
+          "estimate": 0.04290390009110658,
+          "se": 0.011229065309155694,
+          "ci95": [
+            0.019212643177342222,
+            0.06659515700487094
+          ],
+          "half_width": 0.02369125691376436,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXAR1",
+          "lower_development_rank": "LBXLNA",
+          "estimate": 0.010516980467895447,
+          "se": 0.012624698907578913,
+          "ci95": [
+            -0.016118805952769787,
+            0.03715276688856068
+          ],
+          "half_width": 0.026635786420665233,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXLNA",
+          "lower_development_rank": "LBXGLA",
+          "estimate": 0.07333278839354393,
+          "se": 0.016899913651082572,
+          "ci95": [
+            0.03767708730845201,
+            0.10898848947863585
+          ],
+          "half_width": 0.03565570108509192,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXGLA",
+          "lower_development_rank": "LBXPL1",
+          "estimate": 0.010539474629563667,
+          "se": 0.006244019707204276,
+          "ci95": [
+            -0.002634255416994132,
+            0.023713204676121466
+          ],
+          "half_width": 0.013173730046557799,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXPL1",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.003334228729127783,
+          "se": 0.015312165525668888,
+          "ci95": [
+            -0.028971616627290694,
+            0.03564007408554626
+          ],
+          "half_width": 0.03230584535641848,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDP3",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.00396771664890108,
+          "se": 0.016728658016674083,
+          "ci95": [
+            -0.03132666663092407,
+            0.039262099928726236
+          ],
+          "half_width": 0.035294383279825155,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXNR1",
+          "lower_development_rank": "LBXST1",
+          "estimate": -0.0058882309860204835,
+          "se": 0.009523773971591676,
+          "ci95": [
+            -0.025981637671048066,
+            0.014205175699007101
+          ],
+          "half_width": 0.020093406685027584,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXST1",
+          "lower_development_rank": "LBXSD1",
+          "estimate": 0.029403982110601464,
+          "se": 0.009316571470857337,
+          "ci95": [
+            0.00974773448938921,
+            0.04906022973181372
+          ],
+          "half_width": 0.019656247621212253,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        }
+      ],
+      "winner_vs_others": [
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXAR1",
+          "estimate": 0.04290390009110658,
+          "se": 0.011229065309155694,
+          "ci95": [
+            0.019212643177342222,
+            0.06659515700487094
+          ],
+          "half_width": 0.02369125691376436,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXLNA",
+          "estimate": 0.05342088055900203,
+          "se": 0.019620651088017704,
+          "ci95": [
+            0.012024925246270086,
+            0.09481683587173398
+          ],
+          "half_width": 0.04139595531273194,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXGLA",
+          "estimate": 0.12675366895254597,
+          "se": 0.03123805757931843,
+          "ci95": [
+            0.060847128450445875,
+            0.19266020945464607
+          ],
+          "half_width": 0.0659065405021001,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXPL1",
+          "estimate": 0.13729314358210964,
+          "se": 0.03571123874981034,
+          "ci95": [
+            0.061949015764035054,
+            0.21263727140018424
+          ],
+          "half_width": 0.07534412781807459,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.1406273723112374,
+          "se": 0.03635955354080252,
+          "ci95": [
+            0.06391541984778776,
+            0.21733932477468704
+          ],
+          "half_width": 0.07671195246344964,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.14459508896013848,
+          "se": 0.022296165152618036,
+          "ci95": [
+            0.09755429239520062,
+            0.19163588552507632
+          ],
+          "half_width": 0.047040796564937856,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXST1",
+          "estimate": 0.13870685797411803,
+          "se": 0.02755754695282918,
+          "ci95": [
+            0.080565516126166,
+            0.19684819982207005
+          ],
+          "half_width": 0.05814134184795202,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXSD1",
+          "estimate": 0.16811084008471947,
+          "se": 0.03426640705103842,
+          "ci95": [
+            0.09581504069206123,
+            0.2404066394773777
+          ],
+          "half_width": 0.07229579939265823,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        }
+      ]
+    },
+    {
+      "block": 2,
+      "reference_bar_plugin": 0.004483142553443193,
+      "gains_ranked": [
+        {
+          "analyte": "LBXEPA",
+          "score_over_schur_risk": 0.09448871907380245,
+          "gain": {
+            "estimate": 0.04704462199288541,
+            "se": 0.06230484637900421,
+            "ci95": [
+              -0.08440711347204931,
+              0.1784963574578201
+            ],
+            "half_width": 0.13145173546493472
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.04594890820617198,
+            "se": 0.06246003760837616,
+            "ci95": [
+              -0.17772806854437875,
+              0.0858302521320348
+            ],
+            "half_width": 0.13177916033820677
+          }
+        },
+        {
+          "analyte": "LBXGLA",
+          "score_over_schur_risk": 0.08383102704623997,
+          "gain": {
+            "estimate": 0.11290462777026662,
+            "se": 0.014924746237981706,
+            "ci95": [
+              0.08141616566216364,
+              0.1443930898783696
+            ],
+            "half_width": 0.03148846210810298
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.030233537351100237,
+            "se": 0.01465447098645751,
+            "ci95": [
+              -0.0006846938210341748,
+              0.061151768523234645
+            ],
+            "half_width": 0.030918231172134412
+          }
+        },
+        {
+          "analyte": "LBXDP3",
+          "score_over_schur_risk": 0.0475592875731722,
+          "gain": {
+            "estimate": 0.04491410449660317,
+            "se": 0.01519051981977961,
+            "ci95": [
+              0.01286490914544642,
+              0.07696329984775993
+            ],
+            "half_width": 0.03204919535115675
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.0018703032326313665,
+            "se": 0.016131482411194213,
+            "ci95": [
+              -0.03590475611731306,
+              0.03216414965205032
+            ],
+            "half_width": 0.03403445288468169
+          }
+        },
+        {
+          "analyte": "LBXST1",
+          "score_over_schur_risk": 0.04123705997128878,
+          "gain": {
+            "estimate": 0.03896473211167712,
+            "se": 0.006530909560484889,
+            "ci95": [
+              0.025185717383545567,
+              0.052743746839808675
+            ],
+            "half_width": 0.013779014728131552
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.0012310880424337772,
+            "se": 0.00622822970817554,
+            "ci95": [
+              -0.014371504103066776,
+              0.011909328018199222
+            ],
+            "half_width": 0.013140416060632999
+          }
+        },
+        {
+          "analyte": "LBXNR1",
+          "score_over_schur_risk": 0.03598540061669799,
+          "gain": {
+            "estimate": 0.03178247575082829,
+            "se": 0.008396277019163059,
+            "ci95": [
+              0.014067879699994196,
+              0.04949707180166239
+            ],
+            "half_width": 0.017714596050834096
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.003901706064330108,
+            "se": 0.008485513422457869,
+            "ci95": [
+              -0.021804574468945414,
+              0.014001162340285197
+            ],
+            "half_width": 0.017902868404615305
+          }
+        },
+        {
+          "analyte": "LBXOL1",
+          "score_over_schur_risk": 0.03549978781689685,
+          "gain": {
+            "estimate": 0.0374927205187081,
+            "se": 0.009496750370183748,
+            "ci95": [
+              0.017456328648900118,
+              0.057529112388516074
+            ],
+            "half_width": 0.02003639186980798
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.002981535248890471,
+            "se": 0.010681352155358944,
+            "ci95": [
+              -0.01955414792080929,
+              0.025517218418590233
+            ],
+            "half_width": 0.022535683169699762
+          }
+        },
+        {
+          "analyte": "LBXPEN",
+          "score_over_schur_risk": 0.02891986766486882,
+          "gain": {
+            "estimate": 0.039319360342138586,
+            "se": 0.007728294293129213,
+            "ci95": [
+              0.02301408465241426,
+              0.05562463603186291
+            ],
+            "half_width": 0.016305275689724327
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.009940146821695332,
+            "se": 0.007655095525279832,
+            "ci95": [
+              -0.006210692967342167,
+              0.02609098661073283
+            ],
+            "half_width": 0.0161508397890375
+          }
+        },
+        {
+          "analyte": "LBXLNA",
+          "score_over_schur_risk": 0.02588540775742788,
+          "gain": {
+            "estimate": 0.030522932121477112,
+            "se": 0.003538844299616704,
+            "ci95": [
+              0.02305662329061916,
+              0.037989240952335065
+            ],
+            "half_width": 0.0074663088308579515
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.004589935865738633,
+            "se": 0.003777329496468019,
+            "ci95": [
+              -0.0033795327485188677,
+              0.012559404479996135
+            ],
+            "half_width": 0.007969468614257501
+          }
+        },
+        {
+          "analyte": "LBXDA1",
+          "score_over_schur_risk": 0.010299429549042024,
+          "gain": {
+            "estimate": 0.009216225234064195,
+            "se": 0.0018475351716670406,
+            "ci95": [
+              0.0053182667482861235,
+              0.013114183719842267
+            ],
+            "half_width": 0.0038979584857780714
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.0012382362028166242,
+            "se": 0.0018443066747587658,
+            "ci95": [
+              -0.005129383155524631,
+              0.002652910749891382
+            ],
+            "half_width": 0.0038911469527080065
+          }
+        }
+      ],
+      "adjacent": [
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXGLA",
+          "estimate": -0.06586000577738121,
+          "se": 0.06389322625865705,
+          "ci95": [
+            -0.20066292985592452,
+            0.06894291830116209
+          ],
+          "half_width": 0.1348029240785433,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXGLA",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.06799052327366345,
+          "se": 0.02787536546485338,
+          "ci95": [
+            0.009178642978118962,
+            0.12680240356920794
+          ],
+          "half_width": 0.05881188029554449,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDP3",
+          "lower_development_rank": "LBXST1",
+          "estimate": 0.005949372384926053,
+          "se": 0.013278867062390861,
+          "ci95": [
+            -0.022066588199283903,
+            0.03396533296913601
+          ],
+          "half_width": 0.028015960584209958,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXST1",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.007182256360848835,
+          "se": 0.005270065344212973,
+          "ci95": [
+            -0.0039366095985711915,
+            0.018301122320268863
+          ],
+          "half_width": 0.011118865959420026,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXNR1",
+          "lower_development_rank": "LBXOL1",
+          "estimate": -0.005710244767879812,
+          "se": 0.013918958246585116,
+          "ci95": [
+            -0.03507667970373658,
+            0.02365619016797696
+          ],
+          "half_width": 0.02936643493585677,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXOL1",
+          "lower_development_rank": "LBXPEN",
+          "estimate": -0.0018266398234304813,
+          "se": 0.013661268214957388,
+          "ci95": [
+            -0.030649396316306712,
+            0.02699611666944575
+          ],
+          "half_width": 0.02882275649287623,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXPEN",
+          "lower_development_rank": "LBXLNA",
+          "estimate": 0.008796428220661472,
+          "se": 0.007243993731972948,
+          "ci95": [
+            -0.00648706260078195,
+            0.024079919042104894
+          ],
+          "half_width": 0.015283490821443422,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXLNA",
+          "lower_development_rank": "LBXDA1",
+          "estimate": 0.02130670688741292,
+          "se": 0.0031463647630748433,
+          "ci95": [
+            0.014668457496731785,
+            0.027944956278094055
+          ],
+          "half_width": 0.006638249390681134,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        }
+      ],
+      "winner_vs_others": [
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXGLA",
+          "estimate": -0.06586000577738121,
+          "se": 0.06389322625865705,
+          "ci95": [
+            -0.20066292985592452,
+            0.06894291830116209
+          ],
+          "half_width": 0.1348029240785433,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.0021305174962822247,
+          "se": 0.06216432621805841,
+          "ci95": [
+            -0.1290247463440894,
+            0.13328578133665386
+          ],
+          "half_width": 0.13115526384037163,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXST1",
+          "estimate": 0.008079889881208276,
+          "se": 0.06305862795961491,
+          "ci95": [
+            -0.12496218570478271,
+            0.14112196546719927
+          ],
+          "half_width": 0.133042075585991,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.015262146242057118,
+          "se": 0.06368085198240948,
+          "ci95": [
+            -0.11909270728012798,
+            0.14961699976424223
+          ],
+          "half_width": 0.1343548535221851,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXOL1",
+          "estimate": 0.009551901474177308,
+          "se": 0.06332714253122121,
+          "ci95": [
+            -0.1240566903378639,
+            0.14316049328621852
+          ],
+          "half_width": 0.1336085918120412,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXPEN",
+          "estimate": 0.0077252616507468294,
+          "se": 0.06199888336345483,
+          "ci95": [
+            -0.12308094827774096,
+            0.13853147157923462
+          ],
+          "half_width": 0.1308062099284878,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXLNA",
+          "estimate": 0.016521689871408292,
+          "se": 0.062318116914707074,
+          "ci95": [
+            -0.11495804397647855,
+            0.14800142371929512
+          ],
+          "half_width": 0.13147973384788683,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXDA1",
+          "estimate": 0.03782839675882122,
+          "se": 0.062035507991473865,
+          "ci95": [
+            -0.09305508438039348,
+            0.1687118778980359
+          ],
+          "half_width": 0.1308834811392147,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        }
+      ]
+    },
+    {
+      "block": 3,
+      "reference_bar_plugin": 0.0106354161398092,
+      "gains_ranked": [
+        {
+          "analyte": "LBXDTA",
+          "score_over_schur_risk": 0.1042999399721545,
+          "gain": {
+            "estimate": 0.12099361667392988,
+            "se": 0.012263746417731099,
+            "ci95": [
+              0.09511937343920329,
+              0.14686785990865647
+            ],
+            "half_width": 0.025874243234726594
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.015368542072284724,
+            "se": 0.01208074175955164,
+            "ci95": [
+              -0.010119595083798784,
+              0.040856679228368234
+            ],
+            "half_width": 0.025488137156083508
+          }
+        },
+        {
+          "analyte": "LBXMR1",
+          "score_over_schur_risk": 0.08260824407900996,
+          "gain": {
+            "estimate": 0.10807969538694172,
+            "se": 0.01911060772930139,
+            "ci95": [
+              0.06775983749779987,
+              0.14839955327608356
+            ],
+            "half_width": 0.04031985788914184
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.024478836541746967,
+            "se": 0.018658257848165855,
+            "ci95": [
+              -0.014886646521544072,
+              0.063844319605038
+            ],
+            "half_width": 0.03936548306329104
+          }
+        },
+        {
+          "analyte": "LBXARA",
+          "score_over_schur_risk": 0.0767408892284889,
+          "gain": {
+            "estimate": 0.08634329835015073,
+            "se": 0.009560566113384803,
+            "ci95": [
+              0.06617226703122615,
+              0.1065143296690753
+            ],
+            "half_width": 0.020171031318924573
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.008916059720356391,
+            "se": 0.009718658961933139,
+            "ci95": [
+              -0.011588518353179507,
+              0.02942063779389229
+            ],
+            "half_width": 0.0205045780735359
+          }
+        },
+        {
+          "analyte": "LBXMRG",
+          "score_over_schur_risk": 0.06307140214362167,
+          "gain": {
+            "estimate": 0.07297056737945377,
+            "se": 0.014076358311347546,
+            "ci95": [
+              0.04327204733500926,
+              0.1026690874238983
+            ],
+            "half_width": 0.029698520044444517
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.008967688896188444,
+            "se": 0.01455028959845538,
+            "ci95": [
+              -0.021730738760618776,
+              0.039666116552995664
+            ],
+            "half_width": 0.03069842765680722
+          }
+        },
+        {
+          "analyte": "LBXSD1",
+          "score_over_schur_risk": 0.03189096279465823,
+          "gain": {
+            "estimate": 0.016637239063425423,
+            "se": 0.008819833784994313,
+            "ci95": [
+              -0.001970983650056154,
+              0.035245461776907
+            ],
+            "half_width": 0.018608222713481577
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.015845114474384022,
+            "se": 0.008993408917514342,
+            "ci95": [
+              -0.034819548706380835,
+              0.003129319757612794
+            ],
+            "half_width": 0.018974434231996816
+          }
+        },
+        {
+          "analyte": "LBXGLA",
+          "score_over_schur_risk": 0.026505427503658887,
+          "gain": {
+            "estimate": 0.03670759423748322,
+            "se": 0.016442019315100243,
+            "ci95": [
+              0.0020179657554484573,
+              0.07139722271951798
+            ],
+            "half_width": 0.03468962848203476
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.009325783508720039,
+            "se": 0.016394054836682357,
+            "ci95": [
+              -0.02526264876956601,
+              0.04391421578700609
+            ],
+            "half_width": 0.03458843227828605
+          }
+        },
+        {
+          "analyte": "LBXNR1",
+          "score_over_schur_risk": 0.024176671219971788,
+          "gain": {
+            "estimate": 0.027588610186392904,
+            "se": 0.006257109077861547,
+            "ci95": [
+              0.014387263981718358,
+              0.04078995639106745
+            ],
+            "half_width": 0.013201346204674546
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0033456079438694665,
+            "se": 0.006258473259968055,
+            "ci95": [
+              -0.00985861643346439,
+              0.016549832321203325
+            ],
+            "half_width": 0.013204224377333857
+          }
+        },
+        {
+          "analyte": "LBXVC1",
+          "score_over_schur_risk": 0.021077325572121115,
+          "gain": {
+            "estimate": 0.02249284466820351,
+            "se": 0.006948354237521317,
+            "ci95": [
+              0.007833098657576906,
+              0.037152590678830116
+            ],
+            "half_width": 0.014659746010626605
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0019702942602504783,
+            "se": 0.006745928705952253,
+            "ci95": [
+              -0.012262371210520526,
+              0.016202959731021482
+            ],
+            "half_width": 0.014232665470771004
+          }
+        },
+        {
+          "analyte": "LBXLAR",
+          "score_over_schur_risk": 0.020649081584764067,
+          "gain": {
+            "estimate": 0.03222788191279152,
+            "se": 0.007460575012789237,
+            "ci95": [
+              0.0164874445312148,
+              0.04796831929436825
+            ],
+            "half_width": 0.01574043738157672
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.010784014383668898,
+            "se": 0.007222657360788822,
+            "ci95": [
+              -0.004454460629475821,
+              0.02602248939681362
+            ],
+            "half_width": 0.01523847501314472
+          }
+        }
+      ],
+      "adjacent": [
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXMR1",
+          "estimate": 0.012913921286988162,
+          "se": 0.01201858802329678,
+          "ci95": [
+            -0.0124430829481243,
+            0.038270925522100624
+          ],
+          "half_width": 0.025357004235112463,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXMR1",
+          "lower_development_rank": "LBXARA",
+          "estimate": 0.021736397036791,
+          "se": 0.016337451923912037,
+          "ci95": [
+            -0.012732613534381487,
+            0.056205407607963484
+          ],
+          "half_width": 0.034469010571172486,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXARA",
+          "lower_development_rank": "LBXMRG",
+          "estimate": 0.013372730970696939,
+          "se": 0.014018708141919812,
+          "ci95": [
+            -0.016204157848224217,
+            0.042949619789618095
+          ],
+          "half_width": 0.029576888818921156,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXMRG",
+          "lower_development_rank": "LBXSD1",
+          "estimate": 0.05633332831602837,
+          "se": 0.015394095080155212,
+          "ci95": [
+            0.023854626709269702,
+            0.08881202992278704
+          ],
+          "half_width": 0.03247870160675867,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXSD1",
+          "lower_development_rank": "LBXGLA",
+          "estimate": -0.020070355174057797,
+          "se": 0.01430933961814168,
+          "ci95": [
+            -0.05026042280892054,
+            0.010119712460804946
+          ],
+          "half_width": 0.030190067634862743,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXGLA",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.009118984051090311,
+          "se": 0.021907914019097287,
+          "ci95": [
+            -0.03710267422423403,
+            0.05534064232641465
+          ],
+          "half_width": 0.04622165827532434,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXNR1",
+          "lower_development_rank": "LBXVC1",
+          "estimate": 0.005095765518189392,
+          "se": 0.007580502308942961,
+          "ci95": [
+            -0.010897696341019884,
+            0.02108922737739867
+          ],
+          "half_width": 0.015993461859209277,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXVC1",
+          "lower_development_rank": "LBXLAR",
+          "estimate": -0.009735037244588005,
+          "se": 0.004979677913546039,
+          "ci95": [
+            -0.02024123927917994,
+            0.0007711647900039316
+          ],
+          "half_width": 0.010506202034591936,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        }
+      ],
+      "winner_vs_others": [
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXMR1",
+          "estimate": 0.012913921286988162,
+          "se": 0.01201858802329678,
+          "ci95": [
+            -0.0124430829481243,
+            0.038270925522100624
+          ],
+          "half_width": 0.025357004235112463,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXARA",
+          "estimate": 0.034650318323779156,
+          "se": 0.007009074210852698,
+          "ci95": [
+            0.01986246436753238,
+            0.049438172280025935
+          ],
+          "half_width": 0.014787853956246776,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXMRG",
+          "estimate": 0.048023049294476094,
+          "se": 0.011049743064700558,
+          "ci95": [
+            0.024710129245515213,
+            0.07133596934343697
+          ],
+          "half_width": 0.02331292004896088,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXSD1",
+          "estimate": 0.10435637761050448,
+          "se": 0.01386772196392642,
+          "ci95": [
+            0.0750980417819513,
+            0.13361471343905768
+          ],
+          "half_width": 0.029258335828553184,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXGLA",
+          "estimate": 0.08428602243644667,
+          "se": 0.025424747627228964,
+          "ci95": [
+            0.030644493830038373,
+            0.13792755104285498
+          ],
+          "half_width": 0.0536415286064083,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.09340500648753697,
+          "se": 0.009051268397474365,
+          "ci95": [
+            0.07430849942339515,
+            0.11250151355167878
+          ],
+          "half_width": 0.01909650706414181,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXVC1",
+          "estimate": 0.09850077200572638,
+          "se": 0.008135069113736529,
+          "ci95": [
+            0.08133727646281438,
+            0.11566426754863837
+          ],
+          "half_width": 0.017163495542911994,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXLAR",
+          "estimate": 0.08876573476113837,
+          "se": 0.007583641990792801,
+          "ci95": [
+            0.07276564875225286,
+            0.10476582077002389
+          ],
+          "half_width": 0.016000086008885507,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        }
+      ]
+    },
+    {
+      "block": 4,
+      "reference_bar_plugin": 0.007927732995896677,
+      "gains_ranked": [
+        {
+          "analyte": "LBXEPA",
+          "score_over_schur_risk": 0.13531641836955327,
+          "gain": {
+            "estimate": 0.08681400067157016,
+            "se": 0.08315558115011651,
+            "ci95": [
+              -0.08862893982272807,
+              0.2622569411658684
+            ],
+            "half_width": 0.17544294049429823
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.049125955171827405,
+            "se": 0.08306347653523644,
+            "ci95": [
+              -0.22437457191486132,
+              0.1261226615712065
+            ],
+            "half_width": 0.1752486167430339
+          }
+        },
+        {
+          "analyte": "LBXARA",
+          "score_over_schur_risk": 0.06692800822336428,
+          "gain": {
+            "estimate": 0.09534115310804281,
+            "se": 0.010386375896298018,
+            "ci95": [
+              0.07342781544480079,
+              0.11725449077128483
+            ],
+            "half_width": 0.021913337663242025
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.028505935187134023,
+            "se": 0.010389591544680924,
+            "ci95": [
+              0.0065858130988409105,
+              0.050426057275427136
+            ],
+            "half_width": 0.021920122088293113
+          }
+        },
+        {
+          "analyte": "LBXNR1",
+          "score_over_schur_risk": 0.06681071234939973,
+          "gain": {
+            "estimate": 0.09257861718527344,
+            "se": 0.00723711230652104,
+            "ci95": [
+              0.07730964490244616,
+              0.10784758946810072
+            ],
+            "half_width": 0.015268972282827288
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.025911420065364135,
+            "se": 0.0072084730190591015,
+            "ci95": [
+              0.010702871397362092,
+              0.04111996873336618
+            ],
+            "half_width": 0.015208548668002043
+          }
+        },
+        {
+          "analyte": "LBXDP3",
+          "score_over_schur_risk": 0.06635681535065553,
+          "gain": {
+            "estimate": 0.06211511534604286,
+            "se": 0.018725063926372056,
+            "ci95": [
+              0.022608683778258427,
+              0.1016215469138273
+            ],
+            "half_width": 0.03950643156778443
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.004353920389759809,
+            "se": 0.018634118008523565,
+            "ci95": [
+              -0.04366847284332715,
+              0.03496063206380753
+            ],
+            "half_width": 0.03931455245356734
+          }
+        },
+        {
+          "analyte": "LBXTSA",
+          "score_over_schur_risk": 0.04596653996540371,
+          "gain": {
+            "estimate": 0.06767977138492531,
+            "se": 0.009410528898838942,
+            "ci95": [
+              0.047825290918504314,
+              0.0875342518513463
+            ],
+            "half_width": 0.019854480466421
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.022615289250496783,
+            "se": 0.009627451788618388,
+            "ci95": [
+              0.002303141492030491,
+              0.04292743700896308
+            ],
+            "half_width": 0.020312147758466292
+          }
+        },
+        {
+          "analyte": "LBXPL1",
+          "score_over_schur_risk": 0.01989641805043085,
+          "gain": {
+            "estimate": 0.03060497425182794,
+            "se": 0.0027143796068238297,
+            "ci95": [
+              0.024878133873197955,
+              0.036331814630457926
+            ],
+            "half_width": 0.005726840378629986
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.010510202054423703,
+            "se": 0.0026575378242027804,
+            "ci95": [
+              0.004903287354239422,
+              0.016117116754607985
+            ],
+            "half_width": 0.005606914700184281
+          }
+        },
+        {
+          "analyte": "LBXET1",
+          "score_over_schur_risk": 0.0182884274898174,
+          "gain": {
+            "estimate": -0.007051655469778463,
+            "se": 0.01885074454338654,
+            "ci95": [
+              -0.04682324996117176,
+              0.03271993902161483
+            ],
+            "half_width": 0.039771594491393295
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.026834422876525883,
+            "se": 0.018688260406219643,
+            "ci95": [
+              -0.06626320580417365,
+              0.012594360051121883
+            ],
+            "half_width": 0.03942878292764777
+          }
+        },
+        {
+          "analyte": "LBXST1",
+          "score_over_schur_risk": 0.012115071649181321,
+          "gain": {
+            "estimate": 0.010583294047363108,
+            "se": 0.004288227320288512,
+            "ci95": [
+              0.0015359252457279905,
+              0.019630662848998226
+            ],
+            "half_width": 0.009047368801635118
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.0019994134111815175,
+            "se": 0.004370271409652722,
+            "ci95": [
+              -0.011219880110626393,
+              0.0072210532882633575
+            ],
+            "half_width": 0.009220466699444875
+          }
+        },
+        {
+          "analyte": "LBXLAR",
+          "score_over_schur_risk": 0.00843457025632727,
+          "gain": {
+            "estimate": 0.0027943497646475335,
+            "se": 0.005384313791052998,
+            "ci95": [
+              -0.00856555934765884,
+              0.014154258876953905
+            ],
+            "half_width": 0.011359909112306372
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.00631593326497257,
+            "se": 0.005432707152978721,
+            "ci95": [
+              -0.017777943446133558,
+              0.005146076916188417
+            ],
+            "half_width": 0.011462010181160987
+          }
+        }
+      ],
+      "adjacent": [
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXARA",
+          "estimate": -0.008527152436472672,
+          "se": 0.0856043908171038,
+          "ci95": [
+            -0.1891366297133295,
+            0.17208232484038416
+          ],
+          "half_width": 0.18060947727685683,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXARA",
+          "lower_development_rank": "LBXNR1",
+          "estimate": 0.002762535922769388,
+          "se": 0.011023509439630834,
+          "ci95": [
+            -0.02049503601535635,
+            0.026020107860895127
+          ],
+          "half_width": 0.023257571938125738,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXNR1",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.03046350183923058,
+          "se": 0.020192568398991948,
+          "ci95": [
+            -0.012139093525427368,
+            0.07306609720388853
+          ],
+          "half_width": 0.04260259536465795,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDP3",
+          "lower_development_rank": "LBXTSA",
+          "estimate": -0.005564656038882459,
+          "se": 0.025078938481545746,
+          "ci95": [
+            -0.05847659112277107,
+            0.04734727904500615
+          ],
+          "half_width": 0.05291193508388861,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXTSA",
+          "lower_development_rank": "LBXPL1",
+          "estimate": 0.037074797133097366,
+          "se": 0.009461213116854768,
+          "ci95": [
+            0.017113382313956278,
+            0.05703621195223846
+          ],
+          "half_width": 0.01996141481914109,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXPL1",
+          "lower_development_rank": "LBXET1",
+          "estimate": 0.03765662972160641,
+          "se": 0.017568982756513217,
+          "ci95": [
+            0.0005893162152299167,
+            0.0747239432279829
+          ],
+          "half_width": 0.037067313506376494,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXET1",
+          "lower_development_rank": "LBXST1",
+          "estimate": -0.017634949517141587,
+          "se": 0.02155026096758444,
+          "ci95": [
+            -0.0631020258129245,
+            0.027832126778641327
+          ],
+          "half_width": 0.045467076295782914,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXST1",
+          "lower_development_rank": "LBXLAR",
+          "estimate": 0.0077889442827155765,
+          "se": 0.004045849430453126,
+          "ci95": [
+            -0.0007470518712224773,
+            0.01632494043665363
+          ],
+          "half_width": 0.008535996153938054,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        }
+      ],
+      "winner_vs_others": [
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXARA",
+          "estimate": -0.008527152436472672,
+          "se": 0.0856043908171038,
+          "ci95": [
+            -0.1891366297133295,
+            0.17208232484038416
+          ],
+          "half_width": 0.18060947727685683,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXNR1",
+          "estimate": -0.0057646165137032815,
+          "se": 0.08426208205249937,
+          "ci95": [
+            -0.18354206984873547,
+            0.17201283682132892
+          ],
+          "half_width": 0.1777774533350322,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.02469888532552729,
+          "se": 0.0799369894255586,
+          "ci95": [
+            -0.14395342020961327,
+            0.19335119086066788
+          ],
+          "half_width": 0.16865230553514057,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXTSA",
+          "estimate": 0.01913422928664483,
+          "se": 0.08403336175634785,
+          "ci95": [
+            -0.15816066640460025,
+            0.1964291249778899
+          ],
+          "half_width": 0.17729489569124507,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXPL1",
+          "estimate": 0.056209026419742195,
+          "se": 0.08293732352829467,
+          "ci95": [
+            -0.11877343074405546,
+            0.23119148358353986
+          ],
+          "half_width": 0.17498245716379765,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXET1",
+          "estimate": 0.09386565614134862,
+          "se": 0.08919395348994766,
+          "ci95": [
+            -0.09431713638028319,
+            0.2820484486629804
+          ],
+          "half_width": 0.1881827925216318,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXST1",
+          "estimate": 0.07623070662420706,
+          "se": 0.08443659983674622,
+          "ci95": [
+            -0.10191494705063811,
+            0.2543763602990522
+          ],
+          "half_width": 0.17814565367484517,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXEPA",
+          "lower_development_rank": "LBXLAR",
+          "estimate": 0.08401965090692262,
+          "se": 0.08207719370518494,
+          "ci95": [
+            -0.08914809095711912,
+            0.25718739277096436
+          ],
+          "half_width": 0.17316774186404174,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        }
+      ]
+    },
+    {
+      "block": 5,
+      "reference_bar_plugin": 0.00983572668016813,
+      "gains_ranked": [
+        {
+          "analyte": "LBXDTA",
+          "score_over_schur_risk": 0.10384626352683175,
+          "gain": {
+            "estimate": 0.1105866807641029,
+            "se": 0.01862587382024667,
+            "ci95": [
+              0.07128952202738875,
+              0.14988383950081705
+            ],
+            "half_width": 0.039297158736714154
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.006147457244989386,
+            "se": 0.019081973321089584,
+            "ci95": [
+              -0.03411198732364515,
+              0.04640690181362392
+            ],
+            "half_width": 0.040259444568634534
+          }
+        },
+        {
+          "analyte": "LBXARA",
+          "score_over_schur_risk": 0.0774061546612765,
+          "gain": {
+            "estimate": 0.08295935099060193,
+            "se": 0.021542465806726155,
+            "ci95": [
+              0.03750872104662955,
+              0.1284099809345743
+            ],
+            "half_width": 0.045450629943972386
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.006081219784931435,
+            "se": 0.022814127978184325,
+            "ci95": [
+              -0.042052382818124734,
+              0.05421482238798761
+            ],
+            "half_width": 0.04813360260305617
+          }
+        },
+        {
+          "analyte": "LBXDA1",
+          "score_over_schur_risk": 0.06155055641556828,
+          "gain": {
+            "estimate": 0.09384433875927371,
+            "se": 0.013181479507424175,
+            "ci95": [
+              0.06603384795561956,
+              0.12165482956292786
+            ],
+            "half_width": 0.027810490803654143
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.031960840855071296,
+            "se": 0.013330428381556349,
+            "ci95": [
+              0.003836095396472356,
+              0.06008558631367024
+            ],
+            "half_width": 0.02812474545859894
+          }
+        },
+        {
+          "analyte": "LBXHGL",
+          "score_over_schur_risk": 0.037974826099393455,
+          "gain": {
+            "estimate": 0.04315303264512094,
+            "se": 0.017048548280667774,
+            "ci95": [
+              0.007183739903124681,
+              0.07912232538711719
+            ],
+            "half_width": 0.035969292741996256
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0054781848050459,
+            "se": 0.01764136292074075,
+            "ci95": [
+              -0.03174183749934398,
+              0.04269820710943578
+            ],
+            "half_width": 0.03722002230438988
+          }
+        },
+        {
+          "analyte": "LBXPM1",
+          "score_over_schur_risk": 0.03774686179345042,
+          "gain": {
+            "estimate": 0.03844795671874304,
+            "se": 0.009043695845666649,
+            "ci95": [
+              0.019367426342369105,
+              0.05752848709511698
+            ],
+            "half_width": 0.019080530376373937
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0011150918343053914,
+            "se": 0.009733591443257675,
+            "ci95": [
+              -0.019420991020944717,
+              0.021651174689555498
+            ],
+            "half_width": 0.020536082855250107
+          }
+        },
+        {
+          "analyte": "LBXVC1",
+          "score_over_schur_risk": 0.030264806634432474,
+          "gain": {
+            "estimate": 0.02836764106545404,
+            "se": 0.005481351897006115,
+            "ci95": [
+              0.01680299944556434,
+              0.03993228268534374
+            ],
+            "half_width": 0.011564641619889697
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.0020649797025254434,
+            "se": 0.00539259138030959,
+            "ci95": [
+              -0.013442353001592277,
+              0.00931239359654139
+            ],
+            "half_width": 0.011377373299066833
+          }
+        },
+        {
+          "analyte": "LBXDP3",
+          "score_over_schur_risk": 0.025102059033130314,
+          "gain": {
+            "estimate": 0.02868646287085942,
+            "se": 0.014118687186867115,
+            "ci95": [
+              -0.0011013632945484526,
+              0.05847428903626729
+            ],
+            "half_width": 0.02978782616540787
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0042239263400474965,
+            "se": 0.01423856632059572,
+            "ci95": [
+              -0.025816822689158147,
+              0.034264675369253136
+            ],
+            "half_width": 0.030040749029205643
+          }
+        },
+        {
+          "analyte": "LBXML1",
+          "score_over_schur_risk": 0.010338746517994277,
+          "gain": {
+            "estimate": 0.01365423543596833,
+            "se": 0.002376280695505325,
+            "ci95": [
+              0.00864072140728661,
+              0.018667749464650052
+            ],
+            "half_width": 0.00501351402868172
+          },
+          "fold_matched_calibration_error": {
+            "estimate": 0.0033835149778333167,
+            "se": 0.0023266063248886327,
+            "ci95": [
+              -0.0015251952899022403,
+              0.008292225245568875
+            ],
+            "half_width": 0.004908710267735557
+          }
+        },
+        {
+          "analyte": "LBXMR1",
+          "score_over_schur_risk": 0.009733240031466155,
+          "gain": {
+            "estimate": 0.008892588900931,
+            "se": 0.0013667035464067364,
+            "ci95": [
+              0.006009096468442029,
+              0.01177608133341997
+            ],
+            "half_width": 0.0028834924324889705
+          },
+          "fold_matched_calibration_error": {
+            "estimate": -0.0008282676330314175,
+            "se": 0.0013559485760921061,
+            "ci95": [
+              -0.0036890690616114457,
+              0.002032533795548611
+            ],
+            "half_width": 0.0028608014285800283
+          }
+        }
+      ],
+      "adjacent": [
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXARA",
+          "estimate": 0.02762732977350096,
+          "se": 0.00898044577033293,
+          "ci95": [
+            0.008680245391365235,
+            0.046574414155636686
+          ],
+          "half_width": 0.018947084382135725,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXARA",
+          "lower_development_rank": "LBXDA1",
+          "estimate": -0.010884987768671767,
+          "se": 0.022563917610582043,
+          "ci95": [
+            -0.05849069264042525,
+            0.03672071710308171
+          ],
+          "half_width": 0.04760570487175348,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDA1",
+          "lower_development_rank": "LBXHGL",
+          "estimate": 0.050691306114152776,
+          "se": 0.01837549931831043,
+          "ci95": [
+            0.011922391401915956,
+            0.0894602208263896
+          ],
+          "half_width": 0.03876891471223682,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXHGL",
+          "lower_development_rank": "LBXPM1",
+          "estimate": 0.004705075926377894,
+          "se": 0.01148067868436313,
+          "ci95": [
+            -0.019517038805990334,
+            0.028927190658746122
+          ],
+          "half_width": 0.024222114732368228,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXPM1",
+          "lower_development_rank": "LBXVC1",
+          "estimate": 0.010080315653289002,
+          "se": 0.010234510519512607,
+          "ci95": [
+            -0.011512614072277636,
+            0.031673245378855644
+          ],
+          "half_width": 0.02159292972556664,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXVC1",
+          "lower_development_rank": "LBXDP3",
+          "estimate": -0.0003188218054053759,
+          "se": 0.012414027825985515,
+          "ci95": [
+            -0.026510131096325863,
+            0.025872487485515114
+          ],
+          "half_width": 0.02619130929092049,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDP3",
+          "lower_development_rank": "LBXML1",
+          "estimate": 0.015032227434891082,
+          "se": 0.012767729167982106,
+          "ci95": [
+            -0.011905326457274363,
+            0.041969781327056525
+          ],
+          "half_width": 0.026937553892165445,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXML1",
+          "lower_development_rank": "LBXMR1",
+          "estimate": 0.004761646535037331,
+          "se": 0.002810038327279398,
+          "ci95": [
+            -0.0011670161021654158,
+            0.010690309172240078
+          ],
+          "half_width": 0.005928662637202747,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        }
+      ],
+      "winner_vs_others": [
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXARA",
+          "estimate": 0.02762732977350096,
+          "se": 0.00898044577033293,
+          "ci95": [
+            0.008680245391365235,
+            0.046574414155636686
+          ],
+          "half_width": 0.018947084382135725,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXDA1",
+          "estimate": 0.016742342004829186,
+          "se": 0.021765602665628183,
+          "ci95": [
+            -0.029179065560043495,
+            0.06266374956970186
+          ],
+          "half_width": 0.04592140756487268,
+          "ci_entirely_above_bar": false,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXHGL",
+          "estimate": 0.06743364811898196,
+          "se": 0.008988610954052439,
+          "ci95": [
+            0.048469336705038946,
+            0.08639795953292498
+          ],
+          "half_width": 0.018964311413943016,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXPM1",
+          "estimate": 0.07213872404535986,
+          "se": 0.011877029209363987,
+          "ci95": [
+            0.04708038280106241,
+            0.0971970652896573
+          ],
+          "half_width": 0.025058341244297448,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXVC1",
+          "estimate": 0.08221903969864885,
+          "se": 0.018193896316709385,
+          "ci95": [
+            0.04383327382817121,
+            0.1206048055691265
+          ],
+          "half_width": 0.038385765870477644,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXDP3",
+          "estimate": 0.08190021789324348,
+          "se": 0.009966594708051262,
+          "ci95": [
+            0.060872541120245836,
+            0.10292789466624111
+          ],
+          "half_width": 0.02102767677299764,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXML1",
+          "estimate": 0.09693244532813458,
+          "se": 0.017172417691327983,
+          "ci95": [
+            0.06070181097391038,
+            0.1331630796823588
+          ],
+          "half_width": 0.0362306343542242,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        },
+        {
+          "higher_development_rank": "LBXDTA",
+          "lower_development_rank": "LBXMR1",
+          "estimate": 0.10169409186317191,
+          "se": 0.018860729317271202,
+          "ci95": [
+            0.06190143134029561,
+            0.14148675238604821
+          ],
+          "half_width": 0.0397926605228763,
+          "ci_entirely_above_bar": true,
+          "ci_inside_symmetric_bar": false
+        }
+      ]
+    }
+  ]
+}

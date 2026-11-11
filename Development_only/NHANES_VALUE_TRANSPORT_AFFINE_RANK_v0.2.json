@@ -1,0 +1,23 @@
+{
+  "scope": "NHANES 2011\u201312 only. Matched affine instrument, development-only.",
+  "method": "5,000 stratified rescaled PSU bootstrap draws, conditional on predictions, score order, and folds.",
+  "seed": 2026111002,
+  "pooled_spearman": 0.9396574440052701,
+  "pooled_ci95": [
+    0.6624472990777338,
+    0.9382081686429512
+  ],
+  "pooled_slope_realized_on_score": 1.0575274888658448,
+  "macro_within_block_spearman": 0.89,
+  "macro_within_block_ci95": [
+    0.6033333333333333,
+    0.9099999999999999
+  ],
+  "within_block_spearman": [
+    0.95,
+    0.8666666666666667,
+    0.7833333333333333,
+    0.8833333333333333,
+    0.9666666666666667
+  ]
+}
